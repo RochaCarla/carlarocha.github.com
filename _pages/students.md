@@ -5,37 +5,27 @@ permalink: /students/
 author_profile: true
 ---
 
-I am continuously looking for good people to join my research group, at all levels: undergraduate students (urop), M.S students, Ph.D. students, Postdocs, or research programmers. Read more [here](/pos-graduacao) if interested.
+I am continuously looking for good people to join my research group, at levels: undergraduate students (urop), M.S students. 
 
 ## Current students
 
-- [Fernando Kamei](Fernando Kamei) (PhD, co-supervised with [Sergio Soares](https://sites.google.com/a/cin.ufpe.br/castor/), UFPE)
-- Albert Richard Moraes Lopes (PhD)
-- Marcos Felipe Carvalho Nazário (PhD)
-- Edson Costa Dias (PhD)
-- Wendy Mendes Galeno (MS)
-- Edson Cruz dos Santos (MS)
-- Jefferson Junior Alves da Silva (MS)
-- Jherson Haryson Almeida Pereira (MS)
-- Ronivaldo Ferreira Silva Junior (UROP)
-- Fabricio de Souza Miranda (UROP+Capstone)
-- Dannilo Cabral (Capstone)
-- Victor Santos (Capstone)
+- Isaque Alves (MS, co-supervised with [Fabio Kon](https://www.ime.usp.br/~kon/), IME-USP)
+- Tiago Vidigal (MS)
+- Arthur Temporim (MS)
+- Gabriela Barrozo Guedes (UROP)
+- Rafaella Oliveira de Faria Junqueira (UROP)
+- Lorrany dos Santos Azevedo (UROP)
+- Shayane (UROP)
+- Filipe Coelho Hilário Barcelos (UROP)
+- Arthur José Benedito de Oliveira Assis (UROP)
+- Marcos Nery Borges Júnior (UROP)
+- Igor Araújo de Sousa (UROP)
+- Youssef Muhamad Yacoub Falaneh (UROP)
+- Lucas Dutra Ferreira do Nascimento(UROP)
+- Caio Vinícius Fernandes de Araújo (UROP)
 - You?
 
 ## Alumni (sorted by graduation year)
 
-- Benito Fernandes (MS, co-supervised with [Fernando Castor](https://sites.google.com/a/cin.ufpe.br/castor/), UFPE), March 2017
-- [Bruno Cartaxo](https://sites.google.com/site/brunocartaxo/) (PhD, co-supervised with [Sergio Soares](http://www.cin.ufpe.br/~scbs/), UFPE), March 2018
-- Clarice Ferreira (Capstone), July 2018
-- Welder Luz (MS, co-supervised with [Rodrigo Bonifácio](http://rbonifacio.net/), UNB), July 2018
-- Thiago Benício (Capstone), December 2018
-- Marcos Costa (Capstone), December 2018
-- Gilson Rocha (MS), March 2019
-- Matheus Seabra (Capstone), July 2019
-- Marcos Felipe Carvalho Nazário (MS), September 2019
-- João Pedro Moraes (Capstone), December 2019
-- Enzo Gabriel Da Rocha Santos (UROP), February 2020
-- Aian Shay Bentes Damasceno Cardoso (UROP + Capstone), June 2021
-- Wagner Felidré Negrão da Silva (UROP + Capstone), June 2021
-- Leonardo Barbosa Furtado (UROP + Capstone), June 2021
+TODO
+

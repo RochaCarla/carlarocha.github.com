@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gustavo Pinto"
+title                    : "Carla Rocha"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Gustavo Pinto"
+name                     : "Carla Rocha"
 description              : "Soft Eng Professor and Researcher"
 url                      : "http://gustavopinto.org/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -70,7 +70,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : gustavopinto
+  username               : carlarocha
 facebook:
   username               :
   app_id                 :
@@ -93,24 +93,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gustavo Pinto"
+  name             : "Carla Rocha"
   avatar           : "/lost+found/ghlp4.png"
   bio              : "Professor & Researcher"
-  location         : "Belém, Brazil"
-  email            : "gpinto@ufpa.br"
+  location         : "Brasília, Brazil"
+  email            : "caguiar@unb.br"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://gustavopinto.org"
+      url: "https://carlarocha.org"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/gustavopinto"
+      url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/gustavopinto"
+      url: "https://github.com/RochaCarla"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -120,13 +120,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: gustavopinto
+      url: RochaCarla
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: gustavopinto
+      url: RochaCarla
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

@@ -5,7 +5,7 @@ permalink: /reading/
 author_profile: true
 ---
 
-A few suggestions for (prospective) grad students, in no particular order:
+A few suggestions for (prospective) grad students, in no particular order (taken from [Gustavo Pinto](https://gustavopinto.org)):
 
 ## Must read
 
@@ -57,11 +57,6 @@ speaker: top ten tips for Portuguese speakers](https://www.scielo.br/pdf/clin/v6
 1. [Dealing with Rejection](https://sites.umiacs.umd.edu/elm/2016/10/25/dealing-with-rejection/), by Niklas Elmqvist
 1. [Tenured Professor Rogers Talks About: Imposter Syndrome](https://medium.com/@cfiesler/tenured-professor-rogers-talks-about-imposter-syndrome-229e0a546ac1), by Casey Fiesler
 
-## Where to find money
-
-1. [PAC SIGPLAN](http://www.sigplan.org/PAC/)
-1. [CAPS SIGSOFT](http://www.sigsoft.org/resources/caps.html)
-1. [Tips for attending OOPSLA with low budget](http://gustavopinto.org/codefather/2013/11/01/tips-to-attend-oopsla-with-low-budget.html)
 
 ## Fun
 
