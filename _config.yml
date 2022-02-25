@@ -262,7 +262,7 @@ compress_html:
   ignore:
     envs: development
 
-
+minimal_mistakes_skin    : "aqua" 
 # Defaults
 defaults:
   # _posts
