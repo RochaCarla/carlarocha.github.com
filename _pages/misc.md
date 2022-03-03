@@ -13,3 +13,6 @@ TODO
  - [Presentation for Campus Party 2020](https://youtu.be/MlGYHl3Iyyg)
 
  
+
+
+![lappis](/images/lappis.png)

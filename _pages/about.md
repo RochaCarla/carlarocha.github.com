@@ -25,3 +25,5 @@ LAPPIS @ UnB: [https://github.com/lappis-unb](https://github.com/lappis-unb)
 - Scholar: [CarlaRocha](https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=en)
 
 
+
+![lappis](/images/lappis.png)

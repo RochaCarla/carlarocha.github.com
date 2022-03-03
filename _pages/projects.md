@@ -19,7 +19,7 @@ In the BOSS program, besides the technical aspects of introducing newcomers to o
 
 We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challenge/winners/).
 
-![image](/images/BadgesPhaseThreeWinner.jpg)
+![image](/images/BadgesPhaseThreeWinner.png)
 
 
 
@@ -42,5 +42,5 @@ The entire project is available on the github organization of [LAPPIS](https://g
 ## Others
 
 
-![parcerias](/images/parcerias.jpg)
+![parcerias](/images/parcerias.png)
 
