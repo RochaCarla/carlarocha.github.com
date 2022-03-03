@@ -5,7 +5,7 @@ title: Projects
 permalink: /projects/
 ---
 
-I've been involved in several research projects with both research groups and companies R&D. I am one of many coordinators of the applied research laboratory [LAPPIS](https://github.com/lappis-unb). I had the opportunity to coordinate several applied research projects with governmental agencies and companies. I had more than 50 scholarships under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my lattes page. 
+I've been involved in several research projects with both research groups and companies R&D. I am one of many coordinators of the applied research laboratory [LAPPIS](https://github.com/lappis-unb). I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my [lattes page](http://lattes.cnpq.br/2831991076751452). 
 
   
 
@@ -18,6 +18,9 @@ In the BOSS program, besides the technical aspects of introducing newcomers to o
 [The BOSS initiative manual is available here.](https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf)
 
 We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challenge/winners/).
+
+
+![Gnome Community Engagement Challenge](https://github.com/RochaCarla/carlarocha.github.com/blob/master/lost%2Bfound/BadgesPhaseThreeWinner.png)
 
 ## Machine Learning for outlier detection in Customer databases - partnership with the Instituto Eldorado/Dell - 2021 - ongoing
 
