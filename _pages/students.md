@@ -41,15 +41,15 @@ TODO
 **Questions:** Are casual contributors casual in many/few/other projects? Where are they based/from?<br>
 **Skills:** script programming (e.g., Python, Ruby, etc)<br>
 
-3. Teaching DevOps
+3. Teaching DevOps<br>
 **Questions:** How to qualify students and junior developers in DevOps <br>
 **Skills:** script programming (e.g., Python, Ruby, etc)<br>
 
 
-4. MLOps
+4. MLOps<br>
 **Questions:** What are the barries to adopt MLOps practices and automation? <br>
 **Skills:** script programming (e.g., Python, Ruby, etc)<br>
 
-5. Programs for Underrepresented groups?
+5. Mentorship Programs fosr Underrepresented groups<br>
 **Questions:** What are the challenges to engage underrepresented groups in mentoring programs? <br>
 **Skills:** script programming (e.g., Python, Ruby, etc)<br>

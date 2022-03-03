@@ -45,7 +45,15 @@ The entire project is available on the github organization of [LAPPIS](https://g
 We also developed an Open Source  [Chatbot Boilerplate](https://github.com/lappis-unb/rasa-ptbr-boilerplate), with all the functionalities needed for a chatbot product, to guide newcomers into this growing industry. The community has more than 350 participants on the communication channel.
 
 
-## Others
+## Public Money Public Code – Modernising Public Infrastructure with Free Software
+
+The LAPPIS team translated to Brazilian Portuguese the publication  "Public Money Public Code – Modernising Public Infrastructure with Free Software"
+from Free Software Foundation Europe.
+The translation in portuguese - [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf)
+
+![Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre](/images/publico.png)
+
+## Other Partnerships
 
 The image illustrates some of the past/current LAPPIS partners.
 
