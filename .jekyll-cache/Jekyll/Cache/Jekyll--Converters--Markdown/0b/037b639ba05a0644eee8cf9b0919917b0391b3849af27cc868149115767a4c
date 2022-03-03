@@ -1,4 +1,6 @@
-I"J<p>I’ve been involved in several research projects with both research groups and companies R&amp;D. I am one of many coordinators of the applied research laboratory <a href="https://github.com/lappis-unb">LAPPIS</a>. I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my <a href="http://lattes.cnpq.br/2831991076751452">lattes page</a>.</p>
+I"�<p>I’ve been involved in several research projects with both research groups and companies R&amp;D. I am one of many coordinators of the applied research laboratory <a href="https://github.com/lappis-unb">LAPPIS</a>. I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my <a href="http://lattes.cnpq.br/2831991076751452">lattes page</a>.</p>
+
+<p>A presentation of the latest projects, with some technical details is available <a href="https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing">here</a></p>
 
 <h2 id="big-open-source-siblings-boss---2020---ongoing">Big Open Source Siblings (BOSS) - 2020 - ongoing</h2>
 
@@ -15,6 +17,8 @@
 
 <p>In this project, we experiment with several machine learning algorithms to detect outliers and anomalies in large Customer Dataset. We deploy Data, Feature Engineering, and MLOps techniques and practices.</p>
 
+<p>We adopted a commonly used machine learning workflow depicted in various forms across industry and research. It has commonalities with prior workflows defined in data science and data mining, such as TDSP, KDD, and CRISP-DM. They have in common the data-centered essence of the process and the multiple feedback loops among the different stages. We followed some DevOps and MLOps best practices and automation to speed up the experimentation cycle and scale the process to other databases and a larger team.</p>
+
 <h2 id="chatbot-to-guide-the-submission-of-culture-incentive-proposal---ministry-of-culture---2017-2019">Chatbot to guide the submission of Culture Incentive proposal - Ministry of Culture - 2017-2019</h2>
 
 <p>In this project, we developed one of the first chatbots for brazilian government. We developed an open source chatbot solution, with over 70 intentions to answer about the Culture Incentive Law to guide cultural agents in proposing their project.</p>
@@ -23,7 +27,11 @@
 
 <p>The entire project is available on the github organization of <a href="https://github.com/lappis-unb">LAPPIS</a>.</p>
 
+<p>We also developed an Open Source  <a href="https://github.com/lappis-unb/rasa-ptbr-boilerplate">Chatbot Boilerplate</a>, with all the functionalities needed for a chatbot product, to guide newcomers into this growing industry. The community has more than 350 participants on the communication channel.</p>
+
 <h2 id="others">Others</h2>
+
+<p>The image illustrates some of the past/current LAPPIS partners.</p>
 
 <p><img src="/images/parcerias.png" alt="parcerias" /></p>
 

@@ -7,6 +7,8 @@ permalink: /projects/
 
 I've been involved in several research projects with both research groups and companies R&D. I am one of many coordinators of the applied research laboratory [LAPPIS](https://github.com/lappis-unb). I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my [lattes page](http://lattes.cnpq.br/2831991076751452). 
 
+A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing)
+
   
 
 ## Big Open Source Siblings (BOSS) - 2020 - ongoing
@@ -28,6 +30,8 @@ We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challeng
 
 In this project, we experiment with several machine learning algorithms to detect outliers and anomalies in large Customer Dataset. We deploy Data, Feature Engineering, and MLOps techniques and practices. 
 
+We adopted a commonly used machine learning workflow depicted in various forms across industry and research. It has commonalities with prior workflows defined in data science and data mining, such as TDSP, KDD, and CRISP-DM. They have in common the data-centered essence of the process and the multiple feedback loops among the different stages. We followed some DevOps and MLOps best practices and automation to speed up the experimentation cycle and scale the process to other databases and a larger team. 
+
 
 
 ## Chatbot to guide the submission of Culture Incentive proposal - Ministry of Culture - 2017-2019
@@ -38,9 +42,12 @@ We innovate in chatbot architecture, continuous deploy pipeline, and we used MLO
 
 The entire project is available on the github organization of [LAPPIS](https://github.com/lappis-unb).
 
+We also developed an Open Source  [Chatbot Boilerplate](https://github.com/lappis-unb/rasa-ptbr-boilerplate), with all the functionalities needed for a chatbot product, to guide newcomers into this growing industry. The community has more than 350 participants on the communication channel.
+
 
 ## Others
 
+The image illustrates some of the past/current LAPPIS partners.
 
 ![parcerias](/images/parcerias.png)
 
