@@ -21,6 +21,8 @@ In the BOSS program, besides the technical aspects of introducing newcomers to o
 
 We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challenge/winners/).
 
+
+
 ![image](/images/BadgesPhaseThreeWinner.png)
 
 

@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Carla Rocha"
+  name             : "Carla Rocha, PhD"
   avatar           : "/lost+found/ghlp4.png"
-  bio              : "Professor & Researcher"
-  location         : "Brasília, Brazil"
+  bio              : "Software Engineering Professor & Researcher"
+  location         : "University of Brasília (UnB), Brazil"
   email            : "caguiar@unb.br"
   links:
     - label: "Website"
