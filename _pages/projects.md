@@ -19,8 +19,10 @@ In the BOSS program, besides the technical aspects of introducing newcomers to o
 
 We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challenge/winners/).
 
+![image](/images/BadgesPhaseThreeWinner.jpg)
 
-![Gnome Community Engagement Challenge](https://github.com/RochaCarla/carlarocha.github.com/blob/master/lost%2Bfound/BadgesPhaseThreeWinner.png)
+
+
 
 ## Machine Learning for outlier detection in Customer databases - partnership with the Instituto Eldorado/Dell - 2021 - ongoing
 
