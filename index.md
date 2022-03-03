@@ -18,3 +18,4 @@ You can see my list of publications, along with ***all*** preprints.
 Are you a student looking for an advisor? Are you a researcher and think that our interests overlap? I'm always looking for collaborations; you can reach me at caguiar<span style="display:none">ignorethis</span>@unb.br.
 
 
+![lappis](/images/lappis.jpg)

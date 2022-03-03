@@ -42,5 +42,5 @@ The entire project is available on the github organization of [LAPPIS](https://g
 ## Others
 
 
-{% include gallery id="layouts_gallery" %}
+![parcerias](/images/parcerias.jpg)
 

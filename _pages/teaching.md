@@ -9,6 +9,9 @@ I adopt Experiential Learning Models with project-oriented courses. In this mode
 
 Students develop software projects with real clients or real datasets. All artifacts produced during the courses are open source, and students have access to previous semesters' material and code. Students also experience contributing to larger Open Source communities, such as Debian, Kubernetes, Rocket.Chat, and Noosfero.
 
+![Students](/images/gpp_mds.jpg)
+
+
 The courses are available in the links below.
 
 
@@ -32,3 +35,5 @@ The courses are available in the links below.
 
 ## Before 2020
 I also teach Computer Graphics, Product Engineering, and Introduction to Software Engineering.
+
+
