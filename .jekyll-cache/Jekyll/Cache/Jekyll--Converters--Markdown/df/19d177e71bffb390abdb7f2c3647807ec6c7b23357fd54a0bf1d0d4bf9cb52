@@ -1,0 +1,55 @@
+I"<h2 id="participate">Participate</h2>
+
+<ol>
+  <li>Co-Hosting <a href="https://www.youtube.com/c/BigOpenSourceSibling">BOSS</a></li>
+  <li>Co-Hosting <a href="https://youtu.be/zynynEynpk8">Mini LAPPIS Conf</a></li>
+  <li>Organizing  <a href="https://github.com/lappis-unb/MiniLappisConf">Mini LAPPIS Conf</a></li>
+  <li>Program Co-chair <a href="http://www.agilebrazil.com/2021/wbma">WBMA - Agile Brazil 2021</a></li>
+  <li>Publicity Co-Chair  <a href="http://www.agilebrazil.com/2019/docs/en/wbma/">WBMA - Agile Brazil 2019</a></li>
+  <li>
+    <p>Speaker at <a href="https://youtu.be/MlGYHl3Iyyg">Campus Party 2020</a></p>
+  </li>
+  <li>Scientific advisory committee <a href="https://covidas-unb.github.io/InfoGerais/">CoVidas UnB Hackathon 2020</a></li>
+</ol>
+
+<h2 id="slides">Slides</h2>
+
+<ul>
+  <li>
+    <p>Introduction to <a href="https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing">BOSS mentorship</a> (Presentation Guadec 2021).</p>
+  </li>
+  <li>
+    <p>Introdução a uma arquitetura de <a href="https://docs.google.com/presentation/d/1c0bLbdfj8ztAvIQz3MNYSp0I6zjUhQDO4k3aqQianEU/edit?usp=sharing">Chatbot Open Source</a> (Apresentação Campus Party 2019).</p>
+  </li>
+</ul>
+
+<h2 id="open-source">Open Source</h2>
+
+<ul>
+  <li>The LAPPIS team translated to Brazilian Portuguese the publication  “Public Money Public Code – Modernising Public Infrastructure with Free Software”
+from Free Software Foundation Europe.
+The translation in portuguese - <a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf">Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre</a>.</li>
+</ul>
+
+<p><img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" /></p>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/lappis-unb/rasa-ptbr-boilerplate">Chatbot Boilerplate for Brazilian Portuguese</a>. arquitetura boilerplate de um produto chatbot utilizando o framework <a href="www.rasa.com">Rasa</a>, configurado para a língua Portuguesa.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/Escola-em-Casa">Escola em Casa</a> - Concede acesso gratuito, através de dados patrocinados, aos recursos necessários para a realização do ensino à distância da Secretaria de Educação do Distrito Federal.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/lappis-unb/realtimecardgame">Real time Card Game</a>. Jogo de carta real time utilizando a engine de jogos Unity3D. Utilizado para aprendizagem de desenvolvimento de jogos.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/fga-eps-mds">POC OSS projects</a>. Projetos de software desenvolvido por estudantes de graduação em Engenharia de Software</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/BOSS-BigOpenSourceSibling/">BOSS Organization</a>. Organização com todo o material de apoio do programa de mentoria Big Open Source Siblings.</p>
+  </li>
+</ul>
+
+<p><img src="/images/lappis.png" alt="lappis" /></p>
+:ET

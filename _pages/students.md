@@ -35,21 +35,21 @@ TODO
 
 1. Understanding Students Behavior in Open-Source Communities<br>
 **Questions:** What kind of contributors are made by students? Are they working for some classroom projects? summer job? hackathons?<br>
-**Skills:** script programming (e.g., Python, Ruby, etc)<br>
+**Skills:** script programming, proactive <br>
 
 2. Personality traits of casual contributors<br>
 **Questions:** Are casual contributors casual in many/few/other projects? Where are they based/from?<br>
-**Skills:** script programming (e.g., Python, Ruby, etc)<br>
+**Skills:** script programming, proactive <br>
 
 3. Teaching DevOps<br>
 **Questions:** How to qualify students and junior developers in DevOps <br>
-**Skills:** script programming (e.g., Python, Ruby, etc)<br>
+**Skills:** script programming, proactive <br>
 
 
 4. MLOps<br>
 **Questions:** What are the barries to adopt MLOps practices and automation? <br>
-**Skills:** script programming (e.g., Python, Ruby, etc)<br>
+**Skills:** script programming, proactive <br>
 
 5. Mentorship Programs fosr Underrepresented groups<br>
 **Questions:** What are the challenges to engage underrepresented groups in mentoring programs? <br>
-**Skills:** script programming (e.g., Python, Ruby, etc)<br>
+**Skills:** script programming, proactive <br>
