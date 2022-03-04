@@ -22,6 +22,8 @@ author_profile: true
 
 - Introdução a uma arquitetura de [Chatbot Open Source](https://docs.google.com/presentation/d/1c0bLbdfj8ztAvIQz3MNYSp0I6zjUhQDO4k3aqQianEU/edit?usp=sharing) (Apresentação Campus Party 2019).
 
+- [Formando inovadores através de Open Source](https://docs.google.com/presentation/d/1xFwBtiMU08lOgSGFG4s9QpUZF80Ei5HENvTPN1VffGs/edit?usp=sharing)(Apresentação Campus Party 2020).
+
 ## Open Source
 
 - The LAPPIS team translated to Brazilian Portuguese the publication  "Public Money Public Code – Modernising Public Infrastructure with Free Software"

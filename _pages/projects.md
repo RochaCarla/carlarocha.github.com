@@ -53,7 +53,6 @@ The LAPPIS team translated to Brazilian Portuguese the publication  "Public Mone
 from Free Software Foundation Europe.
 The translation in portuguese - [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf)
 
-![Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre](/images/publico.png)
 
 ## Other Partnerships
 

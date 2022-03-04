@@ -96,7 +96,7 @@ author:
   name             : "Carla Rocha, PhD"
   avatar           : "/lost+found/ghlp4.png"
   bio              : "Software Engineering Professor & Researcher"
-  location         : "University of Brasília (UnB), Brazil"
+  location         : "University of Brasília,  Brazil"
   email            : "caguiar@unb.br"
   links:
     - label: "Website"
@@ -262,7 +262,7 @@ compress_html:
   ignore:
     envs: development
 
-minimal_mistakes_skin    : "aqua" 
+minimal_mistakes_skin    : "dirt" 
 # Defaults
 defaults:
   # _posts

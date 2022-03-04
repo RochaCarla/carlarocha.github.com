@@ -50,6 +50,6 @@ TODO
 **Questions:** What are the barries to adopt MLOps practices and automation? <br>
 **Skills:** script programming, proactive <br>
 
-5. Mentorship Programs fosr Underrepresented groups<br>
+5. Mentorship Programs for Underrepresented groups<br>
 **Questions:** What are the challenges to engage underrepresented groups in mentoring programs? <br>
 **Skills:** script programming, proactive <br>
