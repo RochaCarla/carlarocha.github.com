@@ -8,6 +8,7 @@ author_profile: true
 ## Participate
 
 1. Co-Hosting [BOSS](https://www.youtube.com/c/BigOpenSourceSibling)
+1. Co-Hosting [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) by Big Open Source Sibling (BOSS)
 1. Co-Hosting [Mini LAPPIS Conf](https://youtu.be/zynynEynpk8)
 1. Organizing  [Mini LAPPIS Conf](https://github.com/lappis-unb/MiniLappisConf)
 1. Program Co-chair [WBMA - Agile Brazil 2021](http://www.agilebrazil.com/2021/wbma) 

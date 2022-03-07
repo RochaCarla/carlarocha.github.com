@@ -33,3 +33,11 @@ speaker: top ten tips for Portuguese speakers](https://www.scielo.br/pdf/clin/v6
 
 1. [Tenured Professor Rogers Talks About: Imposter Syndrome](https://medium.com/@cfiesler/tenured-professor-rogers-talks-about-imposter-syndrome-229e0a546ac1), by Casey Fiesler
 
+
+## General Topics
+
+1. [What I wish I knew before starting my first Chatbot project](https://medium.com/@lappisunbfga/what-i-wish-i-knew-before-starting-my-first-chatbot-project-66e5208f77dd) by Carla Rocha
+
+1. [Desafios ensino de TI em tempo de pandemia — O Futuro é Colaborativo](https://medium.com/@lappisunbfga/desafios-ensino-de-ti-em-tempo-de-pandemia-o-futuro-é-colaborativo-e7aa183bb3d7) by Carla Rocha
+
+1. [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_)
