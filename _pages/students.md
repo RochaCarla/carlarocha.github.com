@@ -9,7 +9,6 @@ I am continuously looking for good people to join my research group, at levels: 
 
 ## Current students
 
-- Isaque Alves (MS, co-supervised with [Fabio Kon](https://www.ime.usp.br/~kon/), IME-USP)
 - Tiago Vidigal (MS)
 - Arthur Temporim (MS)
 - Gabriela Barrozo Guedes (UROP)

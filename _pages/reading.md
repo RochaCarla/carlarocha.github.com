@@ -5,7 +5,7 @@ permalink: /reading/
 author_profile: true
 ---
 
-A few suggestions for (prospective) grad students, in no particular order:
+A few suggestions, in no particular order:
 
 ## Must read
 
@@ -17,22 +17,12 @@ speaker: top ten tips for Portuguese speakers](https://www.scielo.br/pdf/clin/v6
 1. [Qualitative methods in empirical studies of software engineering](https://ieeexplore.ieee.org/document/799955)
 1. [Ten simple rules towards healthier research labs](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914)
 
-## Paper reading
-
-1. [How to critically read papers](http://tomasp.net/blog/2017/papers-we-scrutinize)
-
 ## Paper writing
 
 1. [How to Write an Abstract](https://users.ece.cmu.edu/~koopman/essays/abstract.html), by Philip Koopman
 1. [Writing Academic Papers](http://sarahnadi.org/writing-papers/), by Sarah Nadi
 1. [Writing Good Software Engineering Research Papers](http://www.cis.famu.edu/~cen5055joe/Administrative/HowToWrite_ResearchPaper.pdf), by Mary Shaw
 1. [How to write a great research paper](https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper), by Simon Peyton Jones
-
-## Reviewing papers
-
-1. [Reviewing a technical paper](https://homes.cs.washington.edu/~mernst/advice/review-technical-paper.html), by Michael Ernst
-1. [Hints for Reviewing Empirical Work in Software Engineering](https://cs.gmu.edu/~offutt/classes/see/papers/tichy-overview.pdf), by Walter F. Tichy
-
 
 ## Talks
 

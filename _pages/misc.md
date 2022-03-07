@@ -22,15 +22,9 @@ author_profile: true
 
 - Introdução a uma arquitetura de [Chatbot Open Source](https://docs.google.com/presentation/d/1c0bLbdfj8ztAvIQz3MNYSp0I6zjUhQDO4k3aqQianEU/edit?usp=sharing) (Apresentação Campus Party 2019).
 
-- [Formando inovadores através de Open Source](https://docs.google.com/presentation/d/1xFwBtiMU08lOgSGFG4s9QpUZF80Ei5HENvTPN1VffGs/edit?usp=sharing)(Apresentação Campus Party 2020).
+- [Formando inovadores através de Open Source](https://docs.google.com/presentation/d/1xFwBtiMU08lOgSGFG4s9QpUZF80Ei5HENvTPN1VffGs/edit?usp=sharing) (Apresentação Campus Party 2020).
 
 ## Open Source
-
-- The LAPPIS team translated to Brazilian Portuguese the publication  "Public Money Public Code – Modernising Public Infrastructure with Free Software"
-from Free Software Foundation Europe.
-The translation in portuguese - [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf).
-
-![Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre](/images/publico.png)
 
 - [Chatbot Boilerplate for Brazilian Portuguese](https://github.com/lappis-unb/rasa-ptbr-boilerplate). arquitetura boilerplate de um produto chatbot utilizando o framework [Rasa](www.rasa.com), configurado para a língua Portuguesa.
 
@@ -42,6 +36,11 @@ The translation in portuguese - [Dinheiro Público Código Público - Modernizan
 
 - [BOSS Organization](https://github.com/BOSS-BigOpenSourceSibling/). Organização com todo o material de apoio do programa de mentoria Big Open Source Siblings.
 
+- The LAPPIS team translated to Brazilian Portuguese the publication  "Public Money Public Code – Modernising Public Infrastructure with Free Software"
+from Free Software Foundation Europe.
+The translation in portuguese - [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf).
+
+![Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre](/images/publico.png)
 
 
 ![lappis](/images/lappis.png)
