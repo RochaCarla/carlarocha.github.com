@@ -8,6 +8,7 @@ author_profile: true
 A few suggestions, in no particular order:
 
 ## Must read
+1. [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) by Big Open Source Sibling (BOSS)
 
 1. [How to write a first-class paper](https://www.nature.com/articles/d41586-018-02404-4), by Virginia Gewin
 1. [Advice for researchers and students](https://homes.cs.washington.edu/~mernst/advice/), by Michael Ernst
@@ -40,4 +41,3 @@ speaker: top ten tips for Portuguese speakers](https://www.scielo.br/pdf/clin/v6
 
 1. [Desafios ensino de TI em tempo de pandemia — O Futuro é Colaborativo](https://medium.com/@lappisunbfga/desafios-ensino-de-ti-em-tempo-de-pandemia-o-futuro-é-colaborativo-e7aa183bb3d7) by Carla Rocha
 
-1. [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_)
