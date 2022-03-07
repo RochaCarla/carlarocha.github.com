@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: Seminários
+title: Métodos de Desenvolvimento de Software
 permalink: /teaching/mds
 ---
 
