@@ -5,7 +5,7 @@ permalink: /reading/
 author_profile: true
 ---
 
-A few suggestions, in no particular order:
+A few suggestions, in no particular order (some of them taken from [https://gustavopinto.org](https://gustavopinto.org)):
 
 ## Must read
 1. [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) by Big Open Source Sibling (BOSS)
