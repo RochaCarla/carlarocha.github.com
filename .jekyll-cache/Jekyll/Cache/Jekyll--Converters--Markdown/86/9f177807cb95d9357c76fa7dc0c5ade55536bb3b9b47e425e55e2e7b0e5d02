@@ -1,0 +1,49 @@
+I"?<h2 id="horário">Horário</h2>
+
+<p>Terças e quintas, às 10h:00m @ ONLINE</p>
+
+<h2 id="objetivo">Objetivo</h2>
+
+<p>Propiciar ao discente uma visão sobre diversos modelos de processo de desenvolvimento de software, com uma abordagem orientada a projetos.</p>
+
+<h2 id="a-disciplina">A disciplina</h2>
+
+<p>As metodologias ágeis de desenvolvimento de software têm se mostrado bastante eficazes para o desenvolvimento de sistemas de software. Neste curso, os estudantes utilizam práticas ágeis (XP, Scrum e Kanban), sob a orientação do professor e monitores (meta-coaches), para desenvolver um sistema de software em equipe. Por meio dessa experiência prática no laboratório, se faz possível a aquisição de conhecimentos e a assimilação de práticas das metodologias ágeis que serão extremamente importantes para o estudante em sua futura carreira, seja ela acadêmica ou empresarial, como desenvolvedor de software.</p>
+
+<p>A disciplina “Métodos de Desenvolvimento de Software (MDS)” tem como objetivo introduzir alunos do quarto semestre do curso de Engeharia de Software aos modelos de processo de software. Para isso, no início do semestre, os alunos formam times ágeis, ou <em>squads</em>, de até 8 alunos, e desenvolvem um projeto de software, desde sua concepção até a sua implementação. Além das etapas de um projeto de software, são apresentados conceitos teóricos sobre processo de desenvolvimento de software, com o foco em métodos ágeis. Os alunos executam o scrum, kanban, XP, durante todo semestre, de forma a amadurecer o entendimento e exercício das práticas. São apresentadas documentações típicas de produtos de software, como documento de visão, Termo de Abertura de Projeto (TAP), documento de arquitetura, protótipos de baixa e alta fidelidade, requisitos ágeis (Épicos, estória de usuário, tarefas/issues, bugs), entre outros. Também é introduzido políticas de contribuição (políticas de branches, gitflow, guia de contribuição, etc), processo de pull/merge requests (PR), e outras práticas de comunidades de software livre.</p>
+
+<p>Os grupos fazem duas entregas formais do projeto, nas Releases 1 e Release 2, no qual são apresentados os resultados parciais/finais da execução do projeto.</p>
+
+<p>Várias práticas de extreme programming são executados, tais como (não limitado a): planning poker, programação pareada (pair programming), testes unitários automatizados, testes de integração automatizados, pequenas entregas, integração contínua.</p>
+
+<h2 id="telegram">Telegram</h2>
+
+<p>Todo material de aula será postado no Telegram.</p>
+
+<h2 id="github">Github</h2>
+
+<p>Todo material de aula será postado no canal de Telegram da disciplina, além da organização da disciplina.</p>
+
+<p>Todos os projetos dos semestres anteriores estão disponíveis com licença livre. Cada projeto possui o código fonte da aplicação, toda a documentação técnica com templates e boas práticas de comunidades e soluções Open Source. Além disso, estão disponíveis todas as documentação sobre a concepção do produto a ser desenvolvido e da aplicação das práticas ágeis. As métricas ágeis são disponibilizadas por sprint, com o planejamento e retrospectiva/review de cada sprint. Todos os projetos devem ser desenvolvido com boas práticas da engenharia de software moderna, como containerização, integração contínua, testes automatizados, análise de qualidade estática de software.</p>
+
+<p>Com isso, a cada novo início de semestre, os times/squads são estimulados a estudar, reaproveitar os artefatos e boas práticas dos semestres anteriores. Dessa forma, estabelece uma cultura de colaboração e melhora contínua da discplina.</p>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/fga-eps-mds">Organização Github da Disciplina</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/fga-eps-mds/A-Disciplina-MDS-EPS">Plano de Ensino e Material de apoio</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/fga-eps-mds/Qualifying-Software-Engineers-Undergraduates-in-DevOps">Artigo sobre a disciplina</a></p>
+  </li>
+</ul>
+
+<h2 id="saiba-mais">Saiba mais</h2>
+
+<ol>
+  <li><a href="https://medium.com/@lappisunbfga/desafios-ensino-de-ti-em-tempo-de-pandemia-o-futuro-é-colaborativo-e7aa183bb3d7">Desafios ensino de TI em tempo de pandemia — O Futuro é Colaborativo</a> by Carla Rocha</li>
+</ol>
+
+:ET
