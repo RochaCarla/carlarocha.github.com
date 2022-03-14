@@ -17,13 +17,15 @@ author_profile: true
 
 1. Scientific advisory committee [CoVidas UnB Hackathon 2020](https://covidas-unb.github.io/InfoGerais/)
 
+1. Coordenadora SBPC Jovem 2022 (Sociedade Brasileira para o Progresso da Ciência)
+
 ## Slides
 
-- Introduction to [BOSS mentorship](https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing) (Presentation Guadec 2021).
+- Introduction to [BOSS mentorship](https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing) (Presentation Guadec 2021)
 
-- Introdução a uma arquitetura de [Chatbot Open Source](https://docs.google.com/presentation/d/1c0bLbdfj8ztAvIQz3MNYSp0I6zjUhQDO4k3aqQianEU/edit?usp=sharing) (Apresentação Campus Party 2019).
+- Introdução a uma arquitetura de [Chatbot Open Source](https://docs.google.com/presentation/d/1c0bLbdfj8ztAvIQz3MNYSp0I6zjUhQDO4k3aqQianEU/edit?usp=sharing) (Apresentação Campus Party 2019)
 
-- [Formando inovadores através de Open Source](https://docs.google.com/presentation/d/1xFwBtiMU08lOgSGFG4s9QpUZF80Ei5HENvTPN1VffGs/edit?usp=sharing) (Apresentação Campus Party 2020).
+- [Formando inovadores através de Open Source](https://docs.google.com/presentation/d/1xFwBtiMU08lOgSGFG4s9QpUZF80Ei5HENvTPN1VffGs/edit?usp=sharing) (Apresentação Campus Party 2020)
 
 ## Open Source
 

@@ -10,11 +10,13 @@ A few suggestions, in no particular order (some of them taken from [https://gust
 ## Must read
 1. [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) by Big Open Source Sibling (BOSS)
 
+1.[PhD and MS Thesis Guidance](https://www.slideshare.net/cameraculture/raskar-phd-and-ms-thesis-guidance?fbclid=IwAR1ECIl-T96IyK5X2BAIY3tm1nqP9fSaL9HN0oWWuYkw0mmQZ-5q1XYl0X4) by Ramesh Raskar
+
 1. [How to write a first-class paper](https://www.nature.com/articles/d41586-018-02404-4), by Virginia Gewin
 1. [Advice for researchers and students](https://homes.cs.washington.edu/~mernst/advice/), by Michael Ernst
 1. [12 resolutions for grad students](http://matt.might.net/articles/grad-student-resolutions/), by Matt Might
 1. [Writing scientific articles like a native English
-speaker: top ten tips for Portuguese speakers](https://www.scielo.br/pdf/clin/v69n3/1807-5932-clin-69-03-153.pdf)
+speaker: top ten tips for Portuguese speakers](https://www.scielo.br/pdf/clin/v69n3/1807-5932-clin-69-03-153.pdf).
 1. [Qualitative methods in empirical studies of software engineering](https://ieeexplore.ieee.org/document/799955)
 1. [Ten simple rules towards healthier research labs](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914)
 
