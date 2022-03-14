@@ -10,7 +10,7 @@ A few suggestions, in no particular order (some of them taken from [https://gust
 ## Must read
 1. [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) by Big Open Source Sibling (BOSS)
 
-1.[PhD and MS Thesis Guidance](https://www.slideshare.net/cameraculture/raskar-phd-and-ms-thesis-guidance?fbclid=IwAR1ECIl-T96IyK5X2BAIY3tm1nqP9fSaL9HN0oWWuYkw0mmQZ-5q1XYl0X4) by Ramesh Raskar
+1. [PhD and MS Thesis Guidance](https://www.slideshare.net/cameraculture/raskar-phd-and-ms-thesis-guidance?fbclid=IwAR1ECIl-T96IyK5X2BAIY3tm1nqP9fSaL9HN0oWWuYkw0mmQZ-5q1XYl0X4) by Ramesh Raskar
 
 1. [How to write a first-class paper](https://www.nature.com/articles/d41586-018-02404-4), by Virginia Gewin
 1. [Advice for researchers and students](https://homes.cs.washington.edu/~mernst/advice/), by Michael Ernst
