@@ -7,7 +7,7 @@ permalink: /
 
 Hi, I'm **Carla Rocha**.
 
-I'm an Assistant Professor at the [Faculty of Software Engineer](http://fga.unb.br) of the [University of Brasília (UnB)](http://www.unb.br/), Brazil, and one of the coordinators of the research group [LAPPIS](https://github.com/lappis-unb). 
+I'm an Assistant Professor at the [Faculty of Software Engineer](http://fga.unb.br) of the [University of Brasília (UnB)](http://www.unb.br/), Brazil, and one of the coordinators of the research group [LAPPIS](https://lappis-unb.github.io/lappis.rocks/). 
 
 I am also one of the founders of the Big Open Source Siblings ([BOSS](https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing)), a mentorship program to introduce underrepresented groups to contribute to Open Source.
 

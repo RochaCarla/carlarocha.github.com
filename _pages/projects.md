@@ -5,7 +5,7 @@ title: Projects
 permalink: /projects/
 ---
 
-I've been involved in several research projects with both research groups and companies R&D. I am one of many coordinators of the applied research laboratory [LAPPIS](https://github.com/lappis-unb). I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my [lattes page](http://lattes.cnpq.br/2831991076751452). 
+I've been involved in several research projects with both research groups and companies R&D. I am one of many coordinators of the applied research laboratory [LAPPIS](https://lappis-unb.github.io/lappis.rocks/). I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my [lattes page](http://lattes.cnpq.br/2831991076751452). 
 
 A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing)
 
