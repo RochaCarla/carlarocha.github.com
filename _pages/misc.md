@@ -19,6 +19,8 @@ author_profile: true
 
 1. Coordenadora SBPC Jovem 2022 (Sociedade Brasileira para o Progresso da Ciência)
 
+1. Membro do Comitê  de  Gestão  Estratégica  de Campus Inteligente eSustentável (CGECIS) da Universidade de Brasília
+
 ## Slides
 
 - Introduction to [BOSS mentorship](https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing) (Presentation Guadec 2021)
