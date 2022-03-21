@@ -19,6 +19,6 @@ Site pessoal com os principais pesquisas, projetos e aulas ministradas.
 - Testar localmente a pagina
 - commitar no github que já vai ter o gitpage
 - Comprar dominio (opcional) - sugestão [GoDaddy](https://www.godaddy.com/pt-br)
-- Mudar o dominio (se quiser) do github pages [tutorial aqui](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
+- Mudar o dominio (se quiser) do github pages [tutorial aqui](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 
