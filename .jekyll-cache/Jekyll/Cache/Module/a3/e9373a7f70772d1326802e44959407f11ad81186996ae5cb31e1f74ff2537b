@@ -1,9 +1,11 @@
-I"h
+I"Ê
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/images/unb-logomarca.png" alt=""></a>
         
         <a class="site-title" href="/">
           Carla Rocha

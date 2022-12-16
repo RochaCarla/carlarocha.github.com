@@ -1,4 +1,4 @@
-I"K	<p>I adopt Experiential Learning Models with project-oriented courses. In this model, students go through a “journey of discovery”, where they understand the lessons and concepts through the experiential process of getting there.</p>
+I"/<p>I adopt Experiential Learning Models with project-oriented courses. In this model, students go through a “journey of discovery”, where they understand the lessons and concepts through the experiential process of getting there.</p>
 
 <p>Students develop software projects with real clients or real datasets. All artifacts produced during the courses are open source, and students have access to previous semesters’ material and code. Students also experience contributing to larger Open Source communities, such as Debian, Kubernetes, Rocket.Chat, and Noosfero.</p>
 
@@ -6,28 +6,40 @@
 
 <p>The courses are available in the links below.</p>
 
+<h2 id="20222">2022.2</h2>
+<ol>
+  <li><a href="/teaching/mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
+  <li><a href="https://github.com/fga-gces">Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)</a></li>
+</ol>
+
+<h2 id="20221">2022.1</h2>
+<ol>
+  <li><a href="/teaching/mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
+  <li><a href="https://github.com/fga-gces">Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)</a></li>
+</ol>
+
 <h2 id="20212">2021.2</h2>
 <ol>
-  <li><a href="https://github.com/fga-eps-mds/Qualifying-Software-Engineers-Undergraduates-in-DevOps/blob/main/Turmas/2021-2.md">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
+  <li><a href="/teaching/mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
   <li><a href="https://github.com/fga-gces">Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)</a></li>
 </ol>
 
 <h2 id="20211">2021.1</h2>
 <ol>
-  <li><a href="https://github.com/fga-eps-mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
+  <li><a href="/teaching/mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
   <li><a href="https://github.com/fga-gces">Software Configuration Management and Evolution- Gerência de Configuração e Evolução de Software(GCES)</a></li>
   <li><a href="https://github.com/PPCA-CS">Software Development - Masters</a></li>
 </ol>
 
 <h2 id="20202">2020.2</h2>
 <ol>
-  <li><a href="https://github.com/fga-eps-mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
+  <li><a href="/teaching/mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
   <li><a href="https://github.com/fga-gces">Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)</a></li>
 </ol>
 
 <h2 id="20201">2020.1</h2>
 <ol>
-  <li><a href="https://github.com/fga-eps-mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
+  <li><a href="/teaching/mds">Software Development Methods - Métodos de Desenvolvimento de Software (MDS)</a></li>
   <li><a href="https://github.com/fga-gces">Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)</a></li>
 </ol>
 

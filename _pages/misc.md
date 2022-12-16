@@ -7,7 +7,7 @@ author_profile: true
 
 ## Participate
 
-1. Co-Hosting [BOSS](https://www.youtube.com/c/BigOpenSourceSibling)
+1. Co-founder [BOSS](https://www.youtube.com/c/BigOpenSourceSibling)
 1. Co-Hosting [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) by Big Open Source Sibling (BOSS)
 1. Co-Hosting [Mini LAPPIS Conf](https://youtu.be/zynynEynpk8)
 1. Organizing  [Mini LAPPIS Conf](https://github.com/lappis-unb/MiniLappisConf)
@@ -16,10 +16,11 @@ author_profile: true
 1. Speaker at [Campus Party 2020](https://youtu.be/MlGYHl3Iyyg)
 
 1. Scientific advisory committee [CoVidas UnB Hackathon 2020](https://covidas-unb.github.io/InfoGerais/)
-
-1. Coordenadora SBPC Jovem 2022 (Sociedade Brasileira para o Progresso da Ciência)
-
 1. Membro do Comitê  de  Gestão  Estratégica  de Campus Inteligente eSustentável (CGECIS) da Universidade de Brasília
+
+1. Membro do Conselho Editorial da [Revista Darcy](https://revistadarcy.unb.br).
+
+1. Membro da Câmara Técnica de Projetos do Parque Científico e Tecnológico da Universidade de Brasília – PCTec/UnB
 
 ## Slides
 

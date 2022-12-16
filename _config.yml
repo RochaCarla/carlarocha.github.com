@@ -20,12 +20,12 @@ title                    : "Carla Rocha"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Carla Rocha"
-description              : "Soft Eng Professor and Researcher"
+description              : "Software Engineer Professor and Researcher"
 url                      : "https://rochacarla.github.io/carlarocha.github.com/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://rochacarla.github.io/carlarocha.github.com/"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /images/unb-logomarca.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false
 words_per_minute         : 200
@@ -95,7 +95,8 @@ analytics:
 author:
   name             : "Carla Rocha, PhD"
   avatar           : "/lost+found/ghlp4.png"
-  bio              : "Software Engineering Professor & Researcher"
+  bio              : "Software Engineering Professor & Researcher at the University of Brasília (UnB). Interests: Diversity, agile development,
+  DevOps adoption, MLOps, Open Source community, Project-Oriented teaching "
   location         : "University of Brasília,  Brazil"
   email            : "caguiar@unb.br"
   links:
@@ -277,4 +278,4 @@ defaults:
       share: true
       related: true
       
-minimal_mistakes_skin    : "dirt" 
+minimal_mistakes_skin    : "air" 

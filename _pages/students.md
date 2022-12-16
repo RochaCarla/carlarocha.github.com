@@ -9,24 +9,24 @@ I am continuously looking for good people to join my research group, at levels: 
 
 ## Current students
 
+- Ivon Miranda Santos (MS)
+- Arthur José Benedito de Oliveira Assis (UROP)
+- Marcos Nery Borges Júnior (UROP)
+- Youssef Muhamad Yacoub Falaneh (UROP)
+- You?
+
+## Alumni (sorted by graduation year)
+
 - Tiago Vidigal (MS)
-- Arthur Temporim (MS)
 - Gabriela Barrozo Guedes (UROP)
 - Rafaella Oliveira de Faria Junqueira (UROP)
 - Lorrany dos Santos Azevedo (UROP)
 - Shayane (UROP)
 - Filipe Coelho Hilário Barcelos (UROP)
-- Arthur José Benedito de Oliveira Assis (UROP)
-- Marcos Nery Borges Júnior (UROP)
-- Igor Araújo de Sousa (UROP)
-- Youssef Muhamad Yacoub Falaneh (UROP)
 - Lucas Dutra Ferreira do Nascimento(UROP)
 - Caio Vinícius Fernandes de Araújo (UROP)
-- You?
 
-## Alumni (sorted by graduation year)
 
-TODO
 
 
 

@@ -14,6 +14,14 @@ Students develop software projects with real clients or real datasets. All artif
 
 The courses are available in the links below.
 
+## 2022.2 
+1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)  
+1. [Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)](https://github.com/fga-gces)
+
+## 2022.1
+1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)  
+1. [Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)](https://github.com/fga-gces)
+
 
 ## 2021.2 
 1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)  

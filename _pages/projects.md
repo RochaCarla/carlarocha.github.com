@@ -9,7 +9,20 @@ I've been involved in several research projects with both research groups and co
 
 A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing)
 
-  
+
+## Residencia TIC Brisas UnB - 2022 - ongoing
+
+
+Coordenadora do projeto "Residência em TIC da BRISA - UnB FGA". A BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS, vai capacitar estudantes de cursos de tecnologias, graduação e ensino técnico, para se tornarem desenvolvedores de sistemas nas tecnologias mais atuais de informática e comunicações. A BRISA conta com recursos da Lei de Informática, através de Programa Prioritário do Ministério da Ciência, Tecnologia e inovações – MCTI, coordenado pela Softex.
+
+[Link Projeto](https://residenciaticbrisa.github.io/landing_page/)
+
+## Jornada Horizontes do Empreendedorismo - 2022 - ongoing
+
+
+Coordenadora do projeto "Jornada Horizontes do Empreendedorismo ". O objetivo é fomentar o empreendedorismo e a inovação, por meio da capacitação, desenvolvimento de habilidades sociais e mentoria voltadas à inclusão de jovens negros e mulheres jovens, no mercado de trabalho e à geração de renda, residentes no Centro-Oeste. Esse é o principal objetivo de um projeto inclusivo idealizado e oferecido gratuitamente pela Fundação de Empreendimentos Científicos e Tecnológicos – Finatec em parceria com o Ministério da Mulher, da Família e dos Direitos Humanos - MMFDH.
+
+[Link Projeto](http://lattes.cnpq.br/2831991076751452)
 
 ## Big Open Source Siblings (BOSS) - 2020 - ongoing
 
@@ -33,6 +46,7 @@ We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challeng
 In this project, we experiment with several machine learning algorithms to detect outliers and anomalies in large Customer Dataset. We deploy Data, Feature Engineering, and MLOps techniques and practices. 
 
 We adopted a commonly used machine learning workflow depicted in various forms across industry and research. It has commonalities with prior workflows defined in data science and data mining, such as TDSP, KDD, and CRISP-DM. They have in common the data-centered essence of the process and the multiple feedback loops among the different stages. We followed some DevOps and MLOps best practices and automation to speed up the experimentation cycle and scale the process to other databases and a larger team. 
+
 
 
 
