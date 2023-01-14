@@ -5,15 +5,19 @@ title: Publications
 permalink: /publications/
 ---
 
+## 2022
+
+1. Jessica Díaz, Jorge Pérez, Isaque Alves, Fabio Kon, Leonarado Leite, Paulo Meirelles, Carla Rocha. "Harmonizing DevOps Taxonomies-A Grounded Theory Study"
+
 ## 2021
 
 1. I. Alves, C. Rocha. "Qualifying software engineers undergraduates in DevOps-challenges of introducing technical and non-technical concepts in a project-oriented course".  IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET), 2021.
 
 1. Pablo Diego Silva da Silva, Rodrigo Oliveira Campos, Carla Rocha. "OSS Scripting System for Game Development in Rust". IFIP International Conference on Open Source Systems (OSS), 2021.
 
-1. "Assuring the Evolvability of Legacy Systems in Devops transformation/adoption: Insights of an experience report"
+1. "Assuring the Evolvability of Legacy Systems in Devops transformation/adoption: Insights of an experience report", WBMA 2021
 
-1. "Product Engineering for Machine Learning:A Grey Literature Review"
+1. "Product Engineering for Machine Learning:A Grey Literature Review", ICSE workshop- todo
 
 ## 2020
 

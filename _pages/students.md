@@ -10,6 +10,7 @@ I am continuously looking for good people to join my research group, at levels: 
 ## Current students
 
 - Ivon Miranda Santos (MS)
+- Leonardo Silva Gomes (UROP)
 - Arthur José Benedito de Oliveira Assis (UROP)
 - Marcos Nery Borges Júnior (UROP)
 - Youssef Muhamad Yacoub Falaneh (UROP)
@@ -41,7 +42,7 @@ I am continuously looking for good people to join my research group, at levels: 
 **Skills:** script programming, proactive <br>
 
 3. Teaching DevOps<br>
-**Questions:** How to qualify students and junior developers in DevOps <br>
+**Questions:** Theory on DevOps team structures/education <br>
 **Skills:** script programming, proactive <br>
 
 

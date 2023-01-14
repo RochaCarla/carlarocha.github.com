@@ -7,13 +7,16 @@ permalink: /projects/
 
 I've been involved in several research projects with both research groups and companies R&D. I am one of many coordinators of the applied research laboratory [LAPPIS](https://lappis-unb.github.io/lappis.rocks/). I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my [lattes page](http://lattes.cnpq.br/2831991076751452). 
 
-A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing)
+A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
+
+
 
 
 ## Residencia TIC Brisas UnB - 2022 - ongoing
 
 
-Coordenadora do projeto "Residência em TIC da BRISA - UnB FGA". A BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS, vai capacitar estudantes de cursos de tecnologias, graduação e ensino técnico, para se tornarem desenvolvedores de sistemas nas tecnologias mais atuais de informática e comunicações. A BRISA conta com recursos da Lei de Informática, através de Programa Prioritário do Ministério da Ciência, Tecnologia e inovações – MCTI, coordenado pela Softex.
+Coordenadora do projeto "Residência em TIC da BRISA - UnB FGA". A BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS, vai capacitar estudantes de cursos de tecnologias, graduação e ensino técnico, para se tornarem desenvolvedores de sistemas nas tecnologias mais atuais de informática e comunicações. A residência conta com uma etapa de imersão, no qual coordeno 40 alunos desenvolvendo projetos junto à empresas, usando métodos de aprendizado ativo.
+A BRISA conta com recursos da Lei de Informática, através de Programa Prioritário do Ministério da Ciência, Tecnologia e inovações – MCTI, coordenado pela Softex.
 
 [Link Projeto](https://residenciaticbrisa.github.io/landing_page/)
 
@@ -35,9 +38,7 @@ In the BOSS program, besides the technical aspects of introducing newcomers to o
 We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challenge/winners/).
 
 
-
 ![image](/images/BadgesPhaseThreeWinner.png)
-
 
 
 
@@ -46,7 +47,6 @@ We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challeng
 In this project, we experiment with several machine learning algorithms to detect outliers and anomalies in large Customer Dataset. We deploy Data, Feature Engineering, and MLOps techniques and practices. 
 
 We adopted a commonly used machine learning workflow depicted in various forms across industry and research. It has commonalities with prior workflows defined in data science and data mining, such as TDSP, KDD, and CRISP-DM. They have in common the data-centered essence of the process and the multiple feedback loops among the different stages. We followed some DevOps and MLOps best practices and automation to speed up the experimentation cycle and scale the process to other databases and a larger team. 
-
 
 
 
