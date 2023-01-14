@@ -25,7 +25,7 @@ A BRISA conta com recursos da Lei de Informática, através de Programa Priorit�
 
 Coordenadora do projeto "Jornada Horizontes do Empreendedorismo ". O objetivo é fomentar o empreendedorismo e a inovação, por meio da capacitação, desenvolvimento de habilidades sociais e mentoria voltadas à inclusão de jovens negros e mulheres jovens, no mercado de trabalho e à geração de renda, residentes no Centro-Oeste. Esse é o principal objetivo de um projeto inclusivo idealizado e oferecido gratuitamente pela Fundação de Empreendimentos Científicos e Tecnológicos – Finatec em parceria com o Ministério da Mulher, da Família e dos Direitos Humanos - MMFDH.
 
-[Link Projeto](http://lattes.cnpq.br/2831991076751452)
+[Link Projeto](http://jhe.finatec.org.br/site/)
 
 ## Big Open Source Siblings (BOSS) - 2020 - ongoing
 
@@ -59,6 +59,7 @@ We innovate in chatbot architecture, continuous deploy pipeline, and we used MLO
 The entire project is available on the github organization of [LAPPIS](https://github.com/lappis-unb).
 
 We also developed an Open Source  [Chatbot Boilerplate](https://github.com/lappis-unb/rasa-ptbr-boilerplate), with all the functionalities needed for a chatbot product, to guide newcomers into this growing industry. The community has more than 350 participants on the communication channel.
+
 
 
 ## Public Money Public Code – Modernising Public Infrastructure with Free Software
