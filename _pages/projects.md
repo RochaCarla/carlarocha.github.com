@@ -10,7 +10,17 @@ I've been involved in several research projects with both research groups and co
 A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
 
 
+## Research Collaboration UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - ongoing
 
+This work presents empirical research on the structure of DevOps teams in software-producing organizations. The goal is to better understand the organizational structure and characteristics of teams adopting DevOps by harmonizing the existing knowledge. Three research teams have gathered to perform this research. 
+
+You can find more information about this research collaboration [Here](https://jdiazfernandez.github.io/devops_taxonomies.github.io/)
+
+## Hygia - 2023 - ongoing
+
+Hygia is a Python package that provides fast, flexible, and expressive data pipeline configuration through a YAML file to make working with Machine Learning data easy and intuitive. It consists of helping developers and users to register, organize, compare and share all their ML model metadata in a single place, facilitating the generation of requirements in the ETL (Extract, Transform and Load) process. Thus, the migration can be scaled, automated, and accelerated for similar contexts.
+
+[Repository](https://github.com/hygia-org/hygia)
 
 ## Residencia TIC Brisas UnB - 2022 - ongoing
 

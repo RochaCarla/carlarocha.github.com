@@ -9,6 +9,8 @@ permalink: /publications/
 
 1. Jessica Díaz, Jorge Pérez, Isaque Alves, Fabio Kon, Leonarado Leite, Paulo Meirelles, Carla Rocha. "Harmonizing DevOps Taxonomies-A Grounded Theory Study"
 
+2. Tiag Vidigal, Carla Rocha. "When technical solutions aren`t enough: using software concepts to analyse challenges at Dellivery processes between Mixed-signal IC Team Members"
+
 ## 2021
 
 1. I. Alves, C. Rocha. "Qualifying software engineers undergraduates in DevOps-challenges of introducing technical and non-technical concepts in a project-oriented course".  IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET), 2021.
@@ -17,7 +19,7 @@ permalink: /publications/
 
 1. "Assuring the Evolvability of Legacy Systems in Devops transformation/adoption: Insights of an experience report", WBMA 2021
 
-1. "Product Engineering for Machine Learning:A Grey Literature Review", ICSE workshop- todo
+1. "Product Engineering for Machine Learning:A Grey Literature Review", ICSE workshop- TODO
 
 ## 2020
 
