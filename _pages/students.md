@@ -63,6 +63,10 @@ Aqui estão alguns temas que tenho interesse em fazer pesquisa/colaborar. O meu 
 **Questions:** Development of tools to facilitate data scientist is exploring data in a specific context (ex: database, github repositories, stack overflow, among others) <br>
 **Skills:** script programming, python, proactive <br>
 
+4. Data Engineering pipelinet<br>
+**Questions:** Development of pipeline to process several databases in parallel using dataflow to facilitate data scientist is exploring data in a specific context (ex: database, github repositories, stack overflow, among others) <br>
+**Skills:** script programming, python, proactive <br>
+
 5. MLOps<br>
 **Questions:** What are the barries to adopt MLOps practices and automation? <br>
 **Skills:** script programming, proactive <br>
