@@ -5,6 +5,8 @@ title: Publications
 permalink: /publications/
 ---
 
+I usually forget to updtade my publications he! So, a more up-to-date list of my publications can be found in [my google scholar profile](https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=en).
+
 ## 2022
 
 1. Jessica Díaz, Jorge Pérez, Isaque Alves, Fabio Kon, Leonarado Leite, Paulo Meirelles, Carla Rocha. "Harmonizing DevOps Taxonomies-A Grounded Theory Study"

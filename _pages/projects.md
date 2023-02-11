@@ -5,6 +5,7 @@ title: Projects
 permalink: /projects/
 ---
 
+
 I've been involved in several research projects with both research groups and companies R&D. I am one of many coordinators of the applied research laboratory [LAPPIS](https://lappis-unb.github.io/lappis.rocks/). I had the opportunity to coordinate several applied research projects with governmental agencies and private companies. I had more than 50 scholarships  under my supervision. Most of the projects I am involved in have software development under an open source license. I will present the latest projects. For the complete list, please visit my [lattes page](http://lattes.cnpq.br/2831991076751452). 
 
 A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
@@ -12,37 +13,39 @@ A presentation of the latest projects, with some technical details is available 
 
 ## Research Collaboration UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - ongoing
 
-This work presents empirical research on the structure of DevOps teams in software-producing organizations. The goal is to better understand the organizational structure and characteristics of teams adopting DevOps by harmonizing the existing knowledge. Three research teams have gathered to perform this research. 
+Our research focuses on empirical investigation of the organizational structure and characteristics of DevOps teams in software-producing organizations. By bringing together the expertise of three research teams, we aim to create a comprehensive understanding of this rapidly evolving field. The results of this study will provide valuable insights for organizations seeking to adopt or improve their DevOps practices, and for researchers looking to advance our understanding of this important topic. If you would like to learn more about this research collaboration and our findings, please visit our website for further information [here](https://jdiazfernandez.github.io/devops_taxonomies.github.io/)
 
-You can find more information about this research collaboration [Here](https://jdiazfernandez.github.io/devops_taxonomies.github.io/)
+## Hygia OSS python package - 2023 - ongoing
 
-## Hygia - 2023 - ongoing
+Hygia is a powerful and innovative Python package that simplifies the process of working with Machine Learning data. With its fast, flexible, and intuitive YAML-based data pipeline configuration, Hygia makes it easy for developers and users to manage, organize, compare, and share all their ML model metadata in one convenient location. This helps streamline the ETL (Extract, Transform, and Load) process, making it more efficient, scalable, and automated. Whether you're working in a complex data environment or need to quickly migrate to new contexts, Hygia provides the tools you need to succeed. If you're looking for a solution that can help you work with Machine Learning data more effectively, Hygia is definitely worth checking out.
 
-Hygia is a Python package that provides fast, flexible, and expressive data pipeline configuration through a YAML file to make working with Machine Learning data easy and intuitive. It consists of helping developers and users to register, organize, compare and share all their ML model metadata in a single place, facilitating the generation of requirements in the ETL (Extract, Transform and Load) process. Thus, the migration can be scaled, automated, and accelerated for similar contexts.
+This Open Source python package was supporterd sponsered by a collaboration project with Instituto Eldorado.
 
 [Repository](https://github.com/hygia-org/hygia)
 
 ## Residencia TIC Brisas UnB - 2022 - ongoing
 
 
-Coordenadora do projeto "Residência em TIC da BRISA - UnB FGA". A BRISA Sociedade para o Desenvolvimento da Tecnologia da Informação, em parceria com a UnB campus Gama e LAPPIS, vai capacitar estudantes de cursos de tecnologias, graduação e ensino técnico, para se tornarem desenvolvedores de sistemas nas tecnologias mais atuais de informática e comunicações. A residência conta com uma etapa de imersão, no qual coordeno 40 alunos desenvolvendo projetos junto à empresas, usando métodos de aprendizado ativo.
-A BRISA conta com recursos da Lei de Informática, através de Programa Prioritário do Ministério da Ciência, Tecnologia e inovações – MCTI, coordenado pela Softex.
+I am the project coordinator for the "Residência em TIC da BRISA - UnB FGA" project. BRISA - Society for the Development of Information Technology - has partnered with the University of Brasília campus Gama and LAPPIS to provide training for students from technology, undergraduate, and technical education courses, to become developers of systems using the latest information technology and communications technologies. The residency program features an immersion stage, where I lead 40 students in developing projects with companies, using active learning methods.
 
-[Link Projeto](https://residenciaticbrisa.github.io/landing_page/)
+The BRISA project is supported by the Information Technology Law through the Priority Program of the Ministry of Science, Technology and Innovation - MCTI, coordinated by Softex.
+
+[Project Here!](https://residenciaticbrisa.github.io/landing_page/)
 
 ## Jornada Horizontes do Empreendedorismo - 2022 - ongoing
 
 
-Coordenadora do projeto "Jornada Horizontes do Empreendedorismo ". O objetivo é fomentar o empreendedorismo e a inovação, por meio da capacitação, desenvolvimento de habilidades sociais e mentoria voltadas à inclusão de jovens negros e mulheres jovens, no mercado de trabalho e à geração de renda, residentes no Centro-Oeste. Esse é o principal objetivo de um projeto inclusivo idealizado e oferecido gratuitamente pela Fundação de Empreendimentos Científicos e Tecnológicos – Finatec em parceria com o Ministério da Mulher, da Família e dos Direitos Humanos - MMFDH.
+I am the project coordinator for the "Journey Horizons of Entrepreneurship". The goal is to promote entrepreneurship and innovation through training, development of social skills and mentorship focused on the inclusion of young blacks and young women in the labor market and income generation, residents in the Centro Oeste. This is the main goal of an inclusive project envisioned and offered free of charge by the Foundation for Scientific and Technological Ventures - Finatec, in partnership with the Secretaria da Juventude.
 
 [Link Projeto](http://jhe.finatec.org.br/site/)
 
 ## Big Open Source Siblings (BOSS) - 2020 - ongoing
 
 
-The BOSS initiative aims to reach underrepresented groups in tech who want to be mentored and assisted to learn how to work on open source projects. We will provide a safe space and an accompanying methodology for them to learn basic concepts of working in a small open source project in practice and build enough background for them to, at the end of the program, be able to choose other projects to continue their contributions. The mentoring process helps build confidence, fill in technical gaps, and engage the participants. 
+The BOSS initiative is designed to empower underrepresented groups in the tech industry to learn and contribute to open source projects. With a focus on mentorship, the program provides a supportive environment where participants can develop the necessary skills and confidence to work on projects. The mentoring process includes hands-on experience in a safe and inclusive space, covering both the technical aspects of open source as well as personal challenges such as intersectionality and impostor syndrome.
 
-In the BOSS program, besides the technical aspects of introducing newcomers to open source, we deal with some challenges to inclusion, namely, intersectionality and impostor syndrome. 
+At the end of the program, participants will have a solid foundation of knowledge and experience that they can use to pursue further contributions to open source projects. The BOSS initiative is committed to fostering diversity and inclusivity in the tech community, providing a platform for individuals from underrepresented groups to build their skills and advance their careers.
+
 [The BOSS initiative manual is available here.](https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf)
 
 We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challenge/winners/).
@@ -54,9 +57,9 @@ We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challeng
 
 ## Machine Learning for outlier detection in Customer databases - partnership with the Instituto Eldorado/Dell - 2021 - ongoing
 
-In this project, we experiment with several machine learning algorithms to detect outliers and anomalies in large Customer Dataset. We deploy Data, Feature Engineering, and MLOps techniques and practices. 
+This project is focused on using machine learning algorithms to detect anomalies and outliers in large customer datasets. The goal is to improve the accuracy of these detections and make the process more efficient through the use of data, feature engineering, and MLOps techniques and practices.
 
-We adopted a commonly used machine learning workflow depicted in various forms across industry and research. It has commonalities with prior workflows defined in data science and data mining, such as TDSP, KDD, and CRISP-DM. They have in common the data-centered essence of the process and the multiple feedback loops among the different stages. We followed some DevOps and MLOps best practices and automation to speed up the experimentation cycle and scale the process to other databases and a larger team. 
+By following a commonly used machine learning workflow and incorporating DevOps and MLOps best practices, the project aims to increase the speed of experimentation and scalability of the process to other databases and teams. The focus on including DevOps and MLOps practices helps ensure that the project remains efficient, automated, and streamlined throughout the entire process.
 
 
 
@@ -74,9 +77,11 @@ We also developed an Open Source  [Chatbot Boilerplate](https://github.com/lappi
 
 ## Public Money Public Code – Modernising Public Infrastructure with Free Software
 
-The LAPPIS team translated to Brazilian Portuguese the publication  "Public Money Public Code – Modernising Public Infrastructure with Free Software"
-from Free Software Foundation Europe.
-The translation in portuguese - [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf)
+The LAPPIS team translated to Brazilian Portuguese the publication  "Public Money Public Code – Modernising Public Infrastructure with Free Software" from Free Software Foundation Europe.
+
+The translation in portuguese is intended to raise awareness about the benefits of using free software in public infrastructure, especially in the context of Brazilian government. The publication advocates for the use of free software in public institutions to increase transparency, efficiency, and security of IT systems, and to ensure that the public funds are spent on IT solutions that are accessible and controlled by the public itself. By translating the publication, the LAPPIS team aims to contribute to the discussion and promote the use of free software in the Brazilian government.
+
+- [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf)
 
 
 ## Other Partnerships
