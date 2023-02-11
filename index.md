@@ -14,5 +14,3 @@ If you're a student seeking an advisor, a researcher with overlapping interests,
 
 
 
-
-![lappis](/images/lappis.png)   
