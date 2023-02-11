@@ -5,33 +5,31 @@ title: Publications
 permalink: /publications/
 ---
 
-I usually forget to updtade my publications he! So, a more up-to-date list of my publications can be found in [my google scholar profile](https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=en).
+You can find the complete list of my publication in:
 
-## 2022
 
-1. Jessica Díaz, Jorge Pérez, Isaque Alves, Fabio Kon, Leonarado Leite, Paulo Meirelles, Carla Rocha. "Harmonizing DevOps Taxonomies-A Grounded Theory Study"
+[Google Scholar](https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=en)
 
-2. Tiag Vidigal, Carla Rocha. "When technical solutions aren`t enough: using software concepts to analyse challenges at Dellivery processes between Mixed-signal IC Team Members"
+[Lattes](http://lattes.cnpq.br/2831991076751452)
 
-## 2021
+
+
+1. Jessica Díaz, Jorge Pérez, Isaque Alves, Fabio Kon, Leonarado Leite, Paulo Meirelles, Carla Rocha. "Harmonizing DevOps Taxonomies-A Grounded Theory Study", 2022.
+
+2. Tiag Vidigal, Carla Rocha. "When technical solutions aren`t enough: using software concepts to analyse challenges at Dellivery processes between Mixed-signal IC Team Members",2022.
+
 
 1. I. Alves, C. Rocha. "Qualifying software engineers undergraduates in DevOps-challenges of introducing technical and non-technical concepts in a project-oriented course".  IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET), 2021.
 
 1. Pablo Diego Silva da Silva, Rodrigo Oliveira Campos, Carla Rocha. "OSS Scripting System for Game Development in Rust". IFIP International Conference on Open Source Systems (OSS), 2021.
 
-1. "Assuring the Evolvability of Legacy Systems in Devops transformation/adoption: Insights of an experience report", WBMA 2021
+1. "Assuring the Evolvability of Legacy Systems in Devops transformation/adoption: Insights of an experience report", WBMA 2021.
 
-1. "Product Engineering for Machine Learning:A Grey Literature Review", ICSE workshop- TODO
+1. "Product Engineering for Machine Learning:A Grey Literature Review", ICSE workshop- 2021.
 
-## 2020
+1. BOSS manual - Technical report - TODO, 2020.
 
-TODO
-1. BOSS manual 
-
-1. "Trans perspective as Software Engineers"
-
-
-## 2019
+1. "Trans perspective in Software Engineering", 2020.
 
 1. Leonardo Leite, Carla Rocha, Fabio Kon, Dejan Milojicic, Paulo Meirelles. "A survey of DevOps concepts and challenges".ACM Computing Surveys (CSUR),2019.
 

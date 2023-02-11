@@ -13,7 +13,9 @@ A presentation of the latest projects, with some technical details is available 
 
 ## Research Collaboration UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - ongoing
 
-Our research focuses on empirical investigation of the organizational structure and characteristics of DevOps teams in software-producing organizations. By bringing together the expertise of three research teams, we aim to create a comprehensive understanding of this rapidly evolving field. The results of this study will provide valuable insights for organizations seeking to adopt or improve their DevOps practices, and for researchers looking to advance our understanding of this important topic. If you would like to learn more about this research collaboration and our findings, please visit our website for further information [here](https://jdiazfernandez.github.io/devops_taxonomies.github.io/)
+Our research focuses on empirical investigation of the organizational structure and characteristics of DevOps teams in software-producing organizations. By bringing together the expertise of three research teams, we aim to create a comprehensive understanding of this rapidly evolving field. The results of this study will provide valuable insights for organizations seeking to adopt or improve their DevOps practices, and for researchers looking to advance our understanding of this important topic. If you would like to learn more about this research collaboration and our findings, please visit our website for further information [here](https://jdiazfernandez.github.io/devops_taxonomies.github.io/).
+
+[Read More](https://jdiazfernandez.github.io/devops_taxonomies.github.io/)
 
 ## Hygia OSS python package - 2023 - ongoing
 
@@ -21,7 +23,7 @@ Hygia is a powerful and innovative Python package that simplifies the process of
 
 This Open Source python package was supporterd sponsered by a collaboration project with Instituto Eldorado.
 
-[Repository](https://github.com/hygia-org/hygia)
+[Read More](https://github.com/hygia-org/hygia)
 
 ## Residencia TIC Brisas UnB - 2022 - ongoing
 
@@ -30,14 +32,14 @@ I am the project coordinator for the "Residência em TIC da BRISA - UnB FGA" pro
 
 The BRISA project is supported by the Information Technology Law through the Priority Program of the Ministry of Science, Technology and Innovation - MCTI, coordinated by Softex.
 
-[Project Here!](https://residenciaticbrisa.github.io/landing_page/)
+[Read More](https://residenciaticbrisa.github.io/landing_page/)
 
 ## Jornada Horizontes do Empreendedorismo - 2022 - ongoing
 
 
 I am the project coordinator for the "Journey Horizons of Entrepreneurship". The goal is to promote entrepreneurship and innovation through training, development of social skills and mentorship focused on the inclusion of young blacks and young women in the labor market and income generation, residents in the Centro Oeste. This is the main goal of an inclusive project envisioned and offered free of charge by the Foundation for Scientific and Technological Ventures - Finatec, in partnership with the Secretaria da Juventude.
 
-[Link Projeto](http://jhe.finatec.org.br/site/)
+[Read More](http://jhe.finatec.org.br/site/)
 
 ## Big Open Source Siblings (BOSS) - 2020 - ongoing
 
@@ -46,7 +48,7 @@ The BOSS initiative is designed to empower underrepresented groups in the tech i
 
 At the end of the program, participants will have a solid foundation of knowledge and experience that they can use to pursue further contributions to open source projects. The BOSS initiative is committed to fostering diversity and inclusivity in the tech community, providing a platform for individuals from underrepresented groups to build their skills and advance their careers.
 
-[The BOSS initiative manual is available here.](https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf)
+
 
 We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challenge/winners/).
 
@@ -54,6 +56,8 @@ We won the [Gnome Community Engagement Challenge](https://www.gnome.org/challeng
 ![image](/images/BadgesPhaseThreeWinner.png)
 
 
+
+[Read More](https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf)
 
 ## Machine Learning for outlier detection in Customer databases - partnership with the Instituto Eldorado/Dell - 2021 - ongoing
 
@@ -74,6 +78,7 @@ The entire project is available on the github organization of [LAPPIS](https://g
 We also developed an Open Source  [Chatbot Boilerplate](https://github.com/lappis-unb/rasa-ptbr-boilerplate), with all the functionalities needed for a chatbot product, to guide newcomers into this growing industry. The community has more than 350 participants on the communication channel.
 
 
+[Read More](https://github.com/lappis-unb)
 
 ## Public Money Public Code – Modernising Public Infrastructure with Free Software
 
