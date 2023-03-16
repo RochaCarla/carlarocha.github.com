@@ -7,7 +7,7 @@ permalink: /teaching/mds
 
 ## Horário
 
-Terças e quintas, às 10h:00m @ ONLINE
+Terças e quintas, às 10h:00m presencial
 
 
 
@@ -40,10 +40,9 @@ Com isso, a cada novo início de semestre, os times/squads são estimulados a es
 
 - [Organização Github da Disciplina](https://github.com/fga-eps-mds)
 
-- [Plano de Ensino e Material de apoio](https://github.com/fga-eps-mds/A-Disciplina-MDS-EPS)
+- [Plano de Ensino e Material de apoio](https://github.com/fga-eps-mds/Qualifying-Software-Engineers-Undergraduates-in-DevOps)
 
-- [Artigo sobre a disciplina](https://github.com/fga-eps-mds/Qualifying-Software-Engineers-Undergraduates-in-DevOps)
-
+- [E-book com material da disciplina](https://rochacarla.github.io/Onboarding/)
 
 ## Links Úteis 
 
