@@ -17,6 +17,13 @@ Our research focuses on empirical investigation of the organizational structure 
 
 [Read More](https://jdiazfernandez.github.io/devops_taxonomies.github.io/)
 
+
+## E-book "Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil"
+
+Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada ao longo desses ultimos 10 anos e foi aplicada com sucesso em diversos contextos. Desde disciplina de graduação, à capacitação de profissionais de TI em temas específicos, a mentoria de mulheres e grupos subrepresentados em Software Livre, e projetos de imersão. Ou seja, o livro é resultado de muita colaboração e muitas pessoas contribuiram para amadurecimento desse conteúdo. 
+
+O livro ainda está longe de ter uma versão completa, mas você pode acessá-lo [aqui](https://rochacarla.github.io/Onboarding/) e colaborar!
+
 ## Hygia OSS python package - 2023 - ongoing
 
 Hygia is a powerful and innovative Python package that simplifies the process of working with Machine Learning data. With its fast, flexible, and intuitive YAML-based data pipeline configuration, Hygia makes it easy for developers and users to manage, organize, compare, and share all their ML model metadata in one convenient location. This helps streamline the ETL (Extract, Transform, and Load) process, making it more efficient, scalable, and automated. Whether you're working in a complex data environment or need to quickly migrate to new contexts, Hygia provides the tools you need to succeed. If you're looking for a solution that can help you work with Machine Learning data more effectively, Hygia is definitely worth checking out.
