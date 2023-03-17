@@ -279,3 +279,6 @@ defaults:
       related: true
       
 minimal_mistakes_skin    : "air" 
+accent_color: "#3498db"
+secondary_color: "#2c3e50"
+background_color: "#FFFFFF"
