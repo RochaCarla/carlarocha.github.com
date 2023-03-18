@@ -137,7 +137,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
+favicon: /favicon.ico
 
 # Reading Files
 include:
