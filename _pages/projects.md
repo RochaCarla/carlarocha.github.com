@@ -11,6 +11,20 @@ I've been involved in several research projects with both research groups and co
 A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
 
 
+## Project "Ecossistema de Software Livre - Participação Digital"
+
+
+Cada cidadã e cidadão pode ajudar a mudar o país para melhor com o envio de propostas de políticas públicas para o governo federal até o dia 10 de julho. Basta acessar a plataforma Brasil Participativo, que também permite votar propostas feitas por outros cidadãos, e indicar os programas de governo que considerar mais importantes para a sua região. A tecnologia utilizada para viabilizar essa participação popular tem o dedo da Universidade de Brasília. 
+
+Brasil Participativo é um software livre adaptado a partir da plataforma de participação eletrônica [Decidim](https://github.com/decidim), lançada pela prefeitura de Barcelona em 2016. A Decidim possui espaços de participação, como iniciativas, assembleias e consultas, e permite diversos tipos de interação, como enquetes, submissão de propostas, votação, follow up de resultados, comentários, entre outros.
+
+Desenvolvida pelo Laboratório Avançado de Produção, Pesquisa e Inovação em Software (Lappis) da Faculdade UnB Gama (FGA), a Brasil Participativo é resultado de uma parceria com o governo federal, por meio da Secretaria Nacional de Participação Social da Secretaria-Geral da Presidência da República. Por lá, qualquer pessoa pode fazer indicações de políticas públicas a serem registradas no Plano Plurianual (PPA) e executadas com prioridade nos próximos quatro anos.
+
+
+[Brasil Participativo](https://brasilparticipativo.presidencia.gov.br)
+
+[Read More](https://noticias.unb.br/117-pesquisa/6549-unb-desenvolve-plataforma-que-ajuda-populacao-a-indicar-prioridades-para-o-governo-federal)
+
 ## Research Collaboration UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - ongoing
 
 Our research focuses on empirical investigation of the organizational structure and characteristics of DevOps teams in software-producing organizations. By bringing together the expertise of three research teams, we aim to create a comprehensive understanding of this rapidly evolving field. The results of this study will provide valuable insights for organizations seeking to adopt or improve their DevOps practices, and for researchers looking to advance our understanding of this important topic. If you would like to learn more about this research collaboration and our findings, please visit our website for further information [here](https://jdiazfernandez.github.io/devops_taxonomies.github.io/).
