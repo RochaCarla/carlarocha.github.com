@@ -10,6 +10,20 @@ I've been involved in several research projects with both research groups and co
 
 A presentation of the latest projects, with some technical details is available [here](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
 
+## Project "Ecossistema de Software Livre - Participação Digital"
+
+
+Cada cidadã e cidadão pode ajudar a mudar o país para melhor com o envio de propostas de políticas públicas para o governo federal até o dia 10 de julho. Basta acessar a plataforma Brasil Participativo, que também permite votar propostas feitas por outros cidadãos, e indicar os programas de governo que considerar mais importantes para a sua região. A tecnologia utilizada para viabilizar essa participação popular tem o dedo da Universidade de Brasília. 
+
+Brasil Participativo é um software livre adaptado a partir da plataforma de participação eletrônica [Decidim](https://github.com/decidim), lançada pela prefeitura de Barcelona em 2016. A Decidim possui espaços de participação, como iniciativas, assembleias e consultas, e permite diversos tipos de interação, como enquetes, submissão de propostas, votação, follow up de resultados, comentários, entre outros.
+
+Desenvolvida pelo Laboratório Avançado de Produção, Pesquisa e Inovação em Software (Lappis) da Faculdade UnB Gama (FGA), a Brasil Participativo é resultado de uma parceria com o governo federal, por meio da Secretaria Nacional de Participação Social da Secretaria-Geral da Presidência da República. Por lá, qualquer pessoa pode fazer indicações de políticas públicas a serem registradas no Plano Plurianual (PPA) e executadas com prioridade nos próximos quatro anos.
+
+
+[Brasil Participativo](https://brasilparticipativo.presidencia.gov.br)
+
+[Read More](https://noticias.unb.br/117-pesquisa/6549-unb-desenvolve-plataforma-que-ajuda-populacao-a-indicar-prioridades-para-o-governo-federal)
+
 
 ## Project "Ecossistema de Software Livre - Participação Digital"
 
@@ -46,7 +60,7 @@ This Open Source python package was supporterd sponsered by a collaboration proj
 
 [Read More](https://github.com/hygia-org/hygia)
 
-## Residencia TIC Brisas UnB - 2022 - ongoing
+## Residência TIC Brisas UnB - 2022 - ongoing
 
 
 I am the project coordinator for the "Residência em TIC da BRISA - UnB FGA" project. BRISA - Society for the Development of Information Technology - has partnered with the University of Brasília campus Gama and LAPPIS to provide training for students from technology, undergraduate, and technical education courses, to become developers of systems using the latest information technology and communications technologies. The residency program features an immersion stage, where I lead 40 students in developing projects with companies, using active learning methods.
