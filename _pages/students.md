@@ -7,7 +7,7 @@ author_profile: true
 
 Estou continuamente procurando por pessoas talentosas para se juntarem ao meu grupo de pesquisa, em diferentes níveis: estudantes de graduação (iniciação científica), mestrado e doutorado.  Além de bolsista para os projetos.
 
-## Current students
+## Alunos Atuais
 
 - Ivon Miranda Santos (MS)
 - Bruna Pinos (MS)
