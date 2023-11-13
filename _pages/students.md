@@ -5,7 +5,7 @@ permalink: /students/
 author_profile: true
 ---
 
-I am continuously looking for good people to join my research group, at levels: undergraduate students (urop), M.S students. 
+Estou continuamente procurando por pessoas talentosas para se juntarem ao meu grupo de pesquisa, em diferentes níveis: estudantes de graduação (iniciação científica), mestrado e doutorado.  Além de bolsista para os projetos.
 
 ## Current students
 
@@ -16,7 +16,7 @@ I am continuously looking for good people to join my research group, at levels: 
 - Arthur José Benedito de Oliveira Assis (UROP)
 - Marcos Nery Borges Júnior (UROP)
 - Youssef Muhamad Yacoub Falaneh (UROP)
-- You?
+- Você?
 
 ## Alumni (sorted by graduation year)
 
@@ -37,7 +37,6 @@ I am continuously looking for good people to join my research group, at levels: 
 - Lucas Dutra Ferreira do Nascimento(UROP)
 - Caio Vinícius Fernandes de Araújo (UROP)
 - Geison de Souza Oliveira (UROP)
-
 
 
 

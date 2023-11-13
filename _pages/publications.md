@@ -12,24 +12,24 @@ You can find the complete list of my publication in:
 
 [Lattes](http://lattes.cnpq.br/2831991076751452)
 
+- **A survey of DevOps concepts and challenges**
+  - *L Leite, C Rocha, F Kon, D Milojicic, P Meirelles*. *ACM Computing Surveys (CSUR) 52 (6), 1-35*. *2019*.   *424 citações*
+  - 
+- **Harmonizing Devops Taxonomies–a Grounded Theory Study**
+  - *J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha*. *Journal of Systems and Software (JSS)*. *2023*
+
 - **Practices for Managing Machine Learning Products: A Multivocal Literature Review**
   - *I Alves, LAF Leite, P Meirelles, F Kon, CSR Aguiar*. *IEEE Transactions on Engineering Management*. *2023*
 
-- **Practices for Managing Machine Learning Products: a Multivocal Literature Review**
-  - *L Leite, PRM Meirelles, F Kon, C Rocha*. *TechRxiv* *1*. *2023*
-
 - **When Technical Solutions aren’t Enough: Using Software Concepts to Analyse Challenges at Delivery Processes between Mixed-Signal IC Team Members**
-  - *T Pereira Vidigal, W Prodanov, C Rocha*. *TechRxiv*. *2023*
-
-- **Trans Perspective in Software Engineering**
-  - *F Malta Fleury, C Rocha*. *TechRxiv*. *2023*
+  - *T Pereira Vidigal, W Prodanov, C Rocha*. *IEEE Transactions on Engineering Management*. *2023*
 
 - **Harmonizing DevOps Taxonomies--Theory Operationalization and Testing**
   - *I Alves, J Pérez, J Díaz, D López-Fernández, M Pais, F Kon, C Rocha*. *arXiv preprint arXiv:2302.00033*. *2023*
 
-- **Harmonizing Devops Taxonomies–a Grounded Theory Study**
-  - *J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha*. *JSS*. *2023*
-
+- **Trans Perspective in Software Engineering**
+  - *F Malta Fleury, C Rocha*. *TechRxiv*. *2023*
+- 
 - **Assuring the Evolvability of Legacy Systems in Devops Transformation/Adoption: Insights of an Experience Report**
   - *Á Alves, C Rocha*. *Brazilian Workshop on Agile Methods, 32-53*. *2021*
 
@@ -41,9 +41,6 @@ You can find the complete list of my publication in:
 
 - **Agile Methods: 10th Brazilian Workshop, WBMA 2019, Belo Horizonte, Brazil, September 11, 2019, Revised Selected Papers**
   - *P Meirelles, MA Nelson, C Rocha*. *Springer Nature*. *2019*
-
-- **A survey of DevOps concepts and challenges**
-  - *L Leite, C Rocha, F Kon, D Milojicic, P Meirelles*. *ACM Computing Surveys (CSUR) 52 (6), 1-35*. *2019*.   *424 citações*
 
 - **FLOSS FAQ chatbot project reuse: how to allow nonexperts to develop a chatbot**
   - *ART de Lacerda, CSR Aguiar*. *Proceedings of the 15th International Symposium on Open Collaboration, 1-8*. *2019*

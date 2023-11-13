@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Welcome to my Website"
+title: "Bem-vindas e Bem-vindos"
 author_profile: true
 permalink: /
 ---
