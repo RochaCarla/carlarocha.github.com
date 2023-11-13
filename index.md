@@ -5,12 +5,12 @@ author_profile: true
 permalink: /
 ---
 
+Sou Professor Assistente na [Faculdade de Engenharia de Software](http://fga.unb.br) na [Universidade de Brasília (UnB)](http://www.unb.br/), onde também atuo como um dos coordenadores do grupo de pesquisa [LAPPIS](https://lappis-unb.github.io/lappis.rocks/). Tenho interesses em Engenharia de Software, incluindo DevOps, Agile, aspectos humanos do desenvolvimento de software, Aprendizado de Máquina e software de Código Aberto.
 
-I am an Assistant Professor at the [Faculty of Software Engineer](http://fga.unb.br) at the [University of Brasília (UnB)](http://www.unb.br/), where I also serve as one of the coordinators of the [LAPPIS](https://lappis-unb.github.io/lappis.rocks/) research group. I have a diverse range of interests in Software Engineering, including DevOps, Agile, human aspects of software development, Machine Learning, and Open Source software.
+Além disso, sou co-fundador do [Big Open Source Siblings (BOSS)](https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing), um programa de mentoria com o objetivo de introduzir grupos sub-representados à contribuição de Código Aberto. Através dos meus projetos de pesquisa em colaboração com agências governamentais e empresas privadas, supervisei mais de 50 bolsistas, aplicando as melhores práticas de DevOps/MLOps e automação para desenvolver soluções de código aberto.
 
-Additionally, I am a co-founder of the Big Open Source Siblings([BOSS](https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing)), a mentorship program aimed at introducing underrepresented groups to Open Source contribution. Through my research projects in collaboration with government agencies and private companies, I have supervised over 50 scholarship students, applying DevOps/MLOps best practices and automation to develop open source solutions.
+Se você é um estudante procurando um orientador, um pesquisador com interesses similares ou um profissional em busca de colaboração em projetos inovadores, estou sempre aberto a novas parcerias. Você pode entrar em contato comigo em caguiar<span style="display:none">ignorethis</span>@unb.br.
 
-If you're a student seeking an advisor, a researcher with overlapping interests, or a practitioner looking for innovative project collaboration, I am always open to new collaborations. You can reach me at caguiar<span style="display:none">ignorethis</span>@unb.br. 
 
 
 
