@@ -40,7 +40,7 @@ Estou continuamente procurando por pessoas talentosas para se juntarem ao meu gr
 
 
 
-## Research Interests
+## Interesses de Pesquisa
 
 Aqui estão alguns temas que tenho interesse em fazer pesquisa/colaborar. O meu interesse atual é que esses trabalhos gerem artigos para serem publicados em venues de impacto para a comunidade de Engenharia de Software.
 

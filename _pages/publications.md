@@ -5,7 +5,7 @@ title: Publications
 permalink: /publications/
 ---
 
-You can find the complete list of my publication in:
+Você pode encontrar a lista completa das minhas publicações em:
 
 
 [Google Scholar](https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=en)

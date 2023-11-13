@@ -48,13 +48,6 @@ Este pacote Python de código aberto foi patrocinado por meio de um projeto de c
 [Leia Mais](https://github.com/hygia-org/hygia)
 
 
-## Jornada Horizontes do Empreendedorismo - 2022 - ongoing
-
-
-I am the project coordinator for the "Journey Horizons of Entrepreneurship". The goal is to promote entrepreneurship and innovation through training, development of social skills and mentorship focused on the inclusion of young blacks and young women in the labor market and income generation, residents in the Centro Oeste. This is the main goal of an inclusive project envisioned and offered free of charge by the Foundation for Scientific and Technological Ventures - Finatec, in partnership with the Secretaria da Juventude.
-
-[Read More](http://jhe.finatec.org.br/site/)
-
 
 ## Big Open Source Siblings (BOSS) - 2020 - Em andamento
 
