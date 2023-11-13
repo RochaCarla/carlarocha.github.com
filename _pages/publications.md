@@ -14,7 +14,7 @@ Você pode encontrar a lista completa das minhas publicações em:
 
 - **A survey of DevOps concepts and challenges**
   - *L Leite, C Rocha, F Kon, D Milojicic, P Meirelles*. *ACM Computing Surveys (CSUR) 52 (6), 1-35*. *2019*.   *424 citações*
-  - 
+  
 - **Harmonizing Devops Taxonomies–a Grounded Theory Study**
   - *J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha*. *Journal of Systems and Software (JSS)*. *2023*
 
@@ -29,7 +29,7 @@ Você pode encontrar a lista completa das minhas publicações em:
 
 - **Trans Perspective in Software Engineering**
   - *F Malta Fleury, C Rocha*. *TechRxiv*. *2023*
-- 
+ 
 - **Assuring the Evolvability of Legacy Systems in Devops Transformation/Adoption: Insights of an Experience Report**
   - *Á Alves, C Rocha*. *Brazilian Workshop on Agile Methods, 32-53*. *2021*
 
