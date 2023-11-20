@@ -5,22 +5,22 @@ permalink: /students/
 author_profile: true
 ---
 
-Estou continuamente procurando por pessoas talentosas para se juntarem ao meu grupo de pesquisa, em diferentes níveis: estudantes de graduação (iniciação científica), mestrado e doutorado.  Além de bolsista para os projetos.
+Estou constantemente procurando por pessoas talentosas para se juntarem ao meu grupo de pesquisa em diferentes níveis: estudantes de graduação (iniciação científica), mestrado e doutorado. Também busco bolsistas para os projetos.
 
 ## Alunos Atuais
 
-- Ivon Miranda Santos (MS)
-- Bruna Pinos (MS)
-- Alax Alves (MS)
+- Ivon Miranda Santos (Mestrado)
+- Bruna Pinos (Mestrado)
+- Alax Alves (Mestrado)
 - Leonardo Silva Gomes (UROP)
 - Arthur José Benedito de Oliveira Assis (UROP)
 - Marcos Nery Borges Júnior (UROP)
 - Youssef Muhamad Yacoub Falaneh (UROP)
 - Você?
 
-## Alumni (sorted by graduation year)
+## Ex-alunos (ordenados por ano de formatura)
 
-- Tiago Vidigal (MS)
+- Tiago Vidigal (Mestrado)
 - Gabriela Barrozo Guedes (UROP)
 - Fabíola Malta Fleury (UROP)
 - Marina Joranhezon (UROP)
@@ -34,43 +34,38 @@ Estou continuamente procurando por pessoas talentosas para se juntarem ao meu gr
 - Lorrany dos Santos Azevedo (UROP)
 - Shayane (UROP)
 - Filipe Coelho Hilário Barcelos (UROP)
-- Lucas Dutra Ferreira do Nascimento(UROP)
+- Lucas Dutra Ferreira do Nascimento (UROP)
 - Caio Vinícius Fernandes de Araújo (UROP)
 - Geison de Souza Oliveira (UROP)
 
-
-
 ## Interesses de Pesquisa
 
-Aqui estão alguns temas que tenho interesse em fazer pesquisa/colaborar. O meu interesse atual é que esses trabalhos gerem artigos para serem publicados em venues de impacto para a comunidade de Engenharia de Software.
+Aqui estão alguns temas nos quais tenho interesse em pesquisar/colaborar. Meu objetivo atual é que esses trabalhos gerem artigos para serem publicados em eventos de impacto para a comunidade de Engenharia de Software.
 
+1. Programas de Mentoria para Grupos Sub-representados<br>
+**Perguntas:** Quais são os desafios para envolver grupos sub-representados em programas de mentoria?<br>
+**Habilidades:** programação de scripts, pró-atividade<br>
 
+2. Compreensão do Comportamento dos Estudantes em Comunidades de Código Aberto<br>
+**Perguntas:** Que tipo de contribuições são feitas por estudantes? Eles estão trabalhando em projetos de sala de aula? Estágios de verão? Hackathons?<br>
+**Habilidades:** programação de scripts, pró-atividade<br>
 
-1. Mentorship Programs for Underrepresented groups<br>
-**Questions:** What are the challenges to engage underrepresented groups in mentoring programs? <br>
-**Skills:** script programming, proactive <br>
+3. Ensino de DevOps<br>
+**Perguntas:** Teoria sobre estruturas/educação de equipes DevOps<br>
+**Habilidades:** programação de scripts, pró-atividade<br>
 
-1. Understanding Students Behavior in Open-Source Communities<br>
-**Questions:** What kind of contributors are made by students? Are they working for some classroom projects? summer job? hackathons?<br>
-**Skills:** script programming, proactive <br>
+4. Migração multicloud em DevOps<br>
+**Perguntas:** Quais são os desafios e requisitos de arquitetura para permitir soluções multicloud?<br>
+**Habilidades:** programação de scripts, Python, pró-atividade<br>
 
-1. Teaching DevOps<br>
-**Questions:** Theory on DevOps team structures/education <br>
-**Skills:** script programming, proactive <br>
+5. Ferramentas de Aprendizado de Máquina para Análise de Dados de um Contexto<br>
+**Perguntas:** Desenvolvimento de ferramentas para facilitar que cientistas de dados explorem dados em um contexto específico (por exemplo: banco de dados, repositórios do GitHub, Stack Overflow, entre outros)<br>
+**Habilidades:** programação de scripts, Python, pró-atividade<br>
 
-1. DevOps Migration multicloud<br>
-**Questions:** What are the challenges and architectures requirement to enable multicloud solutions <br>
-**Skills:** script programming, pyhton, proactive <br>
+6. Engenharia de Dados em Pipelines<br>
+**Perguntas:** Desenvolvimento de pipeline para processar vários bancos de dados em paralelo usando fluxo de dados para facilitar que cientistas de dados explorem dados em um contexto específico (por exemplo: banco de dados, repositórios do GitHub, Stack Overflow, entre outros)<br>
+**Habilidades:** programação de scripts, Python, pró-atividade<br>
 
-1. Machine learning tools for analysing data from a context<br>
-**Questions:** Development of tools to facilitate data scientist is exploring data in a specific context (ex: database, github repositories, stack overflow, among others) <br>
-**Skills:** script programming, python, proactive <br>
-
-1. Data Engineering pipelinet<br>
-**Questions:** Development of pipeline to process several databases in parallel using dataflow to facilitate data scientist is exploring data in a specific context (ex: database, github repositories, stack overflow, among others) <br>
-**Skills:** script programming, python, proactive <br>
-
-1. MLOps<br>
-**Questions:** What are the barries to adopt MLOps practices and automation? <br>
-**Skills:** script programming, proactive <br>
-
+7. MLOps<br>
+**Perguntas:** Quais são as barreiras para adotar práticas e automação de MLOps?<br>
+**Habilidades:** programação de scripts, pró-atividade<br>
