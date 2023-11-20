@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: Aula
+title: Aulas
 permalink: /teaching/
 ---
 

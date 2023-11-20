@@ -1,16 +1,16 @@
 # main links
 main:
-  - title: "Projects"
+  - title: "Projetos"
     url: /projects/
-  - title: "Publications"
+  - title: "Publicações"
     url: /publications/
-  - title: "Students"
+  - title: "Orientações"
     url: /students/
-  - title: "Teaching"
+  - title: "Aulas"
     url: /teaching/
-  - title: "Reading"
+  - title: "Leituras"
     url: /reading/
   - title: "Misc"
     url: /misc/
-  - title: "About"
+  - title: "Sobre"
     url: /about/
