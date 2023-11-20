@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Students
+title: Orientação
 permalink: /students/
 author_profile: true
 ---

@@ -1,21 +1,22 @@
 ---
 layout: single
 author_profile: true
-title: Projects
+title: Projetos
 permalink: /projects/
 ---
 
-Tenho participado de vários projetos de pesquisa com grupos de pesquisa e departamentos de Pesquisa e Desenvolvimento (P&D) de empresas. Sou uma das coordenadoras do laboratório de pesquisa aplicada [LAPPIS](https://lappis-unb.github.io/lappis.rocks/). Tive a oportunidade de coordenar diversos projetos de pesquisa aplicada em parceria com agências governamentais e empresas privadas. Supervisionei mais de 50 bolsas de pesquisa. A maioria dos projetos em que estou envolvida envolve desenvolvimento de software sob licença de código aberto. Apresentarei os projetos mais recentes. Para a lista completa, por favor, visite minha [página Lattes](http://lattes.cnpq.br/2831991076751452).
+Sou envolvida em diversos projetos de pesquisa colaborativa, tanto com grupos acadêmicos de pesquisa quanto com departamentos de Pesquisa e Desenvolvimento (P&D) de empresas. Atuo como uma das coordenadoras do laboratório de pesquisa aplicada [LAPPIS](https://lappis-unb.github.io/lappis.rocks/), onde tive a oportunidade de liderar várias iniciativas de pesquisa aplicada em colaboração com agências governamentais e empresas privadas. Ao longo do meu percurso, supervisionei mais de 50 bolsas de pesquisa. Participo do grupo de pesquisa com IME-USP [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](http://dgp.cnpq.br/dgp/espelhogrupo/633486).
+
+A maioria dos projetos em que estou engajada está focada no desenvolvimento de software, sendo distribuído sob licenças de código aberto. Gostaria de compartilhar os projetos mais recentes nos quais estou envolvida, porém, para uma lista completa, convido a visitar minha [página Lattes](http://lattes.cnpq.br/2831991076751452).
 
 Uma apresentação dos projetos mais recentes, com alguns detalhes técnicos, está disponível [aqui](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
 
+
 ## Projeto "Ecossistema de Software Livre - Participação Digital"
 
-Cada cidadão pode contribuir para melhorar o país enviando propostas de políticas públicas para o governo federal até 10 de julho. Basta acessar a plataforma Brasil Participativo, que permite votar em propostas de outros cidadãos e indicar os programas de governo mais importantes para sua região. A tecnologia por trás dessa participação popular é da Universidade de Brasília.
+O Brasil Participativo é um software de código aberto adaptado a partir da plataforma de participação eletrônica Decidim, lançada pela prefeitura de Barcelona em 2016. A Decidim oferece diversos espaços de interação, como iniciativas, assembleias e consultas, possibilitando diferentes formas de engajamento, como enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.
 
-O Brasil Participativo é um software livre adaptado da plataforma de participação eletrônica [Decidim](https://github.com/decidim), lançada pela prefeitura de Barcelona em 2016. A Decidim possui espaços de participação, como iniciativas, assembleias e consultas, permitindo diversas interações, como enquetes, submissão de propostas, votação, acompanhamento de resultados, comentários, entre outros.
-
-Desenvolvido pelo Laboratório Avançado de Produção, Pesquisa e Inovação em Software (Lappis) da Faculdade UnB Gama (FGA), o Brasil Participativo é resultado de uma parceria com o governo federal, através da Secretaria Nacional de Participação Social da Secretaria-Geral da Presidência da República. Qualquer pessoa pode fazer indicações de políticas públicas para serem registradas no Plano Plurianual (PPA) e executadas com prioridade nos próximos quatro anos.
+Fruto de uma colaboração entre o Laboratório Avançado de Produção, Pesquisa e Inovação em Software (Lappis) da Faculdade UnB Gama (FGA) e o governo federal, por meio da Secretaria Nacional de Participação Social da Secretaria-Geral da Presidência da República, o Brasil Participativo proporciona a qualquer pessoa a oportunidade de sugerir políticas públicas a serem incluídas no Plano Plurianual (PPA) e executadas com prioridade nos próximos quatro anos.
 
 [Brasil Participativo](https://brasilparticipativo.presidencia.gov.br)
 
@@ -23,13 +24,13 @@ Desenvolvido pelo Laboratório Avançado de Produção, Pesquisa e Inovação em
 
 ## Colaboração em Pesquisa UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - em andamento
 
-Nossa pesquisa se concentra na investigação empírica da estrutura organizacional e características das equipes de DevOps em organizações produtoras de software. Ao reunir a experiência de três equipes de pesquisa, buscamos criar uma compreensão abrangente desse campo em rápida evolução. Os resultados deste estudo fornecerão insights valiosos para organizações que buscam adotar ou aprimorar suas práticas DevOps, e para pesquisadores que buscam avançar nossa compreensão desse tópico importante. Se desejar saber mais sobre essa colaboração em pesquisa e nossas descobertas, visite nosso site para mais informações [aqui](https://jdiazfernandez.github.io/devops_taxonomies.github.io/).
+Nossa pesquisa tem como foco principal a investigação empírica da estrutura organizacional e das características das equipes de DevOps em organizações que desenvolvem software. Por meio da colaboração entre três equipes de pesquisa experientes, nosso objetivo é criar uma compreensão abrangente nesse campo de constante evolução. Os resultados deste estudo prometem oferecer insights valiosos tanto para organizações que buscam adotar quanto para aquelas que desejam aprimorar suas práticas de DevOps. Além disso, pretendemos contribuir para o avanço do conhecimento acadêmico nesse tema de extrema relevância. Para obter mais detalhes sobre essa colaboração em pesquisa e as descobertas alcançadas, convidamos você a visitar nosso site para informações adicionais[aqui](https://jdiazfernandez.github.io/devops_taxonomies.github.io/).
 
 [Leia Mais](https://jdiazfernandez.github.io/devops_taxonomies.github.io/)
 
 ## Residência TIC Brisas UnB - 2022 - em andamento
 
-Sou a coordenadora do projeto "Residência em TIC da BRISA - UnB FGA". A BRISA - Sociedade para o Desenvolvimento da Tecnologia da Informação - firmou parceria com a Universidade de Brasília, campus Gama, e o LAPPIS para fornecer treinamento para estudantes de cursos de tecnologia, graduação e educação técnica, para se tornarem desenvolvedores de sistemas utilizando as mais recentes tecnologias de informação e comunicação.
+Na qualidade de coordenadora do projeto 'Residência em TIC da BRISA - UnB FGA', estou liderando uma iniciativa colaborativa entre a BRISA - Sociedade para o Desenvolvimento da Tecnologia da Informação - e a Universidade de Brasília, Campus Gama, em parceria com o LAPPIS. Nosso objetivo é oferecer treinamento especializado a estudantes dos cursos de tecnologia, tanto de graduação quanto de educação técnica. Este programa visa capacitar esses estudantes para se tornarem desenvolvedores de sistemas proficientes, utilizando as mais recentes tecnologias de informação e comunicação disponíveis.
 
 [Read More](https://residenciaticbrisa.github.io/landing_page/)
 

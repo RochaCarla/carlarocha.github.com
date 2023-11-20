@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Misc
+title: Outros
 permalink: /misc/
 author_profile: true
 ---
@@ -20,9 +20,8 @@ author_profile: true
 
 1. Membro do Conselho Editorial da [Revista Darcy](https://revistadarcy.unb.br).
 
-1. Membro da Câmara Técnica de Projetos do Parque Científico e Tecnológico da Universidade de Brasília – PCTec/UnB
 
-## Presentations
+## Apresentação
 
 - Introduction to [BOSS mentorship](https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing) (Presentation Guadec 2021)
 

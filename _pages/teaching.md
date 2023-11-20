@@ -1,18 +1,18 @@
 ---
 layout: single
 author_profile: true
-title: Teaching
+title: Aula
 permalink: /teaching/
 ---
 
-I adopt Experiential Learning Models with project-oriented courses. In this model, students go through a "journey of discovery", where they understand the lessons and concepts through the experiential process of getting there. 
+Eu adoto Modelos de Aprendizagem Experiencial com cursos orientados a projetos. Neste modelo, os alunos passam por uma 'jornada de descoberta', onde compreendem as lições e conceitos por meio do processo experiencial de chegar lá.
 
-Students develop software projects with real clients or real datasets. All artifacts produced during the courses are open source, and students have access to previous semesters' material and code. Students also experience contributing to larger Open Source communities, such as Debian, Kubernetes, Rocket.Chat, and Noosfero.
+Os estudantes desenvolvem projetos de software com clientes reais ou conjuntos de dados reais. Todos os artefatos produzidos durante os cursos são de código aberto, e os alunos têm acesso ao material e código de semestres anteriores. Os estudantes também têm a experiência de contribuir para comunidades de Código Aberto maiores, como Debian, Kubernetes, Rocket.Chat e Noosfero.
 
 ![Students](/images/gpp_mds.png)
 
 
-The courses are available in the links below.
+Os cursos estão disponíveis nos links abaixo.
 
 ## 2023.1
 1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)  

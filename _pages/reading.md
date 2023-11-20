@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Reading
+title: Leitura
 permalink: /reading/
 author_profile: true
 ---
