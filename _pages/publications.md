@@ -1,12 +1,26 @@
 ---
 layout: single
 author_profile: true
-title: Publicações
+title: Pesquisa
 permalink: /publications/
 ---
 
-Você pode encontrar a lista completa das minhas publicações em:
+## Grupos de Pesquisa
 
+Participo do grupo de pesquisa com IME-USP [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](http://dgp.cnpq.br/dgp/espelhogrupo/633486).
+
+Pode encontrar a parte técnica da pesquisa nas organizações de git do laboratório:
+
+- LAPPIS @ UnB: [https://github.com/lappis-unb](https://github.com/lappis-unb)
+
+- LAPPIS @ UnB: [https://gitlab.com/lappis-unb](https://gitlab.com/lappis-unb)
+
+- Big Open Source Siblings [https://github.com/BOSS-BigOpenSourceSibling/](https://github.com/BOSS-BigOpenSourceSibling/)
+
+
+## Publicações
+
+Você pode encontrar a lista completa das minhas publicações em:
 
 [Google Scholar](https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=en)
 

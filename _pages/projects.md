@@ -12,7 +12,7 @@ A maioria dos projetos em que estou engajada está focada no desenvolvimento de 
 Uma apresentação dos projetos mais recentes, com alguns detalhes técnicos, está disponível [aqui](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
 
 
-## Projeto "Ecossistema de Software Livre - Participação Digital"
+## Projeto "Ecossistema de Software Livre - Participação Digital" - 2023 - em andamento
 
 O Brasil Participativo é um software de código aberto adaptado a partir da plataforma de participação eletrônica Decidim, lançada pela prefeitura de Barcelona em 2016. A Decidim oferece diversos espaços de interação, como iniciativas, assembleias e consultas, possibilitando diferentes formas de engajamento, como enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.
 
