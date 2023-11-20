@@ -1,7 +1,7 @@
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-   $dark-blue: #003A7A; 
+   $dark-blue: #083868; 
 
 .page__footer {
   @include clearfix;
@@ -16,7 +16,7 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  background-color: $dark-blue;
 
   footer {
     @include clearfix;
