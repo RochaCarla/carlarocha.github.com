@@ -1,6 +1,7 @@
 /* ==========================================================================
    FOOTER
    ========================================================================== */
+   $dark-blue: #003A7A; 
 
 .page__footer {
   @include clearfix;
@@ -10,7 +11,7 @@
   width: 100%;
   clear: both;
   margin-top: 3em;
-  color: $muted-text-color;
+  color: $dark-blue;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
