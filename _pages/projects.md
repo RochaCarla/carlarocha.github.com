@@ -22,6 +22,8 @@ Fruto de uma colaboração entre o Laboratório Avançado de Produção, Pesquis
 
 [Leia Mais](https://noticias.unb.br/117-pesquisa/6549-unb-desenvolve-plataforma-que-ajuda-populacao-a-indicar-prioridades-para-o-governo-federal)
 
+![Equipe](/images/BP.png)
+
 ## Colaboração em Pesquisa UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - em andamento
 
 Nossa pesquisa tem como foco principal a investigação empírica da estrutura organizacional e das características das equipes de DevOps em organizações que desenvolvem software. Por meio da colaboração entre três equipes de pesquisa experientes, nosso objetivo é criar uma compreensão abrangente nesse campo de constante evolução. Os resultados deste estudo prometem oferecer insights valiosos tanto para organizações que buscam adotar quanto para aquelas que desejam aprimorar suas práticas de DevOps. Além disso, pretendemos contribuir para o avanço do conhecimento acadêmico nesse tema de extrema relevância. Para obter mais detalhes sobre essa colaboração em pesquisa e as descobertas alcançadas, convidamos você a visitar nosso site para informações adicionais[aqui](https://jdiazfernandez.github.io/devops_taxonomies.github.io/).

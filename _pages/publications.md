@@ -31,7 +31,7 @@ Você pode encontrar a lista completa das minhas publicações em:
 - **Harmonizing Devops Taxonomies–a Grounded Theory Study**. *J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha*. *Journal of Systems and Software (JSS)*. *2023*
 
 - **Practices for Managing Machine Learning Products: A Multivocal Literature Review**. *I Alves, LAF Leite, P Meirelles, F Kon, CSR Aguiar*. *IEEE Transactions on Engineering Management*. *2023*
-
+  
 - **When Technical Solutions aren’t Enough: Using Software Concepts to Analyse Challenges at Delivery Processes between Mixed-Signal IC Team Members**. *T Pereira Vidigal, W Prodanov, C Rocha*. *IEEE Transactions on Engineering Management*. *2023*
 
 - **Harmonizing DevOps Taxonomies--Theory Operationalization and Testing**. *I Alves, J Pérez, J Díaz, D López-Fernández, M Pais, F Kon, C Rocha*. *arXiv preprint arXiv:2302.00033*. *2023*
