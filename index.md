@@ -11,6 +11,8 @@ Além disso, sou co-fundadora do [Big Open Source Siblings (BOSS)](https://docs.
 
 Se você é uma estudante procurando uma orientadora, uma pesquisadora com interesses similares ou uma profissional em busca de colaboração em projetos inovadores, estou sempre aberto a novas parcerias. Você pode entrar em contato comigo em caguiar<span style="display:none">ignorethis</span>@unb.br.
 
+Coordeno Hoje o projeto em colaboração com a Secretaria Nacional de Participação Social, para o desenvolvimento da plataforma [Brasil Participativo](https://brasilparticipativo.presidencia.gov.br). Veja mais sobre o projeto [aqui](https://noticias.unb.br/117-pesquisa/6549-unb-desenvolve-plataforma-que-ajuda-populacao-a-indicar-prioridades-para-o-governo-federal).
 
+![Equipe](/images/BP.png)
 
 
