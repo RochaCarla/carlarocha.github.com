@@ -49,5 +49,3 @@ Os cursos estão disponíveis nos links abaixo.
 I also teach Computer Graphics, Product Engineering, and Introduction to Software Engineering.
 
 
-
-![lappis](/images/lappis.png)

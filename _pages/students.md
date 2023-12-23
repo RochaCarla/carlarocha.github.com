@@ -15,12 +15,14 @@ Estou constantemente procurando por pessoas talentosas para se juntarem ao meu g
 - Leonardo Silva Gomes (UROP)
 - Arthur José Benedito de Oliveira Assis (UROP)
 - Marcos Nery Borges Júnior (UROP)
-- Youssef Muhamad Yacoub Falaneh (UROP)
 - Você?
 
 ## Ex-alunos (ordenados por ano de formatura)
 
 - Tiago Vidigal (Mestrado)
+- Giovana Vitor Dionísio (UROP)
+- Hérya Rodrigues (UROP)
+- Youssef Muhamad Yacoub Falaneh (UROP)
 - Gabriela Barrozo Guedes (UROP)
 - Fabíola Malta Fleury (UROP)
 - Marina Joranhezon (UROP)
@@ -68,4 +70,8 @@ Aqui estão alguns temas nos quais tenho interesse em pesquisar/colaborar. Meu o
 
 7. MLOps<br>
 **Perguntas:** Quais são as barreiras para adotar práticas e automação de MLOps?<br>
+**Habilidades:** programação de scripts, pró-atividade<br>
+
+8. Ensino de Engenharia de Software com projetos<br>
+**Perguntas:** Quais as boas práticas para o aprendizado ativo em Engenharia de Software?<br>
 **Habilidades:** programação de scripts, pró-atividade<br>

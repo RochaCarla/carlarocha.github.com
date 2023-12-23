@@ -9,14 +9,6 @@ permalink: /publications/
 
 Participo do grupo de pesquisa com IME-USP [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](http://dgp.cnpq.br/dgp/espelhogrupo/633486).
 
-Pode encontrar a parte técnica da pesquisa nas organizações de git do laboratório:
-
-- LAPPIS @ UnB: [https://github.com/lappis-unb](https://github.com/lappis-unb)
-
-- LAPPIS @ UnB: [https://gitlab.com/lappis-unb](https://gitlab.com/lappis-unb)
-
-- Big Open Source Siblings [https://github.com/BOSS-BigOpenSourceSibling/](https://github.com/BOSS-BigOpenSourceSibling/)
-
 
 ## Publicações
 

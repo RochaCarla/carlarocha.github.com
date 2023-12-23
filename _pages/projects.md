@@ -58,9 +58,11 @@ A iniciativa BOSS foi projetada para capacitar grupos sub-representados na indú
 
 Ao final do programa, os participantes terão uma base sólida de conhecimento e experiência que poderão usar para buscar contribuições adicionais para projetos de código aberto. A iniciativa BOSS está comprometida em promover diversidade e inclusividade na comunidade de tecnologia, fornecendo uma plataforma para que indivíduos de grupos sub-representados desenvolvam suas habilidades e avancem em suas carreiras.
 
-Ganhamos o [Desafio de Engajamento da Comunidade Gnome](https://www.gnome.org/challenge/winners/).
+Prêmio: Ganhamos o [Desafio de Community Engagement Gnome](https://www.gnome.org/challenge/winners/).
 
-![imagem](/images/BadgesPhaseThreeWinner.png)
+<img src="/images/BadgesPhaseThreeWinner.png" alt="Prêmcio Desafio de Community Engagement Gnome" style="height: 200px;" />
+
+
 
 [Leia Mais](https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf)
 
@@ -95,6 +97,8 @@ A equipe LAPPIS traduziu para o português brasileiro a publicação "Dinheiro P
 A tradução em português tem o objetivo de conscientizar sobre os benefícios do uso de software livre na infraestrutura pública, especialmente no contexto do governo brasileiro. A publicação advoga pelo uso de software livre em instituições públicas para aumentar a transparência, eficiência e segurança dos sistemas de TI, e garantir que os fundos públicos sejam gastos em soluções de TI acessíveis e controladas pelo público. Ao traduzir a publicação, a equipe LAPPIS visa contribuir para a discussão e promover o uso de software livre no governo brasileiro.
 
 - [Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf)
+
+<img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" style="height: 200px;" />
 
 ---
 

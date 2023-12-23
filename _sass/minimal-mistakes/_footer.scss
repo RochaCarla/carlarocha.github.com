@@ -1,7 +1,7 @@
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-   $dark-blue: #083868; 
+   $dark-blue: #003366; 
 
 .page__footer {
   @include clearfix;
@@ -22,7 +22,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 1em;
     max-width: 100%;
     padding: 0 1em 2em;
 
@@ -62,16 +62,15 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
   }
 
   li + li:before {
-    content: "";
-    padding-right: 5px;
+    padding-right: 2px;
   }
 
   a {

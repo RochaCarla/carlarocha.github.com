@@ -11,7 +11,7 @@ Algumas sugestões, sem uma ordem específica (algumas delas retiradas de [https
 
 ## Leitura Obrigatória
 
-1. [Fale Como um CHEFE - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) por Big Open Source Sibling (BOSS)
+1. [Talk like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) por Big Open Source Sibling (BOSS)
 
 1. [Orientação para Tese de Doutorado e Mestrado](https://www.slideshare.net/cameraculture/raskar-phd-and-ms-thesis-guidance?fbclid=IwAR1ECIl-T96IyK5X2BAIY3tm1nqP9fSaL9HN0oWWuYkw0mmQZ-5q1XYl0X4) por Ramesh Raskar
 
