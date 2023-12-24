@@ -9,7 +9,6 @@ Sou envolvida em diversos projetos de pesquisa colaborativa, tanto com grupos ac
 
 A maioria dos projetos em que estou engajada está focada no desenvolvimento de software, sendo distribuído sob licenças de código aberto. Gostaria de compartilhar os projetos mais recentes nos quais estou envolvida, porém, para uma lista completa, convido a visitar minha [página Lattes](http://lattes.cnpq.br/2831991076751452).
 
-Uma apresentação dos projetos mais recentes, com alguns detalhes técnicos, está disponível [aqui](https://docs.google.com/presentation/d/1ywrszF-efFiFrmqVJ8JGCpr19EHfh0M5C8ZZ8fmL8x8/edit?usp=sharing).
 
 
 ## Projeto "Ecossistema de Software Livre - Participação Digital" - 2023 - em andamento
@@ -22,7 +21,8 @@ Fruto de uma colaboração entre o Laboratório Avançado de Produção, Pesquis
 
 [Leia Mais](https://noticias.unb.br/117-pesquisa/6549-unb-desenvolve-plataforma-que-ajuda-populacao-a-indicar-prioridades-para-o-governo-federal)
 
-![Equipe](/images/BP.png)
+[![Equipe](/images/BP.png)](https://gitlab.com/lappis-unb/decidimbr)
+
 
 ## Colaboração em Pesquisa UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - em andamento
 
@@ -34,13 +34,14 @@ Nossa pesquisa tem como foco principal a investigação empírica da estrutura o
 
 Na qualidade de coordenadora do projeto 'Residência em TIC da BRISA - UnB FGA', estou liderando uma iniciativa colaborativa entre a BRISA - Sociedade para o Desenvolvimento da Tecnologia da Informação - e a Universidade de Brasília, Campus Gama, em parceria com o LAPPIS. Nosso objetivo é oferecer treinamento especializado a estudantes dos cursos de tecnologia, tanto de graduação quanto de educação técnica. Este programa visa capacitar esses estudantes para se tornarem desenvolvedores de sistemas proficientes, utilizando as mais recentes tecnologias de informação e comunicação disponíveis.
 
-[Read More](https://residenciaticbrisa.github.io/landing_page/)
+A cada temporada são ofertadas 250 vagas para a etapa EaD, e 40 alunas e alunos são selecionados para a etapa de imersão. Nesta última etapa, recebem uma bolsa de apoio, um laptop e são agrupados em equipes para trabalhar junto a uma empresa na solução de um desafio proposto.
 
-## E-book "Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil"
+[Leia mais](https://residenciaticbrisa.github.io/landing_page/)
+[Projetos Desenvolvidos](https://residenciaticbrisa.github.io/projetos_imersao/)
 
-Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada ao longo desses últimos 10 anos e foi aplicada com sucesso em diversos contextos. Desde disciplina de graduação, à capacitação de profissionais de TI em temas específicos, a mentoria de mulheres e grupos sub-representados em Software Livre, e projetos de imersão. Ou seja, o livro é resultado de muita colaboração e muitas pessoas contribuíram para o amadurecimento desse conteúdo.
 
-O livro ainda está longe de ter uma versão completa, mas você pode acessá-lo [aqui](https://rochacarla.github.io/Onboarding/) e colaborar!
+<img src="/images/brisas.jpg" alt="Primeira Turma de imersão brisa" style="height: 300px;" />
+
 
 ## Pacote Hygia OSS Python - 2023 - em andamento
 
@@ -50,6 +51,7 @@ Este pacote Python de código aberto foi patrocinado por meio de um projeto de c
 
 [Leia Mais](https://github.com/hygia-org/hygia)
 
+<img src="/images/hygia.png" alt="Hygia" style="height: 300px;" />
 
 
 ## Big Open Source Siblings (BOSS) - 2020 - Em andamento
@@ -61,7 +63,6 @@ Ao final do programa, os participantes terão uma base sólida de conhecimento e
 Prêmio: Ganhamos o [Desafio de Community Engagement Gnome](https://www.gnome.org/challenge/winners/).
 
 <img src="/images/BadgesPhaseThreeWinner.png" alt="Prêmcio Desafio de Community Engagement Gnome" style="height: 200px;" />
-
 
 
 [Leia Mais](https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf)
@@ -87,6 +88,14 @@ O projeto completo está disponível na [organização do GitHub do LAPPIS](http
 Desenvolvemos também um [modelo de chatbot de código aberto](https://github.com/lappis-unb/rasa-ptbr-boilerplate), com todas as funcionalidades necessárias para um produto de chatbot, orientando novos participantes nessa indústria em crescimento. A comunidade conta com mais de 350 participantes no canal de comunicação.
 
 [Leia Mais](https://github.com/lappis-unb)
+
+---
+
+## E-book "Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil"
+
+Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada ao longo desses últimos 10 anos e foi aplicada com sucesso em diversos contextos. Desde disciplina de graduação, à capacitação de profissionais de TI em temas específicos, a mentoria de mulheres e grupos sub-representados em Software Livre, e projetos de imersão. Ou seja, o livro é resultado de muita colaboração e muitas pessoas contribuíram para o amadurecimento desse conteúdo.
+
+O livro ainda está longe de ter uma versão completa, mas você pode acessá-lo [aqui](https://rochacarla.github.io/Onboarding/) e colaborar!
 
 ---
 
