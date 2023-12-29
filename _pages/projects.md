@@ -1,6 +1,6 @@
 ---
 layout: posts
-author_profile: true
+author_profile: false
 title: Projetos
 permalink: /projects/
 ---
