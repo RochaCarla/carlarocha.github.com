@@ -5,22 +5,10 @@ var store = [{
         "url": "http://localhost:4000/projects/minc",
         "teaser": null
       },{
-        "title": "Colaboração em Pesquisa UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - em andamento",
-        "excerpt":"Nossa pesquisa tem como foco principal a investigação empírica da estrutura organizacional e das características das equipes de DevOps em organizações que desenvolvem software. Por meio da colaboração entre três equipes de pesquisa experientes, nosso objetivo é criar uma compreensão abrangente nesse campo de constante evolução. Os resultados deste estudo...","categories": [],
+        "title": "Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell - 2021",
+        "excerpt":"Este projeto tem como foco o uso de algoritmos de aprendizado de máquina para detectar anomalias e outliers em grandes conjuntos de dados de clientes. O objetivo é aprimorar a precisão dessas detecções e tornar o processo mais eficiente por meio do uso de dados, engenharia de características e técnicas...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/projects/usp-upm",
-        "teaser": null
-      },{
-        "title": "Residência TIC Brisas UnB - 2022 - em andamento",
-        "excerpt":"Na qualidade de coordenadora do projeto ‘Residência em TIC da BRISA - UnB FGA’, estou liderando uma iniciativa colaborativa entre a BRISA - Sociedade para o Desenvolvimento da Tecnologia da Informação - e a Universidade de Brasília, Campus Gama, em parceria com o LAPPIS. Nosso objetivo é oferecer treinamento especializado...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/projects/brisas",
-        "teaser": null
-      },{
-        "title": "Big Open Source Siblings (BOSS) - 2020 - Em andamento",
-        "excerpt":"A iniciativa BOSS foi projetada para capacitar grupos sub-representados na indústria de tecnologia a aprender e contribuir para projetos de código aberto. Com foco na mentoria, o programa oferece um ambiente de apoio onde os participantes podem desenvolver as habilidades necessárias e a confiança para trabalhar em projetos. O processo...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/projects/boss",
+        "url": "http://localhost:4000/projects/ml",
         "teaser": null
       },{
         "title": "Pacote Hygia OSS Python - 2023 - em andamento",
@@ -29,16 +17,16 @@ var store = [{
         "url": "http://localhost:4000/projects/hygia",
         "teaser": null
       },{
-        "title": "Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell - 2021",
-        "excerpt":"Este projeto tem como foco o uso de algoritmos de aprendizado de máquina para detectar anomalias e outliers em grandes conjuntos de dados de clientes. O objetivo é aprimorar a precisão dessas detecções e tornar o processo mais eficiente por meio do uso de dados, engenharia de características e técnicas...","categories": [],
+        "title": "Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre",
+        "excerpt":"A equipe LAPPIS traduziu para o português brasileiro a publicação “Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre” da Free Software Foundation Europe. A tradução em português tem o objetivo de conscientizar sobre os benefícios do uso de software livre na infraestrutura pública, especialmente no contexto...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/projects/ml",
+        "url": "http://localhost:4000/projects/traducao",
         "teaser": null
       },{
-        "title": "Projeto \"Ecossistema de Software Livre - Participação Digital\" - 2023 - em andamento",
-        "excerpt":"O Brasil Participativo é um software de código aberto adaptado a partir da plataforma de participação eletrônica Decidim, lançada pela prefeitura de Barcelona em 2016. A Decidim oferece diversos espaços de interação, como iniciativas, assembleias e consultas, possibilitando diferentes formas de engajamento, como enquetes, submissão de propostas, votação, acompanhamento de...","categories": [],
+        "title": "Projeto \"Educação em saúde e triagem precoce de câncer de pele - data fabric e machine learning em saúde \"- 2024 - em andamento\"",
+        "excerpt":"Projeto contemplado pelo edital FAP-DF tech learning. A pesquisa tem como principal objetivo a otimização da triagem das lesões de pele dos pacientes, através de registros em plataforma analítica. Através dos registros será possível realizar a avaliação e classificação de risco, rastreamento e diagnóstico precoce. Como objetivos específicos a pesquisa...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/projects/ecossistemas",
+        "url": "http://localhost:4000/projects/fap",
         "teaser": null
       },{
         "title": "E-book \"Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil\"",
@@ -47,9 +35,33 @@ var store = [{
         "url": "http://localhost:4000/projects/e-book",
         "teaser": null
       },{
-        "title": "Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre",
-        "excerpt":"A equipe LAPPIS traduziu para o português brasileiro a publicação “Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre” da Free Software Foundation Europe. A tradução em português tem o objetivo de conscientizar sobre os benefícios do uso de software livre na infraestrutura pública, especialmente no contexto...","categories": [],
+        "title": "Big Open Source Siblings (BOSS) - 2020 - Em andamento",
+        "excerpt":"A iniciativa BOSS foi projetada para capacitar grupos sub-representados na indústria de tecnologia a aprender e contribuir para projetos de código aberto. Com foco na mentoria, o programa oferece um ambiente de apoio onde os participantes podem desenvolver as habilidades necessárias e a confiança para trabalhar em projetos. O processo...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/projects/traducao",
+        "url": "http://localhost:4000/projects/boss",
+        "teaser": null
+      },{
+        "title": "Colaboração em Pesquisa UnB (Brasília), USP (São Paulo), UPM (Madrid) - 2021 - em andamento",
+        "excerpt":"Nossa pesquisa tem como foco principal a investigação empírica da estrutura organizacional e das características das equipes de DevOps em organizações que desenvolvem software. Por meio da colaboração entre três equipes de pesquisa experientes, nosso objetivo é criar uma compreensão abrangente nesse campo de constante evolução. Os resultados deste estudo...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/projects/usp-upm",
+        "teaser": null
+      },{
+        "title": "Projeto \"Universidades Sustentáveis - Ferramenta para Gestão e Otimização de Contratos de Fornecimento de Energia Elétrica\" - 2023 - em andamento",
+        "excerpt":"A ferramenta em questão é um sistema especialmente desenvolvido para assegurar uma gestão eficiente de contratos relacionados ao fornecimento de energia. Sua funcionalidade principal reside na aplicação de técnicas estatísticas avançadas, permitindo uma análise minuciosa e abrangente de diversos cenários envolvendo esses contratos. Através dessa capacidade analítica, o sistema é...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/projects/mec",
+        "teaser": null
+      },{
+        "title": "Residência TIC Brisas UnB - 2022 - em andamento",
+        "excerpt":"Na qualidade de coordenadora do projeto ‘Residência em TIC da BRISA - UnB FGA’, estou liderando uma iniciativa colaborativa entre a BRISA - Sociedade para o Desenvolvimento da Tecnologia da Informação - e a Universidade de Brasília, Campus Gama, em parceria com o LAPPIS. Nosso objetivo é oferecer treinamento especializado...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/projects/brisas",
+        "teaser": null
+      },{
+        "title": "Projeto \"Ecossistema de Software Livre - Participação Digital\" - 2023 - em andamento",
+        "excerpt":"O Brasil Participativo é um software de código aberto adaptado a partir da plataforma de participação eletrônica Decidim, lançada pela prefeitura de Barcelona em 2016. A Decidim oferece diversos espaços de interação, como iniciativas, assembleias e consultas, possibilitando diferentes formas de engajamento, como enquetes, submissão de propostas, votação, acompanhamento de...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/projects/ecossistemas",
         "teaser": null
       }]
