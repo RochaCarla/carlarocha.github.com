@@ -20,7 +20,7 @@ font_size: "14px"  # Altere para o tamanho de fonte desejado
 line_height: 1.4 
 accent_color: "#3498db"
 secondary_color: "#2c3e50"
-background_color: "#FFFFFF"
+background_color: "#3498db"
 
 # Site Settings
 locale                   : "pt-BR"
