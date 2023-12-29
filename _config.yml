@@ -23,7 +23,7 @@ secondary_color: "#2c3e50"
 background_color: "#FFFFFF"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "pt-BR"
 title                    : "Carla Rocha"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -104,7 +104,7 @@ author:
   name             : "Carla Rocha, PhD"
   avatar           : "/lost+found/ghlp4.png"
   bio              : "Professora e Pesquisadora em Engenharia de Software na Universidade de Brasília (UnB). Interesses: Diversidade, desenvolvimento ágil, adoção de DevOps, MLOps, comunidade de código aberto, ensino orientado a projetos. "
-  location         : "University of Brasília,  Brazil"
+  location         : "Universidade  de Brasília,  Brasil"
   email            : "caguiar@unb.br"
   links:
     - label: "Website"
