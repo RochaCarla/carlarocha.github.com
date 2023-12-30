@@ -5,9 +5,6 @@ title: Pesquisa
 permalink: /publications/
 ---
 
-## Grupos de Pesquisa
-
-
 Sou membro ativo do grupo de pesquisa em [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](http://dgp.cnpq.br/dgp/espelhogrupo/633486) vinculado ao Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP).
 
 Estou atualmente matriculado no programa de mestrado profissionalizante [PPCA](https://ppca.unb.br) na Universidade de Brasília (UnB).
