@@ -530,6 +530,18 @@ body:hover .visually-hidden button {
     font-size: $type-size-6;
   }
 }
+/* CSS for even and odd subsections */
+.even {
+  background-color: #f5f55 ; /* Define the background color for even subsections */
+}
+
+.odd {
+  background-color: whitef; /* Define the background color for odd subsections (light gray) */
+}
+
+.archive__item-title a {
+  text-decoration: none; /* Remove underline from anchor elements within h2 */
+}
 
 a.reversefootnote {
   color: $gray;

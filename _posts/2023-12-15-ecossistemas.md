@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Projeto "Ecossistema de Software Livre - Participação Digital" - 2023 - em andamento
+title: Ecossistema de Software Livre - Participação Digital - 2023 - em andamento
 year: 2024
 month: 05
 day: 15
@@ -10,20 +10,32 @@ resume: Projeto em colaboração com a Secretaria Nacional de Participação Soc
 permalink: /projects/ecossistemas
 ---
 
-O Brasil Participativo é um software de código aberto adaptado a partir da plataforma de participação eletrônica Decidim, lançada pela prefeitura de Barcelona em 2016. A Decidim oferece diversos espaços de interação, como iniciativas, assembleias e consultas, possibilitando diferentes formas de engajamento, como enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.
+## O que é o projeto
 
-Fruto de uma colaboração entre o Laboratório Avançado de Produção, Pesquisa e Inovação em Software (Lappis) da Faculdade UnB Gama (FGA) e o governo federal, por meio da Secretaria Nacional de Participação Social da Secretaria-Geral da Presidência da República, o Brasil Participativo proporciona a qualquer pessoa a oportunidade de sugerir políticas públicas a serem incluídas no Plano Plurianual (PPA) e executadas com prioridade nos próximos quatro anos. 
+O Brasil Participativo é um software de código aberto adaptado da plataforma de participação eletrônica Decidim, originada da prefeitura de Barcelona em 2016. A plataforma Decidim oferece vários espaços interativos, como iniciativas, assembleias e consultas, permitindo diferentes formas de engajamento, incluindo enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.
 
+A Plataforma Brasil Participativo representa o novo ambiente digital do governo federal, criado para que a população possa contribuir para a criação e aprimoramento das políticas públicas. Sob responsabilidade da Secretaria Nacional de Participação Social da Secretaria Geral da Presidência da República (SNPS/SGPR) e com a parceria essencial do Ministério da Gestão e da Inovação em Serviços Públicos (MGI), essa plataforma foi desenvolvida com o apoio e a infraestrutura da Dataprev, da comunidade Decidim-Brasil e da Universidade de Brasília (UnB).
 
-Em 6 meses de projetos, tivemos as maiores experiências de participação digital tanto no Brasil, quanto no mundo dos processos usando o Decidim. Em 2023, tivemos 1.500.460 usuários na plataforma, 10.864 propostas realizadas e 4 processos de participação digital finalizadas. 
+## Resultados Esperados
 
+O Brasil Participativo alcançou um marco significativo na participação digital, emergindo como a maior experiência desse tipo no âmbito do governo federal. Registrando mais de 4 milhões de acessos, a plataforma testemunhou a participação ativa de 1,4 milhão de indivíduos no planejamento governamental.
 
-[Plataforma Brasil Participativo](https://brasilparticipativo.presidencia.gov.br)
+Esses resultados foram impulsionados por extensas mobilizações sociais que encorajaram votações para propostas por meio do engajamento digital de conselhos participativos, diversas redes de comunicadores, ativistas, parlamentares, movimentos sociais e influenciadores. Paralelamente, o governo também se envolveu ativamente na participação, com a contribuição das assessorias de participação social, diversidade e comunicação em cada Ministério.
 
-[Leia Mais sobre a parceria](https://noticias.unb.br/117-pesquisa/6549-unb-desenvolve-plataforma-que-ajuda-populacao-a-indicar-prioridades-para-o-governo-federal)
+Em apenas seis meses, esses esforços resultaram nas maiores experiências de participação digital tanto no Brasil quanto no contexto global, utilizando a plataforma Decidim. Em 2023, a plataforma registrou a presença de 1.500.460 usuários, a submissão de 10.864 propostas e a conclusão de 4 processos de participação digital.
 
-[Apresentação dos resultados do PPA 2023](https://drive.google.com/file/d/1ifHe87MlG5vkLVIYE4WlO8h2Ctbvi63M/view?usp=sharing)
+## Contato
 
-[Repositório com todos os artefatos produzidos no projeto](https://gitlab.com/lappis-unb/decidimbr)
+- Coordenadora do projeto: Profa Carla Rocha ([caguiar@unb.br](caguiar@unb.br))
+
+## Saiba mais
+
+- [Plataforma Brasil Participativo](https://brasilparticipativo.presidencia.gov.br)
+
+- [Leia Mais sobre a parceria](https://noticias.unb.br/117-pesquisa/6549-unb-desenvolve-plataforma-que-ajuda-populacao-a-indicar-prioridades-para-o-governo-federal)
+
+- [Apresentação dos resultados do PPA 2023](https://drive.google.com/file/d/1ifHe87MlG5vkLVIYE4WlO8h2Ctbvi63M/view?usp=sharing)
+
+- [Repositório com todos os artefatos produzidos no projeto](https://gitlab.com/lappis-unb/decidimbr)
 
 [![Equipe](/images/BP.png)](https://gitlab.com/lappis-unb/decidimbr)
