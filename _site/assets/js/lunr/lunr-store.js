@@ -11,8 +11,8 @@ var store = [{
         "url": "http://localhost:4000/projects/ml",
         "teaser": null
       },{
-        "title": "Pacote Hygia OSS Python - 2023 - em andamento",
-        "excerpt":"Hygia é um pacote Python poderoso e inovador que simplifica o processo de trabalhar com dados de Machine Learning. Com sua configuração rápida, flexível e intuitiva de pipeline de dados baseada em YAML, o Hygia facilita para desenvolvedores e usuários gerenciar, organizar, comparar e compartilhar todos os metadados de seus...","categories": [],
+        "title": "Pacote Hygia OSS Python - 2023",
+        "excerpt":"O que é o projeto Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/hygia",
         "teaser": null
@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Big Open Source Siblings (BOSS) - 2020 - Em andamento",
-        "excerpt":"A iniciativa BOSS foi projetada para capacitar grupos sub-representados na indústria de tecnologia a aprender e contribuir para projetos de código aberto. Com foco na mentoria, o programa oferece um ambiente de apoio onde os participantes podem desenvolver as habilidades necessárias e a confiança para trabalhar em projetos. O processo...","categories": [],
+        "excerpt":"O que é o projeto É comum que desenvolvedores novatos se envolvam em projetos de software livre para aprimorar suas habilidades, principalmente em programação. No entanto, esses desenvolvedores, ao ingressarem nesses projetos, enfrentam diversas dificuldades em seus primeiros passos e, muitas vezes, encontram-se aprendendo de forma autodidata. Estudos anteriores indicaram...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/boss",
         "teaser": null

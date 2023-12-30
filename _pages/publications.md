@@ -7,7 +7,13 @@ permalink: /publications/
 
 ## Grupos de Pesquisa
 
-Participo do grupo de pesquisa com IME-USP [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](http://dgp.cnpq.br/dgp/espelhogrupo/633486).
+
+Sou membro ativo do grupo de pesquisa em [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](http://dgp.cnpq.br/dgp/espelhogrupo/633486) vinculado ao Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP).
+
+Estou atualmente matriculado no programa de mestrado profissionalizante [PPCA](https://ppca.unb.br) na Universidade de Brasília (UnB).
+
+Além disso, atuo como coordenadora do laboratório de pesquisa aplicada [LAPPIS](https://lappis-unb.gitlab.io), um espaço de referência na UnB para estudos e pesquisas em áreas tecnológicas de vanguarda.
+
 
 
 ## Publicações

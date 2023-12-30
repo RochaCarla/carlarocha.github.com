@@ -24,6 +24,11 @@ Esses resultados foram impulsionados por extensas mobilizações sociais que enc
 
 Em apenas seis meses, esses esforços resultaram nas maiores experiências de participação digital tanto no Brasil quanto no contexto global, utilizando a plataforma Decidim. Em 2023, a plataforma registrou a presença de 1.500.460 usuários, a submissão de 10.864 propostas e a conclusão de 4 processos de participação digital.
 
+## Financiamento
+
+Em andamento
+-  Secretaria Nacional de Participação Social da Secretaria Geral da Presidência da República (SNPS/SGPR) - Termo de Execução Descentralizada (TED) - (2023 - 2024)
+
 ## Contato
 
 - Coordenadora do projeto: Profa Carla Rocha ([caguiar@unb.br](caguiar@unb.br))

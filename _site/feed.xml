@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-30T15:44:21-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Carla Rocha</title><subtitle>Professora e Pesquisadora em Engenharia de Software</subtitle><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><entry><title type="html">Ecossistema de Software Livre - Participação Digital - 2023 - em andamento</title><link href="http://localhost:4000/projects/ecossistemas" rel="alternate" type="text/html" title="Ecossistema de Software Livre - Participação Digital - 2023 - em andamento" /><published>2023-12-15T00:00:00-03:00</published><updated>2023-12-15T00:00:00-03:00</updated><id>http://localhost:4000/projects/ecossistemas</id><content type="html" xml:base="http://localhost:4000/projects/ecossistemas"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-30T18:43:06-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Carla Rocha</title><subtitle>Professora e Pesquisadora em Engenharia de Software</subtitle><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><entry><title type="html">Ecossistema de Software Livre - Participação Digital - 2023 - em andamento</title><link href="http://localhost:4000/projects/ecossistemas" rel="alternate" type="text/html" title="Ecossistema de Software Livre - Participação Digital - 2023 - em andamento" /><published>2023-12-15T00:00:00-03:00</published><updated>2023-12-15T00:00:00-03:00</updated><id>http://localhost:4000/projects/ecossistemas</id><content type="html" xml:base="http://localhost:4000/projects/ecossistemas"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
 
 <p>O Brasil Participativo é um software de código aberto adaptado da plataforma de participação eletrônica Decidim, originada da prefeitura de Barcelona em 2016. A plataforma Decidim oferece vários espaços interativos, como iniciativas, assembleias e consultas, permitindo diferentes formas de engajamento, incluindo enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.</p>
 
@@ -11,6 +11,13 @@
 <p>Esses resultados foram impulsionados por extensas mobilizações sociais que encorajaram votações para propostas por meio do engajamento digital de conselhos participativos, diversas redes de comunicadores, ativistas, parlamentares, movimentos sociais e influenciadores. Paralelamente, o governo também se envolveu ativamente na participação, com a contribuição das assessorias de participação social, diversidade e comunicação em cada Ministério.</p>
 
 <p>Em apenas seis meses, esses esforços resultaram nas maiores experiências de participação digital tanto no Brasil quanto no contexto global, utilizando a plataforma Decidim. Em 2023, a plataforma registrou a presença de 1.500.460 usuários, a submissão de 10.864 propostas e a conclusão de 4 processos de participação digital.</p>
+
+<h2 id="financiamento">Financiamento</h2>
+
+<p>Em andamento</p>
+<ul>
+  <li>Secretaria Nacional de Participação Social da Secretaria Geral da Presidência da República (SNPS/SGPR) - Termo de Execução Descentralizada (TED) - (2023 - 2024)</li>
+</ul>
 
 <h2 id="contato">Contato</h2>
 
@@ -68,15 +75,23 @@
 
 <p>São esperados que ao final de duas temporada, pelo menos 300 pessoas sejam capacitadas para atuar na indústria de TI a nível regional, nacional e internacional.</p>
 
+<ul>
+  <li>
+    <p><a href="https://softex.br/projeto-residencia-em-tic-da-brisa-unb-fga-e-lancado-em-brasilia/">Saiba mais sobre o projeto</a></p>
+  </li>
+  <li>
+    <p><a href="https://residenciaticbrisa.github.io/landing_page/">Inscrição</a></p>
+  </li>
+  <li>
+    <p><a href="https://residenciaticbrisa.github.io/projetos_imersao/">Projetos desenvolvidos Etapa de Imersão</a></p>
+  </li>
+</ul>
+
 <h2 id="contato">Contato</h2>
 
 <ul>
   <li>Coordenadora do projeto UnB: Profa Carla Rocha (<a href="caguiar@unb.br">caguiar@unb.br</a>)</li>
 </ul>
-
-<p><a href="https://residenciaticbrisa.github.io/landing_page/">Leia mais</a></p>
-
-<p><a href="https://residenciaticbrisa.github.io/projetos_imersao/">Projetos Desenvolvidos</a></p>
 
 <p><img src="/images/brisas.jpg" alt="Primeira Turma de imersão brisa" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O que é o projeto]]></summary></entry><entry><title type="html">Universidades Sustentáveis - Ferramenta para Gestão e Otimização de Contratos de Fornecimento de Energia Elétrica - 2023 - em andamento</title><link href="http://localhost:4000/projects/mec" rel="alternate" type="text/html" title="Universidades Sustentáveis - Ferramenta para Gestão e Otimização de Contratos de Fornecimento de Energia Elétrica - 2023 - em andamento" /><published>2023-12-09T00:00:00-03:00</published><updated>2023-12-09T00:00:00-03:00</updated><id>http://localhost:4000/projects/mec</id><content type="html" xml:base="http://localhost:4000/projects/mec"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
 
@@ -140,17 +155,39 @@
 <ul>
   <li>Pesquisadora UnB: Profa Carla Rocha (<a href="caguiar@unb.br">caguiar@unb.br</a>)</li>
   <li>Doutorando USP/UPM: Isaque Alves (<a href="isaque.alves@ime.usp.br">isaque.alves@ime.usp.br</a>)</li>
-</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O que é o projeto]]></summary></entry><entry><title type="html">Big Open Source Siblings (BOSS) - 2020 - Em andamento</title><link href="http://localhost:4000/projects/boss" rel="alternate" type="text/html" title="Big Open Source Siblings (BOSS) - 2020 - Em andamento" /><published>2023-12-06T00:00:00-03:00</published><updated>2023-12-06T00:00:00-03:00</updated><id>http://localhost:4000/projects/boss</id><content type="html" xml:base="http://localhost:4000/projects/boss"><![CDATA[<p>A iniciativa BOSS foi projetada para capacitar grupos sub-representados na indústria de tecnologia a aprender e contribuir para projetos de código aberto. Com foco na mentoria, o programa oferece um ambiente de apoio onde os participantes podem desenvolver as habilidades necessárias e a confiança para trabalhar em projetos. O processo de mentoria inclui experiência prática em um espaço seguro e inclusivo, abordando tanto os aspectos técnicos do código aberto quanto os desafios pessoais, como interseccionalidade e síndrome do impostor.</p>
+</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O que é o projeto]]></summary></entry><entry><title type="html">Big Open Source Siblings (BOSS) - 2020 - Em andamento</title><link href="http://localhost:4000/projects/boss" rel="alternate" type="text/html" title="Big Open Source Siblings (BOSS) - 2020 - Em andamento" /><published>2023-12-06T00:00:00-03:00</published><updated>2023-12-06T00:00:00-03:00</updated><id>http://localhost:4000/projects/boss</id><content type="html" xml:base="http://localhost:4000/projects/boss"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
+
+<p>É comum que desenvolvedores novatos se envolvam em projetos de software livre para aprimorar suas habilidades, principalmente em programação. No entanto, esses desenvolvedores, ao ingressarem nesses projetos, enfrentam diversas dificuldades em seus primeiros passos e, muitas vezes, encontram-se aprendendo de forma autodidata. Estudos anteriores indicaram que cerca de 80% dos novatos acabam desistindo nesse processo. Eles enfrentam obstáculos ao adquirir as competências essenciais para realizar as tarefas e enfrentam dificuldades em receber apoio dos membros do projeto. Sem o suporte adequado, esses iniciantes tendem a perder a motivação, consomem recursos da comunidade e, por fim, abandonam o projeto.</p>
+
+<p>O objetivo principal deste projeto é oferecer suporte aos novatos desde o início de suas contribuições em projetos de software livre, visando ajudá-los a adquirir habilidades fundamentais. Um aspecto frequentemente negligenciado na literatura é compreender como os novatos desenvolvem novas habilidades nesses projetos e como podemos oferecer apoio nesse processo. Os projetos de software livre oferecem uma excelente oportunidade para a aprendizagem por meio de exemplos práticos, uma abordagem comprovadamente eficaz para adquirir conhecimentos e habilidades técnicas em diversos contextos.</p>
+
+<p>A iniciativa BOSS foi projetada para capacitar grupos sub-representados na indústria de tecnologia a aprender e contribuir para projetos de código aberto. Com foco na mentoria, o programa oferece um ambiente de apoio onde os participantes podem desenvolver as habilidades necessárias e a confiança para trabalhar em projetos. O processo de mentoria inclui experiência prática em um espaço seguro e inclusivo, abordando tanto os aspectos técnicos do código aberto quanto os desafios pessoais, como interseccionalidade e síndrome do impostor.</p>
 
 <p>Ao final do programa, os participantes terão uma base sólida de conhecimento e experiência que poderão usar para buscar contribuições adicionais para projetos de código aberto. A iniciativa BOSS está comprometida em promover diversidade e inclusividade na comunidade de tecnologia, fornecendo uma plataforma para que indivíduos de grupos sub-representados desenvolvam suas habilidades e avancem em suas carreiras.</p>
 
-<p>Prêmio: Ganhamos o <a href="https://www.gnome.org/challenge/winners/">Desafio de Community Engagement Gnome</a>.</p>
+<h2 id="resultados-obtidos">Resultados Obtidos</h2>
 
-<p><a href="https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf">Manual da BOSS</a></p>
+<p>O programa BOSS já completou duas temporadas, resultando em aproximadamente 5 projetos de software livre. Em 2021, conquistamos o primeiro lugar no <a href="https://www.gnome.org/challenge/winners/">Desafio de Community Engagement do Gnome</a>, superando outras 150 iniciativas que visavam promover a contribuição para o software livre.</p>
 
-<p><a href="https://medium.com/botsbrasil/boss-usando-chatbot-como-primeiro-passo-para-o-software-livre-aa9d9704ed64">Artigo no Medium</a></p>
+<ul>
+  <li>
+    <p><a href="https://github.com/BOSS-BigOpenSourceSibling/BigSibling/blob/main/gnome_challenge/phase3/BOSS%20-%20final%20final.pdf">Manual da BOSS</a></p>
+  </li>
+  <li>
+    <p><a href="https://medium.com/botsbrasil/boss-usando-chatbot-como-primeiro-passo-para-o-software-livre-aa9d9704ed64">Artigo no Medium</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/BOSS-BigOpenSourceSibling">Repositório com todo o material de apoio usada na BOSS</a></p>
+  </li>
+</ul>
 
-<p><img src="/images/BadgesPhaseThreeWinner.png" alt="Prêmcio Desafio de Community Engagement Gnome" style="height: 400px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[A iniciativa BOSS foi projetada para capacitar grupos sub-representados na indústria de tecnologia a aprender e contribuir para projetos de código aberto. Com foco na mentoria, o programa oferece um ambiente de apoio onde os participantes podem desenvolver as habilidades necessárias e a confiança para trabalhar em projetos. O processo de mentoria inclui experiência prática em um espaço seguro e inclusivo, abordando tanto os aspectos técnicos do código aberto quanto os desafios pessoais, como interseccionalidade e síndrome do impostor.]]></summary></entry><entry><title type="html">E-book “Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil”</title><link href="http://localhost:4000/projects/e-book" rel="alternate" type="text/html" title="E-book “Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil”" /><published>2023-12-05T00:00:00-03:00</published><updated>2023-12-05T00:00:00-03:00</updated><id>http://localhost:4000/projects/agil-book</id><content type="html" xml:base="http://localhost:4000/projects/e-book"><![CDATA[<p>Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada ao longo desses últimos 10 anos e foi aplicada com sucesso em diversos contextos. Desde disciplina de graduação, à capacitação de profissionais de TI em temas específicos, a mentoria de mulheres e grupos sub-representados em Software Livre, e projetos de imersão. Ou seja, o livro é resultado de muita colaboração e muitas pessoas contribuíram para o amadurecimento desse conteúdo.</p>
+<p><img src="/images/BadgesPhaseThreeWinner.png" alt="Prêmcio Desafio de Community Engagement Gnome" style="height: 400px;" /></p>
+
+<h2 id="financiamento">Financiamento</h2>
+
+<ul>
+  <li>Prêmio <a href="https://www.gnome.org/challenge/winners/">Community Engagement do Gnome</a></li>
+</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O que é o projeto]]></summary></entry><entry><title type="html">E-book “Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil”</title><link href="http://localhost:4000/projects/e-book" rel="alternate" type="text/html" title="E-book “Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil”" /><published>2023-12-05T00:00:00-03:00</published><updated>2023-12-05T00:00:00-03:00</updated><id>http://localhost:4000/projects/agil-book</id><content type="html" xml:base="http://localhost:4000/projects/e-book"><![CDATA[<p>Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada ao longo desses últimos 10 anos e foi aplicada com sucesso em diversos contextos. Desde disciplina de graduação, à capacitação de profissionais de TI em temas específicos, a mentoria de mulheres e grupos sub-representados em Software Livre, e projetos de imersão. Ou seja, o livro é resultado de muita colaboração e muitas pessoas contribuíram para o amadurecimento desse conteúdo.</p>
 
 <p>O livro ainda está longe de ter uma versão completa, mas você pode acessá-lo <a href="https://rochacarla.github.io/Onboarding/">aqui</a> e colaborar!</p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada ao longo desses últimos 10 anos e foi aplicada com sucesso em diversos contextos. Desde disciplina de graduação, à capacitação de profissionais de TI em temas específicos, a mentoria de mulheres e grupos sub-representados em Software Livre, e projetos de imersão. Ou seja, o livro é resultado de muita colaboração e muitas pessoas contribuíram para o amadurecimento desse conteúdo.]]></summary></entry><entry><title type="html">Educação em saúde e triagem precoce de câncer de pele - data fabric e machine learning em saúde - 2024 - em andamento”</title><link href="http://localhost:4000/projects/fap" rel="alternate" type="text/html" title="Educação em saúde e triagem precoce de câncer de pele - data fabric e machine learning em saúde - 2024 - em andamento”" /><published>2023-12-03T00:00:00-03:00</published><updated>2023-12-03T00:00:00-03:00</updated><id>http://localhost:4000/projects/fap</id><content type="html" xml:base="http://localhost:4000/projects/fap"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
 
@@ -178,13 +215,34 @@
 
 <p><a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf">Leia o documento aqui! Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre</a></p>
 
-<p><img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[A equipe LAPPIS traduziu para o português brasileiro a publicação “Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre” da Free Software Foundation Europe.]]></summary></entry><entry><title type="html">Pacote Hygia OSS Python - 2023 - em andamento</title><link href="http://localhost:4000/projects/hygia" rel="alternate" type="text/html" title="Pacote Hygia OSS Python - 2023 - em andamento" /><published>2023-11-15T00:00:00-03:00</published><updated>2023-11-15T00:00:00-03:00</updated><id>http://localhost:4000/projects/hygia</id><content type="html" xml:base="http://localhost:4000/projects/hygia"><![CDATA[<p>Hygia é um pacote Python poderoso e inovador que simplifica o processo de trabalhar com dados de Machine Learning. Com sua configuração rápida, flexível e intuitiva de pipeline de dados baseada em YAML, o Hygia facilita para desenvolvedores e usuários gerenciar, organizar, comparar e compartilhar todos os metadados de seus modelos de ML em um local conveniente. Isso ajuda a otimizar o processo ETL (Extract, Transform, and Load), tornando-o mais eficiente, escalável e automatizado. Se você trabalha em um ambiente de dados complexo ou precisa migrar rapidamente para novos contextos, o Hygia fornece as ferramentas necessárias para o sucesso. Se você procura uma solução que possa ajudá-lo a trabalhar com dados de Machine Learning de forma mais eficaz, o Hygia é definitivamente vale a pena conferir.</p>
+<p><img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[A equipe LAPPIS traduziu para o português brasileiro a publicação “Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre” da Free Software Foundation Europe.]]></summary></entry><entry><title type="html">Pacote Hygia OSS Python - 2023</title><link href="http://localhost:4000/projects/hygia" rel="alternate" type="text/html" title="Pacote Hygia OSS Python - 2023" /><published>2023-11-15T00:00:00-03:00</published><updated>2023-11-15T00:00:00-03:00</updated><id>http://localhost:4000/projects/hygia</id><content type="html" xml:base="http://localhost:4000/projects/hygia"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
+
+<p>Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de machine learning.</p>
+
+<p>Ao adotar um fluxo de trabalho padrão de aprendizado de máquina e integrar as melhores práticas de DevOps e MLOps (operações de machine learning), o projeto busca aumentar a agilidade das experimentações e a escalabilidade do processo para aplicação em outros conjuntos de dados e equipes. O foco na incorporação de práticas de DevOps e MLOps é fundamental para garantir a eficiência, automação e simplificação contínuas ao longo de todas as fases do projeto. Continuação do projeto “Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes”.</p>
+
+<h2 id="resultados-obtidos">Resultados obtidos</h2>
+
+<p>Hygia é um pacote Python poderoso e inovador que simplifica o processo de trabalhar com dados de Machine Learning. Com sua configuração rápida, flexível e intuitiva de pipeline de dados baseada em YAML, o Hygia facilita para desenvolvedores e usuários gerenciar, organizar, comparar e compartilhar todos os metadados de seus modelos de ML em um local conveniente. Isso ajuda a otimizar o processo ETL (Extract, Transform, and Load), tornando-o mais eficiente, escalável e automatizado. Se você trabalha em um ambiente de dados complexo ou precisa migrar rapidamente para novos contextos, o Hygia fornece as ferramentas necessárias para o sucesso. Se você procura uma solução que possa ajudá-lo a trabalhar com dados de Machine Learning de forma mais eficaz, o Hygia é definitivamente vale a pena conferir.</p>
 
 <p>Este pacote Python de código aberto foi patrocinado por meio de um projeto de colaboração com o Instituto Eldorado.</p>
 
-<p><a href="https://github.com/hygia-org/hygia">Leia Mais</a></p>
+<p><a href="https://github.com/hygia-org/hygia">Acesse a comunidade OSS do Hygia.</a></p>
 
-<p><img src="/images/hygia.png" alt="Hygia" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[Hygia é um pacote Python poderoso e inovador que simplifica o processo de trabalhar com dados de Machine Learning. Com sua configuração rápida, flexível e intuitiva de pipeline de dados baseada em YAML, o Hygia facilita para desenvolvedores e usuários gerenciar, organizar, comparar e compartilhar todos os metadados de seus modelos de ML em um local conveniente. Isso ajuda a otimizar o processo ETL (Extract, Transform, and Load), tornando-o mais eficiente, escalável e automatizado. Se você trabalha em um ambiente de dados complexo ou precisa migrar rapidamente para novos contextos, o Hygia fornece as ferramentas necessárias para o sucesso. Se você procura uma solução que possa ajudá-lo a trabalhar com dados de Machine Learning de forma mais eficaz, o Hygia é definitivamente vale a pena conferir.]]></summary></entry><entry><title type="html">Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell - 2021</title><link href="http://localhost:4000/projects/ml" rel="alternate" type="text/html" title="Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell - 2021" /><published>2023-11-14T00:00:00-03:00</published><updated>2023-11-14T00:00:00-03:00</updated><id>http://localhost:4000/projects/maquina</id><content type="html" xml:base="http://localhost:4000/projects/ml"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
+<h2 id="financiamento">Financiamento</h2>
+
+<p>Finalizado</p>
+<ul>
+  <li>Instituto Eldorado - Projeto de Pesquisa - (2023)</li>
+</ul>
+
+<h2 id="contatos">Contatos</h2>
+
+<ul>
+  <li>Coordenadora do projeto: Profa Carla Rocha (<a href="caguiar@unb.br">caguiar@unb.br</a>)</li>
+</ul>
+
+<p><img src="/images/hygia.png" alt="Hygia" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O que é o projeto]]></summary></entry><entry><title type="html">Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell - 2021</title><link href="http://localhost:4000/projects/ml" rel="alternate" type="text/html" title="Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell - 2021" /><published>2023-11-14T00:00:00-03:00</published><updated>2023-11-14T00:00:00-03:00</updated><id>http://localhost:4000/projects/maquina</id><content type="html" xml:base="http://localhost:4000/projects/ml"><![CDATA[<h2 id="o-que-é-o-projeto">O que é o projeto</h2>
 
 <p>Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de machine learning.</p>
 
@@ -199,6 +257,13 @@
 <p>Com base no banco de dados de clientes (costumers), foram criados modelos de machine learning com o propósito de identificar outliers e um modelo específico destinado à detecção de <em>keyboardsmashing</em>.</p>
 
 <p>Além das atividades mencionadas, outro ponto de destaque são os artefatos produzidos. São elaboradas documentações abrangentes que descrevem detalhadamente as metodologias, técnicas, ferramentas e processos testados em cada hipótese ou modelo de Machine Learning explorado. Paralelamente, há a criação de documentação detalhada sobre as metodologias, técnicas, ferramentas e processos adotados no processo de detecção de outliers, bem como nos testes dos modelos de Machine Learning utilizados. Esses artefatos documentais desempenham um papel crucial para o entendimento, registro e disseminação dos resultados e métodos desenvolvidos ao longo do projeto.</p>
+
+<h2 id="financiamento">Financiamento</h2>
+
+<p>Finalizado</p>
+<ul>
+  <li>Instituto Eldorado - Projeto de Pesquisa - (2021)</li>
+</ul>
 
 <h2 id="contatos">Contatos</h2>
 

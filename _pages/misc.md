@@ -1,25 +1,24 @@
 ---
 layout: single
-title: Outros
+title: Participação
 permalink: /misc/
 author_profile: true
 ---
 
-## Participação
 
 
 
 1. Co-fundadora [BOSS](https://www.youtube.com/c/BigOpenSourceSibling)
-1. Co-apresentadora [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) pela Big Open Source Sibling (BOSS)
-1. Co-apresentadora [Mini LAPPIS Conf](https://youtu.be/zynynEynpk8)
-1. Organizadora [Mini LAPPIS Conf](https://github.com/lappis-unb/MiniLappisConf)
-1. Co-presidente do programa [WBMA - Agile Brazil 2021](http://www.agilebrazil.com/2021/wbma)
-1. Coordenador de Publicidade [WBMA - Agile Brazil 2019](http://www.agilebrazil.com/2019/docs/en/wbma/)
-1. Palestrante na [Campus Party 2020](https://youtu.be/MlGYHl3Iyyg)
+2. Co-apresentadora [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) pela Big Open Source Sibling (BOSS)
+3. Co-apresentadora [Mini LAPPIS Conf](https://youtu.be/zynynEynpk8)
+4. Organizadora [Mini LAPPIS Conf](https://github.com/lappis-unb/MiniLappisConf)
+5. Co-presidente do programa [WBMA - Agile Brazil 2021](http://www.agilebrazil.com/2021/wbma)
+6. Coordenador de Publicidade [WBMA - Agile Brazil 2019](http://www.agilebrazil.com/2019/docs/en/wbma/)
+7. Palestrante na [Campus Party 2020](https://youtu.be/MlGYHl3Iyyg)
 
-1. Comitê científico [CoVidas UnB Hackathon 2020](https://covidas-unb.github.io/InfoGerais/)
-1. Membro do Comitê de Gestão Estratégica de Campus Inteligente e Sustentável (CGECIS) da Universidade de Brasília
-1. Membro do Conselho Editorial da [Revista Darcy](https://revistadarcy.unb.br).
+8. Comitê científico [CoVidas UnB Hackathon 2020](https://covidas-unb.github.io/InfoGerais/)
+9. Membro do Comitê de Gestão Estratégica de Campus Inteligente e Sustentável (CGECIS) da Universidade de Brasília
+10. Membro do Conselho Editorial da [Revista Darcy](https://revistadarcy.unb.br).
 
 ## Apresentações
 
@@ -31,6 +30,7 @@ author_profile: true
 
 ## Software Livre
 
+Nossos projetos de pesquisa seguem a prática do uso de licenças de software livre sempre que há necessidade de desenvolvimento. Todos os nossos projetos de software são disponibilizados na organização do laboratório no GitLab/GitHub (lappis-unb). Abaixo, estão alguns dos projetos desenvolvidos pelo nosso laboratório.
 
 - [Brasil Participativo](https://gitlab.com/lappis-unb/decidimbr)
 

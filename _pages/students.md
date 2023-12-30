@@ -5,40 +5,41 @@ permalink: /students/
 author_profile: true
 ---
 
-Estou constantemente procurando por pessoas talentosas para se juntarem ao meu grupo de pesquisa em diferentes níveis: estudantes de graduação (iniciação científica), mestrado e doutorado. Também busco bolsistas para os projetos.
+Estou sempre em busca de indivíduos talentosos interessados em fazer parte do meu grupo de pesquisa, em diferentes níveis acadêmicos: desde estudantes de graduação (para programas de iniciação científica e projetos de pesquisa) até candidatos a mestrado e doutorado. Além disso, estou procurando por bolsistas para integrarem nossos projetos.
 
 ## Alunos Atuais
 
+- Isaque Alves (Doutorado)
 - Ivon Miranda Santos (Mestrado)
 - Bruna Pinos (Mestrado)
 - Alax Alves (Mestrado)
-- Leonardo Silva Gomes (UROP)
-- Arthur José Benedito de Oliveira Assis (UROP)
-- Marcos Nery Borges Júnior (UROP)
+- Leonardo Silva Gomes (Graduação)
+- Arthur José Benedito de Oliveira Assis (Graduação)
+- Marcos Nery Borges Júnior (Graduação)
 - Você?
 
-## Ex-alunos (ordenados por ano de formatura)
+## Ex-alunos
 
 - Tiago Vidigal (Mestrado)
-- Giovana Vitor Dionísio (UROP)
-- Hérya Rodrigues (UROP)
-- Youssef Muhamad Yacoub Falaneh (UROP)
-- Gabriela Barrozo Guedes (UROP)
-- Fabíola Malta Fleury (UROP)
-- Marina Joranhezon (UROP)
-- Rodrigo Oliveira Campos (UROP)
-- Eduardo Nunes (UROP)
-- Guilherme Guimarães Lacerda (UROP)
-- Álax Alves (UROP)
-- João Pedro Sconetto (UROP)
-- Indiara Duarte (UROP)
-- Rafaella Oliveira de Faria Junqueira (UROP)
-- Lorrany dos Santos Azevedo (UROP)
-- Shayane (UROP)
-- Filipe Coelho Hilário Barcelos (UROP)
-- Lucas Dutra Ferreira do Nascimento (UROP)
-- Caio Vinícius Fernandes de Araújo (UROP)
-- Geison de Souza Oliveira (UROP)
+- Giovana Vitor Dionísio (Graduação)
+- Hérya Rodrigues (Graduação)
+- Youssef Muhamad Yacoub Falaneh (Graduação)
+- Gabriela Barrozo Guedes (Graduação)
+- Fabíola Malta Fleury (Graduação)
+- Marina Joranhezon (Graduação)
+- Rodrigo Oliveira Campos (Graduação)
+- Eduardo Nunes (Graduação)
+- Guilherme Guimarães Lacerda (Graduação)
+- Álax Alves (Graduação)
+- João Pedro Sconetto (Graduação)
+- Indiara Duarte (Graduação)
+- Rafaella Oliveira de Faria Junqueira (Graduação)
+- Lorrany dos Santos Azevedo (Graduação)
+- Shayane (Graduação)
+- Filipe Coelho Hilário Barcelos (Graduação)
+- Lucas Dutra Ferreira do Nascimento (Graduação)
+- Caio Vinícius Fernandes de Araújo (Graduação)
+- Geison de Souza Oliveira (Graduação)
 
 ## Interesses de Pesquisa
 
