@@ -13,7 +13,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="display: flex; align-items: center;">
     {% if post.figure %}
-      <div style="margin-right: 10px;">
+      <div style="margin-right: 30px;">
         <img src="{{ post.figure | prepend: site.baseurl }}" alt=" Image" style="max-width: 200px;">
       </div>
     {% endif %}
