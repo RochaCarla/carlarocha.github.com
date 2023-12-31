@@ -13,11 +13,11 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="display: flex; align-items: center;">
     {% if post.figure %}
-      <div style="margin-right: 30px;">
-        <img src="{{ post.figure | prepend: site.baseurl }}" alt=" Image" style="max-width: 200px;">
+      <div class="thumbnail">
+        <img src="{{ post.figure | prepend: site.baseurl }}" alt="Image" style="max-width: 200px;">
       </div>
     {% endif %}
-    <div>
+    <div class="content">
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -36,4 +36,3 @@
     </div>
   </article>
 </div>
-

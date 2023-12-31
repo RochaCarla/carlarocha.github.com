@@ -1,10 +1,11 @@
 ---
 layout: single
-title: Ecossistema de Software Livre - Participação Digital - 2023 - em andamento
+title: Ecossistema de Software Livre - Participação Digital (2023 - em andamento)
 year: 2024
 month: 05
 day: 15
 published: true
+author_profile: false
 figure: /images/logo-bp.png
 resume: Projeto em colaboração com a Secretaria Nacional de Participação Social para o desenvolvimento da Plataforma de Participação digital Brasil Participativo, adotando o software Livre Decidim. Em 6 meses de projetos, tivemos as maiores experiências de participação digital tanto no Brasil quanto usando o Decidim.
 permalink: /projects/ecossistemas

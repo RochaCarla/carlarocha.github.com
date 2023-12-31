@@ -19,3 +19,34 @@
     opacity: 1;
   }
 }
+
+a {
+  display: inline-block; /* Ensures the link area can be transformed */
+ 
+}
+
+a:hover {
+  color: #3b9cba; /* Change the color when hovered */
+  transition: color 0.3s ease; /* Smooth transition effect */
+  transform: scale(1.01); /* Scale the link on hover (adjust the scale value as needed) */
+  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+
+.thumbnail {
+  margin-right: 30px;
+  transition: all 0.3s ease;
+}
+
+.content {
+  transition: all 0.3s ease;
+}
+
+.archive__item:hover .thumbnail {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.archive__item:hover .content {
+  /* Apply styles for the content on hover, if needed */
+}
