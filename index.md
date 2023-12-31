@@ -5,7 +5,7 @@ author_profile: true
 permalink: /
 ---
 
-![Equipe](/images/BP.png)
+![Equipe](/images/lab.png)
 
 Sou professora na [Faculdade de Engenharia de Software](http://fga.unb.br) da [Universidade de Brasília (UnB)](http://www.unb.br/), onde atuo como uma das coordenadoras do laboratório [LAPPIS](https://lappis-unb.github.io/lappis.rocks/). Participo também do grupo de pesquisa com IME-USP [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](https://dgp.cnpq.br/dgp/espelhogrupo/633486), e faço parte do mestrado acadêmico [PPCA](http://PPCA.unb.br). Meus interesses acadêmicos se concentram na área de Engenharia de Software, abrangendo tópicos como DevOps, Agile, aspectos humanos do desenvolvimento de software, Aprendizado de Máquina e Software Livre.
 

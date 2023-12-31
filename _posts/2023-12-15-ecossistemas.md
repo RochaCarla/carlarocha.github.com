@@ -11,7 +11,6 @@ resume: Projeto em colaboração com a Secretaria Nacional de Participação Soc
 permalink: /projects/ecossistemas
 ---
 
-## O que é o projeto
 
 O Brasil Participativo é um software de código aberto adaptado da plataforma de participação eletrônica Decidim, originada da prefeitura de Barcelona em 2016. A plataforma Decidim oferece vários espaços interativos, como iniciativas, assembleias e consultas, permitindo diferentes formas de engajamento, incluindo enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.
 
