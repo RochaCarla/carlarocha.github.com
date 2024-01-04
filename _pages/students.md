@@ -1,11 +1,26 @@
 ---
 layout: single
-title: Orientações
+title: Oportunidade
 permalink: /students/
 author_profile: true
 ---
 
 Estou sempre em busca de indivíduos talentosos interessados em fazer parte do meu grupo de pesquisa, em diferentes níveis acadêmicos: desde estudantes de graduação (para programas de iniciação científica e projetos de pesquisa) até candidatos a mestrado e doutorado. Além disso, estou procurando por bolsistas para integrarem nossos projetos.
+
+## Oportunidade 2024.1
+
+Temos algumas oportunidades de bolsa de pesquisa no LAPPIS. Alguns perfis que precisamos no momento
+
+- *Ciência de dados* - limpeza de dados, geração automatizada de relatório (pdf,html)
+- *Engenharia de dados* - criação de Dags no airflow, automação de processamento de dados
+- *Contribuição de Software Livre Decidim* - Ruby on rails, criação de módulos.
+- *Contribuição de Software livre python*
+- *Front-end* - HTML, CSS, Javascript
+- *Pesquisa* - escrita de artigo científico
+- *Jornalista* 
+- *Designer*
+
+Caso tenha interesse faça submeta seu [CV Aqui!](https://forms.gle/kwfZ42vCo2xd3gXR8)
 
 ## Alunos Atuais
 
