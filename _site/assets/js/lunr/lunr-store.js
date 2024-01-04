@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Segmentaion and region-based registration applied to 3D raw point clouds  - Application to Cultural Heritage (Doutorado)",
+        "excerpt":"A geometria tridimensional, ou 3D, tem ganhado crescente popularidade como a nova forma de conteúdo de mídia digital, resultando em um aumento significativo de projetos para obter representações detalhadas em 3D de objetos do patrimônio cultural em museus e escavações arqueológicas. Os objetivos por trás da obtenção de modelos digitais...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/projects/doutorado",
+        "teaser": null
+      },{
         "title": "Chatbot para Orientar a Submissão de Propostas de Incentivo à Cultura - Ministério da Cultura (2017-2019)",
         "excerpt":"Neste projeto, desenvolvemos um dos primeiros chatbots para o governo brasileiro. Criamos uma solução de chatbot de código aberto, com mais de 70 intenções para responder sobre a Lei de Incentivo à Cultura, orientando agentes culturais na proposição de seus projetos. Resultados Obtidos Inovamos na arquitetura do chatbot, pipeline de...","categories": [],
         "tags": [],
