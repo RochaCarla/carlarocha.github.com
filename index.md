@@ -13,4 +13,4 @@ Atualmente, coordeno um projeto colaborativo com a Secretaria Nacional de Partic
 
 Se você busca orientação acadêmica, tem interesses semelhantes ou procura colaborações em projetos inovadores, estou aberta a novas parcerias. Entre em contato comigo em caguiar<span style="display:none">ignorethis</span>@unb.br.
 
-
+<img src="/images/logo-lappis.png" alt="LAPPIS " style="height: 300px;" /> <img src="/images/boss.png" alt="LAPPIS " style="height: 300px;" />
