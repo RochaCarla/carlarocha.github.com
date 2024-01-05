@@ -11,7 +11,7 @@ var store = [{
         "url": "http://localhost:4000/projects/minc",
         "teaser": null
       },{
-        "title": "ARTE E TECNOCIÊNCIA e REENGENHARIA DA VIDA - Sistemas Enativos Afetivos em Bioarte e Softwares Sociais como Inovação Tecnológica",
+        "title": "ARTE E TECNOCIÊNCIA e REENGENHARIA DA VIDA - Sistemas Enativos Afetivos em Bioarte e Softwares Sociais como Inovação Tecnológica - MIT (2014)",
         "excerpt":"O Ambiente Virtual Automatizado de Caverna (CAVE) possui aplicações importantes na engenharia biomédica, artes corporais, design de produtos e outros campos. O Laboratório de Realidade Aumentada e Tecnologia (LART) desenvolve pesquisas sobre CAVEs aplicados à visualização científica, liderado pela Prof. Dra. Carla Rocha, da Engenharia de Software, e pelo Prof....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/mit",
