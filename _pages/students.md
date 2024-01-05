@@ -16,9 +16,12 @@ Temos algumas oportunidades de bolsa de pesquisa no LAPPIS. Alguns perfis que pr
 - *Contribuição de Software Livre Decidim* - Ruby on rails, criação de módulos.
 - *Contribuição de Software livre python*
 - *Front-end* - HTML, CSS, Javascript
-- *Pesquisa* - escrita de artigo científico
+- *Pesquisa* - escrita de artigos científicos
 - *Jornalista* 
 - *Designer*
+- *DevOps*
+
+**Vaga: tanto para pessoas graduandas quanto recebem formadas.**
 
 Caso tenha interesse faça submeta seu [CV Aqui!](https://forms.gle/kwfZ42vCo2xd3gXR8)
 
