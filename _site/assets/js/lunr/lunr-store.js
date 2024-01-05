@@ -11,6 +11,12 @@ var store = [{
         "url": "http://localhost:4000/projects/minc",
         "teaser": null
       },{
+        "title": "ARTE E TECNOCIÊNCIA e REENGENHARIA DA VIDA - Sistemas Enativos Afetivos em Bioarte e Softwares Sociais como Inovação Tecnológica",
+        "excerpt":"O Ambiente Virtual Automatizado de Caverna (CAVE) possui aplicações importantes na engenharia biomédica, artes corporais, design de produtos e outros campos. O Laboratório de Realidade Aumentada e Tecnologia (LART) desenvolve pesquisas sobre CAVEs aplicados à visualização científica, liderado pela Prof. Dra. Carla Rocha, da Engenharia de Software, e pelo Prof....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/projects/mit",
+        "teaser": null
+      },{
         "title": "Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell (2021)",
         "excerpt":"Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de...","categories": [],
         "tags": [],

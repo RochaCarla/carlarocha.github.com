@@ -5,9 +5,6 @@ permalink: /misc/
 author_profile: true
 ---
 
-
-
-
 1. Co-fundadora [BOSS](https://www.youtube.com/c/BigOpenSourceSibling)
 2. Co-apresentadora [Talk Like a BOSS - rodas de conversas](https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_) pela Big Open Source Sibling (BOSS)
 3. Co-apresentadora [Mini LAPPIS Conf](https://youtu.be/zynynEynpk8)
@@ -19,6 +16,7 @@ author_profile: true
 8. Comitê científico [CoVidas UnB Hackathon 2020](https://covidas-unb.github.io/InfoGerais/)
 9. Membro do Comitê de Gestão Estratégica de Campus Inteligente e Sustentável (CGECIS) da Universidade de Brasília
 10. Membro do Conselho Editorial da [Revista Darcy](https://revistadarcy.unb.br).
+11. Já fui coordenadora do curso de Engenharia de Software na UnB.
 
 ## Apresentações
 

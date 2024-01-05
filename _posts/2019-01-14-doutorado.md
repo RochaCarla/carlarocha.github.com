@@ -21,6 +21,10 @@ Essa estratégia é atraente porque, ao desviar a atenção de todo o conjunto d
 
 <img src="/images/registro3d.png" alt="Arquitetura " style="height: 500px;" />
 
+
+## Monografia
+Além dos artigos da pesquisa, você consegue ler a monografia completa do meu doutorado [aqui!](/assets/docs/manuscript_complet.pdf) 
+
 ## Financiamento
 
 Finalizado
