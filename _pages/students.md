@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Oportunidade
+title: Oportunidades
 permalink: /students/
 author_profile: true
 ---
