@@ -11,19 +11,25 @@ var store = [{
         "url": "http://localhost:4000/projects/minc",
         "teaser": null
       },{
-        "title": "ARTE E TECNOCIÊNCIA e REENGENHARIA DA VIDA - Sistemas Enativos Afetivos em Bioarte e Softwares Sociais como Inovação Tecnológica - MIT (2014)",
+        "title": "ARTE E TECNOCIÊNCIA e REENGENHARIA DA VIDA - Sistemas Enativos Afetivos em Bioarte e Softwares Sociais como Inovação Tecnológica - MIT (2014 - Finalizado)",
         "excerpt":"O Ambiente Virtual Automatizado de Caverna (CAVE) possui aplicações importantes na engenharia biomédica, artes corporais, design de produtos e outros campos. O Laboratório de Realidade Aumentada e Tecnologia (LART) desenvolve pesquisas sobre CAVEs aplicados à visualização científica, liderado pela Prof. Dra. Carla Rocha, da Engenharia de Software, e pelo Prof....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/mit",
         "teaser": null
       },{
-        "title": "Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell (2021)",
+        "title": "MAVI - Aplicativo de rota de ônibus (2023 - Finalizado)",
+        "excerpt":"O objetivo desta colaboração é desenvolver uma Prova de Conceito (PoC) de um aplicativo multiplataforma para pesquisa de trajetos de ônibus da frota Inova, visando atender às necessidades especiais dos usuários em termos de acessibilidade. O foco principal é fornecer uma experiência de viagem segura e conveniente para todos os...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/projects/mavi",
+        "teaser": null
+      },{
+        "title": "Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell (2021 - Finalizado)",
         "excerpt":"Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/ml",
         "teaser": null
       },{
-        "title": "Pacote Hygia OSS Python (2023)",
+        "title": "Pacote Hygia OSS Python (2023 - Finalizado)",
         "excerpt":"Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/hygia",
@@ -41,7 +47,7 @@ var store = [{
         "url": "http://localhost:4000/projects/fap",
         "teaser": null
       },{
-        "title": "E-book \"Como Acelerar o Aprendizado e Disseminar a Cultura de Inovação Ágil\"",
+        "title": "E-book \"Contribuindo com Software Livre\" (Em Andamento)",
         "excerpt":"Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/e-book",
