@@ -7,25 +7,30 @@ author_profile: true
 
 Estou sempre em busca de indivíduos talentosos interessados em fazer parte do meu grupo de pesquisa, em diferentes níveis acadêmicos: desde estudantes de graduação (para programas de iniciação científica e projetos de pesquisa) até candidatos a mestrado e doutorado. Além disso, estou procurando por bolsistas para integrarem nossos projetos.
 
-## Oportunidade 2024.1
+## Oportunidade de Bolsa de Pesquisa no LAPPIS!2024.1
 
-Temos algumas oportunidades de bolsa de pesquisa no LAPPIS. Alguns perfis que precisamos no momento
 
-- *Ciência de dados* - limpeza de dados, geração automatizada de relatório (pdf,html)
-- *Engenharia de dados* - criação de Dags no airflow, automação de processamento de dados
-- *Contribuição de Software Livre Decidim* - Ruby on rails, criação de módulos.
-- *Contribuição de Software livre python*
-- *Front-end* - HTML, CSS, Javascript
-- *Pesquisa* - escrita de artigos científicos
-- *Jornalista* 
-- *Designer*
-- *DevOps*
+O LAPPIS está oferecendo oportunidades de bolsa para diversas áreas de atuação. Atualmente, buscamos perfis profissionais específicos para contribuir com nossos projetos inovadores (veja sobre os projetos em andamento na aba Pesquisa). Se você possui habilidades ou experiência em alguma das áreas mencionadas abaixo, esta pode ser a sua chance de se juntar a nós:
 
-**Vaga: tanto para pessoas graduandas quanto recebem formadas.**
+- **Ciência de Dados** - Expertise em limpeza de dados e geração automatizada de relatórios (pdf, html).
+- **Engenharia de Dados** - Capacidade na criação de Dags no Airflow e automação de processamento de dados.
+- **Contribuição para o Software Livre Decidim** - Conhecimento em Ruby on Rails e criação de módulos para esta plataforma.
+- **Contribuição para Software Livre em Python** - Proficiência em Python e interesse em contribuir para projetos de código aberto.
+- **Desenvolvimento Front-end** - Habilidades em HTML, CSS e Javascript para criar interfaces atrativas e funcionais.
+- **Pesquisa** - Capacidade na redação de artigos científicos embasados e relevantes.
+- **Jornalismo** - Experiência ou formação na área jornalística para comunicação e divulgação dos projetos.
+- **Design** - Habilidades criativas e técnicas para contribuir com o design de interfaces e materiais gráficos.
+- **DevOps** - Conhecimento em práticas de DevOps para otimização e implementação de processos.
 
-Caso tenha interesse faça submeta seu [CV Aqui!](https://forms.gle/kwfZ42vCo2xd3gXR8)
+**Vagas disponíveis para graduandos e recém-formados.**
+
+Se você se encaixa em alguma dessas áreas e tem interesse em fazer parte da equipe do LAPPIS, não perca tempo e submeta seu currículo através deste [link](https://forms.gle/kwfZ42vCo2xd3gXR8)!
+
+Junte-se a nós para contribuir com projetos inovadores e fazer parte de uma comunidade de pesquisa e desenvolvimento de software livre. Estamos ansiosos para conhecer você e suas habilidades!
 
 ## Alunos Atuais
+
+Os alunos que oriento atualmente em pesquisa são:
 
 - Isaque Alves (Doutorado)
 - Ivon Miranda Santos (Mestrado)
@@ -36,9 +41,14 @@ Caso tenha interesse faça submeta seu [CV Aqui!](https://forms.gle/kwfZ42vCo2xd
 - Marcos Nery Borges Júnior (Graduação)
 - Você?
 
+Os bolsistas dos projetos de pesquisa não estão listados aqui, e sim nos repositório de cada projeto.
+
 ## Ex-alunos
 
+Alguns alunos que orientei:
+
 - Tiago Vidigal (Mestrado)
+- Gabriel Filipe Manso Araujo (Graduação)
 - Giovana Vitor Dionísio (Graduação)
 - Hérya Rodrigues (Graduação)
 - Youssef Muhamad Yacoub Falaneh (Graduação)
