@@ -7,8 +7,7 @@ author_profile: true
 
 Estou sempre em busca de indivíduos talentosos interessados em fazer parte do meu grupo de pesquisa, em diferentes níveis acadêmicos: desde estudantes de graduação (para programas de iniciação científica e projetos de pesquisa) até candidatos a mestrado e doutorado. Além disso, estou procurando por bolsistas para integrarem nossos projetos.
 
-## Oportunidade de Bolsa de Pesquisa no LAPPIS!2024.1
-
+## Oportunidade de Bolsa de Pesquisa no LAPPIS - 2024.1
 
 O LAPPIS está oferecendo oportunidades de bolsa para diversas áreas de atuação. Atualmente, buscamos perfis profissionais específicos para contribuir com nossos projetos inovadores (veja sobre os projetos em andamento na aba Pesquisa). Se você possui habilidades ou experiência em alguma das áreas mencionadas abaixo, esta pode ser a sua chance de se juntar a nós:
 
