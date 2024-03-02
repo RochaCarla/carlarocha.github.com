@@ -2,28 +2,45 @@
    ANIMATIONS
    ========================================================================== */
 
-@-webkit-keyframes intro {
-  0% {
-    opacity: 0;
+   @keyframes intro {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
-  100% {
-    opacity: 1;
+  .element {
+    animation: intro 0.5s ease-out forwards;
   }
-}
-
-@keyframes intro {
-  0% {
-    opacity: 0;
+  
+  a {
+    position: relative;
+    transition: color 0.3s ease;
+    color: #000;
   }
-  100% {
-    opacity: 1;
+  
+  a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    transition: width 0.3s ease;
   }
-}
-
-a {
-  display: inline-block; /* Ensures the link area can be transformed */
- 
-}
+  
+  a:hover::after {
+    width: 100%;
+  }
+  
+  a:hover {
+    color: #0092ca; /* Slightly darken the link color on hover */
+  }
+  
 
 .list__item {
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a transição */
@@ -34,7 +51,6 @@ a {
   transform: translateY(-5px); /* Levanta ligeiramente a div */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada para destacar */
 }
-
 
 
 

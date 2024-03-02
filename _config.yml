@@ -14,13 +14,17 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.19.2"
 #minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
       
-minimal_mistakes_skin    : "air" 
-font_family: "Arial, sans-serif"  # Especifique a família da fonte desejada
-font_size: "14px"  # Altere para o tamanho de fonte desejado
-line_height: 1.4 
-accent_color: "#3498db"
-secondary_color: "#2c3e50"
-background_color: "#3498db"
+minimal_mistakes_skin: "air"
+font:
+  family: "Georgia, serif"  # Elegant serif font for a more refined look
+  size: "18px"  # Larger font size for a more luxurious feel
+  line_height: 1.6  # Slightly increased line height for better readability
+colors:
+  text: "#333333"  # Dark text color for good contrast
+  accent: "#990000"  # Rich red accent color for sophistication
+  secondary: "#666666"  # Subdued gray secondary color
+  background: "#f8f8f8"  # Light background color for a clean look
+
 
 # Site Settings
 locale                   : "pt-BR"
