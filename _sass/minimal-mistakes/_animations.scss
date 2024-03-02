@@ -25,12 +25,17 @@ a {
  
 }
 
-a:hover {
-  color: #3b9cba; /* Change the color when hovered */
-  transition: color 0.3s ease; /* Smooth transition effect */
-  transform: scale(1.01); /* Scale the link on hover (adjust the scale value as needed) */
-  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+.list__item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a transição */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra inicial */
 }
+
+.list__item:hover {
+  transform: translateY(-5px); /* Levanta ligeiramente a div */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada para destacar */
+}
+
+
 
 
 .thumbnail {

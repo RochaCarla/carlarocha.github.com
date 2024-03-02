@@ -41,13 +41,7 @@ var store = [{
         "url": "http://localhost:4000/projects/traducao",
         "teaser": null
       },{
-        "title": "Educação em saúde e triagem precoce de câncer de pele - data fabric e machine learning em saúde (2024 - em andamento)",
-        "excerpt":"O câncer de pele é o mais frequente no Brasil e corresponde a cerca de 30% de todos os tumores malignos registrados no país. Apresenta altos percentuais de cura, se for detectado e tratado precocemente. O diagnóstico precoce é considerado como a melhor estratégia para a detecção precoce do câncer....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/projects/fap",
-        "teaser": null
-      },{
-        "title": "E-book \"Contribuindo com Software Livre\" (Em Andamento)",
+        "title": "E-book \"Contribuindo com Software Livre\" (em andamento)",
         "excerpt":"Estou escrevendo um livro!!! Coloco aqui em projetos, pois a escrita de um livro é um super projeto em si. A ideia desse livro veio de anos de experiência aplicando técnicas de aprendizagem por experiência, mentoria, onboarding em comunidades de software livre e desenvolvimento de software. A metodologia foi refinada...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/projects/e-book",
