@@ -16,5 +16,7 @@ Se você busca orientação acadêmica, tem interesses semelhantes ou procura co
     <img src="/images/logo-lappis.png" alt="LAPPIS" style="height: 200px; margin-right: 10px;" />
     <img src="/images/boss.png" alt="LAPPIS" style="height: 200px; margin-right: 10px;" />
     <img src="/images/BadgesPhaseThreeWinner.png" alt="gnome" style="height: 200px; margin-right: 10px;" />
-    <img src="/images/BrasilParticipativo.png" alt="BrasilParticipativo" style="height: 130px; margin-right: 10px;" />
+    <img src="/images/BrasilParticipativo.png" alt="BrasilParticipativo" style="height: 120px; margin-right: 10px;" />
+    <img src="/images/unb.png" alt="unb-logomarca" style="height: 120px; margin-right: 10px;" />
+    
 </div>
