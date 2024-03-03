@@ -108,7 +108,7 @@ author:
   name             : "Carla Rocha, PhD"
   avatar           : "/lost+found/ghlp4.png"
   bio              : "Professora e Pesquisadora em Engenharia de Software na Universidade de Brasília (UnB). Interesses: Diversidade, desenvolvimento ágil, adoção de DevOps, MLOps, comunidade de código aberto, ensino orientado a projetos. "
-  location         : "Universidade  de Brasília,  Brasil"
+  location         : "UnB,  Brasil"
   email            : "caguiar@unb.br"
   links:
     - label: "Website"
@@ -126,6 +126,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/carla-rocha-a4287a19/"
 
 # Site Footer
 footer:
@@ -148,6 +151,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/carla-rocha-a4287a19/"
 favicon: /favicon.ico
 
 # Reading Files
