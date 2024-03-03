@@ -9,7 +9,7 @@ Sou membro ativo do grupo de pesquisa em [Sistemas de Software, Ciência e Engen
 
 Estou atualmente matriculado no programa de mestrado profissionalizante [PPCA](https://ppca.unb.br) na Universidade de Brasília (UnB).
 
-Além disso, atuo como coordenadora do laboratório de pesquisa aplicada [LAPPIS](https://lappis-unb.gitlab.io), um espaço de referência na UnB para estudos e pesquisas em áreas tecnológicas de vanguarda.
+Além disso, atuo como coordenadora do laboratório de pesquisa aplicada [LAPPIS](https://www.lappis.rocks), um espaço de referência na UnB para estudos e pesquisas em áreas tecnológicas de vanguarda.
 
 
 
