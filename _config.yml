@@ -95,13 +95,6 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: https://rochacarla.github.io/carlarocha.github.com/
 
-# Analytics
-analytics:
-  provider               : "google"
-  google:
-    tracking_id          : "UA-465334-5"
-    anonymize_ip         : # true, false (default)
-
 
 # Site Author
 author:
