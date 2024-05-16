@@ -18,7 +18,7 @@ Os cursos estão disponíveis nos links abaixo.
 ## 2024.1
 1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)  
 1. [Projeto Integrador 2](https://pi2.lappis.rocks)
-1. [Mestrado - Arquitetura De Software](/teaching/planoEnsinoarquitetura)  
+1. [Mestrado - Arquitetura De Software](/teaching/mds2)  
 
 
 ## 2023.1

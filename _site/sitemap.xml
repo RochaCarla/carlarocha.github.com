@@ -56,6 +56,9 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/_pages/arquitetura/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/collection-archive/</loc>
 </url>
 <url>
@@ -68,10 +71,16 @@
 <loc>http://localhost:4000/teaching/mds</loc>
 </url>
 <url>
+<loc>http://localhost:4000/teaching/mds2</loc>
+</url>
+<url>
 <loc>http://localhost:4000/misc/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/_pages/planoEnsinoarquitetura/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/projects/</loc>

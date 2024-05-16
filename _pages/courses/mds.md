@@ -10,7 +10,6 @@ permalink: /teaching/mds
 Terças e quintas, às 10h:00m presencial
 
 
-
 ## Objetivo
 
 Propiciar ao discente uma visão sobre diversos modelos de processo de desenvolvimento de software, com uma abordagem orientada a projetos.
