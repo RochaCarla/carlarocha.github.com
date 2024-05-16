@@ -1,8 +1,8 @@
 ---
 layout: single
 author_profile: true
-title: Métodos de Desenvolvimento de Software
-permalink: /teaching/mds
+title: Disciplina: Arquitetura de Software
+permalink: /teaching/planoEnsinoarquitetura
 ---
 
 # Disciplina: Arquitetura de Software
@@ -102,6 +102,8 @@ A cada aula, uma pessoa/dupla vai fazer um seminário na segunda metade da aula.
 - Coreografia de serviços - https://www.ime.usp.br/~kon/papers/Choreographies-ConcurrencyAndComputation2020.pdf
 
 - Slides, material de apoio enviados por email
+
+
 
 
 **Método de Avaliação:**
