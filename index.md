@@ -7,7 +7,11 @@ permalink: /
 
 ![Equipe](/images/lab.png)
 
-Sou professora na [Faculdade de Engenharia de Software](http://fga.unb.br) da [Universidade de Brasília (UnB)](http://www.unb.br/), onde atuo como uma das coordenadoras do laboratório [LAPPIS](https://www.lappis.rocks). Em 2024, somos organização participante do programa [Google Summer of Code](https://summerofcode.withgoogle.com/programs/2024/organizations/lappis). Participo também do grupo de pesquisa com [IME-USP](https://dgp.cnpq.br/dgp/espelhogrupo/633486) Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho, e faço parte do mestrado acadêmico [PPCA](http://PPCA.unb.br). Meus interesses acadêmicos se concentram na área de Engenharia de Software, abrangendo tópicos como DevOps, Agile, aspectos humanos do desenvolvimento de software, Aprendizado de Máquina e Software Livre.
+Olá! Sou professora na [Faculdade de Engenharia de Software](http://fga.unb.br) da [Universidade de Brasília (UnB)](http://www.unb.br/) e uma das coordenadoras do laboratório [LAPPIS](https://www.lappis.rocks). Atualmente, além de ministrar disciplinas, coordeno diversos projetos de pesquisa aplicada em práticas de desenvolvimento de software ágil, DevOps, aspectos humanos do desenvolvimento de software e produtos de machine learning. Todos os projetos ativos, e finalizados que estou envolvida estão por aqui. Além disso, todo o software que desenvolvemos no laboratório (e desenvolvemos muito!) é software livre. Fique à vontade para explorar e contribuir :)
+
+Também participo do grupo de pesquisa em Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho do [IME-USP](https://dgp.cnpq.br/dgp/espelhogrupo/633486) e faço parte do mestrado acadêmico [PPCA](http://PPCA.unb.br).
+
+Em 2024, fomos selecionados como organização participante do programa [Google Summer of Code](https://summerofcode.withgoogle.com/programs/2024/organizations/lappis)!
 
 Se você busca orientação acadêmica, tem interesses semelhantes ou procura colaborações em projetos inovadores, estou aberta a novas parcerias. Entre em contato comigo em caguiar<span style="display:none">ignorethis</span>@unb.br.
 
