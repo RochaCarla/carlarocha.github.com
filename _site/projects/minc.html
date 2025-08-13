@@ -436,34 +436,32 @@
         <style>
 .footer-enhanced {
   background: #f8f9fa;
-  border-top: 3px solid #003366;
-  padding: 2rem 0 1rem 0;
-  margin-top: 3rem;
+  border-top: 1px solid #dee2e6;
+  padding: 1.5rem 0 0.8rem 0;
+  margin-top: 2rem;
 }
 
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 300px;
-  gap: 2rem;
-  align-items: start;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .footer-sitemap {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
 }
 
 .footer-sitemap h4 {
   color: #003366;
-  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
-  border-bottom: 2px solid #006633;
-  padding-bottom: 0.3rem;
 }
 
 .footer-sitemap ul {
@@ -479,7 +477,7 @@
 .footer-sitemap a {
   color: #6c757d;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: color 0.2s ease;
 }
 
@@ -488,33 +486,30 @@
 }
 
 .footer-social {
-  text-align: center;
+  flex: 1;
 }
 
 .footer-social h4 {
   color: #003366;
-  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  margin-bottom: 1rem;
 }
 
 .social-icons {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
 }
 
 .social-icons li {
-  margin: 0;
+  margin-bottom: 0.3rem;
 }
 
 .social-icons a {
   color: #6c757d;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   transition: color 0.2s ease;
 }
 
@@ -523,6 +518,7 @@
 }
 
 .footer-unb {
+  flex: 1;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -546,7 +542,7 @@
 }
 
 .footer-logo-item img {
-  height: 40px;
+  height: 50px;
   width: auto;
   transition: transform 0.2s ease;
 }
@@ -556,8 +552,8 @@
 }
 
 .footer-logo-text {
-  font-size: 0.85rem;
-  line-height: 1.3;
+  font-size: 0.8rem;
+  line-height: 1.2;
   color: #6c757d;
 }
 
@@ -569,14 +565,13 @@
 }
 
 .footer-copyright {
-  grid-column: 1 / -1;
   text-align: center;
-  padding-top: 1.5rem;
-  margin-top: 1.5rem;
+  padding-top: 0.8rem;
+  margin-top: 0.8rem;
   border-top: 1px solid #dee2e6;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: #6c757d;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 @media (max-width: 768px) {
