@@ -4,8 +4,8 @@ title: false
 author_profile: false
 permalink: /
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#003366"
+  overlay_filter: "0.3"
   overlay_image: /images/lab.png
   actions:
     - label: "📧 Contato"
@@ -17,11 +17,13 @@ header:
 ---
 
 <style>
-/* Modern CSS Variables */
+/* UnB Official Colors CSS Variables */
 :root {
-  --primary-color: #667eea;
-  --secondary-color: #764ba2;
-  --accent-color: #f093fb;
+  --unb-blue: #003366;
+  --unb-green: #006633;
+  --primary-color: #003366;
+  --secondary-color: #006633;
+  --accent-color: #004d99;
   --text-dark: #2c3e50;
   --text-light: #6c757d;
   --bg-light: #f8f9fa;
@@ -29,16 +31,31 @@ header:
   --shadow-hover: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-/* Hero Section */
+/* Formal Hero Section with Highlighted Photo */
 .hero-section {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
+  background: linear-gradient(rgba(0,51,102,0.85), rgba(0,51,102,0.85)), url('/images/lab.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
-  padding: 4rem 2rem;
-  border-radius: 20px;
-  margin: -2rem -1rem 3rem -1rem;
+  padding: 3rem 2rem;
+  border-radius: 0;
+  margin: -2rem -1rem 2rem -1rem;
   position: relative;
-  overflow: hidden;
-  box-shadow: var(--shadow);
+  border-left: 6px solid var(--unb-green);
+  box-shadow: 0 4px 20px rgba(0,51,102,0.15);
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  background: var(--unb-green);
+  opacity: 0.15;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
 }
 
 .hero-section::before {
@@ -48,13 +65,8 @@ header:
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
-  animation: float 20s ease-in-out infinite;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-10px) rotate(1deg); }
+  background: radial-gradient(circle at 70% 30%, transparent 30%, rgba(0,51,102,0.3) 70%);
+  pointer-events: none;
 }
 
 .hero-content {
@@ -62,125 +74,113 @@ header:
   z-index: 2;
   max-width: 800px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  background: linear-gradient(45deg, #fff, #f0f8ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: glow 2s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from { text-shadow: 0 0 10px rgba(255,255,255,0.5); }
-  to { text-shadow: 0 0 20px rgba(255,255,255,0.8), 0 0 30px rgba(255,255,255,0.4); }
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-  opacity: 0.9;
-  line-height: 1.6;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 .hero-cta {
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .cta-button {
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 50px;
-  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .cta-primary {
-  background: rgba(255,255,255,0.2);
+  background: transparent;
   color: white;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255,255,255,0.3);
 }
 
 .cta-primary:hover {
-  background: rgba(255,255,255,0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  background: white;
+  color: var(--unb-blue);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255,255,255,0.2);
 }
 
 /* Feature Cards */
 .features-section {
-  margin: 4rem 0;
+  margin: 2.5rem 0;
 }
 
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .feature-card {
   background: white;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,51,102,0.08);
   transition: all 0.3s ease;
   position: relative;
-  overflow: hidden;
   border: 1px solid #e9ecef;
+  border-left: 4px solid var(--unb-blue);
 }
 
-.feature-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+.feature-card:nth-child(even) {
+  border-left-color: var(--unb-green);
 }
 
 .feature-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: var(--shadow-hover);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0,51,102,0.12);
+  border-left-width: 6px;
 }
 
 .feature-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  display: block;
+  display: none;
 }
 
 .feature-title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--text-dark);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .feature-description {
   color: var(--text-light);
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .feature-link {
-  color: var(--primary-color);
+  color: var(--unb-blue);
   text-decoration: none;
   font-weight: 600;
   display: inline-flex;
@@ -190,31 +190,43 @@ header:
 }
 
 .feature-link:hover {
-  color: var(--secondary-color);
+  color: var(--unb-green);
   transform: translateX(5px);
 }
 
 /* Stats Section */
 .stats-section {
-  background: linear-gradient(135deg, var(--bg-light) 0%, #e9ecef 100%);
-  padding: 3rem 2rem;
-  border-radius: 16px;
-  margin: 3rem 0;
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 4px;
+  margin: 2rem 0;
   text-align: center;
+  border: 1px solid #dee2e6;
+  position: relative;
+}
+
+.stats-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--unb-blue);
 }
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .stat-item {
   background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
 }
 
@@ -225,13 +237,14 @@ header:
 
 .stat-number {
   font-size: 2.5rem;
-  font-weight: bold;
-  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: 700;
+  color: var(--unb-blue);
   display: block;
   margin-bottom: 0.5rem;
+}
+
+.stat-item:nth-child(even) .stat-number {
+  color: var(--unb-green);
 }
 
 .stat-label {
@@ -241,23 +254,23 @@ header:
 
 /* Partners Section */
 .partners-section {
-  margin: 4rem 0;
+  margin: 2.5rem 0;
   text-align: center;
 }
 
 .partners-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
   align-items: center;
 }
 
 .partner-logo {
   background: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
@@ -275,14 +288,27 @@ header:
   object-fit: contain;
 }
 
-/* Contact Section */
+/* Formal Contact Section */
 .contact-section {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  background: var(--unb-green);
   color: white;
-  padding: 3rem 2rem;
-  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  border-radius: 4px;
   text-align: center;
-  margin: 3rem 0;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 100%;
+  background: var(--unb-blue);
+  opacity: 0.15;
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .contact-section h3 {
@@ -293,12 +319,16 @@ header:
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-section {
-    padding: 3rem 1.5rem;
-    margin: -1rem -0.5rem 2rem -0.5rem;
+    padding: 2rem 1.5rem;
+    margin: -1rem -0.5rem 1.5rem -0.5rem;
+  }
+  
+  .hero-content {
+    text-align: center;
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   
   .hero-subtitle {
@@ -306,18 +336,17 @@ header:
   }
   
   .hero-cta {
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
   
   .features-grid {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
   }
   
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 0.8rem;
   }
   
   .partners-grid {
@@ -335,7 +364,7 @@ header:
   }
   
   .feature-card, .stat-item {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 }
 </style>
@@ -344,7 +373,7 @@ header:
   <div class="hero-content">
     <h1 class="hero-title">Bem-vindas e Bem-vindos! 👋</h1>
     <p class="hero-subtitle">
-      Professora na <strong>Faculdade de Engenharia de Software (UnB)</strong> e coordenadora do laboratório <strong>LAPPIS</strong>. 
+      Professora na <strong>Faculdade de Engenharia de Software (UnB)</strong> e coordenadora do laboratório <strong>Lab Livre</strong>. 
       Especialista em desenvolvimento ágil, DevOps, aspectos humanos do software e machine learning.
     </p>
     <div class="hero-cta">
@@ -359,11 +388,10 @@ header:
 </div>
 
 <section class="features-section">
-  <h2 style="text-align: center; margin-bottom: 3rem; color: var(--text-dark);">🚀 Áreas de Atuação</h2>
+  <h2 style="text-align: center; margin-bottom: 2rem; color: var(--unb-blue); font-weight: 600; font-size: 1.8rem;">Áreas de Atuação</h2>
   
   <div class="features-grid">
     <div class="feature-card">
-      <span class="feature-icon">🔬</span>
       <h3 class="feature-title">Pesquisa Aplicada</h3>
       <p class="feature-description">
         Coordeno diversos projetos de pesquisa aplicada em práticas de desenvolvimento de software ágil, 
@@ -375,7 +403,6 @@ header:
     </div>
     
     <div class="feature-card">
-      <span class="feature-icon">🤖</span>
       <h3 class="feature-title">Machine Learning</h3>
       <p class="feature-description">
         Desenvolvimento de produtos de machine learning e pesquisa em ciência de dados 
@@ -387,19 +414,17 @@ header:
     </div>
     
     <div class="feature-card">
-      <span class="feature-icon">💻</span>
       <h3 class="feature-title">Software Livre</h3>
       <p class="feature-description">
         Todo o software desenvolvido no laboratório é software livre. 
         Promovemos colaboração aberta e compartilhamento de conhecimento.
       </p>
       <a href="https://www.lappis.rocks" class="feature-link">
-        LAPPIS →
+        Lab Livre →
       </a>
     </div>
     
     <div class="feature-card">
-      <span class="feature-icon">🎓</span>
       <h3 class="feature-title">Orientação Acadêmica</h3>
       <p class="feature-description">
         Supervisiono bolsas de pesquisa e participo do mestrado acadêmico PPCA. 
@@ -413,7 +438,7 @@ header:
 </section>
 
 <section class="stats-section">
-  <h3>📊 Impacto e Números</h3>
+  <h3 style="color: var(--unb-blue); font-weight: 600;">Impacto e Números</h3>
   <div class="stats-grid">
     <div class="stat-item">
       <span class="stat-number">70+</span>
@@ -435,7 +460,7 @@ header:
 </section>
 
 <section class="partners-section">
-  <h3 style="color: var(--text-dark); margin-bottom: 2rem;">🤝 Parcerias e Reconhecimentos</h3>
+  <h3 style="color: var(--unb-blue); margin-bottom: 2rem; font-weight: 600;">Parcerias e Reconhecimentos</h3>
   <div class="partners-grid">
     <div class="partner-logo">
       <img src="/images/gsoc.png" alt="Google Summer of Code" />
@@ -450,7 +475,7 @@ header:
       <img src="/images/BadgesPhaseThreeWinner.png" alt="GNOME" />
     </div>
     <div class="partner-logo">
-      <img src="/images/logo-lappis.png" alt="LAPPIS" />
+      <img src="/images/logo-lappis.png" alt="Lab Livre" />
     </div>
     <div class="partner-logo">
       <img src="/images/unb.png" alt="UnB" />
@@ -459,7 +484,7 @@ header:
 </section>
 
 <section class="contact-section">
-  <h3>💬 Vamos Colaborar?</h3>
+  <h3 style="font-weight: 600;">Vamos Colaborar?</h3>
   <p style="margin-bottom: 2rem; font-size: 1.1rem; opacity: 0.9;">
     Se você busca orientação acadêmica, tem interesses semelhantes ou procura colaborações 
     em projetos inovadores, estou aberta a novas parcerias!

@@ -5,31 +5,157 @@
   {% assign title = title | remove: "<p>" | remove: "</p>" %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px; padding: 20px; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); border-radius: 8px;">
-    <div class="archive-content" style="display: flex; align-items: center; gap: 20px; width: 100%;"> 
+<style>
+/* Responsive Project Cards */
+.responsive-project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+}
 
-      <div class="thumbnail" style="flex-shrink: 0;">
-          <img src="{{ post.figure | prepend: site.baseurl }}" alt="{{ post.title | strip_html }}" style="width: 200px; height: auto; border-radius: 5px;">
-        </div>
-      <div style="flex-grow: 1;">
-        <h2 class="archive__item-title" itemprop="headline" style="margin: 0; font-size: 24px;">
-          {% if post.link %}
-            <a href="{{ post.link }}" aria-label="{{ title | strip_html }}" style="color: #333; text-decoration: none;">{{ title }}</a>
-            <a href="{{ post.url | relative_url }}" rel="permalink" aria-label="Permanent link to {{ title | strip_html }}" style="color: #333; text-decoration: none;"><i class="fas fa-link" aria-hidden="true"></i><span class="sr-only">Permalink</span></a>
-          {% else %}
-            <a href="{{ post.url | relative_url }}" rel="permalink" aria-label="{{ title | strip_html }}" style="color: #333; text-decoration: none;">{{ title }}</a>
-          {% endif %}
-        </h2>
-        {% if post.read_time %}
-          <p class="page__meta" style="font-size: 14px;"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+.responsive-project-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.project-thumbnail {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.project-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.project-content {
+  flex-grow: 1;
+  min-width: 0; /* Allows text to wrap properly */
+}
+
+.project-title {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.project-title a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.project-title a:hover {
+  color: #667eea;
+}
+
+.project-meta {
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.project-excerpt {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .responsive-project-card {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .project-thumbnail {
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  .project-meta {
+    text-align: center;
+  }
+  
+  .project-excerpt {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-project-card {
+    padding: 12px;
+    gap: 12px;
+  }
+  
+  .project-title {
+    font-size: 1.1rem;
+  }
+  
+  .project-meta,
+  .project-excerpt {
+    font-size: 0.8rem;
+  }
+  
+  .project-thumbnail {
+    max-width: 250px;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 320px) {
+  .responsive-project-card {
+    padding: 10px;
+  }
+  
+  .project-title {
+    font-size: 1rem;
+  }
+  
+  .project-thumbnail {
+    max-width: 200px;
+  }
+}
+</style>
+
+<div class="{{ include.type | default: 'list' }}__item">
+  <article class="archive__item responsive-project-card" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="project-thumbnail">
+      <img src="{{ post.figure | prepend: site.baseurl }}" alt="{{ post.title | strip_html }}">
+    </div>
+    <div class="project-content">
+      <h2 class="archive__item-title project-title" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}" aria-label="{{ title | strip_html }}">{{ title }}</a>
+          <a href="{{ post.url | relative_url }}" rel="permalink" aria-label="Permanent link to {{ title | strip_html }}"><i class="fas fa-link" aria-hidden="true"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}" rel="permalink" aria-label="{{ title | strip_html }}">{{ title }}</a>
         {% endif %}
-        {% if post.resume %}
-          <p class="archive__item-excerpt" itemprop="description" style="font-size: 14px;">{{ post.resume | markdownify | strip_html | truncate: 500, "" }}</p>
-        {% elsif post.excerpt %}
-          <p class="archive__item-excerpt" itemprop="description" style="font-size: 14px;">{{ post.excerpt | markdownify | strip_html | truncate: 400, "" }}</p>
-        {% endif %}
-      </div>
+      </h2>
+      {% if post.read_time %}
+        <p class="page__meta project-meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
+      {% if post.resume %}
+        <p class="archive__item-excerpt project-excerpt" itemprop="description">{{ post.resume | markdownify | strip_html | truncate: 500, "" }}</p>
+      {% elsif post.excerpt %}
+        <p class="archive__item-excerpt project-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 400, "" }}</p>
+      {% endif %}
     </div>
   </article>
 </div>

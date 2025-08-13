@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Leitura - Carla Rocha</title>
+<!-- begin _includes/seo.html --><title>Leituras - Carla Rocha</title>
 <meta name="description" content="Professora e Pesquisadora em Engenharia de Software ">
 
 
@@ -19,8 +19,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Carla Rocha">
-<meta property="og:title" content="Leitura">
-<meta property="og:url" content="http://localhost:4000/reading/">
+<meta property="og:title" content="Leituras">
+<meta property="og:url" content="http://0.0.0.0:4000/reading/">
 
 
   <meta property="og:description" content="Professora e Pesquisadora em Engenharia de Software ">
@@ -30,9 +30,9 @@
 
 
   <meta name="twitter:site" content="@carlarocha">
-  <meta name="twitter:title" content="Leitura">
+  <meta name="twitter:title" content="Leituras">
   <meta name="twitter:description" content="Professora e Pesquisadora em Engenharia de Software ">
-  <meta name="twitter:url" content="http://localhost:4000/reading/">
+  <meta name="twitter:url" content="http://0.0.0.0:4000/reading/">
 
   
     <meta name="twitter:card" content="summary">
@@ -52,7 +52,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/reading/">
+<link rel="canonical" href="http://0.0.0.0:4000/reading/">
 
 
 
@@ -63,7 +63,7 @@
     
       "@type": "Person",
       "name": "Carla Rocha",
-      "url": "http://localhost:4000/",
+      "url": "http://0.0.0.0:4000/",
       "sameAs": "https://rochacarla.github.io/carlarocha.github.com/"
     
   }
@@ -308,7 +308,7 @@
   </div>
 
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Leitura">
+    <meta itemprop="headline" content="Leituras">
     
     
     
@@ -319,7 +319,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Leitura
+          <h1 id="page-title" class="page__title" itemprop="headline">Leituras
 </h1>
           
         </header>
@@ -327,62 +327,273 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Algumas sugestões, sem uma ordem específica (algumas delas retiradas de <a href="https://gustavopinto.org">https://gustavopinto.org</a>):</p>
+        <style>
+/* Reading Page Styling */
+.page-header {
+  background: linear-gradient(135deg, #003366 0%, #006633 100%);
+  color: white;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
-<h2 id="trabalho-de-conclusão-de-curso-tcc">Trabalho de Conclusão de Curso (TCC)</h2>
-<ol>
-  <li><a href="/assets/docs/TCC.pdf">Guia de Sobrevivência do TCC</a> por Carla Rocha</li>
-</ol>
+.page-header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
 
-<h2 id="leitura-obrigatória">Leitura Obrigatória</h2>
+.page-header p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
 
-<ol>
-  <li>
-    <p><a href="https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_">Talk like a BOSS - rodas de conversas</a> por Big Open Source Sibling (BOSS)</p>
-  </li>
-  <li>
-    <p><a href="https://www.slideshare.net/cameraculture/raskar-phd-and-ms-thesis-guidance?fbclid=IwAR1ECIl-T96IyK5X2BAIY3tm1nqP9fSaL9HN0oWWuYkw0mmQZ-5q1XYl0X4">Orientação para Tese de Doutorado e Mestrado</a> por Ramesh Raskar</p>
-  </li>
-  <li><a href="https://www.nature.com/articles/d41586-018-02404-4">Como escrever um artigo de primeira classe</a>, por Virginia Gewin</li>
-  <li><a href="https://homes.cs.washington.edu/~mernst/advice/">Conselhos para pesquisadores e estudantes</a>, por Michael Ernst</li>
-  <li><a href="http://matt.might.net/articles/grad-student-resolutions/">12 resoluções para estudantes de pós-graduação</a>, por Matt Might</li>
-  <li><a href="https://www.scielo.br/pdf/clin/v69n3/1807-5932-clin-69-03-153.pdf">Escrevendo artigos científicos como um falante nativo de inglês: dez melhores dicas para falantes de português</a>.</li>
-  <li><a href="https://ieeexplore.ieee.org/document/799955">Métodos qualitativos em estudos empíricos de engenharia de software</a></li>
-  <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914">Dez regras simples para laboratórios de pesquisa mais saudáveis</a></li>
-</ol>
+.reading-section {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-left: 6px solid #003366;
+  transition: all 0.2s ease;
+}
 
-<h2 id="escrita-de-artigos">Escrita de Artigos</h2>
+.reading-section:hover {
+  border-left-color: #006633;
+  box-shadow: 0 4px 12px rgba(0,102,51,0.1);
+}
 
-<ol>
-  <li><a href="https://users.ece.cmu.edu/~koopman/essays/abstract.html">Como Escrever um Resumo</a>, por Philip Koopman</li>
-  <li><a href="http://sarahnadi.org/writing-papers/">Escrevendo Artigos Acadêmicos</a>, por Sarah Nadi</li>
-  <li><a href="http://www.cis.famu.edu/~cen5055joe/Administrative/HowToWrite_ResearchPaper.pdf">Escrevendo Boas Pesquisas em Engenharia de Software</a>, por Mary Shaw</li>
-  <li><a href="https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper">Como escrever um ótimo artigo de pesquisa</a>, por Simon Peyton Jones</li>
-</ol>
+.reading-section h2 {
+  color: #003366;
+  margin-top: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
 
-<h2 id="apresentações">Apresentações</h2>
+.reading-section .icon {
+  font-size: 1.8rem;
+  color: #006633;
+}
 
-<ol>
-  <li><a href="https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk">Como fazer uma ótima apresentação de pesquisa</a>, por Simon Peyton Jones</li>
-  <li><a href="http://andreas-zeller.blogspot.com.br/2013/10/summarizing-your-presentation-with.html">Resumindo sua apresentação com mini slides</a>, por Andreas Zeller</li>
-</ol>
+.reading-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  counter-reset: reading-counter;
+}
 
-<h2 id="rejeições">Rejeições</h2>
+.reading-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin: 1rem 0;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  counter-increment: reading-counter;
+}
 
-<ol>
-  <li><a href="https://medium.com/@cfiesler/tenured-professor-rogers-talks-about-imposter-syndrome-229e0a546ac1">Professor Titular Rogers Fala Sobre: Síndrome do Impostor</a>, por Casey Fiesler</li>
-</ol>
+.reading-item::before {
+  content: counter(reading-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: #006633;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transform: translateX(-40px);
+  transition: transform 0.2s ease;
+}
 
-<h2 id="tópicos-gerais">Tópicos Gerais</h2>
+.reading-item:hover::before {
+  transform: translateX(0);
+}
 
-<ol>
-  <li>
-    <p><a href="https://medium.com/@lappisunbfga/what-i-wish-i-knew-before-starting-my-first-chatbot-project-66e5208f77dd">O que eu gostaria de saber antes de começar meu primeiro projeto de Chatbot</a> por Carla Rocha</p>
-  </li>
-  <li>
-    <p><a href="https://medium.com/@lappisunbfga/desafios-ensino-de-ti-em-tempo-de-pandemia-o-futuro-é-colaborativo-e7aa183bb3d7">Desafios do ensino de TI em tempos de pandemia — O Futuro é Colaborativo</a> por Carla Rocha</p>
-  </li>
-</ol>
+.reading-item:hover {
+  background: white;
+  border-color: #006633;
+  box-shadow: 0 2px 8px rgba(0,102,51,0.1);
+  padding-left: 3rem;
+}
+
+.reading-item a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.reading-item a:hover {
+  color: #006633;
+}
+
+.reading-item .author {
+  margin: 0.5rem 0 0 0;
+  color: #6c757d;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.intro-text {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 2rem 1rem;
+  }
+  
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .reading-section {
+    padding: 1.5rem;
+  }
+  
+  .reading-item {
+    padding: 1rem;
+  }
+  
+  .reading-item:hover {
+    padding-left: 2.5rem;
+  }
+}
+</style>
+
+<div class="page-header">
+  <h1>Recursos de Pesquisa</h1>
+  <p>Materiais de apoio para orientandos e pesquisadores</p>
+</div>
+
+<div class="intro-text">
+  <p>Algumas sugestões, sem uma ordem específica (algumas delas retiradas de <a href="https://gustavopinto.org" target="_blank">gustavopinto.org</a>):</p>
+</div>
+
+<div class="reading-section">
+  <h2><span class="icon">🎓</span>Trabalho de Conclusão de Curso (TCC)</h2>
+  <ol class="reading-list">
+    <li class="reading-item">
+      <a href="/assets/docs/TCC.pdf" target="_blank">Guia de Sobrevivência do TCC</a>
+      <div class="author">por Carla Rocha</div>
+    </li>
+  </ol>
+</div>
+
+<div class="reading-section">
+  <h2><span class="icon">📚</span>Leitura Obrigatória</h2>
+  <ol class="reading-list">
+    <li class="reading-item">
+      <a href="https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_" target="_blank">Talk like a BOSS - rodas de conversas</a>
+      <div class="author">por Big Open Source Sibling (BOSS)</div>
+    </li>
+    <li class="reading-item">
+      <a href="https://www.slideshare.net/cameraculture/raskar-phd-and-ms-thesis-guidance?fbclid=IwAR1ECIl-T96IyK5X2BAIY3tm1nqP9fSaL9HN0oWWuYkw0mmQZ-5q1XYl0X4" target="_blank">Orientação para Tese de Doutorado e Mestrado</a>
+      <div class="author">por Ramesh Raskar</div>
+    </li>
+    <li class="reading-item">
+      <a href="https://www.nature.com/articles/d41586-018-02404-4" target="_blank">Como escrever um artigo de primeira classe</a>
+      <div class="author">por Virginia Gewin</div>
+    </li>
+    <li class="reading-item">
+      <a href="https://homes.cs.washington.edu/~mernst/advice/" target="_blank">Conselhos para pesquisadores e estudantes</a>
+      <div class="author">por Michael Ernst</div>
+    </li>
+    <li class="reading-item">
+      <a href="http://matt.might.net/articles/grad-student-resolutions/" target="_blank">12 resoluções para estudantes de pós-graduação</a>
+      <div class="author">por Matt Might</div>
+    </li>
+    <li class="reading-item">
+      <a href="https://www.scielo.br/pdf/clin/v69n3/1807-5932-clin-69-03-153.pdf" target="_blank">Escrevendo artigos científicos como um falante nativo de inglês: dez melhores dicas para falantes de português</a>
+    </li>
+    <li class="reading-item">
+      <a href="https://ieeexplore.ieee.org/document/799955" target="_blank">Métodos qualitativos em estudos empíricos de engenharia de software</a>
+    </li>
+    <li class="reading-item">
+      <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914" target="_blank">Dez regras simples para laboratórios de pesquisa mais saudáveis</a>
+    </li>
+  </ol>
+</div>
+
+<div class="reading-section">
+  <h2><span class="icon">✍️</span>Escrita de Artigos</h2>
+  <ol class="reading-list">
+    <li class="reading-item">
+      <a href="https://users.ece.cmu.edu/~koopman/essays/abstract.html" target="_blank">Como Escrever um Resumo</a>
+      <div class="author">por Philip Koopman</div>
+    </li>
+    <li class="reading-item">
+      <a href="http://sarahnadi.org/writing-papers/" target="_blank">Escrevendo Artigos Acadêmicos</a>
+      <div class="author">por Sarah Nadi</div>
+    </li>
+    <li class="reading-item">
+      <a href="http://www.cis.famu.edu/~cen5055joe/Administrative/HowToWrite_ResearchPaper.pdf" target="_blank">Escrevendo Boas Pesquisas em Engenharia de Software</a>
+      <div class="author">por Mary Shaw</div>
+    </li>
+    <li class="reading-item">
+      <a href="https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper" target="_blank">Como escrever um ótimo artigo de pesquisa</a>
+      <div class="author">por Simon Peyton Jones</div>
+    </li>
+  </ol>
+</div>
+
+<div class="reading-section">
+  <h2><span class="icon">🎤</span>Apresentações</h2>
+  <ol class="reading-list">
+    <li class="reading-item">
+      <a href="https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk" target="_blank">Como fazer uma ótima apresentação de pesquisa</a>
+      <div class="author">por Simon Peyton Jones</div>
+    </li>
+    <li class="reading-item">
+      <a href="http://andreas-zeller.blogspot.com.br/2013/10/summarizing-your-presentation-with.html" target="_blank">Resumindo sua apresentação com mini slides</a>
+      <div class="author">por Andreas Zeller</div>
+    </li>
+  </ol>
+</div>
+
+<div class="reading-section">
+  <h2><span class="icon">💪</span>Rejeições</h2>
+  <ol class="reading-list">
+    <li class="reading-item">
+      <a href="https://medium.com/@cfiesler/tenured-professor-rogers-talks-about-imposter-syndrome-229e0a546ac1" target="_blank">Professor Titular Rogers Fala Sobre: Síndrome do Impostor</a>
+      <div class="author">por Casey Fiesler</div>
+    </li>
+  </ol>
+</div>
+
+<div class="reading-section">
+  <h2><span class="icon">🌟</span>Tópicos Gerais</h2>
+  <ol class="reading-list">
+    <li class="reading-item">
+      <a href="https://medium.com/@lappisunbfga/what-i-wish-i-knew-before-starting-my-first-chatbot-project-66e5208f77dd" target="_blank">O que eu gostaria de saber antes de começar meu primeiro projeto de Chatbot</a>
+      <div class="author">por Carla Rocha</div>
+    </li>
+    <li class="reading-item">
+      <a href="https://medium.com/@lappisunbfga/desafios-ensino-de-ti-em-tempo-de-pandemia-o-futuro-é-colaborativo-e7aa183bb3d7" target="_blank">Desafios do ensino de TI em tempos de pandemia — O Futuro é Colaborativo</a>
+      <div class="author">por Carla Rocha</div>
+    </li>
+  </ol>
+</div>
 
         
         
@@ -428,41 +639,276 @@
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Acompanhe no</strong></li>
-    
+        <style>
+.footer-enhanced {
+  background: #f8f9fa;
+  border-top: 3px solid #003366;
+  padding: 2rem 0 1rem 0;
+  margin-top: 3rem;
+}
 
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 300px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.footer-sitemap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.footer-sitemap h4 {
+  color: #003366;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #006633;
+  padding-bottom: 0.3rem;
+}
+
+.footer-sitemap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-sitemap li {
+  margin-bottom: 0.3rem;
+}
+
+.footer-sitemap a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-sitemap a:hover {
+  color: #003366;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social h4 {
+  color: #003366;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-icons li {
+  margin: 0;
+}
+
+.social-icons a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #003366;
+}
+
+.footer-unb {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-logo-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-align: left;
+}
+
+.footer-logo-item img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+.footer-logo-item img:hover {
+  transform: scale(1.05);
+}
+
+.footer-logo-text {
+  font-size: 0.85rem;
+  line-height: 1.3;
+  color: #6c757d;
+}
+
+.footer-unb-text {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.footer-copyright {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.8rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-sitemap {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .footer-sitemap div {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logos-horizontal {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  .footer-logo-item {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-logo-text {
+    text-align: center;
+  }
+}
+</style>
+
+<div class="footer-enhanced">
+  <div class="footer-content">
+    <div class="footer-sitemap">
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="/">Início</a></li>
+          <li><a href="/projects/">Projetos</a></li>
+          <li><a href="/publications/">Publicações</a></li>
+          <li><a href="/students/">Estudantes</a></li>
+          <li><a href="/teaching/">Ensino</a></li>
+          <li><a href="/reading/">Leituras</a></li>
+          <li><a href="/misc/">Participação</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Recursos</h4>
+        <ul>
+          <li><a href="http://lattes.cnpq.br/2831991076751452" target="_blank">Currículo Lattes</a></li>
+          <li><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a></li>
+          <li><a href="https://www.lappis.rocks" target="_blank">Lab Livre</a></li>
+          <li><a href="http://PPCA.unb.br" target="_blank">PPCA UnB</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
     
-      
+    <div class="footer-social">
+      <h4>Contato</h4>
+      <ul class="social-icons">
+        <li><a href="mailto:caguiar@unb.br"><i class="fas fa-envelope" aria-hidden="true"></i> caguiar@unb.br</a></li>
         
-      
+          
+            
+          
+            
+          
+            
+              <li><a href="https://github.com/RochaCarla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+            
+          
+            
+              <li><a href="https://gitlab.com/rocha.carla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
+            
+          
+            
+          
+            
+          
+            
+              <li><a href="https://www.linkedin.com/in/carla-rocha-a4287a19/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> linkedin</a></li>
+            
+          
         
-      
-        
-          <li><a href="https://github.com/RochaCarla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-        
-      
-        
-          <li><a href="https://gitlab.com/rocha.carla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
-        
-      
-        
-      
-        
-      
-        
-          <li><a href="https://www.linkedin.com/in/carla-rocha-a4287a19/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> linkedin</a></li>
-        
-      
+      </ul>
+    </div>
     
-
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-
-  </ul>
-
-  <div class="page__footer-copyright">&copy; 2024 Carla Rocha. Desenvolvido com <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes. </a> Material licenciado sob a licença Creative Commons CC-BY.Esta licença permite que outros distribuam, remixem, adaptem e criem a partir deste material, desde que seja atribuído o devido crédito pela criação original.</div>
+    <div class="footer-unb">
+      <div class="footer-logos-horizontal">
+        <div class="footer-logo-item">
+          <a href="http://www.unb.br" target="_blank">
+            <img src="/images/unb.png" alt="Universidade de Brasília" />
+          </a>
+          <div class="footer-logo-text">
+            <strong>Universidade de Brasília</strong><br>
+            Faculdade de Engenharia de Software
+          </div>
+        </div>
+        
+        <div class="footer-logo-item">
+          <a href="https://www.lappis.rocks" target="_blank">
+            <img src="/images/logo-lappis.png" alt="Lab Livre" />
+          </a>
+          <div class="footer-logo-text">
+            <strong>Lab Livre</strong><br>
+            Laboratório de Práticas em Software Livre
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-copyright">
+      &copy; 2025 Carla Rocha. 
+      Desenvolvido com 
+      <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
+      <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br>
+      Material licenciado sob a licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons CC-BY</a>. 
+      Esta licença permite que outros distribuam, remixem, adaptem e criem a partir deste material, 
+      desde que seja atribuído o devido crédito pela criação original.
+    </div>
+  </div>
+</div>
       </footer>
     </div>
 

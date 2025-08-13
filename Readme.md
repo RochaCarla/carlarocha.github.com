@@ -10,6 +10,7 @@ Site pessoal com os principais pesquisas, projetos e aulas ministradas.
 
 `./run.sh`
 
+docker compose build --no-cache
 
 # Edição do seu material
 

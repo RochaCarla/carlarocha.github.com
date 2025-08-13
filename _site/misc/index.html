@@ -20,7 +20,7 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Carla Rocha">
 <meta property="og:title" content="Participação">
-<meta property="og:url" content="http://localhost:4000/misc/">
+<meta property="og:url" content="http://0.0.0.0:4000/misc/">
 
 
   <meta property="og:description" content="Professora e Pesquisadora em Engenharia de Software ">
@@ -32,7 +32,7 @@
   <meta name="twitter:site" content="@carlarocha">
   <meta name="twitter:title" content="Participação">
   <meta name="twitter:description" content="Professora e Pesquisadora em Engenharia de Software ">
-  <meta name="twitter:url" content="http://localhost:4000/misc/">
+  <meta name="twitter:url" content="http://0.0.0.0:4000/misc/">
 
   
     <meta name="twitter:card" content="summary">
@@ -52,7 +52,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/misc/">
+<link rel="canonical" href="http://0.0.0.0:4000/misc/">
 
 
 
@@ -63,7 +63,7 @@
     
       "@type": "Person",
       "name": "Carla Rocha",
-      "url": "http://localhost:4000/",
+      "url": "http://0.0.0.0:4000/",
       "sameAs": "https://rochacarla.github.io/carlarocha.github.com/"
     
   }
@@ -327,66 +327,309 @@
 
       <section class="page__content" itemprop="text">
         
-        <ol>
-  <li>Co-fundadora <a href="https://www.youtube.com/c/BigOpenSourceSibling">BOSS</a></li>
-  <li>Co-apresentadora <a href="https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_">Talk Like a BOSS - rodas de conversas</a> pela Big Open Source Sibling (BOSS)</li>
-  <li>Co-apresentadora <a href="https://youtu.be/zynynEynpk8">Mini LAPPIS Conf</a></li>
-  <li>Organizadora <a href="https://github.com/lappis-unb/MiniLappisConf">Mini LAPPIS Conf</a></li>
-  <li>Co-presidente do programa <a href="http://www.agilebrazil.com/2021/wbma">WBMA - Agile Brazil 2021</a></li>
-  <li>Coordenador de Publicidade <a href="http://www.agilebrazil.com/2019/docs/en/wbma/">WBMA - Agile Brazil 2019</a></li>
-  <li>
-    <p>Palestrante na <a href="https://youtu.be/MlGYHl3Iyyg">Campus Party 2020</a></p>
-  </li>
-  <li>Comitê científico <a href="https://covidas-unb.github.io/InfoGerais/">CoVidas UnB Hackathon 2020</a></li>
-  <li>Membro do Comitê de Gestão Estratégica de Campus Inteligente e Sustentável (CGECIS) da Universidade de Brasília</li>
-  <li>Membro do Conselho Editorial da <a href="https://revistadarcy.unb.br">Revista Darcy</a>.</li>
-  <li>Já fui coordenadora do curso de Engenharia de Software na UnB.</li>
-</ol>
+        <style>
+/* Misc Page Styling */
+.page-header {
+  background: linear-gradient(135deg, #003366 0%, #006633 100%);
+  color: white;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
 
-<h2 id="apresentações">Apresentações</h2>
+.page-header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
 
-<ul>
-  <li>
-    <p>Introdução à <a href="https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing">BOSS</a> (Presentation Guadec 2021)</p>
-  </li>
-  <li>
-    <p>Introdução a uma arquitetura de <a href="https://docs.google.com/presentation/d/1c0bLbdfj8ztAvIQz3MNYSp0I6zjUhQDO4k3aqQianEU/edit?usp=sharing">Chatbot Open Source</a> (Apresentação Campus Party 2019)</p>
-  </li>
-  <li>
-    <p><a href="https://docs.google.com/presentation/d/1xFwBtiMU08lOgSGFG4s9QpUZF80Ei5HENvTPN1VffGs/edit?usp=sharing">Formando inovadores através de Open Source</a> (Apresentação Campus Party 2020)</p>
-  </li>
-</ul>
+.page-header p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
 
-<h2 id="software-livre">Software Livre</h2>
+.participation-section {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-left: 6px solid #003366;
+  transition: all 0.2s ease;
+}
 
-<p>Nossos projetos de pesquisa seguem a prática do uso de licenças de software livre sempre que há necessidade de desenvolvimento. Todos os nossos projetos de software são disponibilizados na organização do laboratório no GitLab/GitHub (lappis-unb). Abaixo, estão alguns dos projetos desenvolvidos pelo nosso laboratório.</p>
+.participation-section:hover {
+  border-left-color: #006633;
+  box-shadow: 0 4px 12px rgba(0,102,51,0.1);
+}
 
-<ul>
-  <li>
-    <p><a href="https://gitlab.com/lappis-unb/decidimbr">Brasil Participativo</a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/lappis-unb/rasa-ptbr-boilerplate">Chatbot Boilerplate for Brazilian Portuguese</a>. Arquitetura boilerplate de um produto chatbot utilizando o framework <a href="www.rasa.com">Rasa</a>, configurado para a língua Portuguesa.</p>
-  </li>
-  <li>
-    <p><a href="https://github.com/Escola-em-Casa">Escola em Casa</a> - Concede acesso gratuito, através de dados patrocinados, aos recursos necessários para a realização do ensino à distância da Secretaria de Educação do Distrito Federal.</p>
-  </li>
-  <li>
-    <p><a href="https://github.com/lappis-unb/realtimecardgame">Real time Card Game</a>. Jogo de carta real time utilizando a engine de jogos Unity3D. Utilizado para aprendizagem de desenvolvimento de jogos.</p>
-  </li>
-  <li>
-    <p><a href="https://github.com/fga-eps-mds">POC OSS projects</a>. Projetos de software desenvolvido por estudantes de graduação em Engenharia de Software</p>
-  </li>
-  <li>
-    <p><a href="https://github.com/BOSS-BigOpenSourceSibling/">BOSS Organization</a>. Organização com todo o material de apoio do programa de mentoria Big Open Source Siblings.</p>
-  </li>
-  <li>
-    <p>O time do LAPPIS traduziu para o português brasileiro a publicação “Public Money Public Code – Modernising Public Infrastructure with Free Software” da Free Software Foundation Europe. A tradução em português é intitulada- <a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf">Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre</a>.</p>
-  </li>
-</ul>
+.participation-section h2 {
+  color: #003366;
+  margin-top: 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
 
-<p><img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" style="height: 200px;" /></p>
+.participation-section .icon {
+  font-size: 1.8rem;
+  color: #006633;
+}
 
+.participation-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  counter-reset: participation-counter;
+}
+
+.participation-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin: 1rem 0;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  counter-increment: participation-counter;
+}
+
+.participation-item::before {
+  content: counter(participation-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: #006633;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transform: translateX(-40px);
+  transition: transform 0.2s ease;
+}
+
+.participation-item:hover::before {
+  transform: translateX(0);
+}
+
+.participation-item:hover {
+  background: white;
+  border-color: #006633;
+  box-shadow: 0 2px 8px rgba(0,102,51,0.1);
+  padding-left: 3rem;
+}
+
+.participation-item a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.participation-item a:hover {
+  color: #006633;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.highlight-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  border-top: 4px solid #003366;
+}
+
+.highlight-card:hover {
+  border-top-color: #006633;
+  box-shadow: 0 4px 12px rgba(0,102,51,0.1);
+  transform: translateY(-2px);
+}
+
+.highlight-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  color: #006633;
+}
+
+.highlight-card h3 {
+  color: #003366;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 2rem 1rem;
+  }
+  
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .participation-section {
+    padding: 1.5rem;
+  }
+  
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .participation-item {
+    padding: 1rem;
+  }
+  
+  .participation-item:hover {
+    padding-left: 2.5rem;
+  }
+}
+</style>
+
+<div class="page-header">
+  <h1>Participação &amp; Contribuições</h1>
+  <p>Engajamento em comunidades, eventos e projetos de impacto</p>
+</div>
+
+<div class="highlight-grid">
+  <div class="highlight-card">
+    <span class="icon">🎯</span>
+    <h3>Liderança</h3>
+    <p>Co-fundadora BOSS e coordenação de eventos acadêmicos</p>
+  </div>
+  
+  <div class="highlight-card">
+    <span class="icon">🎤</span>
+    <h3>Palestras</h3>
+    <p>Apresentações em eventos nacionais e internacionais</p>
+  </div>
+  
+  <div class="highlight-card">
+    <span class="icon">🔓</span>
+    <h3>Open Source</h3>
+    <p>Desenvolvimento e manutenção de projetos de código aberto</p>
+  </div>
+</div>
+
+<div class="participation-section">
+  <h2><span class="icon">🏆</span>Principais Participações</h2>
+  <ol class="participation-list">
+    <li class="participation-item">
+      Co-fundadora <a href="https://www.youtube.com/c/BigOpenSourceSibling" target="_blank">BOSS</a>
+    </li>
+    <li class="participation-item">
+      Co-apresentadora <a href="https://youtube.com/playlist?list=PLFFHHqnY3q2FLjtGKYuI-V-z9u7jzBOb_" target="_blank">Talk Like a BOSS - rodas de conversas</a> pela Big Open Source Sibling (BOSS)
+    </li>
+    <li class="participation-item">
+      Co-apresentadora <a href="https://youtu.be/zynynEynpk8" target="_blank">Mini Lab Livre Conf</a>
+    </li>
+    <li class="participation-item">
+      Organizadora <a href="https://github.com/lappis-unb/MiniLappisConf" target="_blank">Mini Lab Livre Conf</a>
+    </li>
+    <li class="participation-item">
+      Co-presidente do programa <a href="http://www.agilebrazil.com/2021/wbma" target="_blank">WBMA - Agile Brazil 2021</a>
+    </li>
+    <li class="participation-item">
+      Coordenador de Publicidade <a href="http://www.agilebrazil.com/2019/docs/en/wbma/" target="_blank">WBMA - Agile Brazil 2019</a>
+    </li>
+    <li class="participation-item">
+      Palestrante na <a href="https://youtu.be/MlGYHl3Iyyg" target="_blank">Campus Party 2020</a>
+    </li>
+    <li class="participation-item">
+      Comitê científico <a href="https://covidas-unb.github.io/InfoGerais/" target="_blank">CoVidas UnB Hackathon 2020</a>
+    </li>
+    <li class="participation-item">
+      Membro do Comitê de Gestão Estratégica de Campus Inteligente e Sustentável (CGECIS) da Universidade de Brasília
+    </li>
+    <li class="participation-item">
+      Membro do Conselho Editorial da <a href="https://revistadarcy.unb.br" target="_blank">Revista Darcy</a>
+    </li>
+    <li class="participation-item">
+      Já fui coordenadora do curso de Engenharia de Software na UnB
+    </li>
+  </ol>
+</div>
+
+<div class="participation-section">
+  <h2><span class="icon">🎤</span>Apresentações</h2>
+  <ul class="participation-list">
+    <li class="participation-item">
+      <a href="https://docs.google.com/presentation/d/1bAOZ0gLjEIwOLhkRhakvaXG1_FP4fGuHYMVhEc72w7M/edit?usp=sharing" target="_blank">Introdução à BOSS</a>
+      <div class="author">Presentation Guadec 2021</div>
+    </li>
+    <li class="participation-item">
+      <a href="https://docs.google.com/presentation/d/1c0bLbdfj8ztAvIQz3MNYSp0I6zjUhQDO4k3aqQianEU/edit?usp=sharing" target="_blank">Introdução a uma arquitetura de Chatbot Open Source</a>
+      <div class="author">Apresentação Campus Party 2019</div>
+    </li>
+    <li class="participation-item">
+      <a href="https://docs.google.com/presentation/d/1xFwBtiMU08lOgSGFG4s9QpUZF80Ei5HENvTPN1VffGs/edit?usp=sharing" target="_blank">Formando inovadores através de Open Source</a>
+      <div class="author">Apresentação Campus Party 2020</div>
+    </li>
+  </ul>
+</div>
+
+<div class="participation-section">
+  <h2><span class="icon">🔓</span>Software Livre</h2>
+  
+  <p>Nossos projetos de pesquisa seguem a prática do uso de licenças de software livre sempre que há necessidade de desenvolvimento. Todos os nossos projetos de software são disponibilizados na organização do laboratório no GitLab/GitHub (lappis-unb). Abaixo, estão alguns dos projetos desenvolvidos pelo nosso laboratório.</p>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <h3><a href="https://gitlab.com/lappis-unb/decidimbr" target="_blank">Brasil Participativo</a></h3>
+      <p>Plataforma de participação social baseada no Decidim para engajamento cidadão.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3><a href="https://github.com/lappis-unb/rasa-ptbr-boilerplate" target="_blank">Chatbot Boilerplate for Brazilian Portuguese</a></h3>
+      <p>Arquitetura boilerplate de um produto chatbot utilizando o framework Rasa, configurado para a língua Portuguesa.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3><a href="https://github.com/Escola-em-Casa" target="_blank">Escola em Casa</a></h3>
+      <p>Concede acesso gratuito, através de dados patrocinados, aos recursos necessários para a realização do ensino à distância da Secretaria de Educação do Distrito Federal.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3><a href="https://github.com/lappis-unb/realtimecardgame" target="_blank">Real time Card Game</a></h3>
+      <p>Jogo de carta real time utilizando a engine de jogos Unity3D. Utilizado para aprendizagem de desenvolvimento de jogos.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3><a href="https://github.com/fga-eps-mds" target="_blank">POC OSS projects</a></h3>
+      <p>Projetos de software desenvolvido por estudantes de graduação em Engenharia de Software.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3><a href="https://github.com/BOSS-BigOpenSourceSibling/" target="_blank">BOSS Organization</a></h3>
+      <p>Organização com todo o material de apoio do programa de mentoria Big Open Source Siblings.</p>
+    </div>
+  </div>
+
+  <div class="translation-highlight">
+    <h3>Tradução FSFE</h3>
+    <p>O time do Lab Livre traduziu para o português brasileiro a publicação "Public Money Public Code – Modernising Public Infrastructure with Free Software" da Free Software Foundation Europe.</p>
+    <p>A tradução em português é intitulada: <a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf" target="_blank"><strong>Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre</strong></a></p>
+    
+    <div class="publication-image">
+      <img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" />
+    </div>
+  </div>
+</div>
 
         
         
@@ -432,41 +675,276 @@
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Acompanhe no</strong></li>
-    
+        <style>
+.footer-enhanced {
+  background: #f8f9fa;
+  border-top: 3px solid #003366;
+  padding: 2rem 0 1rem 0;
+  margin-top: 3rem;
+}
 
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 300px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.footer-sitemap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.footer-sitemap h4 {
+  color: #003366;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #006633;
+  padding-bottom: 0.3rem;
+}
+
+.footer-sitemap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-sitemap li {
+  margin-bottom: 0.3rem;
+}
+
+.footer-sitemap a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-sitemap a:hover {
+  color: #003366;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social h4 {
+  color: #003366;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-icons li {
+  margin: 0;
+}
+
+.social-icons a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #003366;
+}
+
+.footer-unb {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-logo-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-align: left;
+}
+
+.footer-logo-item img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.2s ease;
+}
+
+.footer-logo-item img:hover {
+  transform: scale(1.05);
+}
+
+.footer-logo-text {
+  font-size: 0.85rem;
+  line-height: 1.3;
+  color: #6c757d;
+}
+
+.footer-unb-text {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.footer-copyright {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.8rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-sitemap {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .footer-sitemap div {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logos-horizontal {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  .footer-logo-item {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-logo-text {
+    text-align: center;
+  }
+}
+</style>
+
+<div class="footer-enhanced">
+  <div class="footer-content">
+    <div class="footer-sitemap">
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="/">Início</a></li>
+          <li><a href="/projects/">Projetos</a></li>
+          <li><a href="/publications/">Publicações</a></li>
+          <li><a href="/students/">Estudantes</a></li>
+          <li><a href="/teaching/">Ensino</a></li>
+          <li><a href="/reading/">Leituras</a></li>
+          <li><a href="/misc/">Participação</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Recursos</h4>
+        <ul>
+          <li><a href="http://lattes.cnpq.br/2831991076751452" target="_blank">Currículo Lattes</a></li>
+          <li><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a></li>
+          <li><a href="https://www.lappis.rocks" target="_blank">Lab Livre</a></li>
+          <li><a href="http://PPCA.unb.br" target="_blank">PPCA UnB</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
     
-      
+    <div class="footer-social">
+      <h4>Contato</h4>
+      <ul class="social-icons">
+        <li><a href="mailto:caguiar@unb.br"><i class="fas fa-envelope" aria-hidden="true"></i> caguiar@unb.br</a></li>
         
-      
+          
+            
+          
+            
+          
+            
+              <li><a href="https://github.com/RochaCarla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+            
+          
+            
+              <li><a href="https://gitlab.com/rocha.carla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
+            
+          
+            
+          
+            
+          
+            
+              <li><a href="https://www.linkedin.com/in/carla-rocha-a4287a19/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> linkedin</a></li>
+            
+          
         
-      
-        
-          <li><a href="https://github.com/RochaCarla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-        
-      
-        
-          <li><a href="https://gitlab.com/rocha.carla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab</a></li>
-        
-      
-        
-      
-        
-      
-        
-          <li><a href="https://www.linkedin.com/in/carla-rocha-a4287a19/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> linkedin</a></li>
-        
-      
+      </ul>
+    </div>
     
-
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-
-  </ul>
-
-  <div class="page__footer-copyright">&copy; 2024 Carla Rocha. Desenvolvido com <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes. </a> Material licenciado sob a licença Creative Commons CC-BY.Esta licença permite que outros distribuam, remixem, adaptem e criem a partir deste material, desde que seja atribuído o devido crédito pela criação original.</div>
+    <div class="footer-unb">
+      <div class="footer-logos-horizontal">
+        <div class="footer-logo-item">
+          <a href="http://www.unb.br" target="_blank">
+            <img src="/images/unb.png" alt="Universidade de Brasília" />
+          </a>
+          <div class="footer-logo-text">
+            <strong>Universidade de Brasília</strong><br>
+            Faculdade de Engenharia de Software
+          </div>
+        </div>
+        
+        <div class="footer-logo-item">
+          <a href="https://www.lappis.rocks" target="_blank">
+            <img src="/images/logo-lappis.png" alt="Lab Livre" />
+          </a>
+          <div class="footer-logo-text">
+            <strong>Lab Livre</strong><br>
+            Laboratório de Práticas em Software Livre
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-copyright">
+      &copy; 2025 Carla Rocha. 
+      Desenvolvido com 
+      <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
+      <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br>
+      Material licenciado sob a licença <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons CC-BY</a>. 
+      Esta licença permite que outros distribuam, remixem, adaptem e criem a partir deste material, 
+      desde que seja atribuído o devido crédito pela criação original.
+    </div>
+  </div>
+</div>
       </footer>
     </div>
 
