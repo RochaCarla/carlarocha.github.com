@@ -1,4 +1,291 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-08-13T00:08:39+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Carla Rocha</title><subtitle>Professora e Pesquisadora em Engenharia de Software</subtitle><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><entry><title type="html">Ecossistema de Software Livre - Participação Digital (2023 - em andamento)</title><link href="http://0.0.0.0:4000/projects/ecossistemas" rel="alternate" type="text/html" title="Ecossistema de Software Livre - Participação Digital (2023 - em andamento)" /><published>2023-12-15T00:00:00+00:00</published><updated>2023-12-15T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/ecossistemas</id><content type="html" xml:base="http://0.0.0.0:4000/projects/ecossistemas"><![CDATA[<p>O Brasil Participativo é um software de código aberto adaptado da plataforma de participação eletrônica Decidim, originada da prefeitura de Barcelona em 2016. A plataforma Decidim oferece vários espaços interativos, como iniciativas, assembleias e consultas, permitindo diferentes formas de engajamento, incluindo enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-10-17T12:07:49+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Carla Rocha</title><subtitle>Professora e Pesquisadora em Engenharia de Software</subtitle><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><entry><title type="html">DermAlert - Sistema Inteligente de Detecção de Lesões Dermatológicas</title><link href="http://0.0.0.0:4000/projects/dermalert" rel="alternate" type="text/html" title="DermAlert - Sistema Inteligente de Detecção de Lesões Dermatológicas" /><published>2025-01-17T00:00:00+00:00</published><updated>2025-01-17T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/dermalert</id><content type="html" xml:base="http://0.0.0.0:4000/projects/dermalert"><![CDATA[<p>O DermAlert é um sistema de inteligência artificial desenvolvido para auxiliar na detecção e classificação de lesões dermatológicas. O projeto utiliza técnicas avançadas de deep learning e visão computacional para apoiar profissionais de saúde no diagnóstico precoce de câncer de pele e outras condições dermatológicas.</p>
+
+<h2 id="o-problema">O Problema</h2>
+
+<p>O câncer de pele é uma das neoplasias mais comuns no mundo, e sua detecção precoce é fundamental para o sucesso do tratamento. No entanto, existem desafios significativos:</p>
+
+<ul>
+  <li><strong>Escassez de especialistas</strong>: Falta de dermatologistas em muitas regiões</li>
+  <li><strong>Diagnóstico tardio</strong>: Dificuldade de acesso a consultas especializadas</li>
+  <li><strong>Variabilidade diagnóstica</strong>: Subjetividade na análise visual de lesões</li>
+  <li><strong>Necessidade de triagem</strong>: Volume elevado de casos para análise</li>
+</ul>
+
+<h2 id="a-solução">A Solução</h2>
+
+<p>O DermAlert oferece uma solução tecnológica inovadora que combina:</p>
+
+<h3 id="inteligência-artificial-avançada"><strong>Inteligência Artificial Avançada</strong></h3>
+<p>Utilização de redes neurais convolucionais (CNNs) e algoritmos de deep learning para análise automatizada de imagens dermatológicas.</p>
+
+<h3 id="classificação-precisa"><strong>Classificação Precisa</strong></h3>
+<p>Sistema capaz de identificar e classificar diferentes tipos de lesões cutâneas, incluindo:</p>
+<ul>
+  <li>Melanoma</li>
+  <li>Carcinoma basocelular</li>
+  <li>Carcinoma espinocelular</li>
+  <li>Lesões benignas (nevos, queratoses seborreicas)</li>
+</ul>
+
+<h3 id="interface-intuitiva"><strong>Interface Intuitiva</strong></h3>
+<p>Plataforma web acessível que permite upload de imagens e análise em tempo real, facilitando o uso por profissionais de saúde.</p>
+
+<h3 id="apoio-ao-diagnóstico"><strong>Apoio ao Diagnóstico</strong></h3>
+<p>Ferramenta de auxílio que fornece probabilidades e recomendações, mantendo sempre a decisão final com o profissional médico.</p>
+
+<h2 id="tecnologias-utilizadas">Tecnologias Utilizadas</h2>
+
+<ul>
+  <li><strong>Deep Learning</strong>: Redes neurais convolucionais para processamento de imagens</li>
+  <li><strong>Computer Vision</strong>: Técnicas avançadas de visão computacional</li>
+  <li><strong>Python</strong>: Linguagem principal de desenvolvimento</li>
+  <li><strong>TensorFlow/PyTorch</strong>: Frameworks de machine learning</li>
+  <li><strong>Web Technologies</strong>: Interface responsiva e acessível</li>
+  <li><strong>Cloud Computing</strong>: Infraestrutura escalável para processamento</li>
+</ul>
+
+<h2 id="funcionalidades">Funcionalidades</h2>
+
+<h3 id="análise-de-imagens"><strong>Análise de Imagens</strong></h3>
+<ul>
+  <li>Upload e processamento de fotografias dermatológicas</li>
+  <li>Análise automatizada com resultados em segundos</li>
+  <li>Visualização de regiões de interesse identificadas pelo algoritmo</li>
+</ul>
+
+<h3 id="classificação-multiclasse"><strong>Classificação Multiclasse</strong></h3>
+<ul>
+  <li>Identificação de múltiplos tipos de lesões</li>
+  <li>Scores de confiança para cada classificação</li>
+  <li>Recomendações baseadas nos resultados</li>
+</ul>
+
+<h3 id="relatórios-detalhados"><strong>Relatórios Detalhados</strong></h3>
+<ul>
+  <li>Geração de relatórios técnicos</li>
+  <li>Histórico de análises realizadas</li>
+  <li>Métricas de performance do sistema</li>
+</ul>
+
+<h3 id="integração-clínica"><strong>Integração Clínica</strong></h3>
+<ul>
+  <li>API para integração com sistemas hospitalares</li>
+  <li>Compatibilidade com fluxos de trabalho existentes</li>
+  <li>Suporte a diferentes formatos de imagem</li>
+</ul>
+
+<h2 id="impacto-esperado">Impacto Esperado</h2>
+
+<p>O DermAlert tem potencial para revolucionar o diagnóstico dermatológico:</p>
+
+<ul>
+  <li><strong>Democratização do acesso</strong>: Disponibilização de análise especializada em regiões remotas</li>
+  <li><strong>Detecção precoce</strong>: Identificação mais rápida de casos suspeitos</li>
+  <li><strong>Redução de custos</strong>: Otimização do uso de recursos de saúde</li>
+  <li><strong>Melhoria da qualidade</strong>: Padronização e apoio ao diagnóstico médico</li>
+  <li><strong>Educação médica</strong>: Ferramenta de treinamento para profissionais</li>
+</ul>
+
+<h2 id="validação-e-precisão">Validação e Precisão</h2>
+
+<p>O sistema foi desenvolvido e validado seguindo rigorosos padrões científicos:</p>
+<ul>
+  <li>Treinamento com grandes datasets dermatológicos</li>
+  <li>Validação cruzada com casos clínicos reais</li>
+  <li>Comparação com diagnósticos de especialistas</li>
+  <li>Métricas de performance transparentes</li>
+</ul>
+
+<h2 id="aspectos-éticos-e-regulatórios">Aspectos Éticos e Regulatórios</h2>
+
+<ul>
+  <li><strong>Privacidade</strong>: Proteção rigorosa de dados dos pacientes</li>
+  <li><strong>Transparência</strong>: Explicabilidade dos resultados do algoritmo</li>
+  <li><strong>Responsabilidade</strong>: Ferramenta de apoio, não substituição do médico</li>
+  <li><strong>Conformidade</strong>: Adequação às normas regulatórias de dispositivos médicos</li>
+</ul>
+
+<h2 id="acesse-o-projeto">Acesse o Projeto</h2>
+
+<ul>
+  <li><a href="https://www.dermalert.ai/">🌐 DermAlert - Plataforma</a></li>
+  <li><a href="https://www.dermalert.ai/land/dist/">📖 Documentação Técnica</a></li>
+</ul>
+
+<h2 id="colaboração-e-desenvolvimento">Colaboração e Desenvolvimento</h2>
+
+<p>O projeto é desenvolvido com foco na colaboração científica e no avanço da medicina digital, contribuindo para:</p>
+<ul>
+  <li>Pesquisa em IA aplicada à saúde</li>
+  <li>Desenvolvimento de ferramentas de apoio diagnóstico</li>
+  <li>Formação de recursos humanos especializados</li>
+  <li>Transferência de tecnologia para o setor de saúde</li>
+</ul>
+
+<h2 id="contatos">Contatos</h2>
+
+<ul>
+  <li>Coordenadora do Projeto: Profa Carla Rocha (<a href="mailto:caguiar@unb.br">caguiar@unb.br</a>)</li>
+</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O DermAlert é um sistema de inteligência artificial desenvolvido para auxiliar na detecção e classificação de lesões dermatológicas. O projeto utiliza técnicas avançadas de deep learning e visão computacional para apoiar profissionais de saúde no diagnóstico precoce de câncer de pele e outras condições dermatológicas.]]></summary></entry><entry><title type="html">GovHub - Plataforma Livre de Integração de Dados Governamentais</title><link href="http://0.0.0.0:4000/projects/govhub" rel="alternate" type="text/html" title="GovHub - Plataforma Livre de Integração de Dados Governamentais" /><published>2025-01-17T00:00:00+00:00</published><updated>2025-01-17T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/govhub</id><content type="html" xml:base="http://0.0.0.0:4000/projects/govhub"><![CDATA[<p>O GovHub é uma plataforma livre que qualifica e integra dados dos sistemas estruturantes governamentais, transformando-os em informações estratégicas para gestão pública baseada em evidências. O projeto nasceu em 2024, fruto da parceria entre o Instituto de Pesquisa Econômica Aplicada (IPEA) e o Laboratório de Competência em Software Livre da UnB (Lab Livre - UnB).</p>
+
+<h2 id="o-problema">O Problema</h2>
+
+<p>O setor público brasileiro possui dados fragmentados em diferentes sistemas estruturantes como TransfereGov, Siape, Siafi, ComprasGov e Siorg. Esta fragmentação dificulta:</p>
+<ul>
+  <li>Análises integradas e decisões baseadas em evidências</li>
+  <li>Transparência pública e cultura de dados abertos</li>
+  <li>Geração de indicadores confiáveis para monitoramento</li>
+  <li>Implementação da interoperabilidade no setor público</li>
+</ul>
+
+<h2 id="a-solução">A Solução</h2>
+
+<p>O GovHub oferece uma solução completa que:</p>
+
+<h3 id="tudo-em-um"><strong>Tudo em Um</strong></h3>
+<p>Em vez de acessar e cruzar manualmente dados de diferentes sistemas estruturantes, o GovHub reúne tudo em uma única plataforma, oferecendo informações integradas, qualificadas e prontas para uso.</p>
+
+<h3 id="software-livre-e-confiável"><strong>Software Livre e Confiável</strong></h3>
+<p>100% open source, garantindo autonomia, transparência e colaboração entre órgãos públicos. Sua stack tecnológica é padrão e já utilizada amplamente pelo governo.</p>
+
+<h3 id="arquitetura-modular"><strong>Arquitetura Modular</strong></h3>
+<p>Solução flexível onde integrações feitas com sistemas estruturantes podem ser reutilizadas em outros órgãos, além de permitir conexão com sistemas próprios.</p>
+
+<h3 id="governança-de-dados"><strong>Governança de Dados</strong></h3>
+<p>Arquitetura em camadas (bronze, prata e ouro) que garante qualidade progressiva dos dados, com rastreabilidade, confiabilidade e uso estratégico das informações.</p>
+
+<h3 id="inteligência-artificial"><strong>Inteligência Artificial</strong></h3>
+<p>Com RAG (Retrieval Augmented Generation), permite responder perguntas negociais diretamente, sem depender apenas de dashboards, agilizando análises e decisões.</p>
+
+<h2 id="stack-tecnológico">Stack Tecnológico</h2>
+
+<p>O projeto adota tecnologias open-source robustas:</p>
+
+<ul>
+  <li><strong>Apache Airflow</strong>: Orquestração de pipelines de dados</li>
+  <li><strong>DBT (Data Build Tool)</strong>: Transformação e modelagem de informações</li>
+  <li><strong>Apache Superset</strong>: Visualização e exploração de dados</li>
+  <li><strong>PostgreSQL</strong>: Banco de dados relacional</li>
+  <li><strong>Docker</strong>: Containerização e implantação</li>
+  <li><strong>Haystack &amp; Qdrant</strong>: Processamento de IA e busca vetorial</li>
+</ul>
+
+<h2 id="funcionalidades">Funcionalidades</h2>
+
+<ul>
+  <li><strong>Transparência pública</strong> e cultura de dados abertos</li>
+  <li><strong>Indicadores confiáveis</strong> para acompanhamento e monitoramento</li>
+  <li><strong>Decisões baseadas em evidências</strong> e diagnósticos estratégicos</li>
+  <li><strong>Exploração de inteligência artificial</strong> para gerar insights</li>
+  <li><strong>Gestão orientada a dados</strong> em todos os níveis</li>
+</ul>
+
+<h2 id="como-utilizar">Como Utilizar</h2>
+
+<p>O GovHub pode ser hospedado na infraestrutura do próprio órgão, garantindo autonomia e segurança. Os painéis são oferecidos por padrão no Superset, acessível via navegador, mas é possível conectar a base qualificada em outras ferramentas de visualização.</p>
+
+<h2 id="parceiros">Parceiros</h2>
+
+<ul>
+  <li><strong>Instituto de Pesquisa Econômica Aplicada (IPEA)</strong>: Parceiro estratégico</li>
+  <li><strong>Laboratório de Competência em Software Livre (Lab Livre - UnB)</strong>: Desenvolvimento técnico</li>
+  <li><strong>Universidade de Brasília</strong>: Base acadêmica e científica</li>
+</ul>
+
+<h2 id="acesse-o-projeto">Acesse o Projeto</h2>
+
+<ul>
+  <li><a href="https://gov-hub.io/">🌐 GovHub - Plataforma</a></li>
+  <li><a href="https://govhub.ipea.gov.br/dashboard/list/">📊 Demo Interativa</a></li>
+  <li><a href="https://gov-hub.io/documentacao/instalacao/">📖 Documentação Completa</a></li>
+  <li><a href="https://gov-hub.io/ebook/">📚 E-book Gratuito</a></li>
+  <li><a href="https://github.com/GovHub-br/govhub">💻 Código no GitHub</a></li>
+</ul>
+
+<h2 id="impacto">Impacto</h2>
+
+<p>O GovHub representa uma revolução na gestão de dados públicos:</p>
+<ul>
+  <li>Primeira plataforma integrada de dados governamentais open source</li>
+  <li>Redução significativa do tempo para análises complexas</li>
+  <li>Democratização do acesso a informações governamentais qualificadas</li>
+  <li>Modelo replicável para outros órgãos e esferas de governo</li>
+  <li>Fortalecimento da transparência e accountability pública</li>
+</ul>
+
+<h2 id="financiamento">Financiamento</h2>
+
+<p><strong>Em andamento</strong></p>
+<ul>
+  <li>Instituto de Pesquisa Econômica Aplicada (IPEA) - (2024 - em andamento)</li>
+  <li>Laboratório de Competência em Software Livre - UnB - (2024 - em andamento)</li>
+</ul>
+
+<h2 id="contatos">Contatos</h2>
+
+<ul>
+  <li>Coordenadora do Projeto: Profa Carla Rocha (<a href="mailto:caguiar@unb.br">caguiar@unb.br</a>)</li>
+</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O GovHub é uma plataforma livre que qualifica e integra dados dos sistemas estruturantes governamentais, transformando-os em informações estratégicas para gestão pública baseada em evidências. O projeto nasceu em 2024, fruto da parceria entre o Instituto de Pesquisa Econômica Aplicada (IPEA) e o Laboratório de Competência em Software Livre da UnB (Lab Livre - UnB).]]></summary></entry><entry><title type="html">ThinkAds - Sistema Inteligente de Detecção de Fake News</title><link href="http://0.0.0.0:4000/projects/thinkads" rel="alternate" type="text/html" title="ThinkAds - Sistema Inteligente de Detecção de Fake News" /><published>2025-01-17T00:00:00+00:00</published><updated>2025-01-17T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/thinkads</id><content type="html" xml:base="http://0.0.0.0:4000/projects/thinkads"><![CDATA[<p>O ThinkAds é um sistema inteligente de detecção de fake news que utiliza tecnologia RAGFlow para análise de conteúdo jornalístico. O projeto integra Modelos de Linguagem de Grande Escala (LLMs) com uma base de conhecimento estruturada para análise precisa de conteúdo jornalístico.</p>
+
+<h2 id="como-funciona">Como Funciona</h2>
+
+<p>O sistema opera através de um processo estruturado de análise:</p>
+
+<h3 id="1-extração-de-conteúdo">1. Extração de Conteúdo</h3>
+<p>Coleta inteligente de matérias jornalísticas de diversos portais de notícias.</p>
+
+<h3 id="2-verificação-na-base-de-conhecimento">2. Verificação na Base de Conhecimento</h3>
+<p>Busca por contexto relevante sobre padrões de desinformação em nossa base de dados estruturada.</p>
+
+<h3 id="3-análise-comparativa">3. Análise Comparativa</h3>
+<p>Compara a matéria com o contexto de verificação para identificar padrões suspeitos de desinformação.</p>
+
+<h3 id="4-resultado-transparente">4. Resultado Transparente</h3>
+<p>Fornece classificação precisa identificando trechos suspeitos com justificativas claras para cada detecção.</p>
+
+<h2 id="tecnologia">Tecnologia</h2>
+
+<p>O ThinkAds utiliza:</p>
+<ul>
+  <li><strong>RAGFlow</strong>: Para processamento e análise de conteúdo</li>
+  <li><strong>LLMs</strong>: Modelos de linguagem avançados para compreensão textual</li>
+  <li><strong>Base de Conhecimento</strong>: Repositório estruturado de padrões de desinformação</li>
+  <li><strong>Interface Web</strong>: Plataforma acessível para análise em tempo real</li>
+</ul>
+
+<h2 id="parceiros-e-colaboradores">Parceiros e Colaboradores</h2>
+
+<p>Este projeto é resultado da colaboração entre organizações comprometidas com o combate à desinformação:</p>
+
+<ul>
+  <li><strong>Sleeping Giants Brasil</strong>: Organização dedicada ao combate à desinformação e promoção da responsabilidade na mídia digital</li>
+  <li><strong>LabLivre</strong>: Laboratório de pesquisa em tecnologias livres da UnB</li>
+  <li><strong>Universidade de Brasília</strong>: Financiada por meio do edital [Enfrentamento à Desinformação]https://enfrentamentoadesinformacao.unb.br/</li>
+</ul>
+
+<h2 id="acesse-o-projeto">Acesse o Projeto</h2>
+
+<ul>
+  <li><a href="https://think-ads.vercel.app/">🌐 ThinkAds - Sistema Online</a></li>
+  <li><a href="https://think-ads.vercel.app/documentacao">📖 Documentação Técnica</a></li>
+  <li><a href="https://think-ads.vercel.app/sobre">ℹ️ Sobre o Projeto</a></li>
+</ul>
+
+<h2 id="impacto">Impacto</h2>
+
+<p>O ThinkAds representa um avanço significativo no combate à desinformação, oferecendo:</p>
+<ul>
+  <li>Análise automatizada e precisa de conteúdo jornalístico</li>
+  <li>Transparência nos critérios de detecção</li>
+  <li>Ferramenta acessível para jornalistas e verificadores de fatos</li>
+  <li>Contribuição para o fortalecimento do jornalismo responsável</li>
+</ul>
+
+<h2 id="contatos">Contatos</h2>
+
+<ul>
+  <li>Coordenadora do Projeto: Profa Carla Rocha (<a href="mailto:caguiar@unb.br">caguiar@unb.br</a>)</li>
+</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O ThinkAds é um sistema inteligente de detecção de fake news que utiliza tecnologia RAGFlow para análise de conteúdo jornalístico. O projeto integra Modelos de Linguagem de Grande Escala (LLMs) com uma base de conhecimento estruturada para análise precisa de conteúdo jornalístico.]]></summary></entry><entry><title type="html">Ecossistema de Software Livre - Participação Digital (2023 - em andamento)</title><link href="http://0.0.0.0:4000/projects/ecossistemas" rel="alternate" type="text/html" title="Ecossistema de Software Livre - Participação Digital (2023 - em andamento)" /><published>2023-12-15T00:00:00+00:00</published><updated>2023-12-15T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/ecossistemas</id><content type="html" xml:base="http://0.0.0.0:4000/projects/ecossistemas"><![CDATA[<p>O Brasil Participativo é um software de código aberto adaptado da plataforma de participação eletrônica Decidim, originada da prefeitura de Barcelona em 2016. A plataforma Decidim oferece vários espaços interativos, como iniciativas, assembleias e consultas, permitindo diferentes formas de engajamento, incluindo enquetes, submissão de propostas, votação, acompanhamento de resultados e comentários.</p>
 
 <p>A Plataforma Brasil Participativo representa o novo ambiente digital do governo federal, criado para que a população possa contribuir para a criação e aprimoramento das políticas públicas. Sob responsabilidade da Secretaria Nacional de Participação Social da Secretaria Geral da Presidência da República (SNPS/SGPR) e com a parceria essencial do Ministério da Gestão e da Inovação em Serviços Públicos (MGI), essa plataforma foi desenvolvida com o apoio e a infraestrutura da Dataprev, da comunidade Decidim-Brasil e da Universidade de Brasília (UnB).</p>
 
@@ -191,75 +478,4 @@
 
 <p><a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf">Leia o documento aqui! Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre</a></p>
 
-<p><img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[A equipe LAPPIS traduziu para o português brasileiro a publicação “Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre” da Free Software Foundation Europe.]]></summary></entry><entry><title type="html">Pacote Hygia OSS Python (2023 - Finalizado)</title><link href="http://0.0.0.0:4000/projects/hygia" rel="alternate" type="text/html" title="Pacote Hygia OSS Python (2023 - Finalizado)" /><published>2023-11-15T00:00:00+00:00</published><updated>2023-11-15T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/hygia</id><content type="html" xml:base="http://0.0.0.0:4000/projects/hygia"><![CDATA[<p>Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de machine learning.</p>
-
-<p>Ao adotar um fluxo de trabalho padrão de aprendizado de máquina e integrar as melhores práticas de DevOps e MLOps (operações de machine learning), o projeto busca aumentar a agilidade das experimentações e a escalabilidade do processo para aplicação em outros conjuntos de dados e equipes. O foco na incorporação de práticas de DevOps e MLOps é fundamental para garantir a eficiência, automação e simplificação contínuas ao longo de todas as fases do projeto. Continuação do projeto “Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes”.</p>
-
-<h2 id="resultados-obtidos">Resultados obtidos</h2>
-
-<p>Hygia é um pacote Python poderoso e inovador que simplifica o processo de trabalhar com dados de Machine Learning. Com sua configuração rápida, flexível e intuitiva de pipeline de dados baseada em YAML, o Hygia facilita para desenvolvedores e usuários gerenciar, organizar, comparar e compartilhar todos os metadados de seus modelos de ML em um local conveniente. Isso ajuda a otimizar o processo ETL (Extract, Transform, and Load), tornando-o mais eficiente, escalável e automatizado. Se você trabalha em um ambiente de dados complexo ou precisa migrar rapidamente para novos contextos, o Hygia fornece as ferramentas necessárias para o sucesso. Se você procura uma solução que possa ajudá-lo a trabalhar com dados de Machine Learning de forma mais eficaz, o Hygia é definitivamente vale a pena conferir.</p>
-
-<p>Este pacote Python de código aberto foi patrocinado por meio de um projeto de colaboração com o Instituto Eldorado.</p>
-
-<p><a href="https://github.com/hygia-org/hygia">Acesse a comunidade OSS do Hygia.</a></p>
-
-<h2 id="financiamento">Financiamento</h2>
-
-<p>Finalizado</p>
-<ul>
-  <li>Instituto Eldorado - Projeto de Pesquisa - (2023)</li>
-</ul>
-
-<h2 id="contatos">Contatos</h2>
-
-<ul>
-  <li>Coordenadora do projeto: Profa Carla Rocha (<a href="caguiar@unb.br">caguiar@unb.br</a>)</li>
-</ul>
-
-<p><img src="/images/hygia.png" alt="Hygia" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de machine learning.]]></summary></entry><entry><title type="html">Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell (2021 - Finalizado)</title><link href="http://0.0.0.0:4000/projects/ml" rel="alternate" type="text/html" title="Aprendizado de Máquina para Detecção de Anomalias em Bancos de Dados de Clientes - Parceria com o Instituto Eldorado/Dell (2021 - Finalizado)" /><published>2023-11-14T00:00:00+00:00</published><updated>2023-11-14T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/maquina</id><content type="html" xml:base="http://0.0.0.0:4000/projects/ml"><![CDATA[<p>Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de machine learning.</p>
-
-<p>Ao adotar um fluxo de trabalho padrão de aprendizado de máquina e integrar as melhores práticas de DevOps e MLOps (operações de machine learning), o projeto busca aumentar a agilidade das experimentações e a escalabilidade do processo para aplicação em outros conjuntos de dados e equipes. O foco na incorporação de práticas de DevOps e MLOps é fundamental para garantir a eficiência, automação e simplificação contínuas ao longo de todas as fases do projeto.</p>
-
-<p><img src="/images/ML_architecture_final.png" alt="ML_architecture_final" style="height: 300px;" /></p>
-
-<h2 id="resultados-obtidos">Resultados obtidos</h2>
-
-<p>No contexto do projeto, uma série de atividades cruciais foram empreendidas para viabilizar o desenvolvimento e aprimoramento de uma metodologia robusta. Inicialmente, foi realizada uma análise minuciosa das informações e das atividades executadas, visando estabelecer uma metodologia que defina a clusterização e os critérios para a transformação dos dados. Ademais, é de suma importância contribuir para o desenvolvimento dos critérios fundamentais empregados na fase de Extração, Transformação e Carga (ETL). Uma parte significativa do projeto envolve a criação de soluções capazes de detectar anomalias nas transformações da ETL, além de gerar feedbacks pertinentes para aprimoramentos futuros.</p>
-
-<p>Com base no banco de dados de clientes (costumers), foram criados modelos de machine learning com o propósito de identificar outliers e um modelo específico destinado à detecção de <em>keyboardsmashing</em>.</p>
-
-<p>Além das atividades mencionadas, outro ponto de destaque são os artefatos produzidos. São elaboradas documentações abrangentes que descrevem detalhadamente as metodologias, técnicas, ferramentas e processos testados em cada hipótese ou modelo de Machine Learning explorado. Paralelamente, há a criação de documentação detalhada sobre as metodologias, técnicas, ferramentas e processos adotados no processo de detecção de outliers, bem como nos testes dos modelos de Machine Learning utilizados. Esses artefatos documentais desempenham um papel crucial para o entendimento, registro e disseminação dos resultados e métodos desenvolvidos ao longo do projeto.</p>
-
-<h2 id="financiamento">Financiamento</h2>
-
-<p>Finalizado</p>
-<ul>
-  <li>Instituto Eldorado - Projeto de Pesquisa - (2021)</li>
-</ul>
-
-<h2 id="contatos">Contatos</h2>
-
-<ul>
-  <li>Coordenadora do projeto: Profa Carla Rocha (<a href="caguiar@unb.br">caguiar@unb.br</a>)</li>
-</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[Este projeto concentra-se na aplicação de algoritmos de aprendizado de máquina para identificar anomalias e valores atípicos em grandes conjuntos de dados de clientes. O objetivo primordial é aprimorar a precisão dessas detecções e otimizar o processo por meio da utilização de dados, engenharia de características e métodos avançados de machine learning.]]></summary></entry><entry><title type="html">MAVI - Aplicativo de rota de ônibus (2023 - Finalizado)</title><link href="http://0.0.0.0:4000/projects/mavi" rel="alternate" type="text/html" title="MAVI - Aplicativo de rota de ônibus (2023 - Finalizado)" /><published>2023-11-13T00:00:00+00:00</published><updated>2023-11-13T00:00:00+00:00</updated><id>http://0.0.0.0:4000/projects/mavi</id><content type="html" xml:base="http://0.0.0.0:4000/projects/mavi"><![CDATA[<p>O objetivo desta colaboração é desenvolver uma Prova de Conceito (PoC) de um aplicativo multiplataforma para pesquisa de trajetos de ônibus da frota Inova, visando atender às necessidades especiais dos usuários em termos de acessibilidade. O foco principal é fornecer uma experiência de viagem segura e conveniente para todos os passageiros, independentemente de suas limitações físicas ou cognitivas.</p>
-
-<h2 id="resultados-obtidos">Resultados obtidos</h2>
-
-<p>Além de realizar um ciclo de projeto de software e o desenvolvimento de um aplicativo mobile híbrido com a prova de conceito, a principal inovação dessa parceria foi mapear a arquitetura de como é feita a gestão de transporte público em serviços de Rotas. Esse conhecimento ainda é pouco estruturado na literatura, e esse projeto possibilitou fazer essa documentação. Também foi levantado a oportunidade de negócio de desenvolver um sistema de rotas de ônibus open source. Enquanto esse serviço já é oferecido por plataforma proprietária, não encontramos engines OSS com essa mesma funcionalidade. A comunidade open source se concentrou em desenvolver engines de serviços de rotas para carros, bicicletas e pedestres.</p>
-
-<p>Abaixo está uma página do aplicativo desenvolvido.</p>
-
-<p><img src="/images/app-mavi.jpg" alt="ML_architecture_final" style="height: 500px;" /></p>
-
-<h2 id="financiamento">Financiamento</h2>
-
-<p>Finalizado</p>
-<ul>
-  <li>Cooperação com Inova - Projeto de Pesquisa - (2023)</li>
-</ul>
-
-<h2 id="contatos">Contatos</h2>
-
-<ul>
-  <li>Coordenadora do projeto: Profa Carla Rocha (<a href="caguiar@unb.br">caguiar@unb.br</a>)</li>
-</ul>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[O objetivo desta colaboração é desenvolver uma Prova de Conceito (PoC) de um aplicativo multiplataforma para pesquisa de trajetos de ônibus da frota Inova, visando atender às necessidades especiais dos usuários em termos de acessibilidade. O foco principal é fornecer uma experiência de viagem segura e conveniente para todos os passageiros, independentemente de suas limitações físicas ou cognitivas.]]></summary></entry></feed>
+<p><img src="/images/publico.png" alt="Dinheiro Público Código Publico - Modernizando a Infraestrutura Pública com Software Livre" style="height: 500px;" /></p>]]></content><author><name>Carla Rocha, PhD</name><email>caguiar@unb.br</email></author><summary type="html"><![CDATA[A equipe LAPPIS traduziu para o português brasileiro a publicação “Dinheiro Público Código Público – Modernizando a Infraestrutura Pública com Software Livre” da Free Software Foundation Europe.]]></summary></entry></feed>

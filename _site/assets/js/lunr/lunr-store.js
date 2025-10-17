@@ -76,4 +76,22 @@ var store = [{
         "tags": [],
         "url": "http://0.0.0.0:4000/projects/ecossistemas",
         "teaser": null
+      },{
+        "title": "DermAlert - Sistema Inteligente de Detecção de Lesões Dermatológicas",
+        "excerpt":"O DermAlert é um sistema de inteligência artificial desenvolvido para auxiliar na detecção e classificação de lesões dermatológicas. O projeto utiliza técnicas avançadas de deep learning e visão computacional para apoiar profissionais de saúde no diagnóstico precoce de câncer de pele e outras condições dermatológicas. O Problema O câncer de...","categories": [],
+        "tags": [],
+        "url": "http://0.0.0.0:4000/projects/dermalert",
+        "teaser": null
+      },{
+        "title": "GovHub - Plataforma Livre de Integração de Dados Governamentais",
+        "excerpt":"O GovHub é uma plataforma livre que qualifica e integra dados dos sistemas estruturantes governamentais, transformando-os em informações estratégicas para gestão pública baseada em evidências. O projeto nasceu em 2024, fruto da parceria entre o Instituto de Pesquisa Econômica Aplicada (IPEA) e o Laboratório de Competência em Software Livre da...","categories": [],
+        "tags": [],
+        "url": "http://0.0.0.0:4000/projects/govhub",
+        "teaser": null
+      },{
+        "title": "ThinkAds - Sistema Inteligente de Detecção de Fake News",
+        "excerpt":"O ThinkAds é um sistema inteligente de detecção de fake news que utiliza tecnologia RAGFlow para análise de conteúdo jornalístico. O projeto integra Modelos de Linguagem de Grande Escala (LLMs) com uma base de conhecimento estruturada para análise precisa de conteúdo jornalístico. Como Funciona O sistema opera através de um...","categories": [],
+        "tags": [],
+        "url": "http://0.0.0.0:4000/projects/thinkads",
+        "teaser": null
       }]
