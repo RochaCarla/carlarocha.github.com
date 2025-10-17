@@ -8,40 +8,40 @@ author_profile: true
 <style>
 /* Students Page Styling */
 .page-header {
-  background: linear-gradient(135deg, #003366 0%, #006633 100%);
-  color: white;
-  padding: 2.5rem 2rem;
-  border-radius: 8px;
+  background: #f8f9fa;
+  color: #333;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 .page-header h1 {
   margin: 0 0 0.5rem 0;
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
 }
 
 .page-header p {
   margin: 0;
-  font-size: 1.1rem;
-  opacity: 0.9;
+  font-size: 1rem;
+  color: #666;
 }
 
 .opportunity-section {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  padding: 2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem;
   margin: 2rem 0;
-  border-left: 6px solid #003366;
+  border-left: 3px solid #666;
 }
 
 .opportunity-section h2 {
-  color: #003366;
+  color: #333;
   margin-top: 0;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .skills-grid {
@@ -52,20 +52,18 @@ author_profile: true
 }
 
 .skill-item {
-  background: white;
-  border: 1px solid #dee2e6;
-  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
   padding: 1rem;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .skill-item:hover {
-  border-color: #006633;
-  box-shadow: 0 2px 8px rgba(0,102,51,0.1);
+  border-color: #666;
 }
 
 .skill-item strong {
-  color: #003366;
+  color: #333;
   font-size: 1rem;
   display: block;
   margin-bottom: 0.5rem;

@@ -330,46 +330,45 @@
         <style>
 /* Misc Page Styling */
 .page-header {
-  background: linear-gradient(135deg, #003366 0%, #006633 100%);
-  color: white;
-  padding: 2.5rem 2rem;
-  border-radius: 8px;
+  background: #f8f9fa;
+  color: #333;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 .page-header h1 {
   margin: 0 0 0.5rem 0;
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
 }
 
 .page-header p {
   margin: 0;
-  font-size: 1.1rem;
-  opacity: 0.9;
+  font-size: 1rem;
+  color: #666;
 }
 
 .participation-section {
-  background: white;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  padding: 2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem;
   margin: 2rem 0;
-  border-left: 6px solid #003366;
-  transition: all 0.2s ease;
+  border-left: 3px solid #666;
+  transition: border-color 0.2s ease;
 }
 
 .participation-section:hover {
-  border-left-color: #006633;
-  box-shadow: 0 4px 12px rgba(0,102,51,0.1);
+  border-color: #333;
 }
 
 .participation-section h2 {
-  color: #003366;
+  color: #333;
   margin-top: 0;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 500;
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -377,7 +376,7 @@
 
 .participation-section .icon {
   font-size: 1.8rem;
-  color: #006633;
+  color: #666;
 }
 
 .participation-list {
@@ -388,54 +387,27 @@
 }
 
 .participation-item {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 6px;
-  padding: 1.2rem;
-  margin: 1rem 0;
-  transition: all 0.2s ease;
-  position: relative;
-  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  transition: border-color 0.2s ease;
   counter-increment: participation-counter;
 }
 
-.participation-item::before {
-  content: counter(participation-counter);
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 40px;
-  background: #006633;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transform: translateX(-40px);
-  transition: transform 0.2s ease;
-}
-
-.participation-item:hover::before {
-  transform: translateX(0);
-}
-
 .participation-item:hover {
-  background: white;
-  border-color: #006633;
-  box-shadow: 0 2px 8px rgba(0,102,51,0.1);
-  padding-left: 3rem;
+  border-color: #666;
 }
 
 .participation-item a {
-  color: #003366;
+  color: #333;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .participation-item a:hover {
-  color: #006633;
+  color: #000;
+  text-decoration: underline;
 }
 
 .highlight-grid {
@@ -446,32 +418,30 @@
 }
 
 .highlight-card {
-  background: white;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
   padding: 1.5rem;
   text-align: center;
-  transition: all 0.2s ease;
-  border-top: 4px solid #003366;
+  transition: border-color 0.2s ease;
+  border-left: 3px solid #666;
 }
 
 .highlight-card:hover {
-  border-top-color: #006633;
-  box-shadow: 0 4px 12px rgba(0,102,51,0.1);
-  transform: translateY(-2px);
+  border-color: #333;
 }
 
 .highlight-card .icon {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   display: block;
-  color: #006633;
+  color: #666;
 }
 
 .highlight-card h3 {
-  color: #003366;
+  color: #333;
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {

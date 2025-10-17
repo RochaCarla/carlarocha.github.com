@@ -330,10 +330,10 @@
         <style>
 /* Publications Page Styling */
 .publications-header {
-  background: linear-gradient(135deg, #003366 0%, #006633 100%);
-  color: white;
+  background: #f8f9fa;
+  color: #333;
   padding: 2rem;
-  border-radius: 8px;
+  border: 1px solid #e0e0e0;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -346,33 +346,34 @@
 }
 
 .stat-item {
-  background: rgba(255,255,255,0.1);
+  background: #fff;
   padding: 1rem;
-  border-radius: 6px;
+  border: 1px solid #e0e0e0;
   text-align: center;
 }
 
 .stat-number {
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 500;
   display: block;
+  color: #333;
 }
 
 .stat-label {
   font-size: 0.9rem;
-  opacity: 0.9;
+  color: #666;
 }
 
 .year-section {
-  margin: 2.5rem 0;
-  border-left: 4px solid #003366;
+  margin: 2rem 0;
+  border-left: 3px solid #666;
   padding-left: 1.5rem;
 }
 
 .year-title {
-  color: #003366;
-  font-size: 1.4rem;
-  font-weight: 600;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
@@ -380,107 +381,96 @@
 }
 
 .year-count {
-  background: #006633;
+  background: #666;
   color: white;
   padding: 0.2rem 0.6rem;
-  border-radius: 12px;
+  border-radius: 3px;
   font-size: 0.8rem;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .publication-item {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
   padding: 1.5rem;
   margin-bottom: 1rem;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease;
   position: relative;
 }
 
 .publication-item:hover {
-  border-color: #003366;
-  box-shadow: 0 4px 12px rgba(0,51,102,0.1);
+  border-color: #666;
 }
 
 /* High-impact publications (50+ citations) */
 .publication-item.high-impact {
-  background: linear-gradient(135deg, #fff8e1 0%, #f3e5f5 100%);
-  border: 2px solid #ff6f00;
-  box-shadow: 0 6px 20px rgba(255,111,0,0.15);
+  background: #fff;
+  border-left: 3px solid #666;
 }
 
 .publication-item.high-impact::before {
-  content: '🏆 HIGH IMPACT';
+  content: 'DESTAQUE';
   position: absolute;
-  top: -8px;
-  right: 15px;
-  background: #ff6f00;
+  top: 1rem;
+  right: 1rem;
+  background: #666;
   color: white;
-  padding: 0.2rem 0.8rem;
-  border-radius: 12px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
   font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  font-weight: 500;
 }
 
 /* Very high-impact publications (100+ citations) */
 .publication-item.very-high-impact {
-  background: linear-gradient(135deg, #fff3e0 0%, #fce4ec 100%);
-  border: 3px solid #d32f2f;
-  box-shadow: 0 8px 25px rgba(211,47,47,0.2);
+  background: #fff;
+  border-left: 3px solid #333;
 }
 
 .publication-item.very-high-impact::before {
-  content: '⭐ BREAKTHROUGH';
-  background: #d32f2f;
+  content: 'ALTO IMPACTO';
+  background: #333;
 }
 
 /* Journal publications */
 .publication-item.journal {
-  border-left: 6px solid #006633;
-  background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e8 100%);
-}
-
-.publication-item.journal .pub-venue::before {
-  content: '📖 ';
-  color: #006633;
-  font-weight: bold;
+  border-left: 3px solid #666;
+  background: #fff;
 }
 
 /* Conference publications */
-.publication-item.conference .pub-venue::before {
-  content: '🎤 ';
-  color: #666;
+.publication-item.conference {
+  border-left: 3px solid #999;
+  background: #fff;
 }
 
 .pub-title {
-  color: #003366;
+  color: #333;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.5rem;
   line-height: 1.3;
 }
 
 .pub-authors {
-  color: #6c757d;
-  font-size: 0.95rem;
+  color: #666;
+  font-size: 0.9rem;
   margin-bottom: 0.5rem;
 }
 
 .pub-venue {
-  color: #495057;
+  color: #666;
   font-style: italic;
   margin-bottom: 0.5rem;
 }
 
 .pub-citations {
-  background: #006633;
+  background: #666;
   color: white;
   padding: 0.2rem 0.6rem;
-  border-radius: 12px;
+  border-radius: 3px;
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 400;
   display: inline-block;
 }
 
@@ -492,17 +482,17 @@
 }
 
 .external-link {
-  background: #003366;
+  background: #666;
   color: white;
   padding: 0.8rem 1.5rem;
-  border-radius: 6px;
+  border-radius: 3px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   transition: background 0.2s ease;
 }
 
 .external-link:hover {
-  background: #006633;
+  background: #333;
   color: white;
 }
 

@@ -181,7 +181,8 @@ body {
   }
   
   .research-grid,
-  .publications-grid {
+  .publications-grid,
+  .books-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
@@ -297,6 +298,230 @@ body {
 
 .pub-link:hover {
   color: var(--primary-color);
+}
+
+/* Books Section */
+.books-section {
+  padding: 4rem 0;
+  background: var(--bg-light);
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.book-item {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  padding: 2rem;
+  transition: all 0.2s ease;
+  position: relative;
+  border-left: 3px solid var(--accent-color);
+}
+
+.book-item:hover {
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-subtle);
+}
+
+.book-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.book-authors {
+  color: var(--text-medium);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.book-description {
+  color: var(--text-medium);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.book-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.book-year {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.book-type {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.book-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: color 0.2s ease;
+}
+
+.book-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.book-item.featured-project {
+  border-left: 3px solid var(--primary-color);
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.project-features {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: var(--bg-light);
+  border-radius: 3px;
+}
+
+.feature-item {
+  color: var(--text-medium);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.feature-item::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.book-status {
+  background: #28a745;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.book-link.primary {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.book-link.primary:hover {
+  background: var(--primary-color);
+  text-decoration: none;
+}
+
+.book-link.secondary {
+  background: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.book-link.secondary:hover {
+  background: var(--accent-color);
+  color: white;
+  text-decoration: none;
+}
+
+.book-item.featured-book {
+  border-left: 4px solid var(--accent-color);
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.book-badge {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: var(--accent-color);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.book-highlights {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: var(--bg-light);
+  border-radius: 6px;
+  border-left: 3px solid var(--accent-color);
+}
+
+.highlight-item {
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  margin: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-weight: 500;
+}
+
+.book-link.featured {
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--primary-color) 100%);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.book-link.featured:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  text-decoration: none;
 }
 
 /* Fixed Navigation */
@@ -433,6 +658,48 @@ body {
           <span class="pub-citations">18 citações</span>
         </div>
         <a href="/publications/" class="pub-link">Ver todas as publicações →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Books Section -->
+<section class="books-section">
+  <div class="container">
+    <h2 class="section-title">Livros</h2>
+    <p style="text-align: center; color: var(--text-medium); margin-bottom: 3rem; font-size: 1.1rem;">
+      Publicações que abordam temas fundamentais para a modernização do setor público através de tecnologia e software livre.
+    </p>
+    <div class="books-grid">
+      <div class="book-item featured-book">
+        <div class="book-badge">📖 Guia Prático</div>
+        <h3 class="book-title">GovHub - Um guia prático para integração e qualificação de dados públicos</h3>
+        <p class="book-authors">Carla Rocha, Lab Livre UnB, IPEA</p>
+        <p class="book-description">
+          Guia completo que apresenta metodologias e ferramentas práticas para transformar dados governamentais dispersos 
+          em informações estratégicas, promovendo transparência e decisões baseadas em evidências no setor público.
+        </p>
+        <div class="book-meta">
+          <span class="book-year">2025</span>
+          <span class="book-type">Livro</span>
+          <span class="book-status">Disponível</span>
+        </div>
+        <a href="https://gov-hub.io/land/dist/index.html#" class="book-link featured" target="_blank">📖 Baixar Guia →</a>
+      </div>
+      
+      <div class="book-item featured-book">
+        <div class="book-badge">📚 Livro</div>
+        <h3 class="book-title">Dinheiro Público Código Público - Modernizando a Infraestrutura Pública com Software Livre</h3>
+        <p class="book-description">
+          Obra fundamental sobre a aplicação de software livre no setor público, apresentando técnicas de aprendizagem experiencial, 
+          mentoria e estratégias para modernização da infraestrutura governamental através de soluções abertas e colaborativas.
+        </p>
+        <div class="book-meta">
+          <span class="book-year">2023</span>
+          <span class="book-type">E-book</span>
+          <span class="book-status">Disponível</span>
+        </div>
+        <a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pt_br.pdf" class="book-link featured" target="_blank">📚 Ler Online →</a>
       </div>
     </div>
   </div>

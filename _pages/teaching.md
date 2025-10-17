@@ -8,40 +8,40 @@ permalink: /teaching/
 <style>
 /* Teaching Page Styling */
 .page-header {
-  background: linear-gradient(135deg, #003366 0%, #006633 100%);
-  color: white;
-  padding: 2.5rem 2rem;
-  border-radius: 8px;
+  background: #f8f9fa;
+  color: #333;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 .page-header h1 {
   margin: 0 0 0.5rem 0;
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
 }
 
 .page-header p {
   margin: 0;
-  font-size: 1.1rem;
-  opacity: 0.9;
+  font-size: 1rem;
+  color: #666;
 }
 
 .teaching-philosophy {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  padding: 2rem;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 1.5rem;
   margin: 2rem 0;
-  border-left: 6px solid #003366;
+  border-left: 3px solid #666;
 }
 
 .teaching-philosophy h2 {
-  color: #003366;
+  color: #333;
   margin-top: 0;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 .methodology-grid {
@@ -52,72 +52,62 @@ permalink: /teaching/
 }
 
 .methodology-item {
-  background: white;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
   padding: 1.5rem;
-  text-align: center;
-  transition: all 0.2s ease;
-}
-
-.methodology-item:hover {
-  border-color: #006633;
-  box-shadow: 0 4px 12px rgba(0,102,51,0.1);
-  transform: translateY(-2px);
 }
 
 .methodology-item h3 {
-  color: #003366;
-  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
 }
 
-.methodology-item .icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  display: block;
+.methodology-item p {
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .course-image {
   text-align: center;
   margin: 2rem 0;
-  background: white;
+  background: #fff;
   padding: 1.5rem;
-  border-radius: 8px;
-  border: 1px solid #e9ecef;
+  border: 1px solid #e0e0e0;
 }
 
 .course-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .semester-section {
-  background: white;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
   padding: 1.5rem;
-  margin: 1.5rem 0;
-  border-left: 4px solid #006633;
+  margin: 1rem 0;
+  border-left: 3px solid #666;
 }
 
 .semester-section h2 {
-  color: #003366;
+  color: #333;
   margin-top: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
 .semester-badge {
-  background: #006633;
+  background: #666;
   color: white;
-  padding: 0.2rem 0.8rem;
-  border-radius: 12px;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
   font-size: 0.8rem;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .course-list {
@@ -127,28 +117,26 @@ permalink: /teaching/
 }
 
 .course-item {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 6px;
-  padding: 1rem;
-  margin: 0.8rem 0;
-  transition: all 0.2s ease;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  transition: border-color 0.2s ease;
 }
 
 .course-item:hover {
-  border-color: #003366;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0,51,102,0.1);
+  border-color: #666;
 }
 
 .course-item a {
-  color: #003366;
+  color: #333;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .course-item a:hover {
-  color: #006633;
+  color: #000;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -168,6 +156,7 @@ permalink: /teaching/
     padding: 1rem;
   }
 }
+
 </style>
 
 <div class="page-header">
@@ -176,28 +165,26 @@ permalink: /teaching/
 </div>
 
 <div class="teaching-philosophy">
-  <h2>Filosofia Educacional</h2>
+  <h2>Sobre a metodologia</h2>
   
-  <p>Eu adoto <strong>Modelos de Aprendizagem Experiencial</strong> com cursos orientados a projetos. Neste modelo, os alunos passam por uma 'jornada de descoberta', onde compreendem as lições e conceitos por meio do processo experiencial de chegar lá.</p>
+  <p>Eu adoto <strong>Modelos de Aprendizagem Experiencial</strong> com cursos orientados a projetos e Living Labs no laboratório de pesquisa. Neste modelo, os alunos passam por uma 'jornada de descoberta', onde compreendem as lições e conceitos por meio do processo experiencial de chegar lá.</p>
 
   <p>Os estudantes desenvolvem projetos de software com clientes reais ou conjuntos de dados reais. Todos os artefatos produzidos durante os cursos são de código aberto, e os alunos têm acesso ao material e código de semestres anteriores. Os estudantes também têm a experiência de contribuir para comunidades de Código Aberto maiores, como Debian, Kubernetes, Rocket.Chat e Noosfero.</p>
 </div>
 
+
 <div class="methodology-grid">
   <div class="methodology-item">
-    <span class="icon">🎯</span>
     <h3>Projetos Reais</h3>
     <p>Desenvolvimento com clientes reais e conjuntos de dados autênticos</p>
   </div>
   
   <div class="methodology-item">
-    <span class="icon">🔓</span>
     <h3>Código Aberto</h3>
     <p>Todos os artefatos são open source e acessíveis para futuras turmas</p>
   </div>
   
   <div class="methodology-item">
-    <span class="icon">🌐</span>
     <h3>Comunidades</h3>
     <p>Contribuição para projetos como Debian, Kubernetes e Rocket.Chat</p>
   </div>
@@ -209,7 +196,39 @@ permalink: /teaching/
 </div>
 
 <div class="semester-section">
-  <h2>2024.1 <span class="semester-badge">Atual</span></h2>
+  <h2>2025.2 <span class="semester-badge">Atual</span></h2>
+  <ul class="course-list">
+    <li class="course-item">
+      <a href="/teaching/mds">
+        Métodos de Desenvolvimento de Software (MDS)
+      </a>
+    </li>
+    <li class="course-item">
+      <a href="https://github.com/fga-gces" target="_blank">
+        Gerência de Configuração e Evolução de Software (GCES)
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="semester-section">
+  <h2>2025.1</h2>
+  <ul class="course-list">
+    <li class="course-item">
+      <a href="/teaching/mds">
+        Métodos de Desenvolvimento de Software (MDS)
+      </a>
+    </li>
+    <li class="course-item">
+      <a href="https://github.com/fga-gces" target="_blank">
+        Gerência de Configuração e Evolução de Software (GCES)
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="semester-section">
+  <h2>2024.1</h2>
   <ul class="course-list">
     <li class="course-item">
       <a href="https://fga-eps-mds.github.io/2024.1-MDS-DOCS/" target="_blank">
@@ -320,21 +339,16 @@ permalink: /teaching/
   </ul>
 </div>
 
-## 2021.1 
-1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)
-1. [Software Configuration Management and Evolution- Gerência de Configuração e Evolução de Software(GCES)](https://github.com/fga-gces)
-1. [Software Development - Masters](https://github.com/PPCA-CS)
+## Histórico de Disciplinas
 
-## 2020.2 
-1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)
-1. [Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)](https://github.com/fga-gces)
+### Outras disciplinas ministradas
+- Computer Graphics (Computação Gráfica)
+- Product Engineering (Engenharia de Produto)
+- Introduction to Software Engineering (Introdução à Engenharia de Software)
 
-## 2020.1 
-1. [Software Development Methods - Métodos de Desenvolvimento de Software (MDS)](/teaching/mds)
-1. [Software Configuration Management and Evolution - Gerência de Configuração e Evolução de Software(GCES)](https://github.com/fga-gces)
-
-
-## Before 2020
-I also teach Computer Graphics, Product Engineering, and Introduction to Software Engineering.
+### Links para repositórios das disciplinas
+- [MDS - Métodos de Desenvolvimento de Software](/teaching/mds)
+- [GCES - Gerência de Configuração e Evolução de Software](https://github.com/fga-gces)
+- [Software Development - Masters](https://github.com/PPCA-CS)
 
 
