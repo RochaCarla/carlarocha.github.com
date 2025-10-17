@@ -217,6 +217,132 @@
 </div>
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/lost+found/ghlp4.png" alt="Carla Rocha, PhD" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Carla Rocha, PhD</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Professora e Pesquisadora em Engenharia de Software na Universidade de Brasília (UnB). Interesses: Diversidade, desenvolvimento ágil, adoção de DevOps, MLOps, comunidade de código aberto, ensino orientado a projetos.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Acompanhe no</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">UnB,  Brasil</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://rochacarla.github.io/carlarocha.github.com/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/RochaCarla" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/carla-rocha-a4287a19/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">linkedin</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:caguiar@unb.br">
+            <meta itemprop="email" content="caguiar@unb.br" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">E-mail</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
 <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     
     
@@ -232,508 +358,440 @@
       <section class="page__content" itemprop="text">
         
         <style>
-/* Academic Color Palette */
+/* Clean Academic Design System */
 :root {
-  --unb-blue: #1e3a5f;
-  --unb-green: #2d5a3d;
-  --primary-color: #1e3a5f;
-  --secondary-color: #2d5a3d;
-  --accent-color: #34495e;
-  --text-dark: #2c3e50;
-  --text-medium: #34495e;
-  --text-light: #7f8c8d;
-  --bg-light: #fafbfc;
+  --primary-color: #333333;
+  --secondary-color: #666666;
+  --accent-color: #0066cc;
+  --text-dark: #333333;
+  --text-medium: #666666;
+  --text-light: #999999;
   --bg-white: #ffffff;
-  --border-light: #e1e8ed;
-  --shadow-subtle: 0 2px 8px rgba(0,0,0,0.06);
-  --shadow-medium: 0 4px 16px rgba(0,0,0,0.08);
-  --shadow-hover: 0 8px 24px rgba(0,0,0,0.12);
+  --bg-light: #fafafa;
+  --border-light: #e0e0e0;
+  --shadow-subtle: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-medium: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Container for wider content */
-.wide-container {
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background: var(--bg-white);
+}
+
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* Academic Hero Section */
+/* Hero Section - NetLab Style */
 .hero-section {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
-  color: white;
-  padding: 3rem 2rem;
-  border-radius: 0;
-  margin: -2rem -1rem 2rem -1rem;
-  position: relative;
-  border-bottom: 4px solid var(--unb-green);
-  box-shadow: var(--shadow-medium);
-}
-
-.hero-section::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60px;
-  height: 100%;
-  background: var(--unb-green);
-  opacity: 0.1;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: left;
+  background: var(--bg-white);
+  padding: 4rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--border-light);
 }
 
 .hero-title {
-  font-size: 2.4rem;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--primary-color);
   margin-bottom: 1.5rem;
-  color: white;
   line-height: 1.3;
-  letter-spacing: -0.01em;
-  font-family: 'Georgia', 'Times New Roman', serif;
 }
 
 .hero-subtitle {
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
-  opacity: 0.9;
+  font-size: 1.2rem;
+  color: var(--text-medium);
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
   line-height: 1.6;
-  font-weight: 300;
-  max-width: 700px;
 }
 
-.hero-cta {
+.hero-buttons {
   display: flex;
   gap: 1rem;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
-  margin-top: 1.5rem;
 }
 
-.cta-button {
-  padding: 0.75rem 1.5rem;
-  border: 1px solid rgba(255,255,255,0.3);
-  border-radius: 2px;
-  font-weight: 400;
+.btn {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: white;
   text-decoration: none;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 0.9rem;
   transition: all 0.2s ease;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Research Areas Section */
+.research-section {
+  padding: 4rem 0;
+  background: var(--bg-light);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.research-card {
+  background: var(--bg-white);
+  padding: 2rem;
+  border: 1px solid var(--border-light);
+  transition: all 0.2s ease;
+}
+
+.research-card:hover {
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-subtle);
+}
+
+.research-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.research-description {
+  color: var(--text-medium);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.research-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.3px;
+  transition: color 0.2s ease;
 }
 
-.cta-primary {
-  background: rgba(255,255,255,0.15);
-  color: white;
-  backdrop-filter: blur(10px);
-  border-color: rgba(255,255,255,0.4);
-}
-
-.cta-primary:hover {
-  background: rgba(255,255,255,0.25);
-  border-color: rgba(255,255,255,0.7);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-/* Academic Feature Cards */
-.features-section {
-  margin: 2rem 0;
-  padding: 0;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin: 1.5rem 0;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 2rem;
-}
-
-.feature-card {
-  background: var(--bg-white);
-  padding: 2rem;
-  border-radius: 2px;
-  box-shadow: var(--shadow-subtle);
-  transition: all 0.2s ease;
-  position: relative;
-  border: 1px solid var(--border-light);
-  border-top: 3px solid var(--primary-color);
-}
-
-.feature-card:nth-child(even) {
-  border-top-color: var(--unb-green);
-}
-
-.feature-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
-}
-
-.feature-icon {
-  display: none;
-}
-
-.feature-title {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--text-dark);
-  margin-bottom: 1rem;
-  font-family: 'Georgia', 'Times New Roman', serif;
-}
-
-.feature-description {
-  color: var(--text-medium);
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
-}
-
-.feature-link {
+.research-link:hover {
   color: var(--primary-color);
-  text-decoration: none;
-  font-weight: 400;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  transition: all 0.2s ease;
-  font-size: 0.9rem;
-  border-bottom: 1px solid transparent;
-}
-
-.feature-link:hover {
-  color: var(--unb-green);
-  border-bottom-color: var(--unb-green);
-}
-
-/* Academic Stats Section */
-.stats-section {
-  background: var(--bg-light);
-  padding: 2rem 2rem;
-  border-radius: 2px;
-  margin: 2rem 0;
-  text-align: center;
-  border: 1px solid var(--border-light);
-  position: relative;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.stats-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--primary-color) 0%, var(--unb-green) 100%);
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.stat-item {
-  background: var(--bg-white);
-  padding: 2rem 1.5rem;
-  border-radius: 2px;
-  box-shadow: var(--shadow-subtle);
-  transition: all 0.2s ease;
-  border: 1px solid var(--border-light);
-}
-
-.stat-item:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-medium);
-}
-
-.stat-number {
-  font-size: 2.2rem;
-  font-weight: 300;
-  color: var(--primary-color);
-  display: block;
-  margin-bottom: 0.5rem;
-  font-family: 'Georgia', 'Times New Roman', serif;
-}
-
-.stat-item:nth-child(even) .stat-number {
-  color: var(--unb-green);
-}
-
-.stat-label {
-  color: var(--text-medium);
-  font-weight: 400;
-  font-size: 0.9rem;
-}
-
-/* Academic Partners Section */
-.partners-section {
-  margin: 2rem 0;
-  text-align: center;
-  padding: 0;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.partners-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
-  align-items: center;
-  padding: 0 2rem;
-}
-
-.partner-logo {
-  background: var(--bg-white);
-  padding: 1.5rem;
-  border-radius: 2px;
-  box-shadow: var(--shadow-subtle);
-  transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--border-light);
-}
-
-.partner-logo:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-medium);
-}
-
-.partner-logo img {
-  max-width: 100%;
-  max-height: 70px;
-  object-fit: contain;
-  filter: grayscale(20%);
-  transition: filter 0.2s ease;
-}
-
-.partner-logo:hover img {
-  filter: grayscale(0%);
-}
-
-/* Academic Contact Section */
-.contact-section {
-  background: linear-gradient(135deg, var(--unb-green) 0%, var(--primary-color) 100%);
-  color: white;
-  padding: 2.5rem 2rem;
-  border-radius: 2px;
-  text-align: center;
-  margin: 2rem 0;
-  position: relative;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-section h3 {
-  color: white;
-  margin-bottom: 1.5rem;
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-weight: 400;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero-section {
-    padding: 2rem 1.5rem;
-    margin: -1rem -0.5rem 1.5rem -0.5rem;
-  }
-  
-  .hero-content {
-    text-align: center;
-  }
-  
-  .hero-title {
-    font-size: 2.2rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.1rem;
-  }
-  
-  .hero-cta {
-    justify-content: center;
-  }
-  
-  .features-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.8rem;
-  }
-  
-  .partners-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
   .hero-title {
     font-size: 2rem;
   }
   
-  .stats-grid {
-    grid-template-columns: 1fr;
+  .section-title {
+    font-size: 1.6rem;
   }
   
-  .feature-card, .stat-item {
-    padding: 1rem;
+  .research-grid,
+  .publications-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 0 1rem;
   }
 }
+
+/* Publications Section - NetLab Style */
+.publications-section {
+  padding: 4rem 0;
+  background: var(--bg-white);
+}
+
+.publications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.publication-item {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  padding: 2rem;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.publication-item:hover {
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-subtle);
+}
+
+.publication-item.featured {
+  border-left: 3px solid var(--accent-color);
+  background: var(--bg-white);
+}
+
+.publication-item.featured::before {
+  content: 'Destaque';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--accent-color);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.pub-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  color: var(--text-medium);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.pub-venue {
+  color: var(--text-medium);
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.pub-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pub-year {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.pub-citations {
+  background: var(--text-medium);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.pub-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 1rem;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.pub-link:hover {
+  color: var(--primary-color);
+}
+
+/* Fixed Navigation */
+.masthead {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+  background: var(--bg-white) !important;
+  border-bottom: 1px solid var(--border-light) !important;
+  box-shadow: var(--shadow-subtle) !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Adjust body padding to account for fixed header */
+body {
+  padding-top: 80px !important;
+}
+
+/* Ensure proper spacing for the main content */
+.page__content {
+  margin-top: 0 !important;
+}
+
+/* Style the navigation links */
+.masthead__menu {
+  background: transparent !important;
+}
+
+.masthead__menu-item {
+  color: var(--text-dark) !important;
+}
+
+.masthead__menu-item:hover {
+  color: var(--accent-color) !important;
+}
+
 </style>
 
-<div class="hero-section">
-  <div class="hero-content">
-    <h1 class="hero-title">Bem-vindas e Bem-vindos!</h1>
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <h1 class="hero-title">Produzindo evidências científicas em Engenharia de Software</h1>
     <p class="hero-subtitle">
-      Professora na <strong>Faculdade de Engenharia de Software (UnB)</strong> e coordenadora do laboratório <strong>Lab Livre</strong>. 
-      Especialista em desenvolvimento ágil, DevOps, aspectos humanos do software e machine learning.
+      Professora na <strong>Faculdade de Engenharia de Software (UnB)</strong> e coordenadora do <strong>Lab Livre</strong>. 
+      Pesquisa dedicada ao desenvolvimento de soluções tecnológicas com impacto social, promovendo software livre, práticas ágeis e inovação no setor público.
     </p>
-    <div class="hero-cta">
-      <a href="mailto:caguiar@unb.br" class="cta-button cta-primary">
-        Entre em Contato
-      </a>
-      <a href="/projects/" class="cta-button cta-primary">
-        Ver Projetos
-      </a>
-    </div>
-  </div>
-</div>
-
-<section class="features-section">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
-    <h2 style="text-align: center; margin-bottom: 1.5rem; color: var(--primary-color); font-weight: 400; font-size: 1.8rem; font-family: 'Georgia', 'Times New Roman', serif;">Áreas de Atuação</h2>
-  </div>
-  
-  <div class="features-grid">
-    <div class="feature-card">
-      <h3 class="feature-title">Pesquisa Aplicada</h3>
-      <p class="feature-description">
-        Coordeno diversos projetos de pesquisa aplicada em práticas de desenvolvimento de software ágil, 
-        DevOps e aspectos humanos do desenvolvimento.
-      </p>
-      <a href="/projects/" class="feature-link">
-        Ver Projetos →
-      </a>
-    </div>
-    
-    <div class="feature-card">
-      <h3 class="feature-title">Machine Learning</h3>
-      <p class="feature-description">
-        Desenvolvimento de produtos de machine learning e pesquisa em ciência de dados 
-        aplicada a sistemas de software.
-      </p>
-      <a href="https://dgp.cnpq.br/dgp/espelhogrupo/633486" class="feature-link">
-        Grupo IME-USP →
-      </a>
-    </div>
-    
-    <div class="feature-card">
-      <h3 class="feature-title">Software Livre</h3>
-      <p class="feature-description">
-        Todo o software desenvolvido no laboratório é software livre. 
-        Promovemos colaboração aberta e compartilhamento de conhecimento.
-      </p>
-      <a href="https://www.lappis.rocks" class="feature-link">
-        Lab Livre →
-      </a>
-    </div>
-    
-    <div class="feature-card">
-      <h3 class="feature-title">Orientação Acadêmica</h3>
-      <p class="feature-description">
-        Supervisiono bolsas de pesquisa e participo do mestrado acadêmico PPCA. 
-        Aberta a novas parcerias e colaborações.
-      </p>
-      <a href="http://PPCA.unb.br" class="feature-link">
-        PPCA →
-      </a>
+    <div class="hero-buttons">
+      <a href="/projects/" class="btn">Projetos de Pesquisa</a>
+      <a href="/publications/" class="btn btn-secondary">Publicações</a>
+      <a href="mailto:caguiar@unb.br" class="btn btn-secondary">Contato</a>
     </div>
   </div>
 </section>
 
-<section class="stats-section">
-  <h3 style="color: var(--primary-color); font-weight: 400; font-family: 'Georgia', 'Times New Roman', serif;">Impacto e Números</h3>
-  <div class="stats-grid">
-    <div class="stat-item">
-      <span class="stat-number">70+</span>
-      <div class="stat-label">Bolsas Supervisionadas</div>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">15+</span>
-      <div class="stat-label">Projetos Ativos</div>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">100%</span>
-      <div class="stat-label">Software Livre</div>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">2024</span>
-      <div class="stat-label">Google Summer of Code</div>
-    </div>
-  </div>
-</section>
-
-<section class="partners-section">
-  <div style="padding: 0 2rem;">
-    <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; font-weight: 400; font-family: 'Georgia', 'Times New Roman', serif;">Parcerias e Reconhecimentos</h3>
-  </div>
-  <div class="partners-grid">
-    <div class="partner-logo">
-      <img src="/images/gsoc.png" alt="Google Summer of Code" />
-    </div>
-    <div class="partner-logo">
-      <img src="/images/BrasilParticipativo.png" alt="Brasil Participativo" />
-    </div>
-    <div class="partner-logo">
-      <img src="/images/boss.png" alt="BOSS" />
-    </div>
-    <div class="partner-logo">
-      <img src="/images/BadgesPhaseThreeWinner.png" alt="GNOME" />
-    </div>
-    <div class="partner-logo">
-      <img src="/images/logo-lappis.png" alt="Lab Livre" />
-    </div>
-    <div class="partner-logo">
-      <img src="/images/unb.png" alt="UnB" />
-    </div>
-    <div class="partner-logo">
-      <a href="https://gov-hub.io/" target="_blank">
-        <img src="/images/img-infos-gov.jpg" alt="GovHub" />
-      </a>
+<!-- Research Areas Section -->
+<section class="research-section">
+  <div class="container">
+    <h2 class="section-title">Linhas de Pesquisa</h2>
+    <div class="research-grid">
+      <div class="research-card">
+        <h3 class="research-title">Engenharia de Software e DevOps</h3>
+        <p class="research-description">
+          Pesquisa em práticas de desenvolvimento ágil, integração contínua, 
+          e metodologias de engenharia de software para o setor público.
+        </p>
+        <a href="/projects/" class="research-link">Ver Projetos →</a>
+      </div>
+      
+      <div class="research-card">
+        <h3 class="research-title">Inteligência Artificial e Dados</h3>
+        <p class="research-description">
+          Desenvolvimento de soluções de IA para detecção de desinformação, 
+          análise de dados governamentais e sistemas inteligentes.
+        </p>
+        <a href="/projects/thinkads" class="research-link">ThinkAds →</a>
+      </div>
+      
+      <div class="research-card">
+        <h3 class="research-title">Tecnologias Cívicas</h3>
+        <p class="research-description">
+          Plataformas de participação digital, transparência governamental 
+          e ferramentas para fortalecimento da democracia.
+        </p>
+        <a href="/projects/ecossistemas" class="research-link">Brasil Participativo →</a>
+      </div>
+      
+      <div class="research-card">
+        <h3 class="research-title">Software Livre e Inovação Pública</h3>
+        <p class="research-description">
+          Promoção do software livre no setor público, desenvolvimento 
+          colaborativo e transferência de tecnologia.
+        </p>
+        <a href="https://www.lappis.rocks" class="research-link">Lab Livre →</a>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="contact-section">
-  <h3 style="font-weight: 600;">Vamos Colaborar?</h3>
-  <p style="margin-bottom: 2rem; font-size: 1.1rem; opacity: 0.9;">
-    Se você busca orientação acadêmica, tem interesses semelhantes ou procura colaborações 
-    em projetos inovadores, estou aberta a novas parcerias!
-  </p>
-  <a href="mailto:caguiar@unb.br" class="cta-button cta-primary" style="background: rgba(255,255,255,0.25); color: white; border-color: rgba(255,255,255,0.5);">
-    📧 caguiar@unb.br
-  </a>
+<!-- Publications Section -->
+<section class="publications-section">
+  <div class="container">
+    <h2 class="section-title">Publicações em Destaque</h2>
+    <div class="publications-grid">
+      <div class="publication-item featured">
+        <h3 class="pub-title">A Survey of DevOps Concepts and Challenges</h3>
+        <p class="pub-authors">L Leite, C Rocha, F Kon, D Milojicic, P Meirelles</p>
+        <p class="pub-venue">ACM Computing Surveys (CSUR), Volume 52, Número 6</p>
+        <div class="pub-meta">
+          <span class="pub-year">2019</span>
+          <span class="pub-citations">676 citações</span>
+        </div>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=pt-BR&amp;user=_y8XHnAAAAAJ&amp;citation_for_view=_y8XHnAAAAAJ:u-x6o8ySG0sC" class="pub-link" target="_blank">Ver publicação →</a>
+      </div>
+      
+      <div class="publication-item">
+        <h3 class="pub-title">Qualifying Software Engineers Undergraduates in DevOps</h3>
+        <p class="pub-authors">I Alves, C Rocha</p>
+        <p class="pub-venue">2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)</p>
+        <div class="pub-meta">
+          <span class="pub-year">2021</span>
+          <span class="pub-citations">26 citações</span>
+        </div>
+        <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=pt-BR&amp;user=_y8XHnAAAAAJ&amp;citation_for_view=_y8XHnAAAAAJ:YsMSGLbcyi4C" class="pub-link" target="_blank">Ver publicação →</a>
+      </div>
+      
+      <div class="publication-item">
+        <h3 class="pub-title">Harmonizing DevOps Taxonomies—A Grounded Theory Study</h3>
+        <p class="pub-authors">J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha</p>
+        <p class="pub-venue">Journal of Systems and Software, Volume 208</p>
+        <div class="pub-meta">
+          <span class="pub-year">2024</span>
+          <span class="pub-citations">18 citações</span>
+        </div>
+        <a href="/publications/" class="pub-link">Ver todas as publicações →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" style="background: var(--bg-light); padding: 4rem 0; text-align: center;">
+  <div class="container">
+    <h2 class="section-title">Contato</h2>
+    <p style="font-size: 1.1rem; color: var(--text-medium); max-width: 600px; margin: 0 auto 2rem auto;">
+      Para colaborações acadêmicas, orientações ou parcerias em projetos de pesquisa.
+    </p>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="mailto:caguiar@unb.br" class="btn">caguiar@unb.br</a>
+      <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&amp;hl=pt-BR" class="btn btn-secondary" target="_blank">Google Scholar</a>
+      <a href="http://lattes.cnpq.br/2831991076751452" class="btn btn-secondary" target="_blank">Currículo Lattes</a>
+    </div>
+  </div>
 </section>
 
         
