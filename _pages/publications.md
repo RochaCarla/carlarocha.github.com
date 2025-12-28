@@ -254,12 +254,38 @@ author_profile: false
   text-decoration: underline;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-pub h1 { font-size: 2rem; }
+/* Responsive - Mobile First */
+@media (max-width: 480px) {
+  .pub-wrapper { margin: -1rem; }
+  .container { padding: 0 1rem; }
+  .hero-pub { padding: 2rem 0; }
+  .hero-pub h1 { font-size: 1.5rem; }
+  .hero-pub p { font-size: 1rem; }
+  .stats-grid { flex-direction: column; gap: 1rem; }
+  .stat-number { font-size: 1.75rem; }
+  .external-links { flex-direction: column; align-items: stretch; gap: 0.75rem; }
+  .external-link { justify-content: center; padding: 0.6rem 1rem; font-size: 0.9rem; }
+  .section { padding: 2rem 0; }
+  .section-title { font-size: 1.5rem; }
+  .pub-card { padding: 1rem; border-radius: 0.75rem; }
+  .pub-card .title { font-size: 1rem; }
+  .pub-card .badge { top: 0.5rem; right: 0.5rem; font-size: 0.65rem; padding: 0.2rem 0.5rem; }
+  .year-title h3 { font-size: 1.25rem; }
+  .info-text { font-size: 0.9rem; }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .pub-wrapper { margin: -1.5rem; }
+  .hero-pub h1 { font-size: 1.75rem; }
   .stats-grid { flex-direction: column; gap: 1.5rem; }
   .stat-number { font-size: 2rem; }
   .external-links { flex-direction: column; align-items: center; }
+  .section { padding: 2.5rem 0; }
+  .section-title { font-size: 1.75rem; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-pub h1 { font-size: 2rem; }
   .section { padding: 3rem 0; }
 }
 </style>
@@ -270,20 +296,6 @@ author_profile: false
   <div class="container">
     <h1>Publicações Científicas</h1>
     <p>Produção acadêmica em Engenharia de Software, DevOps, MLOps e Software Livre</p>
-    <div class="stats-grid">
-      <div class="stat-item">
-        <span class="stat-number">955</span>
-        <span class="stat-label">Citações</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">10</span>
-        <span class="stat-label">Índice h</span>
-      </div>
-      <div class="stat-item">
-        <span class="stat-number">10</span>
-        <span class="stat-label">Índice i10</span>
-      </div>
-    </div>
     <div class="external-links">
       <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=pt-BR" class="external-link" target="_blank">📊 Google Scholar</a>
       <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank">📋 Currículo Lattes</a>

@@ -441,8 +441,39 @@
   font-weight: 500;
 }
 
-/* Responsive */
-@media (max-width: 1024px) {
+/* Responsive - Mobile First */
+@media (max-width: 480px) {
+  .teaching-wrapper { margin: -1rem; }
+  .container { padding: 0 1rem; }
+  .hero-teaching { padding: 2rem 0; }
+  .hero-teaching h1 { font-size: 1.5rem; }
+  .hero-teaching p { font-size: 1rem; }
+  .section { padding: 2rem 0; }
+  .section-title { font-size: 1.5rem; }
+  .section-desc { font-size: 0.9rem; }
+  .methodology-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .methodology-card { padding: 1.25rem; }
+  .methodology-card .icon { font-size: 2rem; }
+  .methodology-card h3 { font-size: 1.1rem; }
+  .semester-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .semester-card { padding: 1rem; }
+  .semester-header h3 { font-size: 1.1rem; }
+  .other-courses { grid-template-columns: 1fr; gap: 0.75rem; }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .teaching-wrapper { margin: -1.5rem; }
+  .hero-teaching h1 { font-size: 1.75rem; }
+  .section { padding: 2.5rem 0; }
+  .section-title { font-size: 1.75rem; }
+  .methodology-grid { grid-template-columns: repeat(2, 1fr); }
+  .semester-grid { grid-template-columns: 1fr; }
+  .other-courses { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-teaching h1 { font-size: 2rem; }
+  .section { padding: 3rem 0; }
   .methodology-grid { grid-template-columns: repeat(2, 1fr); }
   .semester-grid { grid-template-columns: 1fr; }
   .other-courses { grid-template-columns: repeat(2, 1fr); }

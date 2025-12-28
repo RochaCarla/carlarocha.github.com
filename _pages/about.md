@@ -168,11 +168,37 @@ author_profile: false
   font-weight: 600;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Responsive - Mobile First */
+@media (max-width: 480px) {
+  .about-wrapper { margin: -1rem; }
+  .container { padding: 0 1rem; }
+  .hero-about { padding: 2rem 0; }
+  .hero-about h1 { font-size: 1.5rem; }
+  .hero-about p { font-size: 1rem; }
+  .section { padding: 2rem 0; }
+  .section-title { font-size: 1.5rem; }
+  .bio-text { font-size: 0.95rem; line-height: 1.7; }
+  .links-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .link-card { padding: 1rem; }
+  .link-card .icon { font-size: 1.5rem; }
+  .link-card h3 { font-size: 1rem; }
+  .contact-card { padding: 1.5rem; }
+  .contact-card h3 { font-size: 1.1rem; }
+  .contact-card a { font-size: 1rem; }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .about-wrapper { margin: -1.5rem; }
+  .hero-about h1 { font-size: 1.75rem; }
+  .section { padding: 2.5rem 0; }
+  .section-title { font-size: 1.75rem; }
+  .links-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
   .hero-about h1 { font-size: 2rem; }
-  .links-grid { grid-template-columns: 1fr; }
   .section { padding: 3rem 0; }
+  .links-grid { grid-template-columns: repeat(2, 1fr); }
 }
 </style>
 

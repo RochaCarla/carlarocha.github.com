@@ -781,10 +781,60 @@ permalink: /
 
 .footer-copyright { color: var(--text-secondary); font-size: 0.875rem; }
 
-@media (max-width: 768px) {
+/* Responsive - Mobile First */
+@media (max-width: 480px) {
+  .home-wrapper { margin: -1rem; }
+  .container { padding: 0 1rem; }
+  .hero { min-height: auto; padding: 3rem 0 2rem 0; }
+  .hero-content { padding: 1.5rem 1rem; }
+  .hero-title { font-size: 1.75rem; }
+  .hero-subtitle { font-size: 0.75rem; letter-spacing: 0.2em; }
+  .hero-bio { font-size: 1rem; margin-bottom: 1.5rem; }
+  .hero-buttons { flex-direction: column; gap: 0.75rem; }
+  .btn-elegant { width: 100%; justify-content: center; padding: 0.75rem 1.25rem; }
+  .hero-stats { grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2rem; }
+  .hero-stat-number { font-size: 1.5rem; }
+  .hero-stat-label { font-size: 0.75rem; }
+  .scroll-indicator { display: none; }
+  .section { padding: 2.5rem 0; }
+  .section-title { font-size: 1.5rem; }
+  .section-desc { font-size: 1rem; margin-bottom: 2rem; }
+  .research-grid { gap: 1.5rem; }
+  .research-title { font-size: 1.25rem; }
+  .research-desc { font-size: 0.9rem; }
+  .publications-grid { gap: 1rem; }
+  .pub-card-simple { padding: 0.75rem 0; }
+  .pub-title { font-size: 1rem; }
+  .pub-card-date { font-size: 0.8rem; }
+  .pub-card-description { font-size: 0.85rem; }
+  .projects-grid { gap: 1.5rem; }
+  .project-header { padding: 1rem; }
+  .project-header h3 { font-size: 1.1rem; }
+  .project-content { padding: 1rem; }
+  .project-desc { font-size: 0.85rem; }
+  .project-link { padding: 0.6rem 1rem; font-size: 0.85rem; }
+  .contact-info-row { flex-direction: column; gap: 0.75rem; }
+  .footer-logos { flex-direction: column; gap: 1.5rem; }
+  .footer-logo { height: 40px; }
+  .lab-photo { padding: 0.5rem 0 2rem 0; }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .home-wrapper { margin: -1.5rem; }
+  .hero { min-height: auto; padding: 4rem 0 3rem 0; }
   .hero-title { font-size: 2.25rem; }
+  .hero-stats { grid-template-columns: repeat(2, 1fr); }
+  .section { padding: 3rem 0; }
   .section-title { font-size: 1.75rem; }
+  .research-grid { grid-template-columns: 1fr; }
+  .publications-grid { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-title { font-size: 3rem; }
   .section { padding: 4rem 0; }
+  .research-grid { grid-template-columns: repeat(2, 1fr); }
 }
 </style>
 

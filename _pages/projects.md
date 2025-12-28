@@ -32,7 +32,7 @@ permalink: /projects/
   line-height: 1.6;
   margin-bottom: 1.5rem;
   text-align: left;
-  font-size: 0.9rem;a
+  font-size: 0.9rem;
   color: #333;
 }
 
