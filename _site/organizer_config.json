@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "downloads_path": "~/Downloads",
+    "auto_run_interval": 3600,
+    "min_confidence": 0.3,
+    "backup_before_move": true,
+    "max_file_age_days": 365
+  },
+  "custom_categories": {
+    "Pesquisa": {
+      "extensions": [".pdf", ".doc", ".docx"],
+      "keywords": ["pesquisa", "research", "paper", "artigo", "tese", "dissertacao"],
+      "folder": "🔬 Pesquisa Acadêmica"
+    },
+    "Ensino": {
+      "extensions": [".pdf", ".pptx", ".docx"],
+      "keywords": ["aula", "disciplina", "curso", "material", "slides", "exercicio"],
+      "folder": "🎓 Material de Ensino"
+    },
+    "Projetos": {
+      "extensions": [".zip", ".tar", ".gz"],
+      "keywords": ["projeto", "source", "codigo", "github", "repository"],
+      "folder": "💼 Projetos"
+    },
+    "Financeiro": {
+      "extensions": [".pdf", ".xlsx"],
+      "keywords": ["fatura", "boleto", "comprovante", "nota", "fiscal", "recibo"],
+      "folder": "💰 Documentos Financeiros"
+    }
+  },
+  "ignore_patterns": [
+    "*.tmp",
+    "*.temp",
+    "Thumbs.db",
+    ".DS_Store",
+    "*.log"
+  ],
+  "notifications": {
+    "enabled": true,
+    "show_summary": true,
+    "sound_enabled": false
+  }
+}

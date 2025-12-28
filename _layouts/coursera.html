@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div class="coursera-page">
+  {% if page.hero %}
+  <div class="course-hero">
+    <div class="course-hero-content">
+      {% if page.badge %}
+      <span class="course-badge">{{ page.badge }}</span>
+      {% endif %}
+      <h1 class="course-hero-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <p class="course-hero-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      {% if page.meta %}
+      <div class="course-meta">
+        {% for item in page.meta %}
+        <div class="meta-item">
+          <i class="{{ item.icon }}"></i>
+          <span>{{ item.text }}</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="coursera-content">
+    {% if page.stats %}
+    <div class="course-stats">
+      {% for stat in page.stats %}
+      <div class="stat-item">
+        <span class="stat-value">{{ stat.value }}</span>
+        <span class="stat-label">{{ stat.label }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page.learn %}
+    <div class="learn-section">
+      <h2 class="section-title"><i class="fas fa-check-circle"></i> O que você vai aprender</h2>
+      <div class="learn-grid">
+        {% for item in page.learn %}
+        <div class="learn-item">
+          <i class="fas fa-check"></i>
+          <span>{{ item }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% if page.skills %}
+    <div class="skills-section">
+      <h2 class="section-title">Habilidades que você vai desenvolver</h2>
+      <div class="skills-grid">
+        {% for skill in page.skills %}
+        <span class="skill-tag">{{ skill }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.cta %}
+    <div class="cta-section">
+      <h3 class="cta-title">{{ page.cta.title }}</h3>
+      <p class="cta-subtitle">{{ page.cta.subtitle }}</p>
+      <a href="{{ page.cta.url }}" class="cta-button">
+        {{ page.cta.text }} <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</div>
