@@ -77,6 +77,12 @@ var store = [{
         "url": "http://0.0.0.0:4000/projects/ecossistemas",
         "teaser": null
       },{
+        "title": "LAPPIS no Google Summer of Code 2024",
+        "excerpt":"Em 2024, o LAPPIS (Laboratório Avançado de Produção, Pesquisa e Inovação em Software)/LabLivre foi selecionado como organização participante do Google Summer of Code (GSoC), um programa global do Google que conecta estudantes desenvolvedores a projetos de código aberto. Sobre o Google Summer of Code O Google Summer of Code é...","categories": [],
+        "tags": [],
+        "url": "http://0.0.0.0:4000/projects/gsoc-2024",
+        "teaser": null
+      },{
         "title": "DermAlert - Sistema Inteligente de Detecção de Lesões Dermatológicas",
         "excerpt":"O DermAlert é um sistema de inteligência artificial desenvolvido para auxiliar na detecção e classificação de lesões dermatológicas. O projeto utiliza técnicas avançadas de deep learning e visão computacional para apoiar profissionais de saúde no diagnóstico precoce de câncer de pele e outras condições dermatológicas. O Problema O câncer de...","categories": [],
         "tags": [],

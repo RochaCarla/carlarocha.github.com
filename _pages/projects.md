@@ -32,7 +32,7 @@ permalink: /projects/
   line-height: 1.6;
   margin-bottom: 1.5rem;
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 0.9rem;a
   color: #333;
 }
 
@@ -175,3 +175,5 @@ Faço parte diversos projetos de pesquisa, tanto com grupos de pesquisa quanto c
 Atuo como uma das coordenadoras do laboratório de pesquisa aplicada [LAPPIS](https://lablivre.unb.br/), onde tenho a oportunidade de liderar várias iniciativas de pesquisa aplicada em colaboração com agências governamentais e empresas privadas. Ao longo do meu percurso, supervisionei mais de 70 bolsas de pesquisa.
 
 A maioria dos projetos pesquisa aplicada em que estou engajada está focada no desenvolvimento de software, sendo distribuído como Software Livre. Apresento aqui os principais projetos ativos e passados. Para mais detalhes, entre no [Lattes](http://lattes.cnpq.br/2831991076751452).
+
+Em 2024, o LAPPIS foi selecionado como organização participante do [Google Summer of Code (GSoC) 2024](https://summerofcode.withgoogle.com/archive/2024/organizations/lappis), programa global do Google que conecta estudantes a projetos de código aberto. Esta participação reforça nosso compromisso com a comunidade de Software Livre e a formação de novos desenvolvedores.
