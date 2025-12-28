@@ -1,345 +1,438 @@
 ---
-layout: single
+layout: homepage
 title: Oportunidades
 permalink: /students/
-author_profile: true
+author_profile: false
 ---
 
 <style>
-/* Students Page Styling */
-.page-header {
-  background: #f8f9fa;
-  color: #333;
-  padding: 2rem;
-  border: 1px solid #e0e0e0;
-  margin-bottom: 2rem;
+/* Design System - Azul */
+:root {
+  --primary: #0066cc;
+  --primary-dark: #004499;
+  --primary-light: #0088ee;
+  --background: #FFFFFF;
+  --foreground: #000000;
+  --text-secondary: #666666;
+  --border: #e0e0e0;
+  --card-bg: #f5f5f5;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.students-wrapper {
+  font-family: var(--font-body);
+  background: var(--background);
+  color: var(--foreground);
+  line-height: 1.6;
+  margin: -2rem;
+}
+
+.students-wrapper h1, .students-wrapper h2, .students-wrapper h3 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--foreground);
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.max-w-6xl { max-width: 72rem; margin: 0 auto; }
+
+/* Hero Section */
+.hero-students {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  padding: 4rem 0;
   text-align: center;
+  border-bottom: 1px solid var(--border);
 }
 
-.page-header h1 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: #333;
+.hero-students h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
 }
 
-.page-header p {
-  margin: 0;
-  font-size: 1rem;
-  color: #666;
+.hero-students p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.opportunity-section {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  padding: 1.5rem;
-  margin: 2rem 0;
-  border-left: 3px solid #666;
-}
+/* Section Styles */
+.section { padding: 4rem 0; }
 
-.opportunity-section h2 {
-  color: #333;
-  margin-top: 0;
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.section-header {
+  display: flex;
+  align-items: center;
   gap: 1rem;
-  margin: 1.5rem 0;
-}
-
-.skill-item {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  padding: 1rem;
-  transition: border-color 0.2s ease;
-}
-
-.skill-item:hover {
-  border-color: #666;
-}
-
-.skill-item strong {
-  color: #333;
-  font-size: 1rem;
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.current-students, .former-students {
-  background: white;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.current-students h2, .former-students h2 {
-  color: #003366;
-  border-bottom: 2px solid #006633;
-  padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
 
-.student-list {
+.section-line { height: 3px; width: 3rem; background: var(--primary); border-radius: 2px; }
+
+.section-label {
+  color: var(--primary);
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--foreground);
+}
+
+.section-desc {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+/* Skills Grid */
+.skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 0.8rem;
-  margin: 1rem 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
-.student-item {
-  background: #f8f9fa;
-  padding: 0.8rem;
-  border-radius: 6px;
-  border-left: 4px solid #006633;
-}
-
-.research-interests {
-  background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e8 100%);
-  border: 1px solid #c8e6c9;
-  border-radius: 8px;
-  padding: 2rem;
-  margin: 2rem 0;
-}
-
-.research-interests h2 {
-  color: #003366;
-  margin-top: 0;
-}
-
-.research-item {
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
+.skill-card {
+  background: #ffffff;
+  border-radius: 1rem;
   padding: 1.5rem;
-  margin: 1rem 0;
-  border-left: 4px solid #006633;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
 }
 
-.research-item h3 {
-  color: #003366;
-  margin-top: 0;
+.skill-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 102, 204, 0.1);
+}
+
+.skill-card h3 {
+  color: var(--primary);
   font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
 
-.research-questions {
-  color: #495057;
-  font-style: italic;
-  margin: 0.5rem 0;
-}
-
-.research-skills {
-  background: #e8f5e8;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+.skill-card p {
+  color: var(--text-secondary);
   font-size: 0.9rem;
-  color: #2e7d32;
-  margin-top: 0.8rem;
+  margin: 0;
 }
 
+/* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, #006633 0%, #003366 100%);
+  background: var(--primary);
   color: white;
-  padding: 2rem;
-  border-radius: 8px;
+  padding: 3rem;
+  border-radius: 1rem;
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 2rem;
+}
+
+.cta-section h3 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
 }
 
 .cta-button {
+  display: inline-block;
   background: white;
-  color: #003366;
-  padding: 0.8rem 2rem;
-  border: none;
-  border-radius: 6px;
+  color: var(--primary);
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
   font-weight: 600;
   text-decoration: none;
-  display: inline-block;
-  margin-top: 1rem;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .cta-button:hover {
   background: #f0f0f0;
-  color: #003366;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Student Cards */
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.student-card {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.student-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.1);
+}
+
+.student-card .name {
+  font-weight: 600;
+  color: var(--foreground);
+  font-size: 0.95rem;
+}
+
+.student-card .level {
+  color: var(--primary);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.student-card.highlight {
+  background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+  border: 2px dashed var(--primary);
+}
+
+/* Research Topics */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.research-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-left: 4px solid var(--primary);
+}
+
+.research-card h3 {
+  color: var(--foreground);
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.research-card .question {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.research-card .skills {
+  display: inline-block;
+  background: var(--card-bg);
+  color: var(--primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .students-grid { grid-template-columns: repeat(3, 1fr); }
+  .research-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 768px) {
-  .page-header {
-    padding: 2rem 1rem;
-  }
-  
-  .page-header h1 {
-    font-size: 1.8rem;
-  }
-  
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .student-list {
-    grid-template-columns: 1fr;
-  }
+  .hero-students h1 { font-size: 2rem; }
+  .skills-grid { grid-template-columns: 1fr; }
+  .students-grid { grid-template-columns: repeat(2, 1fr); }
+  .section { padding: 3rem 0; }
+}
+
+@media (max-width: 480px) {
+  .students-grid { grid-template-columns: 1fr; }
 }
 </style>
 
-<div class="page-header">
-  <h1>Oportunidades de Pesquisa</h1>
-  <p>Junte-se ao nosso grupo de pesquisa em software livre e inovação tecnológica</p>
-</div>
+<div class="students-wrapper">
 
-Estou sempre em busca de indivíduos talentosos interessados em fazer parte do meu grupo de pesquisa, em diferentes níveis acadêmicos: desde estudantes de graduação (para programas de iniciação científica e projetos de pesquisa) até candidatos a mestrado e doutorado. Além disso, estou procurando por bolsistas para integrarem nossos projetos.
-
-<div class="opportunity-section">
-  <h2>Oportunidade de Bolsa de Pesquisa no Lab Livre</h2>
-  
-  <p>O Lab Livre está oferecendo oportunidades de bolsa para diversas áreas de atuação. Atualmente, buscamos perfis profissionais específicos para contribuir com nossos projetos inovadores (veja sobre os projetos em andamento na aba Pesquisa). Se você possui habilidades ou experiência em alguma das áreas mencionadas abaixo, esta pode ser a sua chance de se juntar a nós:</p>
-
-  <div class="skills-grid">
-    <div class="skill-item">
-      <strong>Ciência de Dados</strong>
-      Expertise em limpeza de dados e geração automatizada de relatórios (pdf, html).
-    </div>
-    
-    <div class="skill-item">
-      <strong>Engenharia de Dados</strong>
-      Capacidade na criação de Dags no Airflow e automação de processamento de dados.
-    </div>
-    
-    <div class="skill-item">
-      <strong>Software Livre Decidim</strong>
-      Conhecimento em Ruby on Rails e criação de módulos para esta plataforma.
-    </div>
-    
-    <div class="skill-item">
-      <strong>Software Livre em Python</strong>
-      Proficiência em Python e interesse em contribuir para projetos de código aberto.
-    </div>
-    
-    <div class="skill-item">
-      <strong>Desenvolvimento Front-end</strong>
-      Habilidades em HTML, CSS e Javascript para criar interfaces atrativas e funcionais.
-    </div>
-    
-    <div class="skill-item">
-      <strong>Pesquisa</strong>
-      Capacidade na redação de artigos científicos embasados e relevantes.
-    </div>
-    
-    <div class="skill-item">
-      <strong>Jornalismo</strong>
-      Experiência ou formação na área jornalística para comunicação e divulgação dos projetos.
-    </div>
-    
-    <div class="skill-item">
-      <strong>Design</strong>
-      Habilidades criativas e técnicas para contribuir com o design de interfaces e materiais gráficos.
-    </div>
-    
-    <div class="skill-item">
-      <strong>DevOps</strong>
-      Conhecimento em práticas de DevOps para otimização e implementação de processos.
-    </div>
+<section class="hero-students">
+  <div class="container">
+    <h1>Oportunidades de Pesquisa</h1>
+    <p>Junte-se ao nosso grupo de pesquisa em software livre e inovação tecnológica</p>
   </div>
+</section>
 
-  <p><strong>Vagas disponíveis para graduandos e recém-formados.</strong></p>
-
-  <div class="cta-section">
-    <h3>Pronto para se juntar ao nosso time?</h3>
-    <p>Junte-se a nós para contribuir com projetos inovadores e fazer parte de uma comunidade de pesquisa e desenvolvimento de software livre. Estamos ansiosos para conhecer você e suas habilidades!</p>
-    <a href="https://forms.gle/kwfZ42vCo2xd3gXR8" class="cta-button" target="_blank">Submeter Currículo</a>
-  </div>
-</div>
-
-<div class="current-students">
-  <h2>Alunos Atuais</h2>
-  
-  <p>Os alunos que oriento atualmente em pesquisa são:</p>
-
-  <div class="student-list">
-    <div class="student-item">Isaque Alves (Doutorado)</div>
-    <div class="student-item">Ivon Miranda Santos (Mestrado)</div>
-    <div class="student-item">Bruna Pinos (Mestrado)</div>
-    <div class="student-item">Alax Alves (Mestrado)</div>
-    <div class="student-item">Leonardo Silva Gomes (Graduação)</div>
-    <div class="student-item">Arthur José Benedito de Oliveira Assis (Graduação)</div>
-    <div class="student-item">Marcos Nery Borges Júnior (Graduação)</div>
-    <div class="student-item" style="border-left-color: #ff6f00; background: #fff8e1;">
-      <strong>Você?</strong>
+<section class="section">
+  <div class="container"><div class="max-w-6xl">
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Bolsas</span></div>
+    <h2 class="section-title">Oportunidades no Lab Livre</h2>
+    <p class="section-desc">Estou sempre em busca de indivíduos talentosos interessados em fazer parte do meu grupo de pesquisa, em diferentes níveis acadêmicos: desde estudantes de graduação (para programas de iniciação científica e projetos de pesquisa) até candidatos a mestrado e doutorado.</p>
+    
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>🔬 Ciência de Dados</h3>
+        <p>Expertise em limpeza de dados e geração automatizada de relatórios (pdf, html).</p>
+      </div>
+      <div class="skill-card">
+        <h3>⚙️ Engenharia de Dados</h3>
+        <p>Capacidade na criação de Dags no Airflow e automação de processamento de dados.</p>
+      </div>
+      <div class="skill-card">
+        <h3>💎 Software Livre Decidim</h3>
+        <p>Conhecimento em Ruby on Rails e criação de módulos para esta plataforma.</p>
+      </div>
+      <div class="skill-card">
+        <h3>🐍 Python</h3>
+        <p>Proficiência em Python e interesse em contribuir para projetos de código aberto.</p>
+      </div>
+      <div class="skill-card">
+        <h3>🎨 Front-end</h3>
+        <p>Habilidades em HTML, CSS e Javascript para criar interfaces atrativas e funcionais.</p>
+      </div>
+      <div class="skill-card">
+        <h3>📝 Pesquisa</h3>
+        <p>Capacidade na redação de artigos científicos embasados e relevantes.</p>
+      </div>
+      <div class="skill-card">
+        <h3>📰 Jornalismo</h3>
+        <p>Experiência ou formação na área jornalística para comunicação e divulgação.</p>
+      </div>
+      <div class="skill-card">
+        <h3>🎯 Design</h3>
+        <p>Habilidades criativas para contribuir com design de interfaces e materiais gráficos.</p>
+      </div>
+      <div class="skill-card">
+        <h3>🚀 DevOps</h3>
+        <p>Conhecimento em práticas de DevOps para otimização e implementação de processos.</p>
+      </div>
     </div>
-  </div>
 
-  <p><em>Os bolsistas dos projetos de pesquisa não estão listados aqui, e sim nos repositório de cada projeto.</em></p>
+    <div class="cta-section">
+      <h3>Pronto para se juntar ao nosso time?</h3>
+      <p>Junte-se a nós para contribuir com projetos inovadores e fazer parte de uma comunidade de pesquisa e desenvolvimento de software livre.</p>
+      <a href="https://forms.gle/kwfZ42vCo2xd3gXR8" class="cta-button" target="_blank">Submeter Currículo</a>
+    </div>
+  </div></div>
+</section>
+
+<section class="section" style="background: #f8f9fa;">
+  <div class="container"><div class="max-w-6xl">
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Orientandos</span></div>
+    <h2 class="section-title">Alunos Atuais</h2>
+    <div class="students-grid">
+      <div class="student-card">
+        <div class="name">Isaque Alves</div>
+        <div class="level">Doutorado</div>
+      </div>
+      <div class="student-card">
+        <div class="name">Ivon Miranda Santos</div>
+        <div class="level">Mestrado</div>
+      </div>
+      <div class="student-card">
+        <div class="name">Bruna Pinos</div>
+        <div class="level">Mestrado</div>
+      </div>
+      <div class="student-card">
+        <div class="name">Alax Alves</div>
+        <div class="level">Mestrado</div>
+      </div>
+      <div class="student-card">
+        <div class="name">Leonardo Silva Gomes</div>
+        <div class="level">Graduação</div>
+      </div>
+      <div class="student-card">
+        <div class="name">Arthur José B. O. Assis</div>
+        <div class="level">Graduação</div>
+      </div>
+      <div class="student-card">
+        <div class="name">Marcos Nery Borges Jr.</div>
+        <div class="level">Graduação</div>
+      </div>
+      <div class="student-card highlight">
+        <div class="name">Você?</div>
+        <div class="level">Candidate-se!</div>
+      </div>
+    </div>
+    <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 1.5rem; font-style: italic;">Os bolsistas dos projetos de pesquisa não estão listados aqui, e sim nos repositórios de cada projeto.</p>
+  </div></div>
+</section>
+
+<section class="section">
+  <div class="container"><div class="max-w-6xl">
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Alumni</span></div>
+    <h2 class="section-title">Ex-alunos</h2>
+    <div class="students-grid">
+      <div class="student-card"><div class="name">Tiago Vidigal</div><div class="level">Mestrado</div></div>
+      <div class="student-card"><div class="name">Gabriel Filipe M. Araujo</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Giovana Vitor Dionísio</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Hérya Rodrigues</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Youssef M. Y. Falaneh</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Gabriela Barrozo Guedes</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Fabíola Malta Fleury</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Marina Joranhezon</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Rodrigo Oliveira Campos</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Eduardo Nunes</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Guilherme G. Lacerda</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">João Pedro Sconetto</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Indiara Duarte</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Rafaella O. F. Junqueira</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Lorrany dos S. Azevedo</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Filipe C. H. Barcelos</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Lucas Dutra F. Nascimento</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Caio Vinícius F. Araújo</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Geison de Souza Oliveira</div><div class="level">Graduação</div></div>
+    </div>
+  </div></div>
+</section>
+
+<section class="section" style="background: #f8f9fa;">
+  <div class="container"><div class="max-w-6xl">
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Temas</span></div>
+    <h2 class="section-title">Interesses de Pesquisa</h2>
+    <p class="section-desc">Aqui estão alguns temas nos quais tenho interesse em pesquisar/colaborar. Meu objetivo atual é que esses trabalhos gerem artigos para serem publicados em eventos de impacto para a comunidade de Engenharia de Software.</p>
+    
+    <div class="research-grid">
+      <div class="research-card">
+        <h3>Programas de Mentoria para Grupos Sub-representados</h3>
+        <p class="question">Quais são os desafios para envolver grupos sub-representados em programas de mentoria?</p>
+        <span class="skills">Scripts, Pró-atividade</span>
+      </div>
+      <div class="research-card">
+        <h3>Comportamento de Estudantes em Open Source</h3>
+        <p class="question">Que tipo de contribuições são feitas por estudantes? Projetos de sala de aula? Estágios? Hackathons?</p>
+        <span class="skills">Scripts, Pró-atividade</span>
+      </div>
+      <div class="research-card">
+        <h3>Ensino de DevOps</h3>
+        <p class="question">Teoria sobre estruturas/educação de equipes DevOps</p>
+        <span class="skills">Scripts, Pró-atividade</span>
+      </div>
+      <div class="research-card">
+        <h3>Migração Multicloud em DevOps</h3>
+        <p class="question">Quais são os desafios e requisitos de arquitetura para permitir soluções multicloud?</p>
+        <span class="skills">Scripts, Python</span>
+      </div>
+      <div class="research-card">
+        <h3>ML para Análise de Dados</h3>
+        <p class="question">Desenvolvimento de ferramentas para facilitar que cientistas de dados explorem dados em contextos específicos</p>
+        <span class="skills">Python, ML</span>
+      </div>
+      <div class="research-card">
+        <h3>Engenharia de Dados em Pipelines</h3>
+        <p class="question">Desenvolvimento de pipeline para processar vários bancos de dados em paralelo usando fluxo de dados</p>
+        <span class="skills">Python, Airflow</span>
+      </div>
+      <div class="research-card">
+        <h3>MLOps</h3>
+        <p class="question">Quais são as barreiras para adotar práticas e automação de MLOps?</p>
+        <span class="skills">Scripts, DevOps</span>
+      </div>
+      <div class="research-card">
+        <h3>Ensino de Engenharia de Software</h3>
+        <p class="question">Quais as boas práticas para o aprendizado ativo em Engenharia de Software?</p>
+        <span class="skills">Pesquisa, Educação</span>
+      </div>
+    </div>
+  </div></div>
+</section>
+
 </div>
-
-<div class="former-students">
-  <h2>Ex-alunos</h2>
-  
-  <p>Alguns alunos que orientei:</p>
-
-  <div class="student-list">
-    <div class="student-item">Tiago Vidigal (Mestrado)</div>
-    <div class="student-item">Gabriel Filipe Manso Araujo (Graduação)</div>
-    <div class="student-item">Giovana Vitor Dionísio (Graduação)</div>
-    <div class="student-item">Hérya Rodrigues (Graduação)</div>
-    <div class="student-item">Youssef Muhamad Yacoub Falaneh (Graduação)</div>
-    <div class="student-item">Gabriela Barrozo Guedes (Graduação)</div>
-    <div class="student-item">Fabíola Malta Fleury (Graduação)</div>
-    <div class="student-item">Marina Joranhezon (Graduação)</div>
-    <div class="student-item">Rodrigo Oliveira Campos (Graduação)</div>
-    <div class="student-item">Eduardo Nunes (Graduação)</div>
-    <div class="student-item">Guilherme Guimarães Lacerda (Graduação)</div>
-    <div class="student-item">Álax Alves (Graduação)</div>
-    <div class="student-item">João Pedro Sconetto (Graduação)</div>
-    <div class="student-item">Indiara Duarte (Graduação)</div>
-    <div class="student-item">Rafaella Oliveira de Faria Junqueira (Graduação)</div>
-    <div class="student-item">Lorrany dos Santos Azevedo (Graduação)</div>
-    <div class="student-item">Shayane (Graduação)</div>
-    <div class="student-item">Filipe Coelho Hilário Barcelos (Graduação)</div>
-    <div class="student-item">Lucas Dutra Ferreira do Nascimento (Graduação)</div>
-    <div class="student-item">Caio Vinícius Fernandes de Araújo (Graduação)</div>
-    <div class="student-item">Geison de Souza Oliveira (Graduação)</div>
-  </div>
-</div>
-
-## Interesses de Pesquisa
-
-Aqui estão alguns temas nos quais tenho interesse em pesquisar/colaborar. Meu objetivo atual é que esses trabalhos gerem artigos para serem publicados em eventos de impacto para a comunidade de Engenharia de Software.
-
-1. Programas de Mentoria para Grupos Sub-representados<br>
-**Perguntas:** Quais são os desafios para envolver grupos sub-representados em programas de mentoria?<br>
-**Habilidades:** programação de scripts, pró-atividade<br>
-
-2. Compreensão do Comportamento dos Estudantes em Comunidades de Código Aberto<br>
-**Perguntas:** Que tipo de contribuições são feitas por estudantes? Eles estão trabalhando em projetos de sala de aula? Estágios de verão? Hackathons?<br>
-**Habilidades:** programação de scripts, pró-atividade<br>
-
-3. Ensino de DevOps<br>
-**Perguntas:** Teoria sobre estruturas/educação de equipes DevOps<br>
-**Habilidades:** programação de scripts, pró-atividade<br>
-
-4. Migração multicloud em DevOps<br>
-**Perguntas:** Quais são os desafios e requisitos de arquitetura para permitir soluções multicloud?<br>
-**Habilidades:** programação de scripts, Python, pró-atividade<br>
-
-5. Ferramentas de Aprendizado de Máquina para Análise de Dados de um Contexto<br>
-**Perguntas:** Desenvolvimento de ferramentas para facilitar que cientistas de dados explorem dados em um contexto específico (por exemplo: banco de dados, repositórios do GitHub, Stack Overflow, entre outros)<br>
-**Habilidades:** programação de scripts, Python, pró-atividade<br>
-
-6. Engenharia de Dados em Pipelines<br>
-**Perguntas:** Desenvolvimento de pipeline para processar vários bancos de dados em paralelo usando fluxo de dados para facilitar que cientistas de dados explorem dados em um contexto específico (por exemplo: banco de dados, repositórios do GitHub, Stack Overflow, entre outros)<br>
-**Habilidades:** programação de scripts, Python, pró-atividade<br>
-
-7. MLOps<br>
-**Perguntas:** Quais são as barreiras para adotar práticas e automação de MLOps?<br>
-**Habilidades:** programação de scripts, pró-atividade<br>
-
-8. Ensino de Engenharia de Software com projetos<br>
-**Perguntas:** Quais as boas práticas para o aprendizado ativo em Engenharia de Software?<br>
-**Habilidades:** programação de scripts, pró-atividade<br>

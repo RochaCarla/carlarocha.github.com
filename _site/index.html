@@ -621,7 +621,7 @@
   position: relative;
 }
 
-/* Simple Publication Card (no image, no border) */
+/* Simple Publication Card (no image) */
 .pub-card-simple {
   background: transparent;
   padding: 1rem 0;
@@ -752,7 +752,7 @@
   border-radius: 1rem;
   overflow: hidden;
   background: #FFFFFF;
-  border: 1px solid #e0e0e0;
+  border: none;
   transition: all 0.5s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
@@ -837,7 +837,7 @@
   height: 3rem;
   border-radius: 0.75rem;
   background: var(--card-bg);
-  border: 1px solid var(--border);
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -857,7 +857,7 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   background: var(--card-bg);
-  border: 1px solid var(--border);
+  border: none;
   font-size: 0.9rem;
   color: var(--text-secondary);
   text-decoration: none;
@@ -890,7 +890,7 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   background: var(--card-bg);
-  border: 1px solid var(--border);
+  border: none;
   text-decoration: none;
   color: var(--foreground);
   transition: all 0.3s ease;
@@ -960,7 +960,7 @@
   padding: 2rem;
   border-radius: 1rem;
   background: var(--card-bg);
-  border: 1px solid var(--border);
+  border: none;
 }
 
 .contact-box-title {
@@ -982,57 +982,10 @@
 
 .footer-copyright { color: var(--text-secondary); font-size: 0.875rem; }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .research-grid { grid-template-columns: 1fr; }
-  .publications-grid { grid-template-columns: 1fr; }
-  .projects-grid { grid-template-columns: 1fr; }
-}
-
 @media (max-width: 768px) {
-  .hero { min-height: auto; padding: 4rem 0; }
-  .hero-title { font-size: 2rem; }
-  .hero-bio { font-size: 1rem; }
-  .hero-subtitle { font-size: 0.75rem; }
-  
-  .section { padding: 3rem 0; }
+  .hero-title { font-size: 2.25rem; }
   .section-title { font-size: 1.75rem; }
-  .section-desc { font-size: 1rem; }
-  
-  .research-title { font-size: 1.25rem; }
-  .research-desc { font-size: 0.9rem; }
-  
-  .pub-title { font-size: 1rem; }
-  .pub-card-description { font-size: 0.85rem; }
-  
-  .project-header h3 { font-size: 1rem; }
-  .project-desc { font-size: 0.85rem; }
-  
-  .contact-info-row { 
-    flex-direction: column; 
-    gap: 1rem; 
-    align-items: center;
-  }
-  
-  .footer-logos { 
-    flex-direction: column; 
-    gap: 1.5rem; 
-  }
-  
-  .container { padding: 0 1rem; }
-}
-
-@media (max-width: 480px) {
-  .hero-title { font-size: 1.75rem; }
-  .section-title { font-size: 1.5rem; }
-  
-  .lab-photo-container { border-radius: 0.5rem; }
-  
-  .project-card { border-radius: 0.75rem; }
-  .project-header { padding: 1rem; }
-  .project-content { padding: 1rem; }
-  
-  .section-header { flex-wrap: wrap; }
+  .section { padding: 4rem 0; }
 }
 </style>
 
@@ -1045,7 +998,7 @@
     <div class="hero-content">
       <p class="hero-subtitle">Professora de Engenharia de Software</p>
       <h1 class="hero-title">Profa. Carla <span class="text-gradient">Rocha</span></h1>
-      <p class="hero-bio">Professora na Faculdade de Engenharia de Software (UnB) e coordenadora do Lab Livre. Pesquisa dedicada ao desenvolvimento de soluções tecnológicas com impacto social, promovendo software livre, práticas ágeis e inovação no setor público.</p>
+      <p class="hero-bio">Professora no curso de Engenharia de Software (UnB) e coordenadora do Lab Livre. Pesquisa dedicada ao desenvolvimento de soluções tecnológicas com impacto social, promovendo software livre, práticas ágeis e inovação no setor público.</p>
     </div>
   </div>
 </section>
@@ -1061,7 +1014,6 @@
 <section class="section research">
   <div class="container"><div class="max-w-6xl">
     <div class="section-header"><div class="section-line"></div><span class="section-label">Linhas de Pesquisa</span></div>
-    <h2 class="section-title">Linha de Pesquisa</h2>
     <div class="research-grid">
       <article class="research-card">
         <h3 class="research-title">DevOps</h3>
@@ -1092,13 +1044,15 @@
         <p class="research-desc">Pesquisa sobre tecnologias e métodos para ampliar, qualificar e analisar a participação cidadã em processos digitais de tomada de decisão.</p>
       </article>
     </div>
+    <div class="section-more">
+      <a href="/projects/" class="section-more-link">Saiba mais →</a>
+    </div>
   </div></div>
 </section>
 
 <section class="section publications">
   <div class="container"><div class="max-w-6xl">
     <div class="section-header"><div class="section-line"></div><span class="section-label">Produção Científica</span></div>
-    <h2 class="section-title">Publicações em Destaque</h2>
     <div class="publications-grid">
       <article class="pub-card-simple">
         <p class="pub-card-date">ACM Computing Surveys, 2019</p>
@@ -1124,8 +1078,7 @@
 
 <section class="section projects">
   <div class="container"><div class="max-w-6xl">
-    <div class="section-header"><div class="section-line"></div><span class="section-label">Publicações</span></div>
-    <h2 class="section-title">Livros</h2>
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Livros</span></div>
     <p class="section-desc">Obras fundamentais para a modernização do setor público através de tecnologia e software livre.</p>
     <div class="projects-grid">
       <article class="project-card"><div class="project-header" style="padding: 0;"><img src="/images/livro.png" alt="GovHub" style="width: 100%; height: 100%; object-fit: cover;" /></div><div class="project-content"><p class="project-authors">Carla Rocha, Lab Livre UnB, IPEA</p><h3 style="margin-bottom: 0.5rem;">GovHub - Um guia prático para integração e qualificação de dados públicos</h3><p class="project-desc">Guia completo que apresenta metodologias e ferramentas práticas para transformar dados governamentais dispersos em informações estratégicas.</p><div class="project-meta"><span class="project-tag">2025</span><span class="project-tag">Livro</span><span class="project-tag">Disponível</span></div><a href="https://gov-hub.io/govhub/ebook-viewer/" class="project-link" target="_blank">📖 Acessar Guia →</a></div></article>
@@ -1348,9 +1301,8 @@
         <ul>
           <li><a href="http://lattes.cnpq.br/2831991076751452" target="_blank">Currículo Lattes</a></li>
           <li><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a></li>
-          <li><a href="https://www.lappis.rocks" target="_blank">Lab Livre</a></li>
+          <li><a href="https://lablivre.unb.br/" target="_blank">Lab Livre</a></li>
           <li><a href="http://PPCA.unb.br" target="_blank">PPCA UnB</a></li>
-          <li><a href="/feed.xml">RSS Feed</a></li>
         </ul>
       </div>
     </div>
@@ -1393,12 +1345,12 @@
           </a>
           <div class="footer-logo-text">
             <strong>Universidade de Brasília</strong><br>
-            Faculdade de Engenharia de Software
+            Curso de Engenharia de Software
           </div>
         </div>
         
         <div class="footer-logo-item">
-          <a href="https://www.lappis.rocks" target="_blank">
+          <a href="https://lablivre.unb.br/" target="_blank">
             <img src="/images/logo-lappis.png" alt="Lab Livre" />
           </a>
           <div class="footer-logo-text">

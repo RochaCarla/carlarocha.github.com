@@ -1,435 +1,514 @@
 ---
-layout: single
-author_profile: true
+layout: homepage
 title: Publicações
 permalink: /publications/
+author_profile: false
 ---
 
 <style>
-/* Publications Page Styling */
-.publications-header {
-  background: #f8f9fa;
-  color: #333;
-  padding: 2rem;
-  border: 1px solid #e0e0e0;
-  margin-bottom: 2rem;
-  text-align: center;
+/* Design System - Azul */
+:root {
+  --primary: #0066cc;
+  --primary-dark: #004499;
+  --primary-light: #0088ee;
+  --background: #FFFFFF;
+  --foreground: #000000;
+  --text-secondary: #666666;
+  --border: #e0e0e0;
+  --card-bg: #f5f5f5;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
-.publications-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
+.pub-wrapper {
+  font-family: var(--font-body);
+  background: var(--background);
+  color: var(--foreground);
+  line-height: 1.6;
+  margin: -2rem;
+}
+
+.pub-wrapper h1, .pub-wrapper h2, .pub-wrapper h3 {
+  font-family: var(--font-body);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--foreground);
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.max-w-6xl { max-width: 72rem; margin: 0 auto; }
+
+/* Hero Section */
+.hero-pub {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  padding: 4rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-pub h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.hero-pub p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
 }
 
 .stat-item {
-  background: #fff;
-  padding: 1rem;
-  border: 1px solid #e0e0e0;
   text-align: center;
 }
 
 .stat-number {
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
   display: block;
-  color: #333;
 }
 
 .stat-label {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
-.year-section {
-  margin: 2rem 0;
-  border-left: 3px solid #666;
-  padding-left: 1.5rem;
-}
+/* Section Styles */
+.section { padding: 4rem 0; }
 
-.year-title {
-  color: #333;
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
+.section-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-}
-
-.year-count {
-  background: #666;
-  color: white;
-  padding: 0.2rem 0.6rem;
-  border-radius: 3px;
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-
-.publication-item {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  padding: 1.5rem;
+  gap: 1rem;
   margin-bottom: 1rem;
-  transition: border-color 0.2s ease;
+}
+
+.section-line { height: 3px; width: 3rem; background: var(--primary); border-radius: 2px; }
+
+.section-label {
+  color: var(--primary);
+  font-size: 0.875rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--foreground);
+}
+
+/* External Links */
+.external-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.external-link:hover {
+  background: var(--primary-dark);
+  color: white;
+}
+
+/* Publication Cards */
+.pub-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.pub-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
   position: relative;
 }
 
-.publication-item:hover {
-  border-color: #666;
+.pub-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 102, 204, 0.1);
 }
 
-/* High-impact publications (50+ citations) */
-.publication-item.high-impact {
-  background: #fff;
-  border-left: 3px solid #666;
+.pub-card.highlight {
+  border-left: 4px solid var(--primary);
 }
 
-.publication-item.high-impact::before {
-  content: 'DESTAQUE';
+.pub-card .badge {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: #666;
+  background: var(--primary);
   color: white;
-  padding: 0.2rem 0.6rem;
-  border-radius: 3px;
-  font-size: 0.7rem;
-  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
-/* Very high-impact publications (100+ citations) */
-.publication-item.very-high-impact {
-  background: #fff;
-  border-left: 3px solid #333;
-}
-
-.publication-item.very-high-impact::before {
-  content: 'ALTO IMPACTO';
-  background: #333;
-}
-
-/* Journal publications */
-.publication-item.journal {
-  border-left: 3px solid #666;
-  background: #fff;
-}
-
-/* Conference publications */
-.publication-item.conference {
-  border-left: 3px solid #999;
-  background: #fff;
-}
-
-.pub-title {
-  color: #333;
-  font-size: 1.1rem;
-  font-weight: 500;
+.pub-card .year {
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
   margin-bottom: 0.5rem;
-  line-height: 1.3;
 }
 
-.pub-authors {
-  color: #666;
+.pub-card .title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.pub-card .authors {
+  color: var(--text-secondary);
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
 }
 
-.pub-venue {
-  color: #666;
+.pub-card .venue {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
   font-style: italic;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
-.pub-citations {
-  background: #666;
-  color: white;
-  padding: 0.2rem 0.6rem;
-  border-radius: 3px;
-  font-size: 0.8rem;
-  font-weight: 400;
+.pub-card .citations {
   display: inline-block;
+  background: var(--card-bg);
+  color: var(--primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
-.external-links {
+/* Year Section */
+.year-group {
+  margin-bottom: 3rem;
+}
+
+.year-title {
   display: flex;
+  align-items: center;
   gap: 1rem;
-  margin: 1.5rem 0;
-  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
 
-.external-link {
-  background: #666;
+.year-title h3 {
+  font-size: 1.5rem;
+  color: var(--foreground);
+  margin: 0;
+}
+
+.year-title .count {
+  background: var(--primary);
   color: white;
-  padding: 0.8rem 1.5rem;
-  border-radius: 3px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Info Section */
+.info-text {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 800px;
+}
+
+.info-text a {
+  color: var(--primary);
   text-decoration: none;
-  font-weight: 400;
-  transition: background 0.2s ease;
 }
 
-.external-link:hover {
-  background: #333;
-  color: white;
+.info-text a:hover {
+  text-decoration: underline;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
-  .publications-header {
-    padding: 1.5rem;
-  }
-  
-  .publications-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .year-section {
-    padding-left: 1rem;
-  }
-  
-  .publication-item {
-    padding: 1rem;
-  }
+  .hero-pub h1 { font-size: 2rem; }
+  .stats-grid { flex-direction: column; gap: 1.5rem; }
+  .stat-number { font-size: 2rem; }
+  .external-links { flex-direction: column; align-items: center; }
+  .section { padding: 3rem 0; }
 }
 </style>
 
-<div class="publications-header">
-  <h1>Publicações Científicas</h1>
-  <p>Professora na Faculdade de Engenharia de Software (UnB) e coordenadora do laboratório Lab Livre</p>
-  
-  <div class="publications-stats">
-    <div class="stat-item">
-      <span class="stat-number">868</span>
-      <span class="stat-label">Citações</span>
+<div class="pub-wrapper">
+
+<section class="hero-pub">
+  <div class="container">
+    <h1>Publicações Científicas</h1>
+    <p>Produção acadêmica em Engenharia de Software, DevOps, MLOps e Software Livre</p>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">955</span>
+        <span class="stat-label">Citações</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">10</span>
+        <span class="stat-label">Índice h</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">10</span>
+        <span class="stat-label">Índice i10</span>
+      </div>
     </div>
-    <div class="stat-item">
-      <span class="stat-number">10</span>
-      <span class="stat-label">Índice h</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">10</span>
-      <span class="stat-label">Índice i10</span>
+    <div class="external-links">
+      <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=pt-BR" class="external-link" target="_blank">📊 Google Scholar</a>
+      <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank">📋 Currículo Lattes</a>
+      <a href="https://books.apple.com/us/author/carla-rocha/id522601238" class="external-link" target="_blank">📚 Apple Books</a>
     </div>
   </div>
-</div>
+</section>
 
-Sou membro ativo do grupo de pesquisa em [Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho](http://dgp.cnpq.br/dgp/espelhogrupo/633486) vinculado ao Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP).
+<section class="section">
+  <div class="container"><div class="max-w-6xl">
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Sobre</span></div>
+    <div class="info-text">
+      <p>Sou membro ativo do grupo de pesquisa em <a href="http://dgp.cnpq.br/dgp/espelhogrupo/633486" target="_blank">Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho</a> vinculado ao Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP).</p>
+      <p>Atualmente participo do programa de mestrado profissionalizante <a href="https://ppca.unb.br" target="_blank">PPCA</a> na Universidade de Brasília (UnB). Além disso, atuo como coordenadora do laboratório de pesquisa aplicada <a href="https://lablivre.unb.br/" target="_blank">Lab Livre</a>, um espaço de referência na UnB para estudos e pesquisas em áreas tecnológicas de vanguarda.</p>
+    </div>
+  </div></div>
+</section>
 
-Atualmente participo do programa de mestrado profissionalizante [PPCA](https://ppca.unb.br) na Universidade de Brasília (UnB).
+<section class="section" style="background: #f8f9fa;">
+  <div class="container"><div class="max-w-6xl">
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Destaques</span></div>
+    <h2 class="section-title">Publicações de Alto Impacto</h2>
+    <div class="pub-grid">
+      <div class="pub-card highlight">
+        <span class="badge">743 citações</span>
+        <div class="year">2019 • ACM Computing Surveys</div>
+        <div class="title">A survey of DevOps concepts and challenges</div>
+        <div class="authors">L Leite, C Rocha, F Kon, D Milojicic, P Meirelles</div>
+        <div class="venue">ACM Computing Surveys (CSUR) 52 (6), 1-35</div>
+      </div>
+      <div class="pub-card highlight">
+        <span class="badge">33 citações</span>
+        <div class="year">2019 • OpenSym</div>
+        <div class="title">FLOSS FAQ chatbot project reuse: how to allow nonexperts to develop a chatbot</div>
+        <div class="authors">ART de Lacerda, CSR Aguiar</div>
+        <div class="venue">Proceedings of the 15th International Symposium on Open Collaboration</div>
+      </div>
+      <div class="pub-card highlight">
+        <span class="badge">29 citações</span>
+        <div class="year">2021 • ICSE-SEET</div>
+        <div class="title">Qualifying software engineers undergraduates in DevOps</div>
+        <div class="authors">I Alves, C Rocha</div>
+        <div class="venue">IEEE/ACM 43rd International Conference on Software Engineering</div>
+      </div>
+    </div>
+  </div></div>
+</section>
 
-Além disso, atuo como coordenadora do laboratório de pesquisa aplicada [Lab Livre](https://www.lappis.rocks), um espaço de referência na UnB para estudos e pesquisas em áreas tecnológicas de vanguarda.
-
-<div class="external-links">
-  <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=pt-BR" class="external-link" target="_blank">
-    📊 Google Scholar
-  </a>
-  <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank">
-    📋 Currículo Lattes
-  </a>
-</div>
-
----
-
-## Lista Completa de Publicações
-
-<div class="year-section">
-  <h2 class="year-title">2024 <span class="year-count">1</span></h2>
-  
-  <div class="publication-item journal">
-    <div class="pub-title">Harmonizing DevOps taxonomies—A grounded theory study</div>
-    <div class="pub-authors">J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha</div>
-    <div class="pub-venue">Journal of Systems and Software 208, 111908</div>
-    <span class="pub-citations">18 citações</span>
-  </div>
-</div>
-
-<div class="year-section">
-  <h2 class="year-title">2023 <span class="year-count">4</span></h2>
-  
-  <div class="publication-item journal">
-    <div class="pub-title">Practices for managing machine learning products: A multivocal literature review</div>
-    <div class="pub-authors">I Alves, LAF Leite, P Meirelles, F Kon, CSR Aguiar</div>
-    <div class="pub-venue">IEEE Transactions on Engineering Management 71, 7425-7455</div>
-    <span class="pub-citations">13 citações</span>
-  </div>
-  
-  <div class="publication-item">
-    <div class="pub-title">Practices for Managing Machine Learning Products: a Multivocal Literature Review</div>
-    <div class="pub-authors">L Leite, PRM Meirelles, F Kon, C Rocha</div>
-    <div class="pub-venue">Authorea Preprints</div>
-    <span class="pub-citations">3 citações</span>
-  </div>
-  
-  <div class="publication-item journal">
-    <div class="pub-title">When technical solutions are not enough: using software concepts to analyze challenges at delivery processes between mixed-signal IC team members</div>
-    <div class="pub-authors">TP Vidigal, W Prodanov, CSR Aguiar</div>
-    <div class="pub-venue">IEEE Transactions on Engineering Management 71, 1744-1756</div>
-    <span class="pub-citations">1 citação</span>
-  </div>
-  
-  <div class="publication-item">
-    <div class="pub-title">Harmonizing DevOps Taxonomies--Theory Operationalization and Testing</div>
-    <div class="pub-authors">I Alves, J Pérez, J Díaz, D López-Fernández, M Pais, F Kon, C Rocha</div>
-    <div class="pub-venue">arXiv preprint arXiv:2302.00033</div>
-    <span class="pub-citations">1 citação</span>
-  </div>
-</div>
-
-<div class="year-section">
-  <h2 class="year-title">2021 <span class="year-count">2</span></h2>
-  
-  <div class="publication-item conference">
-    <div class="pub-title">Qualifying software engineers undergraduates in devops-challenges of introducing technical and non-technical concepts in a project-oriented course</div>
-    <div class="pub-authors">I Alves, C Rocha</div>
-    <div class="pub-venue">2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET)</div>
-    <span class="pub-citations">26 citações</span>
-  </div>
-  
-  <div class="publication-item conference">
-    <div class="pub-title">OSS Scripting System for Game Development in Rust</div>
-    <div class="pub-authors">PDS da Silva, RO Campos, C Rocha</div>
-    <div class="pub-venue">IFIP International Conference on Open Source Systems, 51-58</div>
-    <span class="pub-citations">3 citações</span>
-  </div>
-</div>
-
-<div class="year-section">
-  <h2 class="year-title">2019 <span class="year-count">3</span></h2>
-  
-  <div class="publication-item journal very-high-impact">
-    <div class="pub-title">A survey of DevOps concepts and challenges</div>
-    <div class="pub-authors">L Leite, C Rocha, F Kon, D Milojicic, P Meirelles</div>
-    <div class="pub-venue">ACM computing surveys (CSUR) 52 (6), 1-35</div>
-    <span class="pub-citations">676 citações</span>
-  </div>
-  
-  <div class="publication-item conference">
-    <div class="pub-title">FLOSS FAQ chatbot project reuse: how to allow nonexperts to develop a chatbot</div>
-    <div class="pub-authors">ART de Lacerda, CSR Aguiar</div>
-    <div class="pub-venue">Proceedings of the 15th International Symposium on Open Collaboration, 1-8</div>
-    <span class="pub-citations">31 citações</span>
-  </div>
-  
-  <div class="publication-item conference">
-    <div class="pub-title">A students' perspective of native and cross-platform approaches for mobile application development</div>
-    <div class="pub-authors">P Meirelles, CSR Aguiar, F Assis, R Siqueira, A Goldman</div>
-    <div class="pub-venue">International Conference on Computational Science and Its Applications, 586-601</div>
-    <span class="pub-citations">21 citações</span>
-  </div>
-</div>
-
-<div class="year-section">
-  <h2 class="year-title">2016 <span class="year-count">2</span></h2>
-  
-  <div class="publication-item journal">
-    <div class="pub-title">A influência da intensidade emocional no reconhecimento de emoções em faces por crianças brasileiras</div>
-    <div class="pub-authors">JS Rocha Aguiar, AI de Paiva Silva, CS Rocha Aguiar, N Torro-Alves, W Cristina de Souza</div>
-    <div class="pub-venue">Universitas Psychologica 15 (SPE5), 1-9</div>
-    <span class="pub-citations">16 citações</span>
-  </div>
-  
-  <div class="publication-item journal">
-    <div class="pub-title">The importance of emotional intensity on the recognition of facial emotions by Brazilian children</div>
-    <div class="pub-authors">JS Rocha Aguiar, AI de Paiva Silva, CS Rocha Aguiar, N Torro-Alves, W Cristina de Souza</div>
-    <div class="pub-venue">Universitas Psychologica 15 (spe5), 1-9</div>
-    <span class="pub-citations">2 citações</span>
-  </div>
-</div>
-
-<div class="year-section">
-  <h2 class="year-title">2015 <span class="year-count">1</span></h2>
-  
-  <div class="publication-item conference">
-    <div class="pub-title">Development of simulation interfaces for evaluation task with the use of physiological data and virtual reality applied to a vehicle simulator</div>
-    <div class="pub-authors">MR Miranda, H Costa, L Oliveira, T Bernardes, C Aguiar, C Miosso, A Rocha</div>
-    <div class="pub-venue">The Engineering Reality of Virtual Reality 2015 9392, 49-61</div>
-    <span class="pub-citations">3 citações</span>
-  </div>
-</div>
-
-### 2014
-
-- **Embodiments, visualizations, and immersion with enactive affective systems**. *D Domingues, CJ Miosso, SF Rodrigues, CSR Aguiar, TF Lucena, M Miranda, AF Rocha, R Raskar*. The Engineering Reality of Virtual Reality 2014 9012, 151-163. **19 citações**
-
-- **Metodologia para Usar Dados Fisiológicos e Realidade Virtual em Ergonomia do Produto Aplicados a um Simulador Veicular**. *M MIRANDA, H Costa, L Oliveira, T Bernardes, C Aguiar, C Miosso, A Rocha*. Artigo publicado na ABERGO. **1 citação**
-
-### 2007
-
-- **Planejamento de trajetória para o robô omni utilizando o algoritmo mapade rotas probabilístico**. *BV Adôrno, CSR Aguiar, GA Borges*. VIII Simpósio Brasileiro de Automação Inteligente 1, 1-6. **10 citações**
-
-- **3D datasets segmentation based on local attribute variation**. *CSR Aguiar, S Druon, A Crosnier*. 2007 IEEE/RSJ International Conference on Intelligent Robots and Systems. **6 citações**
-
-- **Hierarchical segmentation for unstructured and unfiltered range images**. *CSR Aguiar, S Druon, A Crosnier*. Computer Graphics, Imaging and Visualisation (CGIV 2007), 261-267. **2 citações**
-
-### 2005
-
-- **Estimação de parâmetros geométricos de um robô móvel omnidirecional**. *CSR Aguiar, FMGSA Oliveira, GA Borges*. VII Simpósio Brasileiro de Automação Inteligente/II IEEE Latin-American Robotics Symposium. **4 citações**
-
-### 2003
-
-- **A Educação Física no Jardim de Infância e no 1º CEB: características e contextos de formação**. *L Rocha, RC Campos, C Rocha*. Educare Aprender 1. **10 citações**
-
-### Artigos de Revistas
-
--  **A survey of DevOps concepts and challenges**. *Autores:* Leonardo Leite, Carla Rocha, Fabio Kon, Dejan Milojicic, Paulo Meirelles. *Revista:* ACM Computing Surveys (CSUR). *Volume:* 52. *Número:* 6. *Páginas:* 1-35. *Ano:* 2019. *Editora:* ACM New York, NY, USA. **450 citações até 2023**.
+<section class="section">
+  <div class="container"><div class="max-w-6xl">
+    <div class="section-header"><div class="section-line"></div><span class="section-label">Produção</span></div>
+    <h2 class="section-title">Lista Completa de Publicações</h2>
     
-- **Harmonizing Devops Taxonomies–a Grounded Theory Study**. *J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha*. *Journal of Systems and Software (JSS)*. *2024*.
+    <div class="year-group">
+      <div class="year-title"><h3>2025</h3><span class="count">4</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">Revista do Serviço Público (ENAP)</div>
+          <div class="title"><a href="https://revista.enap.gov.br/index.php/RSP/article/view/10305" target="_blank">Colaboração multissetorial para desenvolvimento e manutenção de soluções tecnológicas de participação</a></div>
+          <div class="authors">CSR Aguiar, I Alves, L Gomes, B Pinos, L Bellix, H Parra</div>
+          <span class="citations">Novo</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">Conference Paper</div>
+          <div class="title">From Pre-labeling to Production: Engineering Lessons from a Machine Learning Pipeline in the Public Sector</div>
+          <div class="authors">C Rocha et al.</div>
+          <span class="citations">Novo</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">Conference Paper</div>
+          <div class="title">Semantic Clustering of Civic Proposals: A Case Study on Brazil's National Participation Platform</div>
+          <div class="authors">C Rocha et al.</div>
+          <span class="citations">1 citação</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">Technical Report</div>
+          <div class="title">Plataforma de Integração de Sistemas Estruturantes da Execução Financeira Federal</div>
+          <div class="authors">C Rocha et al.</div>
+          <span class="citations">Novo</span>
+        </div>
+      </div>
+    </div>
 
-- **Harmonizing DevOps Taxonomies--Theory Operationalization and Testing**. *J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha*. arXiv preprint arXiv:2302.00033, 2023.
+    <div class="year-group">
+      <div class="year-title"><h3>2024</h3><span class="count">1</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">Journal of Systems and Software</div>
+          <div class="title">Harmonizing DevOps taxonomies—A grounded theory study</div>
+          <div class="authors">J Díaz, J Pérez, I Alves, F Kon, L Leite, P Meirelles, C Rocha</div>
+          <span class="citations">23 citações</span>
+        </div>
+      </div>
+    </div>
 
-- **Practices for Managing Machine Learning Products: A Multivocal Literature Review**. *I Alves, LAF Leite, P Meirelles, F Kon, CSR Aguiar*. *IEEE Transactions on Engineering Management*. *2023*.
-  
-- **When Technical Solutions aren’t Enough: Using Software Concepts to Analyse Challenges at Delivery Processes between Mixed-Signal IC Team Members**. *T Pereira Vidigal, W Prodanov, C Rocha*. *IEEE Transactions on Engineering Management*. *2023*.
-  
--  **A influência da intensidade emocional no reconhecimento de emoções em faces por crianças brasileiras**. *Autores:* Juliana Silva Rocha Aguiar, Ana Idalina de Paiva Silva, Carla Silva Rocha Aguiar, Nelson Torro-Alves, Wânia Cristina de Souza. *Revista:* Universitas Psychologica. *Volume:* 15. *Número:* SPE5. *Páginas:* 1-9. *Ano:* 2016.
+    <div class="year-group">
+      <div class="year-title"><h3>2023</h3><span class="count">5</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">IEEE Transactions on Engineering Management</div>
+          <div class="title">Practices for managing machine learning products: A multivocal literature review</div>
+          <div class="authors">I Alves, LAF Leite, P Meirelles, F Kon, CSR Aguiar</div>
+          <span class="citations">15 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">IEEE Transactions on Engineering Management</div>
+          <div class="title">When technical solutions are not enough: using software concepts to analyze challenges at delivery processes</div>
+          <div class="authors">TP Vidigal, W Prodanov, CSR Aguiar</div>
+          <span class="citations">1 citação</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">Conference Paper</div>
+          <div class="title">Trans Perspective in Software Engineering</div>
+          <div class="authors">M Joranhezon, FM Fleury, C Rocha</div>
+          <span class="citations">2 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">arXiv preprint</div>
+          <div class="title">Harmonizing DevOps Taxonomies—Theory Operationalization and Testing</div>
+          <div class="authors">I Alves, J Pérez, J Díaz, D López-Fernández, M Pais, F Kon, C Rocha</div>
+          <span class="citations">2 citações</span>
+        </div>
+      </div>
+    </div>
 
+    <div class="year-group">
+      <div class="year-title"><h3>2021</h3><span class="count">2</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">ICSE-SEET</div>
+          <div class="title">Qualifying software engineers undergraduates in DevOps—challenges of introducing technical and non-technical concepts</div>
+          <div class="authors">I Alves, C Rocha</div>
+          <span class="citations">29 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">IFIP OSS Conference</div>
+          <div class="title">OSS Scripting System for Game Development in Rust</div>
+          <div class="authors">PDS da Silva, RO Campos, C Rocha</div>
+          <span class="citations">3 citações</span>
+        </div>
+      </div>
+    </div>
 
--  **The importance of emotional intensity on the recognition of facial emotions by Brazilian children**. *Autores:* Juliana Silva Rocha Aguiar, Ana Idalina de Paiva Silva, Carla Silva Rocha Aguiar, Nelson Torro-Alves, Wânia Cristina de Souza. *Revista:* Universitas Psychologica. *Volume:* 15. *Número:* spe5. *Páginas:* 1-9. *Ano:* 2016.
+    <div class="year-group">
+      <div class="year-title"><h3>2019</h3><span class="count">3</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">ACM Computing Surveys</div>
+          <div class="title">A survey of DevOps concepts and challenges</div>
+          <div class="authors">L Leite, C Rocha, F Kon, D Milojicic, P Meirelles</div>
+          <span class="citations">743 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">OpenSym</div>
+          <div class="title">FLOSS FAQ chatbot project reuse: how to allow nonexperts to develop a chatbot</div>
+          <div class="authors">ART de Lacerda, CSR Aguiar</div>
+          <span class="citations">33 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">ICCSA</div>
+          <div class="title">A students' perspective of native and cross-platform approaches for mobile application development</div>
+          <div class="authors">P Meirelles, CSR Aguiar, F Assis, R Siqueira, A Goldman</div>
+          <span class="citations">21 citações</span>
+        </div>
+      </div>
+    </div>
 
+    <div class="year-group">
+      <div class="year-title"><h3>2016</h3><span class="count">2</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">Universitas Psychologica</div>
+          <div class="title">A influência da intensidade emocional no reconhecimento de emoções em faces por crianças brasileiras</div>
+          <div class="authors">JS Rocha Aguiar, AI de Paiva Silva, CS Rocha Aguiar, N Torro-Alves, W Cristina de Souza</div>
+          <span class="citations">16 citações</span>
+        </div>
+      </div>
+    </div>
 
+    <div class="year-group">
+      <div class="year-title"><h3>2014-2015</h3><span class="count">3</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">SPIE 2015</div>
+          <div class="title">Development of simulation interfaces for evaluation task with physiological data and virtual reality</div>
+          <div class="authors">MR Miranda, H Costa, L Oliveira, T Bernardes, C Aguiar, C Miosso, A Rocha</div>
+          <span class="citations">3 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">SPIE 2014</div>
+          <div class="title">Embodiments, visualizations, and immersion with enactive affective systems</div>
+          <div class="authors">D Domingues, CJ Miosso, SF Rodrigues, CSR Aguiar, TF Lucena, M Miranda, AF Rocha, R Raskar</div>
+          <span class="citations">19 citações</span>
+        </div>
+      </div>
+    </div>
 
+    <div class="year-group">
+      <div class="year-title"><h3>2007</h3><span class="count">3</span></div>
+      <div class="pub-grid">
+        <div class="pub-card">
+          <div class="year">SBAI</div>
+          <div class="title">Planejamento de trajetória para o robô omni utilizando o algoritmo mapa de rotas probabilístico</div>
+          <div class="authors">BV Adôrno, CSR Aguiar, GA Borges</div>
+          <span class="citations">10 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">IEEE/RSJ IROS</div>
+          <div class="title">3D datasets segmentation based on local attribute variation</div>
+          <div class="authors">CSR Aguiar, S Druon, A Crosnier</div>
+          <span class="citations">6 citações</span>
+        </div>
+        <div class="pub-card">
+          <div class="year">CGIV</div>
+          <div class="title">Hierarchical segmentation for unstructured and unfiltered range images</div>
+          <div class="authors">CSR Aguiar, S Druon, A Crosnier</div>
+          <span class="citations">2 citações</span>
+        </div>
+      </div>
+    </div>
 
+  </div></div>
+</section>
 
-
-### Conference Papers
-
--  **Qualifying software engineers undergraduates in DevOps-challenges of introducing technical and non-technical concepts in a project-oriented course**. *Autores:* Isaque Alves, Carla Rocha. *Evento:* 2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering Education and Training (ICSE-SEET). *Páginas:* 144-153. *Ano:* 2021. *Editora:* IEEE.
-
--  **A students’ perspective of native and cross-platform approaches for mobile application development**. *Autores:* Paulo Meirelles, Carla SR Aguiar, Felipe Assis, Rodrigo Siqueira, Alfredo Goldman. *Conferência:* Computational Science and Its Applications–ICCSA 2019: 19th International Conference, Saint Petersburg, Russia, July 1–4, 2019, Proceedings, Part V 19. *Páginas:* 586-601. *Ano:* 2019. *Editora:* Springer International Publishing.
-
-- **OSS Scripting System for Game Development in Rust**. *PDS da Silva, RO Campos, C Rocha*. *Open Source Systems: 17th IFIP WG 2.13 International Conference, OSS 2021 …*. *2021*.
-  
--  **FLOSS FAQ chatbot project reuse: how to allow nonexperts to develop a chatbot**. *Autores:* Arthur RT de Lacerda, Carla SR Aguiar *Evento:* Proceedings of the 15th International Symposium on Open Collaboration. *Páginas:* 1-8. *Ano:* 2019.
-
-- **Assuring the Evolvability of Legacy Systems in Devops Transformation/Adoption: Insights of an Experience Report**. *Á Alves, C Rocha*. *Brazilian Workshop on Agile Methods, 32-53*. *2021*.
-
-- **Planejamento de trajetória para o robô omni utilizando o algoritmo mapade rotas probabilístico**. *Autores:* Bruno Vilhena Adôrno, Carla Silva Rocha Aguiar, Geovany Araújo Borges. *Publicação:* VIII Simpósio Brasileiro de Automação Inteligente. *Volume:* 1. *Páginas:* 1-6. *Ano:* 2007. 
-
-- **3D datasets segmentation based on local attribute variation**. *Autores:* Carla Silva Rocha Aguiar, Sébastien Druon, André Crosnier. *Publicação:* 2007 IEEE/RSJ International Conference on Intelligent Robots and Systems. *Páginas:* 3205-3210. *Ano:* 2007. *Editora:* IEEE.
-
-- **Development of simulation interfaces for evaluation task with the use of physiological data and virtual reality applied to a vehicle simulator**. *MR Miranda, H Costa, L Oliveira, T Bernardes, C Aguiar, C Miosso, ...*. *The Engineering Reality of Virtual Reality 2015 9392, 49-61*. *2015*.
-  
-- **Embodiments, visualizations, and immersion with enactive affective systems**. *Autores:* Diana Domingues, Cristiano Jacques Miosso, Suélia F Rodrigues, Carla Silva Rocha Aguiar, Tiago F Lucena, Mateus Miranda, Adson F Rocha, Ramesh Raskar. *Publicação:* The Engineering Reality of Virtual Reality 2014. *Volume:* 9012. *Páginas:* 151-163. *Ano:* 2014. *Editora:* SPIE.
-
-- **Estimação de parâmetros geométricos de um robô móvel omnidirecional**. *Autores:* Carla Silva Rocha Aguiar, Flávia Maria GSA Oliveira, Geovany Araújo Borges. *Publicação:* VII Simpósio Brasileiro de Automação Inteligente/II IEEE Latin-American Robotics Symposium, São Luis. *Páginas:* 1-8. *Ano:* 2005.
-
-- **Hierarchical segmentation for unstructured and unfiltered range images**. *Autores:* Carla Silva Rocha Aguiar, Sébastien Druon, André Crosnier. *Publicação:* Computer Graphics, Imaging and Visualisation (CGIV 2007. *Páginas:* 261-267. *Ano:* 2007. *Editora:* IEEE.
-
--  **Criterion independent hierarchical segmentation for unstructured 3D datasets-Application to range images**. *Autores:* Carla Aguiar, Sébastien Druon, André Crosnier. *Evento:* IROS'07: Intelligent Robots and Systems.*Ano:* 2007.
- 
-- **Pairwise region-based scan alignment**. *Autores:* Carla Silva Rocha Aguiar, Sébastien Druon, André Crosnier. *Publicação:* 2009 IEEE/RSJ International Conference on Intelligent Robots and Systems. *Páginas:* 4047-4053. *Ano:* 2009. *Editora:* IEEE.
-
-- **Contextual Sentiment Analysis with Untrained Annotators**. *Autores:* Lucas A Silva, Carla R Aguiar. *Revista:* International Journal of Computer and Information Engineering. *Volume:* 8. *Número:* 3. *Páginas:* 435-440. *Ano:* 2014.
-
-### Outras Publicações
-
--  **Agile Methods: 10th Brazilian Workshop, WBMA 2019, Belo Horizonte, Brazil, September 11, 2019, Revised Selected Papers**. *Autores:* Paulo Meirelles, Maria Augusta Nelson, Carla Rocha.  *Ano:* 2019. *Editora:* Springer Nature.
-
--  **Trans Perspective in Software Engineering**. *Autores:* Marina Joranhezon, Fabıola Malta Fleury, Carla Rocha. *Ano:* 2023 . *Editora:* Não especificada.
-
-- **Camera calibration for 3D localization: application to beating heart motion estimation**. *Autores:* Carla SILVA ROCHA AGUIAR AGUIAR, Philippe POIGNET, Jean TRIBOULET.
-
-- **Recalage de données 3D denses**. *Autores:* Sébastien Druon, Carla Aguiar, Marie-José Aldon, André Crosnier.
+</div>
 
 
 
