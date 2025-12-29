@@ -12,5 +12,7 @@ main:
     url: /reading/
   - title: "Misc"
     url: /misc/
+  - title: "MDS Graph"
+    url: /mds-graph/
   - title: "Sobre"
     url: /about/
