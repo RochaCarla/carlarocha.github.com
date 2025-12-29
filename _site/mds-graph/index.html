@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grafo de Contribuidores - unb-mds</title>
+  <title>Contribuir é fundamental para aprender</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     * {
@@ -242,7 +242,7 @@
 </head>
 <body>
   <div class="header">
-    <h1>Grafo de Contribuidores <span>unb-mds</span></h1>
+    <h1>Contribuir é fundamental para aprender - <span>Contruição em MDS</span></h1>
     <div class="stats">
       <div class="stat">
         <div class="stat-value" id="contributors-count">-</div>
@@ -363,17 +363,20 @@
         weight: e.repos.length
       }));
       
-      // Criar simulação de força
+      // Criar simulação de força (otimizada para performance)
       simulation = d3.forceSimulation(graphNodes)
         .force('link', d3.forceLink(graphLinks)
           .id(d => d.id)
-          .distance(d => 100 - d.weight * 10)
-          .strength(d => 0.1 + d.weight * 0.05))
+          .distance(80)
+          .strength(0.3))
         .force('charge', d3.forceManyBody()
-          .strength(-200)
-          .distanceMax(400))
+          .strength(-100)
+          .distanceMax(200)
+          .theta(0.9))
         .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('collision', d3.forceCollide().radius(30));
+        .force('collision', d3.forceCollide().radius(25))
+        .alphaDecay(0.05)
+        .velocityDecay(0.4);
       
       // Criar links
       links = g.append('g')
@@ -431,19 +434,8 @@
         nodes.attr('transform', d => `translate(${d.x}, ${d.y})`);
       });
       
-      // Animação de pulso nas conexões
-      animateLinks();
-    }
-    
-    function animateLinks() {
-      links
-        .transition()
-        .duration(2000)
-        .attr('stroke-opacity', d => 0.2 + d.weight * 0.1)
-        .transition()
-        .duration(2000)
-        .attr('stroke-opacity', 0.1)
-        .on('end', animateLinks);
+      // Parar simulação após estabilizar
+      simulation.on('end', () => console.log('Simulação estabilizada'));
     }
     
     function showTooltip(event, d) {

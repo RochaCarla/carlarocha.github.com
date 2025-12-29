@@ -908,7 +908,7 @@ permalink: /
     <div class="hero-content">
       <p class="hero-subtitle">Professora de Engenharia de Software</p>
       <h1 class="hero-title">Profa. Carla <span class="text-gradient">Rocha</span></h1>
-      <p class="hero-bio">Professora no curso de Engenharia de Software (UnB) e coordenadora do Lab Livre. Pesquisa dedicada ao desenvolvimento de soluções tecnológicas com impacto social, promovendo software livre, práticas ágeis e inovação no setor público.</p>
+      <p class="hero-bio">Professora no curso de Engenharia de Software (UnB) e coordenadora do <a href="https://lablivre.unb.br/" target="_blank">Lab Livre</a>. Pesquisa dedicada ao desenvolvimento de soluções tecnológicas com impacto social, promovendo software livre, práticas ágeis e inovação no setor público.</p>
     </div>
   </div>
 </section>
@@ -916,7 +916,7 @@ permalink: /
 <section class="section lab-photo">
   <div class="container"><div class="max-w-6xl">
     <div class="lab-photo-container">
-      <img src="/images/lab.png" alt="Lab Livre - Equipe" class="lab-photo-img">
+      <a href="https://lablivre.unb.br/" target="_blank"><img src="/images/lab.png" alt="Lab Livre - Equipe" class="lab-photo-img"></a>
     </div>
   </div></div>
 </section>
