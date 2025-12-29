@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grafo de Contribuidores - unb-mds</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #ffffff;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .header h1 {
+      color: #333;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    
+    .header h1 span {
+      color: #00d9ff;
+    }
+    
+    .stats {
+      display: flex;
+      gap: 30px;
+    }
+    
+    .stat {
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #00d9ff;
+    }
+    
+    .stat-label {
+      font-size: 0.75rem;
+      color: rgba(0, 0, 0, 0.6);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    #graph {
+      width: 100vw;
+      height: 100vh;
+    }
+    
+    .tooltip {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.9);
+      border: 1px solid #00d9ff;
+      border-radius: 12px;
+      padding: 15px;
+      color: #fff;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+      max-width: 300px;
+      z-index: 1000;
+    }
+    
+    .tooltip.visible {
+      opacity: 1;
+    }
+    
+    .tooltip-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    
+    .tooltip-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid #00d9ff;
+    }
+    
+    .tooltip-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    
+    .tooltip-repos {
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-top: 8px;
+    }
+    
+    .tooltip-repos strong {
+      color: #00d9ff;
+    }
+    
+    .controls {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .control-btn {
+      background: rgba(0, 217, 255, 0.1);
+      border: 1px solid #00d9ff;
+      color: #333;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.3s;
+    }
+    
+    .control-btn:hover {
+      background: rgba(0, 217, 255, 0.4);
+      transform: translateX(5px);
+    }
+    
+    .legend {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .legend-title {
+      color: #333;
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      color: rgba(0, 0, 0, 0.7);
+      margin-bottom: 5px;
+    }
+    
+    .legend-line {
+      width: 30px;
+      height: 3px;
+      border-radius: 2px;
+    }
+    
+    .legend-line.thin {
+      background: rgba(0, 217, 255, 0.3);
+      height: 1px;
+    }
+    
+    .legend-line.thick {
+      background: rgba(0, 217, 255, 0.8);
+      height: 4px;
+    }
+    
+    .loading {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #333;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 3px solid rgba(0, 217, 255, 0.3);
+      border-top-color: #00d9ff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    
+    .link {
+      stroke: #00d9ff;
+      stroke-opacity: 0.3;
+      transition: stroke-opacity 0.3s;
+    }
+    
+    .link.highlighted {
+      stroke-opacity: 1;
+      stroke: #ff6b6b;
+    }
+    
+    .node-image {
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    
+    .node-image:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Grafo de Contribuidores <span>unb-mds</span></h1>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-value" id="contributors-count">-</div>
+        <div class="stat-label">Contribuidores</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="connections-count">-</div>
+        <div class="stat-label">Conexões</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="repos-count">-</div>
+        <div class="stat-label">Repositórios</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="controls">
+    <button class="control-btn" onclick="resetZoom()">🔄 Resetar Zoom</button>
+    <button class="control-btn" onclick="toggleAnimation()">⏯️ Pausar/Continuar</button>
+    <button class="control-btn" onclick="shuffleNodes()">🎲 Reorganizar</button>
+  </div>
+  
+  <div class="legend">
+    <div class="legend-title">Conexões</div>
+    <div class="legend-item">
+      <div class="legend-line thin"></div>
+      <span>1 repo em comum</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-line thick"></div>
+      <span>Múltiplos repos</span>
+    </div>
+  </div>
+  
+  <div class="tooltip" id="tooltip">
+    <div class="tooltip-header">
+      <img class="tooltip-avatar" id="tooltip-avatar" src="" alt="">
+      <div class="tooltip-name" id="tooltip-name"></div>
+    </div>
+    <div class="tooltip-repos" id="tooltip-repos"></div>
+  </div>
+  
+  <div class="loading" id="loading">
+    <div class="loading-spinner"></div>
+    <div>Carregando dados...</div>
+  </div>
+  
+  <svg id="graph"></svg>
+  
+  <script>
+    let simulation;
+    let isPaused = false;
+    let svg, g, zoom;
+    let nodes, links;
+    
+    async function loadData() {
+      try {
+        const response = await fetch('graph-data.json');
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error('Erro ao carregar dados:', error);
+        document.getElementById('loading').innerHTML = `
+          <div style="color: #ff6b6b;">
+            <p>Erro ao carregar dados.</p>
+            <p style="font-size: 0.9rem; margin-top: 10px; opacity: 0.7;">
+              Execute primeiro: <code style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 4px;">npm run mine</code>
+            </p>
+          </div>
+        `;
+        return null;
+      }
+    }
+    
+    function createGraph(data) {
+      document.getElementById('loading').style.display = 'none';
+      
+      // Atualizar estatísticas
+      document.getElementById('contributors-count').textContent = data.metadata.totalContributors;
+      document.getElementById('connections-count').textContent = data.metadata.totalConnections;
+      document.getElementById('repos-count').textContent = data.metadata.totalRepos;
+      
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      
+      svg = d3.select('#graph')
+        .attr('width', width)
+        .attr('height', height);
+      
+      // Zoom
+      zoom = d3.zoom()
+        .scaleExtent([0.1, 4])
+        .on('zoom', (event) => {
+          g.attr('transform', event.transform);
+        });
+      
+      svg.call(zoom);
+      
+      g = svg.append('g');
+      
+      // Definir clip path para imagens circulares
+      const defs = svg.append('defs');
+      
+      // Criar clipPath global para imagens circulares
+      defs.append('clipPath')
+        .attr('id', 'avatar-clip')
+        .append('circle')
+        .attr('r', 20)
+        .attr('cx', 0)
+        .attr('cy', 0);
+      
+      // Preparar dados para simulação
+      const graphNodes = data.nodes.map(n => ({...n}));
+      const graphLinks = data.edges.map(e => ({
+        source: e.source,
+        target: e.target,
+        repos: e.repos,
+        weight: e.repos.length
+      }));
+      
+      // Criar simulação de força
+      simulation = d3.forceSimulation(graphNodes)
+        .force('link', d3.forceLink(graphLinks)
+          .id(d => d.id)
+          .distance(d => 100 - d.weight * 10)
+          .strength(d => 0.1 + d.weight * 0.05))
+        .force('charge', d3.forceManyBody()
+          .strength(-200)
+          .distanceMax(400))
+        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('collision', d3.forceCollide().radius(30));
+      
+      // Criar links
+      links = g.append('g')
+        .attr('class', 'links')
+        .selectAll('line')
+        .data(graphLinks)
+        .enter()
+        .append('line')
+        .attr('class', 'link')
+        .attr('stroke-width', d => Math.min(d.weight * 1.5, 6));
+      
+      // Criar grupos de nós
+      nodes = g.append('g')
+        .attr('class', 'nodes')
+        .selectAll('g')
+        .data(graphNodes)
+        .enter()
+        .append('g')
+        .attr('class', 'node')
+        .call(d3.drag()
+          .on('start', dragstarted)
+          .on('drag', dragged)
+          .on('end', dragended));
+      
+      // Adicionar círculo de fundo com brilho
+      nodes.append('circle')
+        .attr('r', 24)
+        .attr('fill', 'rgba(0, 217, 255, 0.2)')
+        .attr('stroke', '#00d9ff')
+        .attr('stroke-width', 2);
+      
+      // Adicionar imagem do avatar
+      nodes.append('image')
+        .attr('class', 'node-image')
+        .attr('href', d => d.avatar)
+        .attr('width', 40)
+        .attr('height', 40)
+        .attr('x', -20)
+        .attr('y', -20)
+        .attr('clip-path', 'url(#avatar-clip)')
+        .on('mouseover', showTooltip)
+        .on('mouseout', hideTooltip)
+        .on('click', (event, d) => {
+          window.open(d.url, '_blank');
+        });
+      
+      // Animação de tick
+      simulation.on('tick', () => {
+        links
+          .attr('x1', d => d.source.x)
+          .attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x)
+          .attr('y2', d => d.target.y);
+        
+        nodes.attr('transform', d => `translate(${d.x}, ${d.y})`);
+      });
+      
+      // Animação de pulso nas conexões
+      animateLinks();
+    }
+    
+    function animateLinks() {
+      links
+        .transition()
+        .duration(2000)
+        .attr('stroke-opacity', d => 0.2 + d.weight * 0.1)
+        .transition()
+        .duration(2000)
+        .attr('stroke-opacity', 0.1)
+        .on('end', animateLinks);
+    }
+    
+    function showTooltip(event, d) {
+      const tooltip = document.getElementById('tooltip');
+      document.getElementById('tooltip-avatar').src = d.avatar;
+      document.getElementById('tooltip-name').textContent = d.id;
+      document.getElementById('tooltip-repos').innerHTML = 
+        `<strong>${d.repoCount}</strong> repositório(s):<br>` + 
+        d.repos.slice(0, 5).join(', ') + 
+        (d.repos.length > 5 ? `... +${d.repos.length - 5} mais` : '');
+      
+      tooltip.style.left = (event.pageX + 15) + 'px';
+      tooltip.style.top = (event.pageY - 15) + 'px';
+      tooltip.classList.add('visible');
+      
+      // Destacar conexões
+      links.classed('highlighted', l => l.source.id === d.id || l.target.id === d.id);
+    }
+    
+    function hideTooltip() {
+      document.getElementById('tooltip').classList.remove('visible');
+      links.classed('highlighted', false);
+    }
+    
+    function dragstarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+    
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+    
+    function dragended(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+    
+    function resetZoom() {
+      svg.transition()
+        .duration(750)
+        .call(zoom.transform, d3.zoomIdentity);
+    }
+    
+    function toggleAnimation() {
+      if (isPaused) {
+        simulation.alpha(0.3).restart();
+        isPaused = false;
+      } else {
+        simulation.stop();
+        isPaused = true;
+      }
+    }
+    
+    function shuffleNodes() {
+      nodes.each(d => {
+        d.x = Math.random() * window.innerWidth;
+        d.y = Math.random() * window.innerHeight;
+      });
+      simulation.alpha(1).restart();
+    }
+    
+    // Redimensionar ao mudar tamanho da janela
+    window.addEventListener('resize', () => {
+      svg.attr('width', window.innerWidth).attr('height', window.innerHeight);
+      simulation.force('center', d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2));
+      simulation.alpha(0.3).restart();
+    });
+    
+    // Inicializar
+    loadData().then(data => {
+      if (data) createGraph(data);
+    });
+  </script>
+</body>
+</html>
