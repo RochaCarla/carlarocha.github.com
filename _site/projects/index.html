@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Projetos de Pesquisa - Carla Rocha</title>
+<!-- begin _includes/seo.html --><title>Carla Rocha</title>
 <meta name="description" content="Professora e Pesquisadora em Engenharia de Software ">
 
 
@@ -19,7 +19,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Carla Rocha">
-<meta property="og:title" content="Projetos de Pesquisa">
+<meta property="og:title" content="Carla Rocha">
 <meta property="og:url" content="http://0.0.0.0:4000/projects/">
 
 
@@ -30,7 +30,7 @@
 
 
   <meta name="twitter:site" content="@carlarocha">
-  <meta name="twitter:title" content="Projetos de Pesquisa">
+  <meta name="twitter:title" content="Carla Rocha">
   <meta name="twitter:description" content="Professora e Pesquisadora em Engenharia de Software ">
   <meta name="twitter:url" content="http://0.0.0.0:4000/projects/">
 
@@ -191,9 +191,76 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Projetos de Pesquisa</h1>
+      <h1 id="page-title" class="page__title"></h1>
     
     <style>
+/* Fixed navigation bar */
+.masthead {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+.masthead__inner-wrap {
+  max-width: 1200px !important;
+  padding: 0 1.5rem !important;
+}
+.greedy-nav a { color: #000000 !important; }
+.greedy-nav a:hover { color: #0066cc !important; }
+.greedy-nav .visible-links a:before { background: #0066cc !important; }
+.site-title { color: #000000 !important; font-weight: 700 !important; }
+body {
+  padding-top: 70px;
+}
+
+/* Hamburger menu color - match titles */
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon::before,
+.greedy-nav__toggle .navicon::after {
+  background: #000000 !important;
+}
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon::before,
+.greedy-nav__toggle:hover .navicon::after {
+  background: #0066cc !important;
+}
+.search__toggle {
+  color: #000000 !important;
+}
+.search__toggle:hover {
+  color: #0066cc !important;
+}
+.search__toggle svg {
+  fill: #000000 !important;
+}
+.search__toggle:hover svg {
+  fill: #0066cc !important;
+}
+
+/* Hide sidebar - both sides */
+.sidebar, .author__avatar, .author__content, .author__urls-wrapper,
+.sidebar__right, .sidebar__left, .toc, .toc__menu {
+  display: none !important;
+}
+#main {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  max-width: 100% !important;
+}
+.page {
+  float: none !important;
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+.page__inner-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
 /* Enhanced Mobile-First Responsive Design */
 
 /* Base styles - Mobile first approach */
@@ -356,7 +423,80 @@
     margin-bottom: 2rem;
   }
 }
+
+/* Hero Section */
+.hero-proj {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  margin: -2rem calc(-50vw + 50%) 2rem calc(-50vw + 50%);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-proj h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.hero-proj p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.external-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 1.25rem;
+  background: #0066cc;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.external-link:hover {
+  background: #004499;
+  transform: translateY(-2px);
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .hero-proj { padding: 2rem 1rem; }
+  .hero-proj h1 { font-size: 1.5rem; }
+  .external-links { flex-direction: column; align-items: center; }
+}
 </style>
+
+<div class="hero-proj">
+  <h1>Projetos de Pesquisa</h1>
+  <p>Pesquisa aplicada em Engenharia de Dados, Participação Digital, DevOps, MLOps e Software Livre</p>
+  <div class="external-links">
+    <a href="https://lablivre.unb.br/" class="external-link" target="_blank">Lab Livre</a>
+    <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank">Currículo Lattes</a>
+    <a href="https://summerofcode.withgoogle.com/archive/2024/organizations/lappis" class="external-link" target="_blank">GSoC 2024</a>
+  </div>
+</div>
 
 <p>Faço parte diversos projetos de pesquisa, tanto com grupos de pesquisa quanto com departamentos de Pesquisa e Desenvolvimento (P&amp;D) de empresas. Participo do grupo de pesquisa com <a href="http://dgp.cnpq.br/dgp/espelhogrupo/633486">IME-USP</a> “Sistemas de Software, Ciência e Engenharia de Dados e Computação de Alto Desempenho”.</p>
 

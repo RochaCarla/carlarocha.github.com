@@ -6,6 +6,35 @@ author_profile: false
 ---
 
 <style>
+/* Fixed navigation bar */
+.masthead {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff !important;
+}
+body {
+  padding-top: 70px;
+}
+
+/* Hamburger menu color - match titles */
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon::before,
+.greedy-nav__toggle .navicon::after {
+  background: #000000 !important;
+}
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon::before,
+.greedy-nav__toggle:hover .navicon::after {
+  background: #0066cc !important;
+}
+.search__toggle { color: #000000 !important; }
+.search__toggle:hover { color: #0066cc !important; }
+.search__toggle svg { fill: #000000 !important; }
+.search__toggle:hover svg { fill: #0066cc !important; }
+
 /* Design System - Azul */
 :root {
   --primary: #0066cc;

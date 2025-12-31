@@ -128,9 +128,21 @@
         padding: 0 1.5rem !important;
       }
       .greedy-nav a { color: #000000 !important; }
-      .greedy-nav a:hover { color: #5C348B !important; }
-      .greedy-nav .visible-links a:before { background: #5C348B !important; }
-      .site__title { color: #000000 !important; font-weight: 700 !important; }
+      .greedy-nav a:hover { color: #0066cc !important; }
+      .greedy-nav .visible-links a:before { background: #0066cc !important; }
+      .site-title { color: #000000 !important; font-weight: 700 !important; }
+      
+      /* Hamburger and search icons */
+      .greedy-nav__toggle .navicon,
+      .greedy-nav__toggle .navicon::before,
+      .greedy-nav__toggle .navicon::after { background: #000000 !important; }
+      .greedy-nav__toggle:hover .navicon,
+      .greedy-nav__toggle:hover .navicon::before,
+      .greedy-nav__toggle:hover .navicon::after { background: #0066cc !important; }
+      .search__toggle { color: #000000 !important; }
+      .search__toggle:hover { color: #0066cc !important; }
+      .search__toggle svg { fill: #000000 !important; }
+      .search__toggle:hover svg { fill: #0066cc !important; }
       
       /* Custom footer for homepage */
       .page__footer {
@@ -209,6 +221,35 @@
     <div class="initial-content">
       <div id="main" role="main">
         <style>
+/* Fixed navigation bar */
+.masthead {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ffffff !important;
+}
+body {
+  padding-top: 70px;
+}
+
+/* Hamburger menu color - match titles */
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon::before,
+.greedy-nav__toggle .navicon::after {
+  background: #000000 !important;
+}
+.greedy-nav__toggle:hover .navicon,
+.greedy-nav__toggle:hover .navicon::before,
+.greedy-nav__toggle:hover .navicon::after {
+  background: #0066cc !important;
+}
+.search__toggle { color: #000000 !important; }
+.search__toggle:hover { color: #0066cc !important; }
+.search__toggle svg { fill: #000000 !important; }
+.search__toggle:hover svg { fill: #0066cc !important; }
+
 /* Design System - Azul */
 :root {
   --primary: #0066cc;
@@ -500,9 +541,9 @@
     <h1>Publicações Científicas</h1>
     <p>Produção acadêmica em Engenharia de Software, DevOps, MLOps e Software Livre</p>
     <div class="external-links">
-      <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&amp;hl=pt-BR" class="external-link" target="_blank">📊 Google Scholar</a>
-      <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank">📋 Currículo Lattes</a>
-      <a href="https://books.apple.com/us/author/carla-rocha/id522601238" class="external-link" target="_blank">📚 Apple Books</a>
+      <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&amp;hl=pt-BR" class="external-link" target="_blank">Google Scholar</a>
+      <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank" style="color: white;">Currículo Lattes</a>
+      <a href="https://books.apple.com/us/author/carla-rocha/id522601238" class="external-link" target="_blank">Apple Books</a>
     </div>
   </div>
 </section>
