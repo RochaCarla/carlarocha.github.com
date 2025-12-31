@@ -31,13 +31,28 @@
       display: flex;
       align-items: center;
       gap: 2rem;
+      max-width: 100%;
+    }
+
+    .top-nav .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      width: 100%;
+      padding: 0 1.5rem;
     }
 
     .top-nav .site-title {
       font-weight: 700;
       font-size: 1.1rem;
-      color: #000;
+      color: #000000;
       text-decoration: none;
+    }
+
+    .top-nav .site-title:hover {
+      color: #0066cc;
     }
 
     .top-nav .nav-links {
@@ -47,7 +62,7 @@
     }
 
     .top-nav .nav-links a {
-      color: #333;
+      color: #000000;
       text-decoration: none;
       font-size: 0.9rem;
       transition: color 0.2s;
@@ -85,7 +100,7 @@
     }
     
     .header h1 span {
-      color: #00d9ff;
+      color: #0066cc;
     }
     
     .stats {
@@ -100,7 +115,7 @@
     .stat-value {
       font-size: 1.8rem;
       font-weight: 700;
-      color: #00d9ff;
+      color: #0066cc;
     }
     
     .stat-label {
@@ -118,7 +133,7 @@
     .tooltip {
       position: absolute;
       background: rgba(0, 0, 0, 0.9);
-      border: 1px solid #00d9ff;
+      border: 1px solid #0066cc;
       border-radius: 12px;
       padding: 15px;
       color: #fff;
@@ -144,7 +159,7 @@
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      border: 2px solid #00d9ff;
+      border: 2px solid #0066cc;
     }
     
     .tooltip-name {
@@ -159,7 +174,7 @@
     }
     
     .tooltip-repos strong {
-      color: #00d9ff;
+      color: #0066cc;
     }
     
     .controls {
@@ -173,8 +188,8 @@
     }
     
     .control-btn {
-      background: rgba(0, 217, 255, 0.1);
-      border: 1px solid #00d9ff;
+      background: rgba(0, 102, 204, 0.1);
+      border: 1px solid #0066cc;
       color: #333;
       padding: 10px 20px;
       border-radius: 8px;
@@ -184,7 +199,7 @@
     }
     
     .control-btn:hover {
-      background: rgba(0, 217, 255, 0.4);
+      background: rgba(0, 102, 204, 0.4);
       transform: translateX(5px);
     }
     
@@ -224,12 +239,12 @@
     }
     
     .legend-line.thin {
-      background: rgba(0, 217, 255, 0.3);
+      background: rgba(0, 102, 204, 0.3);
       height: 1px;
     }
     
     .legend-line.thick {
-      background: rgba(0, 217, 255, 0.8);
+      background: rgba(0, 102, 204, 0.8);
       height: 4px;
     }
     
@@ -246,8 +261,8 @@
     .loading-spinner {
       width: 50px;
       height: 50px;
-      border: 3px solid rgba(0, 217, 255, 0.3);
-      border-top-color: #00d9ff;
+      border: 3px solid rgba(0, 102, 204, 0.3);
+      border-top-color: #0066cc;
       border-radius: 50%;
       animation: spin 1s linear infinite;
       margin: 0 auto 20px;
@@ -263,7 +278,7 @@
     }
     
     .link {
-      stroke: #00d9ff;
+      stroke: #0066cc;
       stroke-opacity: 0.3;
       transition: stroke-opacity 0.3s;
     }
@@ -285,16 +300,18 @@
 </head>
 <body>
   <nav class="top-nav">
-    <a href="/" class="site-title">Carla Rocha</a>
-    <div class="nav-links">
-      <a href="/projects/">Pesquisa</a>
-      <a href="/publications/">Publicações</a>
-      <a href="/students/">Oportunidades</a>
-      <a href="/teaching/">Aulas</a>
-      <a href="/reading/">Leituras</a>
-      <a href="/misc/">Misc</a>
-      <a href="/mds-graph/" class="active">MDS Graph</a>
-      <a href="/about/">Sobre</a>
+    <div class="nav-inner">
+      <a href="/" class="site-title">Carla Rocha</a>
+      <div class="nav-links">
+        <a href="/projects/">Pesquisa</a>
+        <a href="/publications/">Publicações</a>
+        <a href="/students/">Oportunidades</a>
+        <a href="/teaching/">Aulas</a>
+        <a href="/reading/">Leituras</a>
+        <a href="/misc/">Misc</a>
+        <a href="/mds-graph/" class="active">MDS Graph</a>
+        <a href="/about/">Sobre</a>
+      </div>
     </div>
   </nav>
 
@@ -461,8 +478,8 @@
       // Adicionar círculo de fundo com brilho
       nodes.append('circle')
         .attr('r', 24)
-        .attr('fill', 'rgba(0, 217, 255, 0.2)')
-        .attr('stroke', '#00d9ff')
+        .attr('fill', 'rgba(0, 102, 204, 0.2)')
+        .attr('stroke', '#0066cc')
         .attr('stroke-width', 2);
       
       // Adicionar imagem do avatar
