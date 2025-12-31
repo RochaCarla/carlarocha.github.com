@@ -206,6 +206,7 @@ author_profile: false
 
 <section class="hero-about">
   <div class="container">
+    <img src="/lost+found/ghlp4.png" alt="Carla Rocha" style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <h1>Carla Rocha</h1>
     <p>Professora na Universidade de Brasília • Pesquisadora em Engenharia de Software</p>
   </div>
