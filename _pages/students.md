@@ -294,39 +294,39 @@ author_profile: false
     
     <div class="skills-grid">
       <div class="skill-card">
-        <h3>🔬 Ciência de Dados</h3>
+        <h3>Ciência de Dados</h3>
         <p>Expertise em limpeza de dados e geração automatizada de relatórios (pdf, html).</p>
       </div>
       <div class="skill-card">
-        <h3>⚙️ Engenharia de Dados</h3>
+        <h3>Engenharia de Dados</h3>
         <p>Capacidade na criação de Dags no Airflow e automação de processamento de dados.</p>
       </div>
       <div class="skill-card">
-        <h3>💎 Software Livre Decidim</h3>
+        <h3>Software Livre Decidim</h3>
         <p>Conhecimento em Ruby on Rails e criação de módulos para esta plataforma.</p>
       </div>
       <div class="skill-card">
-        <h3>🐍 Python</h3>
+        <h3>Python</h3>
         <p>Proficiência em Python e interesse em contribuir para projetos de código aberto.</p>
       </div>
       <div class="skill-card">
-        <h3>🎨 Front-end</h3>
+        <h3>Front-end</h3>
         <p>Habilidades em HTML, CSS e Javascript para criar interfaces atrativas e funcionais.</p>
       </div>
       <div class="skill-card">
-        <h3>📝 Pesquisa</h3>
+        <h3>Pesquisa</h3>
         <p>Capacidade na redação de artigos científicos embasados e relevantes.</p>
       </div>
       <div class="skill-card">
-        <h3>📰 Jornalismo</h3>
+        <h3>Jornalismo</h3>
         <p>Experiência ou formação na área jornalística para comunicação e divulgação.</p>
       </div>
       <div class="skill-card">
-        <h3>🎯 Design</h3>
+        <h3>Design</h3>
         <p>Habilidades criativas para contribuir com design de interfaces e materiais gráficos.</p>
       </div>
       <div class="skill-card">
-        <h3>🚀 DevOps</h3>
+        <h3>DevOps</h3>
         <p>Conhecimento em práticas de DevOps para otimização e implementação de processos.</p>
       </div>
     </div>
@@ -334,7 +334,7 @@ author_profile: false
     <div class="cta-section">
       <h3>Pronto para se juntar ao nosso time?</h3>
       <p>Junte-se a nós para contribuir com projetos inovadores e fazer parte de uma comunidade de pesquisa e desenvolvimento de software livre.</p>
-      <a href="https://forms.gle/kwfZ42vCo2xd3gXR8" class="cta-button" target="_blank">Submeter Currículo</a>
+      <a href="mailto:caguiar@unb.br" class="cta-button">Entre em contato: caguiar@unb.br</a>
     </div>
   </div></div>
 </section>
@@ -349,10 +349,6 @@ author_profile: false
         <div class="level">Doutorado</div>
       </div>
       <div class="student-card">
-        <div class="name">Ivon Miranda Santos</div>
-        <div class="level">Mestrado</div>
-      </div>
-      <div class="student-card">
         <div class="name">Bruna Pinos</div>
         <div class="level">Mestrado</div>
       </div>
@@ -361,15 +357,7 @@ author_profile: false
         <div class="level">Mestrado</div>
       </div>
       <div class="student-card">
-        <div class="name">Leonardo Silva Gomes</div>
-        <div class="level">Graduação</div>
-      </div>
-      <div class="student-card">
         <div class="name">Arthur José B. O. Assis</div>
-        <div class="level">Graduação</div>
-      </div>
-      <div class="student-card">
-        <div class="name">Marcos Nery Borges Jr.</div>
         <div class="level">Graduação</div>
       </div>
       <div class="student-card highlight">
@@ -386,6 +374,8 @@ author_profile: false
     <div class="section-header"><div class="section-line"></div><span class="section-label">Alumni</span></div>
     <h2 class="section-title">Ex-alunos</h2>
     <div class="students-grid">
+      <div class="student-card"><div class="name">Ivon Miranda Santos</div><div class="level">Mestrado</div></div>
+      <div class="student-card"><div class="name">Leonardo Silva Gomes</div><div class="level">Graduação</div></div>
       <div class="student-card"><div class="name">Tiago Vidigal</div><div class="level">Mestrado</div></div>
       <div class="student-card"><div class="name">Gabriel Filipe M. Araujo</div><div class="level">Graduação</div></div>
       <div class="student-card"><div class="name">Giovana Vitor Dionísio</div><div class="level">Graduação</div></div>
@@ -405,6 +395,21 @@ author_profile: false
       <div class="student-card"><div class="name">Lucas Dutra F. Nascimento</div><div class="level">Graduação</div></div>
       <div class="student-card"><div class="name">Caio Vinícius F. Araújo</div><div class="level">Graduação</div></div>
       <div class="student-card"><div class="name">Geison de Souza Oliveira</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Marcos Nery Borges Junior</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Igor Araujo de Sousa</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Shayane Marques Alcantara</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Matheus Silva Pereira</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Felipe Campos de Almeida</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Mar Akin Dantas Silva</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Abdul Hannan</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Heitor Marques Simões Barbosa</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Carolina Barbosa Brito</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Laura Pinos de Oliveira</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Ana Beatriz Ferreira dos Santos</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Breno Yuri Barbosa Gomes</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Gabriel Pessoa Zaranza</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Juan Pablo Ricarte de Barros</div><div class="level">Graduação</div></div>
+      <div class="student-card"><div class="name">Leonardo Lago Moreno</div><div class="level">Graduação</div></div>
     </div>
   </div></div>
 </section>

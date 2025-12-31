@@ -297,9 +297,9 @@ author_profile: false
     <h1>Publicações Científicas</h1>
     <p>Produção acadêmica em Engenharia de Software, DevOps, MLOps e Software Livre</p>
     <div class="external-links">
-      <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=pt-BR" class="external-link" target="_blank">📊 Google Scholar</a>
-      <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank">📋 Currículo Lattes</a>
-      <a href="https://books.apple.com/us/author/carla-rocha/id522601238" class="external-link" target="_blank">📚 Apple Books</a>
+      <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=pt-BR" class="external-link" target="_blank">Google Scholar</a>
+      <a href="http://lattes.cnpq.br/2831991076751452" class="external-link" target="_blank" style="color: white;">Currículo Lattes</a>
+      <a href="https://books.apple.com/us/author/carla-rocha/id522601238" class="external-link" target="_blank">Apple Books</a>
     </div>
   </div>
 </section>

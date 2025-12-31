@@ -398,16 +398,16 @@ author_profile: false
     
     <div class="other-courses">
       <div class="other-course-card">
-        <a href="/teaching/mds">📚 MDS - Métodos de Desenvolvimento</a>
+        <a href="/teaching/mds">MDS - Métodos de Desenvolvimento</a>
       </div>
       <div class="other-course-card">
-        <a href="https://github.com/fga-gces" target="_blank">⚙️ GCES - Gerência de Configuração</a>
+        <a href="https://github.com/fga-gces" target="_blank">GCES - Gerência de Configuração</a>
       </div>
       <div class="other-course-card">
-        <a href="https://github.com/PPCA-CS" target="_blank">🎓 Software Development - Masters</a>
+        <a href="https://github.com/PPCA-CS" target="_blank">Software Development - Masters</a>
       </div>
       <div class="other-course-card">
-        <a href="https://github.com/unb-Sistemas-de-Machine-learning" target="_blank">🤖 Sistemas de Machine Learning</a>
+        <a href="https://github.com/unb-Sistemas-de-Machine-learning" target="_blank">Sistemas de Machine Learning</a>
       </div>
     </div>
 
