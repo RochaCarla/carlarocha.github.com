@@ -132,7 +132,11 @@
       .greedy-nav .visible-links a:before { background: #0066cc !important; }
       .site-title { color: #000000 !important; font-weight: 700 !important; }
       
-      /* Hamburger and search icons */
+      /* Hamburger and search icons - ensure visible */
+      .greedy-nav__toggle {
+        display: block !important;
+        visibility: visible !important;
+      }
       .greedy-nav__toggle .navicon,
       .greedy-nav__toggle .navicon::before,
       .greedy-nav__toggle .navicon::after { background: #000000 !important; }
@@ -793,7 +797,7 @@ body {
     </div>
     
     <div class="footer-copyright">
-      &copy; 2025 Carla Rocha. 
+      &copy; 2026 Carla Rocha. 
       Desenvolvido com 
       <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; 
       <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br>

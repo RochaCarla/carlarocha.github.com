@@ -19,7 +19,11 @@ body {
   padding-top: 70px;
 }
 
-/* Hamburger menu color - match titles */
+/* Hamburger menu - ensure visible */
+.greedy-nav__toggle {
+  display: block !important;
+  visibility: visible !important;
+}
 .greedy-nav__toggle .navicon,
 .greedy-nav__toggle .navicon::before,
 .greedy-nav__toggle .navicon::after {
@@ -134,125 +138,122 @@ body {
   color: var(--primary);
 }
 
-/* Hero */
+/* Hero - Side by Side, Vertically Centered */
 .hero {
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   align-items: center;
-  position: relative;
-  overflow: hidden;
   background: #FFFFFF;
-  padding-top: 5rem;
+  padding: 4rem 0 3rem 0;
 }
 
-.hero-bg-circle {
-  position: absolute;
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 240px 1fr;
+    gap: 3rem;
+  }
+}
+
+.hero-photo {
+  text-align: center;
+}
+
+.hero-photo img {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  filter: blur(60px);
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.hero-bg-circle-1 {
-  top: 5rem; right: 5rem;
-  width: 24rem; height: 24rem;
-  background: rgba(0, 102, 204, 0.06);
-  animation: float 6s ease-in-out infinite;
-}
-
-.hero-bg-circle-2 {
-  bottom: 5rem; left: 5rem;
-  width: 18rem; height: 18rem;
-  background: rgba(0, 136, 238, 0.08);
-  animation: float 6s ease-in-out infinite 0.3s;
+@media (min-width: 768px) {
+  .hero-photo img {
+    width: 240px;
+    height: 240px;
+  }
 }
 
 .hero-content {
-  position: relative;
-  z-index: 10;
-  max-width: 56rem;
-  margin: 0 auto;
-  text-align: center;
-  padding: 3rem 1.5rem;
+  text-align: left;
 }
 
-.hero-subtitle {
-  color: var(--primary);
-  font-size: 0.875rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
+@media (max-width: 767px) {
+  .hero-content {
+    text-align: center;
+  }
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   color: #000000;
+  line-height: 1.1;
 }
 
-@media (min-width: 768px) { .hero-title { font-size: 4rem; } }
+@media (min-width: 768px) { .hero-title { font-size: 2.75rem; } }
+
+.hero-subtitle {
+  font-size: 0.85rem;
+  color: #666666;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.hero-icons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .hero-icons {
+    justify-content: center;
+  }
+}
+
+.hero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  transition: color 0.3s ease;
+}
+
+.hero-icon:hover {
+  color: var(--primary);
+}
+
+.hero-icon svg {
+  width: 24px;
+  height: 24px;
+}
 
 .hero-bio {
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   color: #333333;
-  max-width: 42rem;
-  margin: 0 auto 2.5rem;
   line-height: 1.8;
+  margin-bottom: 0;
+  text-align: justify;
 }
 
-.hero-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
+.hero-bio a {
+  color: var(--primary);
+  text-decoration: none;
 }
 
-.hero-stats {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-  max-width: 42rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (min-width: 640px) { .hero-stats { grid-template-columns: repeat(4, 1fr); } }
-
-.hero-stat-number {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.hero-stat-label {
-  color: #666666;
-  font-size: 0.875rem;
-  margin-top: 0.5rem;
-}
-
-.scroll-indicator {
-  position: absolute;
-  bottom: 2.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.scroll-indicator-inner {
-  width: 1.5rem;
-  height: 2.5rem;
-  border: 2px solid rgba(160, 174, 192, 0.3);
-  border-radius: 9999px;
-  display: flex;
-  justify-content: center;
-}
-
-.scroll-indicator-dot {
-  width: 0.25rem;
-  height: 0.75rem;
-  background: var(--primary);
-  border-radius: 9999px;
-  margin-top: 0.5rem;
-  animation: bounce 1.5s ease-in-out infinite;
+.hero-bio a:hover {
+  text-decoration: underline;
 }
 
 /* Sections */
@@ -880,17 +881,11 @@ body {
 @media (max-width: 480px) {
   .home-wrapper { margin: -1rem; }
   .container { padding: 0 1rem; }
-  .hero { min-height: auto; padding: 3rem 0 2rem 0; }
-  .hero-content { padding: 1.5rem 1rem; }
+  .hero { padding: 2rem 0; }
+  .hero-grid { gap: 1.5rem; }
+  .hero-photo img { width: 160px; height: 160px; }
   .hero-title { font-size: 1.75rem; }
-  .hero-subtitle { font-size: 0.75rem; letter-spacing: 0.2em; }
-  .hero-bio { font-size: 1rem; margin-bottom: 1.5rem; }
-  .hero-buttons { flex-direction: column; gap: 0.75rem; }
-  .btn-elegant { width: 100%; justify-content: center; padding: 0.75rem 1.25rem; }
-  .hero-stats { grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 2rem; }
-  .hero-stat-number { font-size: 1.5rem; }
-  .hero-stat-label { font-size: 0.75rem; }
-  .scroll-indicator { display: none; }
+  .hero-bio { font-size: 0.95rem; line-height: 1.7; }
   .section { padding: 2.5rem 0; }
   .section-title { font-size: 1.5rem; }
   .section-desc { font-size: 1rem; margin-bottom: 2rem; }
@@ -920,9 +915,10 @@ body {
 
 @media (min-width: 481px) and (max-width: 768px) {
   .home-wrapper { margin: -1.5rem; }
-  .hero { min-height: auto; padding: 4rem 0 3rem 0; }
-  .hero-title { font-size: 2.25rem; }
-  .hero-stats { grid-template-columns: repeat(2, 1fr); }
+  .hero { padding: 3rem 0; }
+  .hero-photo img { width: 180px; height: 180px; }
+  .hero-title { font-size: 2rem; }
+  .hero-bio { font-size: 1rem; }
   .section { padding: 3rem 0; }
   .section-title { font-size: 1.75rem; }
   .research-grid { grid-template-columns: 1fr; }
@@ -941,13 +937,24 @@ body {
 <div class="home-wrapper">
 
 <section class="hero">
-  <div class="hero-bg-circle hero-bg-circle-1"></div>
-  <div class="hero-bg-circle hero-bg-circle-2"></div>
   <div class="container">
-    <div class="hero-content">
-      <p class="hero-subtitle">Professora de Engenharia de Software</p>
-      <h1 class="hero-title">Profa. Carla <span class="text-gradient">Rocha</span></h1>
-      <p class="hero-bio">Professora no curso de Engenharia de Software (UnB) e coordenadora do <a href="https://lablivre.unb.br/" target="_blank">Lab Livre</a>. Pesquisa dedicada ao desenvolvimento de soluções tecnológicas com impacto social, promovendo software livre, práticas ágeis e inovação no setor público.</p>
+    <div class="hero-grid">
+      <div class="hero-photo">
+        <img src="/lost+found/ghlp4.png" alt="Carla Rocha">
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">Carla Rocha</h1>
+        <p class="hero-subtitle">DevOps · Engenharia de Dados · Software Livre</p>
+        <div class="hero-icons">
+          <a href="https://github.com/RochaCarla" target="_blank" class="hero-icon" title="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://scholar.google.com/citations?user=_y8XHnAAAAAJ&hl=pt-BR" target="_blank" class="hero-icon" title="Google Scholar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+          </a>
+        </div>
+        <p class="hero-bio">Olá! Sou professora no curso de Engenharia de Software na Universidade de Brasília (UnB). Tenho mais de 10 anos de experiência prática e acadêmica com desenvolvimento de software, DevOps, MLOps, engenharia de dados e plataformas digitais, com interesse particular em software livre, impacto social e inovação no setor público. Sou doutora em Ciência da Computação (2009) pela Universidade de Monpellier, França. Coordeno o <a href="https://lablivre.unb.br/" target="_blank">Lab Livre</a> – Laboratório de Competência em Software Livre, onde lidero projetos de pesquisa, desenvolvimento e inovação. Tenho ampla experiência em parcerias com órgãos governamentais, e formação de estudantes através de projetos práticos e colaborativos.</p>
+      </div>
     </div>
   </div>
 </section>
