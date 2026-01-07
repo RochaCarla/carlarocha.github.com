@@ -280,7 +280,6 @@
     .link {
       stroke: #0066cc;
       stroke-opacity: 0.3;
-      transition: stroke-opacity 0.3s;
     }
     
     .link.highlighted {
@@ -290,11 +289,6 @@
     
     .node-image {
       cursor: pointer;
-      transition: transform 0.3s;
-    }
-    
-    .node-image:hover {
-      transform: scale(1.2);
     }
   </style>
 </head>
@@ -437,20 +431,19 @@
         weight: e.repos.length
       }));
       
-      // Criar simulação de força (otimizada para performance)
+      // Criar simulação de força (otimizada)
       simulation = d3.forceSimulation(graphNodes)
         .force('link', d3.forceLink(graphLinks)
           .id(d => d.id)
           .distance(80)
           .strength(0.3))
         .force('charge', d3.forceManyBody()
-          .strength(-100)
-          .distanceMax(200)
+          .strength(-80)
+          .distanceMax(150)
           .theta(0.9))
         .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('collision', d3.forceCollide().radius(25))
-        .alphaDecay(0.05)
-        .velocityDecay(0.4);
+        .alphaDecay(0.1)
+        .velocityDecay(0.6);
       
       // Criar links
       links = g.append('g')
